@@ -18,7 +18,7 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 ## reporting & presentations
 
-* The newest, coolest kid on the block (at least according to my Twitter feed at the end of March 2022) seems to be **Quarto** i.e. the next gen of RMarkdown. Download and find some great tutorials [here](https://quarto.org/)
+* Quarto is all the rage these days (and by these days, I mean post-March 2022). Download and find some great tutorials [here](https://quarto.org/) to get started
 
 * [Meet xaringan: Making slides in R Markdown](https://arm.rbind.io/slides/xaringan.html#1), by Allison Hill
 
@@ -35,6 +35,8 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 * [R for Data Science](https://r4ds.had.co.nz/), by Hadley Wickham
 
 ## data science communities
+
+*While these groups are primarily based in SoCal/Santa Barbara, there are tons of awesome groups like these all over the world. Google around to see what's near you!*
 
 * [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/) and [R-Ladies Global](https://rladies.org/), which work to promote gender diversity in the R community
 * [EcoDataScience](https://eco-data-science.github.io/), an environmental data science study group at UCSB
