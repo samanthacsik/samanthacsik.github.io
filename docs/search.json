@@ -39,7 +39,7 @@
     "href": "resources.html#reporting-presentations",
     "title": "resources",
     "section": "reporting & presentations",
-    "text": "reporting & presentations\n\nThe newest, coolest kid on the block (at least according to my Twitter feed at the end of March 2022) seems to be Quarto i.e. the next gen of RMarkdown. Download and find some great tutorials here\nMeet xaringan: Making slides in R Markdown, by Allison Hill\nSharing Your xaringan Slides, by Garrick Aden-Buie"
+    "text": "reporting & presentations\n\nQuarto is all the rage these days (and by these days, I mean post-March 2022). Download and find some great tutorials here to get started\nMeet xaringan: Making slides in R Markdown, by Allison Hill\nSharing Your xaringan Slides, by Garrick Aden-Buie"
   },
   {
     "objectID": "resources.html#learning-materials",
@@ -53,7 +53,7 @@
     "href": "resources.html#data-science-communities",
     "title": "resources",
     "section": "data science communities",
-    "text": "data science communities\n\nR-Ladies Santa Barbara and R-Ladies Global, which work to promote gender diversity in the R community\nEcoDataScience, an environmental data science study group at UCSB\nSouthern California R Users, an alliance of R user groups in Southern California\nSanta Barbara Women in STEM, while not specifically data science-focused, this group holds some really great career and networking events, panels, flash talks, and more"
+    "text": "data science communities\nWhile these groups are primarily based in SoCal/Santa Barbara, there are tons of awesome groups like these all over the world. Google around to see what’s near you!\n\nR-Ladies Santa Barbara and R-Ladies Global, which work to promote gender diversity in the R community\nEcoDataScience, an environmental data science study group at UCSB\nSouthern California R Users, an alliance of R user groups in Southern California\nSanta Barbara Women in STEM, while not specifically data science-focused, this group holds some really great career and networking events, panels, flash talks, and more"
   },
   {
     "objectID": "resources.html#web-accessibility",
