@@ -1,6 +1,7 @@
 ---
 title: "about"
-subtitle: "thanks for stopping by my little corner of the internet!"
+description: |
+  thanks for stopping by my little corner of the internet!
 ---
 
 
