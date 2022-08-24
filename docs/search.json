@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "samantha csik",
+    "section": "",
+    "text": "education\nMS in Ecology, Evolution & Marine Biology, 2020 – University of California, Santa Barbara, Santa Barbara, CA\nBS in Marine Biology, 2016 – Northeastern University, Boston, MA\n\n\n\nexperience\nData Training Coordinator (2021-present) - National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara, CA\nData Science Fellow (2020-2021) - National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara, CA"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "about",
+    "section": "",
+    "text": "Map last updated: August 3, 2022\n\n\nI feel very fortunate to be doing so many of things that I love a lot right now. That includes my job, but also spending lots of time outdoors. Living in Santa Barbara is a massive privilege and being here means that we have access to both the mountains and the sea, each a few minutes in either direction. It was the ocean that brought me here originally, but most of my free time is now spent on the trails.\nI started recording my hikes (and eventually some other activitiess) on Strava in late 2020 and finally got around to scraping my activity data using the rStrava package. Above is a heatmap of all my recorded activities made using leaflet. I’m still mulling over a better way to display markers and popup information, as the markers overlap a lot at my most frequented trailheads. Huge shout out to Daniel Cullen (who also happens to be a Santa Barbara resident!) for his awesome blogpost that got me started with my own map.\nYou can check out the source code on GitHub."
+  }
+]

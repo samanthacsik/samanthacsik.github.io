@@ -1,11 +1,43 @@
 ---
-title: "samanthacsik-quarto-website"
+title: "samantha csik"
+image: sam.jpg
+about: 
+  template: trestles
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - icon: linkedin 
+      text: LinkedIn
+      href: https://www.linkedin.com/in/samanthacsik/
+    - icon: twitter 
+      text: Twitter
+      href: https://twitter.com/SamanthaCsik
+    - icon: github 
+      text: GitHub
+      href: https://github.com/samanthacsik
+    - icon: envelope 
+      text: Email
+      href: mailto:scsik@ucsb.edu
 ---
 
-This is a Quarto website.
+### hi there!    
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm Sam (and my last name is pronounced "chick"). I'm the Data Training Coordinator at the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/) (NCEAS) located at UC Santa Barbara, where I'm working to develop and teach data science training curricula for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) (MEDS) program and other data science initiatives across NCEAS and UCSB. I am also a co-organizer of [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/), a local data science group which works to promote diversity in the R community. In my spare time, you'll typically find me hiking with my pup or cooking family dinners with friends.
 
-```{r}
-1 + 1
-```
+-----------------------------------------------------------------------------------------------------------------------------------
+
+### education
+
+**MS in Ecology, Evolution & Marine Biology, 2020** -- University of California, Santa Barbara, Santa Barbara, CA
+
+**BS in Marine Biology, 2016** -- Northeastern University, Boston, MA
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+### experience
+
+**Data Training Coordinator** (2021-present) - National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara, CA
+
+**Data Science Fellow** (2020-2021) - National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara, CA
+
+

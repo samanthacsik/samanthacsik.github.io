@@ -1,13 +1,14 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "samanthacsik-quarto-website"
+  title: "samantha csik"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: home
+      - about.qmd 
 
 format:
   html:
@@ -15,5 +16,4 @@ format:
     css: styles.css
     toc: true
 
-editor: visual
 
