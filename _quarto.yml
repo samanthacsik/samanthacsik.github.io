@@ -8,8 +8,9 @@ website:
     left:
       - href: index.qmd
         text: home
-      - about.qmd 
+      - about.qmd
       - posts.qmd
+      - resources.qmd
   page-footer: 
     background: light
     left: "Copyright 2021, Samantha Csik"
