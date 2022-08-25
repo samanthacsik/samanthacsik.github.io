@@ -19,6 +19,9 @@ website:
         href: https://github.com/samanthacsik
       - icon: twitter
         href: https://twitter.com/SamanthaCsik
+  reader-mode: true
+  repo-url: https://github.com/samanthacsik/samanthacsik-quarto-website
+  repo-actions: [edit, issue]
 
 format:
   html:
