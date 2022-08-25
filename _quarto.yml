@@ -10,6 +10,14 @@ website:
         text: home
       - about.qmd 
       - posts.qmd
+  page-footer: 
+    background: light
+    left: "Copyright 2021, Samantha Csik"
+    right: 
+      - icon: github
+        href: https://github.com/samanthacsik
+      - icon: twitter
+        href: https://twitter.com/SamanthaCsik
 
 format:
   html:
