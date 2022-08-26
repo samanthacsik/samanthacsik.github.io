@@ -8,7 +8,7 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 ## r tools
 
-* [free icons from fontawesome](https://fontawesome.com/v5/search?m=free) + the [`{fontawesome}`](https://github.com/rstudio/fontawesome) R package for infusing your `{xaringan}` slides, website, RMarkdowns, and more with an extra splash of fun
+* [free icons from fontawesome](https://fontawesome.com/v5/search?m=free) + the [`{fontawesome}`](https://github.com/rstudio/fontawesome) R package for infusing your slides, website, RMarkdowns/Quarto Markdowns, and more with an extra splash of fun
 
 ## data viz
 
@@ -22,7 +22,7 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 * [Meet xaringan: Making slides in R Markdown](https://arm.rbind.io/slides/xaringan.html#1), by Allison Hill
 
-*  [Sharing Your `xaringan` Slides](https://www.garrickadenbuie.com/blog/sharing-xaringan-slides/), by Garrick Aden-Buie
+* [Sharing Your `xaringan` Slides](https://www.garrickadenbuie.com/blog/sharing-xaringan-slides/), by Garrick Aden-Buie
 
 ## learning materials
 

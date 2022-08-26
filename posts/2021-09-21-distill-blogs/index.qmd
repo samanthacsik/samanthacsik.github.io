@@ -9,6 +9,7 @@ author:
     affiliation: The National Center for Ecological Analysis & Synthesis
     affiliation-url: https://www.nceas.ucsb.edu/
 date: 09-24-2021
+slug: csik2021firstBlog
 citation: 
   url: https://samanthacsik.github.io/posts/2021-09-21-my-first-test-post/
 bibliography: biblio.bib
