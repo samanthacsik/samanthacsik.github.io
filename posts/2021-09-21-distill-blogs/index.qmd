@@ -2,8 +2,16 @@
 title: "Why create presentation slides about blogging when you can just blog about it instead?"
 description: |
   I started putting together some slides on the whys and hows of blogging using {distill} when I realized...maybe I've just found the content for my first blog post??
-author: "Samantha Csik"
+author:
+  - name: Samantha Csik 
+    orcid: 0000-0002-5300-3075
+    url: https://samanthacsik.github.io/
+    affiliation: The National Center for Ecological Analysis & Synthesis
+    affiliation-url: https://www.nceas.ucsb.edu/
 date: 09-24-2021
+citation: 
+  url: https://samanthacsik.github.io/posts/2021-09-21-my-first-test-post/
+bibliography: biblio.bib
 categories: [distill, R]
 image: barney_blog.gif
 ---
