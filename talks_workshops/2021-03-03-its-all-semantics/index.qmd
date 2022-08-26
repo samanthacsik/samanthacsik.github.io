@@ -1,0 +1,32 @@
+---
+title: "It's ALL about semantics"
+description: |
+  a lightening talk on how semantic tools can make finding data easier and impactful synthesis science faster
+author:
+  - name: Samantha Csik
+    url: https://samanthacsik.github.io/
+    orcid_id: 0000-0002-5300-3075
+    affiliation: The National Center for Ecological Analysis and Synthesis
+    affiliation_url: https://www.nceas.ucsb.edu/
+date: 2021-03-03
+slug: csik2021semantics
+categories: [SB Women in STEM, semantics]
+image: wahwah.jpg
+---
+
+```{r}
+#| echo: false
+knitr::include_graphics("semantics.png")
+```
+
+<br>
+
+[`r fontawesome::fa("tv", fill = "#64605F", a11y = "sem")` slides](https://docs.google.com/presentation/d/10HNe2u-QrtPOTk1G9FdmtBy779HmVlrNC2Nk_-YWEXc/edit?usp=sharing)
+
+# Overview
+
+This three-minute lightning talk was given at [Santa Barbara Women in STEM](https://www.sbwomeninstem.org/)'s Lightning Talks (with a focus on software) event. 
+
+# Abstract
+
+Synthesis science, or the science of merging data from many different sources to gain new insights, is critical for making predictions about changes in the climate and environment and for helping us answer questions about sustainably managing natural resources. However, in order for synthesis science to be possible, data need to be documented and stored in a way that makes them both discoverable and interpretable by researchers. My team at NCEAS is taking a semantic approach to curating environmental datasets -- we develop controlled vocabularies, or ontologies, that we use to annotate data records. This helps to both (a) increase our understanding of the terms researchers have used to describe their data by providing greater meaning and context, and (b) increases the precision of our online data searches so that we more confidently recover all available and relevant datasets.

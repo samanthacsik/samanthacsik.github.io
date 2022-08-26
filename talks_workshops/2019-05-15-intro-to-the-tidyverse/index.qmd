@@ -1,0 +1,42 @@
+---
+title: "Intro to the {tidyverse}"
+description: |
+  a code-along workshop to learn data wrangling and visualization techniques using {tidyverse} functions
+author:
+  - name: Samantha Csik
+    url: https://samanthacsik.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: R-Ladies Santa Barbara
+    affiliation-url: https://www.meetup.com/rladies-santa-barbara/
+  - name: An Bui
+    url: https://an-bui.com/
+    orcid: 0000-0002-9548-7776
+    affiliation: R-Ladies Santa Barbara
+    affiliation-url: https://www.meetup.com/rladies-santa-barbara/
+date: 2019-05-15
+slug: csike2019tidyverse
+categories: [R-Ladies]
+image: infinity.gif
+---
+
+```{r}
+#| echo: false
+#| fig-cap: "An Bui and I getting ready to teach our very first R workshop to R-Ladies SB, hosted at NCEAS"
+#| fig-alt: "Two women, Sam and An, stand smiling in front of a projector screen with a GitHub repository on display."
+knitr::include_graphics("sam_an.jpg")
+```
+
+<br>
+
+[`r fontawesome::fa("markdown", fill = "#64605F", a11y = "sem")` knitted html](https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse) ~~ [`r fontawesome::fa("github-square", fill = "#64605F", a11y = "sem")` GitHub Repo](https://github.com/samanthacsik/Intro-to-the-Tidyverse) ~~ [`r fontawesome::fa("meetup", fill = "#64605F", a11y = "sem")` Meetup Event](https://www.meetup.com/rladies-santa-barbara/events/260710376/)
+
+
+# Overview
+
+My *very first time* (co)leading an R-based live-coding workshop(!) and the experience that got me hooked on teaching RStats/data science 💜, given to [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/).
+
+# Abstract 
+
+In this live-coding workshop, we teach useful functions for data tidying, wrangling and visualization using tidyverse packages & functions (e.g. `dplyr`, `tidyr`, `ggplot2`, `forcats`, etc.). This session is intended for R users at any level, whether it's your first time exploring the tidyverse or if you're refreshing your wrangling skills!
+
+

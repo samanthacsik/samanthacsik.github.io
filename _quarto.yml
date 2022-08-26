@@ -5,17 +5,24 @@ project:
 website:
   title: "samantha csik"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: home
       - about.qmd
+      - href: talks_workshops.qmd
+        text: talks & workshops
       - posts.qmd
       - resources.qmd
       - href: CV/SCsik_CV.pdf
         text: cv
+      - icon: github
+        href: https://github.com/samanthacsik
+      - icon: twitter
+        href: https://twitter.com/SamanthaCsik
   page-footer: 
     background: light
-    left: "Copyright 2021, Samantha Csik"
+    left: 
+      - "Copyright 2021, Samantha Csik"
     right: 
       - icon: github
         href: https://github.com/samanthacsik
@@ -27,8 +34,11 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cosmo
+      - custom.scss
     css: styles.css
+    mainfont: Montserrat
     toc: true
 
 

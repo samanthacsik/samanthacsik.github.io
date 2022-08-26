@@ -1,0 +1,42 @@
+---
+title: "Data Viz with {ggplot2}"
+description: |
+  a live-coding workshop on making data visualizations with {ggplot2}
+author:
+  - name: Samantha Csik
+    url: https://samanthacsik.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: R-Ladies Santa Barbara
+    affiliation-url: https://www.meetup.com/rladies-santa-barbara/
+  - name: An Bui
+    url: https://an-bui.com/
+    orcid_id: 0000-0002-9548-7776
+    affiliation: R-Ladies Santa Barbara
+    affiliation-url: https://www.meetup.com/rladies-santa-barbara/
+  - name: Juliette Verstaen
+    url: https://www.julietteverstaen.com/
+    orcid: 0000-0002-9548-7776
+    affiliation: R-Ladies Santa Barbara
+    affiliation-url: https://www.meetup.com/rladies-santa-barbara/
+date: 2021-03-03
+slug: csiketal2020dataViz
+categories: [R-Ladies]
+image: ggplot2.png
+---
+
+```{r}
+#| echo: false
+knitr::include_graphics("plots.png")
+```
+
+<br>
+
+[`r fontawesome::fa("tv", fill = "#64605F", a11y = "sem")` slides](https://docs.google.com/presentation/d/1sU2H89F5e409WpYilRqYAqu7DdXSAivccEa4y44xZ7c/edit?usp=sharing) ~~ [`r fontawesome::fa("github-square", fill = "#64605F", a11y = "sem")` GitHub Repo](https://github.com/j-verstaen/RLadiesSB-Data-Viz-Pt1) ~~ [`r fontawesome::fa("meetup", fill = "#64605F", a11y = "sem")` Meetup Event](https://www.meetup.com/rladies-santa-barbara/events/272478115/)
+
+# Overview
+
+This live-coding workshop was given to [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/) via Zoom.
+
+# Abstract 
+
+In this code-along workshop, we review `ggplot2` basics and exploring different ways to make customizing plots fun and easy.

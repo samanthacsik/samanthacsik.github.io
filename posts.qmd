@@ -3,9 +3,8 @@ title: "posts"
 listing:
   contents: posts
   sort: "date desc"
-  type: grid
-  grid-item-border: true
-  grid-item-align: left
+  type: default
+  image-align: right
   max-description-length: 175
   date-format: medium
   categories: true

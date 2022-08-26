@@ -1,0 +1,37 @@
+---
+title: "Intro to Shiny"
+description: |
+  a hands-on coding workshop on how to build a shiny app
+author:
+  - name: Samantha Csik
+    url: https://samanthacsik.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
+    affiliation-url: https://ucsb-meds.github.io/
+date: 2022-02-18
+slug: csik2022shiny
+categories: [MEDS, R]
+image: shiny_hex.png
+---
+
+```{r}
+#| echo: false
+xaringanExtra::embed_xaringan(
+  url = "https://ucsb-meds.github.io/shiny-workshop/#1",
+  ratio = "4:3"
+)
+```
+
+<br>
+
+[`r fontawesome::fa("tv", fill = "#64605F", a11y = "sem")` slides](https://ucsb-meds.github.io/shiny-workshop/#1) ~~ [`r fontawesome::fa("github-square", fill = "#64605F", a11y = "sem")` source code](https://github.com/UCSB-MEDS/shiny-workshop)
+
+# Overview
+
+This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+
+# Abstract
+
+Ever take a look at that beautiful data visualization you've worked so hard on and think, "How awesome would it be if my audience could interact with my data??" If so, building a shiny app might be just what you're looking for. `{shiny}` allows you to build interactive web pages and dashboards from R. In this workshop, we'll learn how to transform your data into reactive outputs that you can share via a web browser. Together, we'll be build a shiny app that looks something like [this](https://github.com/samanthacsik/practice-shiny).
+
+

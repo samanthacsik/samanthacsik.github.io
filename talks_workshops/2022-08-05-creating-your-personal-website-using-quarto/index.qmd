@@ -1,0 +1,34 @@
+---
+title: "Creating your personal website using Quarto"
+description: |
+  step-by-step instructions for building, deploying, and customizing a Quarto website
+author:
+  - name: Samantha Csik
+    orcid: 0000-0002-5300-3075 
+    url: https://samanthacsik.github.io/
+    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
+    affiliation-url: https://ucsb-meds.github.io/
+date: 2022-08-05
+slug: csik2022quartoWebsites
+citation: 
+  url: https://samanthacsik.github.io/talks/2022-08-05-creating-your-personal-website-using-quarto/
+categories: [MEDS, R, Quarto]
+image: quarto_share.png
+---
+
+```{r}
+#| echo: false
+#| fig-alt: "One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo 'moon' in the night sky."
+#| fig-cap: "Art by [Allison Horst](https://github.com/allisonhorst/stats-illustrations): One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo 'moon' in the night sky."
+knitr::include_graphics("penguins_telescope_2.png")
+```
+
+[`r fontawesome::fa("file-alt", fill = "#64605F", a11y = "sem")` instructional documentation](https://ucsb-meds.github.io/creating-quarto-websites/) ~~ [`r fontawesome::fa("github-square", fill = "#64605F", a11y = "sem")` source code](https://github.com/UCSB-MEDS/creating-quarto-websites) ~~ [`r fontawesome::fa("blog", fill = "#64605F", a11y = "sem")` blog post](https://ucsb-meds.github.io/posts/2022-08-05-building-a-personal-website-using-quarto/)
+
+# Overview
+
+This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+
+# Abstract
+
+A personal website is not only a great way to showcase your experiences and skills, but also gives people (potential employers included!) a better sense of who you are as a person. There are lots of great tools for building websites using R (e.g. `{distill}`, `{blogdown}`) -- this year, we'll be using [Quarto](https://quarto.org/), an exciting, new, and versatile publishing tool that supports R, Python, Julia, and ObservableJS. Want to get started on building your own website using Quarto? Check out this [tutorial](https://ucsb-meds.github.io/creating-quarto-websites/).

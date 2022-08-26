@@ -1,0 +1,36 @@
+---
+title: "An Intro to Cloud Computing"
+description: |
+  an interactive workshop on how to launch an Amazon EC2 instance
+author:
+  - name: Samantha Csik
+    url: https://samanthacsik.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
+    affiliation-url: https://ucsb-meds.github.io/
+date: 2022-04-18
+slug: csik2022cloudComputing
+categories: [MEDS]
+image: clouds.gif
+---
+
+```{r}
+#| echo: false
+xaringanExtra::embed_xaringan(
+  url = "https://ucsb-meds.github.io/cloud-computing/#1",
+  ratio = "4:3"
+)
+```
+
+<br>
+
+[`r fontawesome::fa("tv", fill = "#64605F", a11y = "sem")` slides](https://ucsb-meds.github.io/cloud-computing/#1) ~~ [`r fontawesome::fa("github-square", fill = "#64605F", a11y = "sem")` source code](https://github.com/UCSB-MEDS/cloud-computing)
+
+# Overview
+
+This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+
+# Abstract
+
+“The Cloud” is a buzzword we often hear, but maybe don’t quite understand. In this workshop, we’ll learn a bit about what cloud computing means and what it can look like, how to launch a virtual machine (i.e. an instance) using Amazon Web Services (AWS), and how we can leverage more powerful computers (e.g. the cloud) to run computationally-intensive processes in less time.
+
