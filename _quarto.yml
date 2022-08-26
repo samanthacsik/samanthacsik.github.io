@@ -11,6 +11,8 @@ website:
       - about.qmd
       - posts.qmd
       - resources.qmd
+      - href: CV/SCsik_CV.pdf
+        text: cv
   page-footer: 
     background: light
     left: "Copyright 2021, Samantha Csik"
