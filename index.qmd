@@ -1,10 +1,10 @@
 ---
 title: "samantha csik"
-image: sam.jpg
+image: images/sam.jpg
 about: 
   template: trestles
   image-shape: rounded
-  image-width: 15em
+  image-width: 16em
   links:
     - icon: linkedin 
       text: LinkedIn
@@ -28,9 +28,9 @@ I'm Sam (and my last name is pronounced "chick"). I'm the Data Training Coordina
 
 ### education
 
-**MS in Ecology, Evolution & Marine Biology, 2020** -- University of California, Santa Barbara, Santa Barbara, CA
+**MS in Ecology, Evolution & Marine Biology, 2020** | University of California, Santa Barbara, Santa Barbara, CA
 
-**BS in Marine Biology, 2016** -- Northeastern University, Boston, MA
+**BS in Marine Biology, 2016** | Northeastern University, Boston, MA
 
 -----------------------------------------------------------------------------------------------------------------------------------
 

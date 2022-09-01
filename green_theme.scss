@@ -1,0 +1,47 @@
+/*-- scss:defaults --*/
+
+// Colors
+//$sage-green-dark: #98A08D;
+//$sage-green-light: #ABB69B;
+//$bg-green: #D1D9CE; 
+//$cream: #FDFBF7;
+//-----
+//$light-orange: #FFE8CC; 
+//$pale-orange-bg: #FFF8EB;
+//$light-gray: #E6E7E2
+
+//Base document colors
+$navbar-bg: #98A08D;
+$navbar-fg: #FDFBF7;
+$navbar-hl: #FDFBF7; 
+$body-bg: #D1D9CE;
+$body-color: #64605f;
+$footer-bg: #FDFBF7; 
+$link-color: #75AADB;
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+//@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Monosphere');
+//@import url('https://fonts.googleapis.com/css2?family=Quicksand');
+// $font-family-monospace: "Monosphere", monospace";
+
+
+/* -- header letter spacing, font weight, color -- */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 5px;
+  font-weight: 300;
+  color: #64605F;
+}
+
+/* -- change color of inline code (background-color: #F5F2F2;)-- */ 
+code {
+  color: #A58893;
+}
+
+.navbar-brand {
+    position: relative;
+    width: 50px;
+    left: 15px;
+    background-size: contain;
+}

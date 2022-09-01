@@ -5,6 +5,8 @@ project:
 website:
   title: "samantha csik"
   navbar:
+    title: false
+    logo: images/logos/logo_montserrat.png
     right:
       - href: index.qmd
         text: home
@@ -35,8 +37,7 @@ website:
 format:
   html:
     theme: 
-      - cosmo
-      - custom.scss
+      - green_theme.scss
     css: styles.css
     mainfont: Montserrat
     toc: true
