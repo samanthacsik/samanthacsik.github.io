@@ -11,9 +11,9 @@
 //$light-gray: #E6E7E2
 
 //Base document colors
-$navbar-bg: #98A08D;
-$navbar-fg: #FDFBF7;
-$navbar-hl: #FDFBF7; 
+$navbar-bg: #FDFBF7; //dark sage green: #98A08D
+$navbar-fg: #98A08D; //cream: #FDFBF7
+$navbar-hl: #98A08D; //cream: #FDFBF7
 $body-bg: #D1D9CE;
 $body-color: #64605f;
 $footer-bg: #FDFBF7; 
@@ -27,21 +27,26 @@ $link-color: #75AADB;
 // $font-family-monospace: "Monosphere", monospace";
 
 
-/* -- header letter spacing, font weight, color -- */
+// header letter spacing, font weight, color
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 5px;
   font-weight: 300;
   color: #64605F;
 }
 
-/* -- change color of inline code (background-color: #F5F2F2;)-- */ 
+// change color of inline code (background-color: #F5F2F2;)
 code {
   color: #A58893;
 }
 
-.navbar-brand {
-    position: relative;
-    width: 50px;
-    left: 15px;
-    background-size: contain;
+//.navbar-brand {
+    //position: relative;
+    //width: 50px;
+    //left: 15px;
+    //background-size: contain;
+//}
+
+.navbar-brand img {
+  max-height: 200px;
+  width: auto;
 }

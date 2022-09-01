@@ -1,22 +1,21 @@
 ---
 title: "resources"
-description: |
-  a collection of other people's writings, tutorials, etc. that I find particularly helpful
+subtitle: "a collection of other people's writings, tutorials, etc. that I find particularly helpful"
 ---
 
 It's finally time for an upgraded notebook! I've been Slacking myself (and subsequently burying) links to resources for far too long, so my favorites will now live here. 
 
-## r tools
+## `r fontawesome::fa("tools", fill = "#64605F", a11y = "sem")` r tools
 
 * [free icons from fontawesome](https://fontawesome.com/v5/search?m=free) + the [`{fontawesome}`](https://github.com/rstudio/fontawesome) R package for infusing your slides, website, RMarkdowns/Quarto Markdowns, and more with an extra splash of fun
 
-## data viz
+## `r fontawesome::fa("chart-bar", fill = "#64605F", a11y = "sem")` data viz
 
 * [from Data to Viz](https://www.data-to-viz.com/), a choose-your-adventure-type experience for creating your best data visualizations
 
 * [The Sessions College Color Calculator](https://www.sessions.edu/color-calculator/), for creating color palettes
 
-## reporting & presentations
+## `r fontawesome::fa("desktop", fill = "#64605F", a11y = "sem")` reporting & presentations
 
 * Quarto is all the rage these days (and by these days, I mean post-March 2022). Download and find some great tutorials [here](https://quarto.org/) to get started
 
@@ -24,7 +23,7 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 * [Sharing Your `xaringan` Slides](https://www.garrickadenbuie.com/blog/sharing-xaringan-slides/), by Garrick Aden-Buie
 
-## learning materials
+## `r fontawesome::fa("book-open", fill = "#64605F", a11y = "sem")` learning materials
 
 * Ever feel like you need a pick-me-up while learning stats or a new R tool? Look no further than [Allison Horst's](https://twitter.com/allison_horst) [R & stats illustrations](https://github.com/allisonhorst/stats-illustrations), featuring the cutest and most educational fuzzy monsters you'll ever see!
 
@@ -34,7 +33,7 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 * [R for Data Science](https://r4ds.had.co.nz/), by Hadley Wickham
 
-## data science communities
+## `r fontawesome::fa("users", fill = "#64605F", a11y = "sem")` data science communities
 
 *While these groups are primarily based in SoCal/Santa Barbara, there are tons of awesome groups like these all over the world. Google around to see what's near you!*
 
@@ -43,11 +42,11 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 * [Southern California R Users](https://socalr.org/), an alliance of R user groups in Southern California
 * [Santa Barbara Women in STEM](https://www.sbwomeninstem.org/), while not specifically data science-focused, this group holds some really great career and networking events, panels, flash talks, and more
 
-## web accessibility
+## `r fontawesome::fa("window-maximize", fill = "#64605F", a11y = "sem")` web accessibility
 
 * [The A11Y Project](https://www.a11yproject.com/) is a community-driven effort to make digital content more accessible. I still have a long way to go in making my own website [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) compliant -- the A11Y Project not only has a ton of great blog posts, but also WCAG compliance checklist that I will definitely be returning to over and over again.
 * [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/), a color blindness simulator -- just upload a file and view your color palettes as they would appear under different types of color deficiencies
 
-## misc.
+## `r fontawesome::fa("smile", fill = "#64605F", a11y = "sem")` misc.
 
 * Discover new music to jam out to while you hack at [Every Noise at Once](https://everynoise.com/engenremap.html) (HT: Jeanette Clark)

@@ -1,14 +1,13 @@
 ---
 title: "about"
-description: |
-  thanks for stopping by my little corner of the internet!
+subtitle: "thanks for stopping by my little corner of the internet!"
 ---
 
 
 I'm slowly trying to add a bit more about who I am outside of work. More to come soon!
 
 <!--html_preserve-->
-<iframe src = "sams_activity_map_2022-08-03.html", width ="600", height="400"> </iframe>
+<center><iframe src = "sams_activity_map_2022-08-03.html", width ="600", height="400"> </iframe></center>
 <!--/html_preserve-->
 <span style = 'font-size: 90%;'><em><center>Map last updated: August 3, 2022</em></center></span>
 

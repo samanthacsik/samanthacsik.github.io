@@ -6,7 +6,7 @@ website:
   title: "samantha csik"
   navbar:
     title: false
-    logo: images/logos/logo_montserrat.png
+    logo: images/logos/logo_greentext_cropped.png
     right:
       - href: index.qmd
         text: home
