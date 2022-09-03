@@ -36,6 +36,7 @@ website:
 
 format:
   html:
+    page-layout: full
     theme: 
       - green_theme.scss
     css: styles.css

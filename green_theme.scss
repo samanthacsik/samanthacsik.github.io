@@ -10,16 +10,26 @@
 //$pale-orange-bg: #FFF8EB;
 //$light-gray: #E6E7E2
 
-//Base document colors
-$navbar-bg: #FDFBF7; //dark sage green: #98A08D
-$navbar-fg: #98A08D; //cream: #FDFBF7
-$navbar-hl: #98A08D; //cream: #FDFBF7
+// Base document colors
+$navbar-bg: #FDFBF7; //OLD: dark sage green: #98A08D
+$navbar-fg: #98A08D; //OLD: cream: #FDFBF7
+$navbar-hl: #AE8BD1; //OLD: cream: #FDFBF7
 $body-bg: #D1D9CE;
 $body-color: #64605f;
 $footer-bg: #FDFBF7; 
-$link-color: #75AADB;
+$link-color: #AE8BD1;
 
-//fonts
+// Font size
+$font-size-root: 5;
+
+// Inline code
+$code-bg: #FDFBF7;
+$code-color: #AE8BD1; 
+
+// Code blocks
+$code-block-bg: #FDFBF7;
+
+// Fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat');
 //@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Monosphere');

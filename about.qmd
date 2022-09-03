@@ -3,16 +3,13 @@ title: "about"
 subtitle: "thanks for stopping by my little corner of the internet!"
 ---
 
-
-I'm slowly trying to add a bit more about who I am outside of work. More to come soon!
-
 <!--html_preserve-->
-<center><iframe src = "sams_activity_map_2022-08-03.html", width ="600", height="400"> </iframe></center>
+<center><iframe src = "sams_activity_map_2022-08-03.html", width ="1000", height="450"> </iframe></center>
 <!--/html_preserve-->
 <span style = 'font-size: 90%;'><em><center>Map last updated: August 3, 2022</em></center></span>
 
-I feel very fortunate to be doing so many of things that I love *a lot* right now. That includes my job, but also spending lots of time outdoors. Living in Santa Barbara is a massive privilege and being here means that we have access to both the mountains and the sea, each a few minutes in either direction. It was the ocean that brought me here originally, but most of my free time is now spent on the trails. 
+<span style = 'font-size: 110%;'>I feel very fortunate to be doing so many of things that I love *a lot* right now. That includes my job, but also spending lots of time outdoors. Living in Santa Barbara is a massive privilege and being here means that we have access to both the mountains and the sea, each a few minutes in either direction. It was the ocean that brought me here originally, but most of my free time is now spent on the trails.</span>
 
-I started recording my hikes (and eventually some other activitiess) on [Strava](https://www.strava.com/) in late 2020 and finally got around to scraping my activity data using the [`rStrava`](https://github.com/fawda123/rStrava) package. Above is a heatmap of all my recorded activities made using [`leaflet`](https://rstudio.github.io/leaflet/). I'm still mulling over a better way to display markers and popup information, as the markers overlap a lot at my most frequented trailheads. Huge shout out to [Daniel Cullen](https://www.dancullen.me/) (who also happens to be a Santa Barbara resident!) for his awesome [blogpost](https://www.dancullen.me/articles/creating-a-heatmap-in-r-with-google-polylines) that got me started with my own map.
+<span style = 'font-size: 110%;'>I started recording my hikes (and eventually some other activitiess) on [Strava](https://www.strava.com/) in late 2020 and finally got around to scraping my activity data using the [`rStrava`](https://github.com/fawda123/rStrava) package. Above is a heatmap of all my recorded activities made using [`leaflet`](https://rstudio.github.io/leaflet/). I'm still mulling over a better way to display markers and popup information, as the markers overlap a lot at my most frequented trailheads. Huge shout out to [Daniel Cullen](https://www.dancullen.me/) (who also happens to be a Santa Barbara resident!) for his awesome [blogpost](https://www.dancullen.me/articles/creating-a-heatmap-in-r-with-google-polylines) that got me started with my own map.</span>
 
-You can check out the source code on [`r fontawesome::fa("github", fill = "#64605F", a11y = "sem")`](https://github.com/samanthacsik/strava-hikes).
+<span style = 'font-size: 110%;'>You can check out the source code on [`r fontawesome::fa("github", fill = "#64605F", a11y = "sem")`](https://github.com/samanthacsik/strava-hikes).</span>

@@ -2,6 +2,7 @@
 title: "samantha csik"
 image: images/sam.jpg
 about: 
+  id: hero-heading
   template: trestles
   image-shape: rounded
   image-width: 16em
@@ -20,6 +21,7 @@ about:
       href: mailto:scsik@ucsb.edu
 ---
 
+:::{#hero-heading}
 ### hi there!    
 
 I'm Sam (and my last name is pronounced "chick"). I'm the Data Training Coordinator at the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/) (NCEAS) located at UC Santa Barbara, where I'm working to develop and teach data science training curricula for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) (MEDS) program and other data science initiatives across NCEAS and UCSB. I am also a co-organizer of [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/), a local data science group which works to promote diversity in the R community. In my spare time, you'll typically find me hiking with my pup or cooking family dinners with friends.
@@ -39,5 +41,6 @@ I'm Sam (and my last name is pronounced "chick"). I'm the Data Training Coordina
 **Data Training Coordinator** (2021-present) - National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara, CA
 
 **Data Science Fellow** (2020-2021) - National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara, CA
+:::
 
 
