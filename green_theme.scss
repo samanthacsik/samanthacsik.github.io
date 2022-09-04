@@ -1,15 +1,5 @@
 /*-- scss:defaults --*/
 
-// Colors
-//$sage-green-dark: #98A08D;
-//$sage-green-light: #ABB69B;
-//$bg-green: #D1D9CE; 
-//$cream: #FDFBF7;
-//-----
-//$light-orange: #FFE8CC; 
-//$pale-orange-bg: #FFF8EB;
-//$light-gray: #E6E7E2
-
 // Base document colors
 $navbar-bg: #FDFBF7; //OLD: dark sage green: #98A08D
 $navbar-fg: #98A08D; //OLD: cream: #FDFBF7
@@ -31,11 +21,25 @@ $code-block-bg: #FDFBF7;
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Monosphere');
 //@import url('https://fonts.googleapis.com/css2?family=Quicksand');
 // $font-family-monospace: "Monosphere", monospace";
 
+
+
+
+
+
+
+/*-- scss:rules --*/
+
+// adjust size of logo (top left corner)
+.navbar-brand img {
+  max-height: 60px;
+  width: auto;
+}
 
 // header letter spacing, font weight, color
 h1, h2, h3, h4, h5, h6 {
@@ -44,19 +48,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #64605F;
 }
 
-// change color of inline code (background-color: #F5F2F2;)
-code {
-  color: #A58893;
+body {
+  line-height: 1.5;
 }
 
-//.navbar-brand {
-    //position: relative;
-    //width: 50px;
-    //left: 15px;
-    //background-size: contain;
+// change color of inline code (NOW A SASS VAR -- KEEPING AS AN EXAMPLE ONLY)
+//code {
+  //color: #A58893;
 //}
 
-.navbar-brand img {
-  max-height: 200px;
-  width: auto;
-}
