@@ -6,7 +6,7 @@ website:
   title: "samantha csik"
   navbar:
     title: false
-    logo: images/logos/logo_greentext_cropped.png
+    logo: images/logos/nunito/creamBG_greenText/logo_nunito_cropped.png
     right:
       - href: index.qmd
         text: home
@@ -40,7 +40,7 @@ format:
     theme: 
       - green_theme.scss
     css: styles.css
-    mainfont: Montserrat
+    mainfont: Nunito
     toc: true
 
 

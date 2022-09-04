@@ -2,7 +2,6 @@
 title: "samantha csik"
 image: images/sam.jpg
 about: 
-  id: hero-heading
   template: trestles
   image-shape: rounded
   image-width: 16em
