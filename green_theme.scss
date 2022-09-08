@@ -37,6 +37,10 @@ $code-block-bg: $cream;
   width: auto;
 }
 
+.about-image img {
+  border-radius: 80%;
+}
+
 // header letter spacing, font weight, color
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 5px;
@@ -49,8 +53,4 @@ body {
   line-height: 1.5;
 }
 
-// change color of inline code (NOW A SASS VAR -- KEEPING AS AN EXAMPLE ONLY)
-//code {
-  //color: #A58893;
-//}
 
