@@ -1,41 +1,37 @@
 /*-- scss:defaults --*/
 
+// Import fonts (define mainfont in _quarto.yml)
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@300&family=Roboto+Mono:wght@300&display=swap');
+
+// Colors
+$light-sage-green: #D1D9CE;
+$dark-sage-green: #98A08D;
+$cream: #FDFBF7;
+$gray: #64605f;
+$purple: #AE8BD1;
+
 // Base document colors
-$navbar-bg: #FDFBF7; //OLD: dark sage green: #98A08D
-$navbar-fg: #98A08D; //OLD: cream: #FDFBF7
-$navbar-hl: #AE8BD1; //OLD: cream: #FDFBF7
-$body-bg: #D1D9CE;
-$body-color: #64605f;
-$footer-bg: #FDFBF7; 
-$link-color: #AE8BD1;
+$navbar-bg: $cream;
+$navbar-fg: $dark-sage-green; 
+$navbar-hl: $purple; 
+$body-bg: $light-sage-green;
+$body-color: $gray;
+$footer-bg: $cream; 
+$link-color: $purple;
 
 // Font size
-$font-family-monospace: 7;
+// $font-family-monospace: 7;
 
 // Inline code
-$code-bg: #FDFBF7;
-$code-color: #AE8BD1; 
+$code-bg: $cream;
+$code-color: $purple; 
 
 // Code blocks
-$code-block-bg: #FDFBF7;
-
-// Fonts
-@import url('https://fonts.googleapis.com/css2?family=Montserrat');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Monosphere');
-//@import url('https://fonts.googleapis.com/css2?family=Quicksand');
-// $font-family-monospace: "Monosphere", monospace";
-
-
-
-
-
-
+$code-block-bg: $cream;
 
 /*-- scss:rules --*/
 
-// adjust size of logo (top left corner)
+// adjust size of logo (top left corner; see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss)
 .navbar-brand img {
   max-height: 60px;
   width: auto;
@@ -48,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #64605F;
 }
 
+// body text line height (1.5 min for assistive tech)
 body {
   line-height: 1.5;
 }
