@@ -20,7 +20,6 @@ about:
       href: mailto:scsik@ucsb.edu
 ---
 
-:::{#hero-heading}
 ### hi there!    
 
 I'm Sam (and my last name is pronounced "chick"). I'm the Data Training Coordinator at the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/) (NCEAS) located at UC Santa Barbara, where I'm working to develop and teach data science training curricula for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) (MEDS) program and other data science initiatives across NCEAS and UCSB. I am also a co-organizer of [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/), a local data science group which works to promote diversity in the R community. In my spare time, you'll typically find me hiking with my pup or cooking family dinners with friends.
@@ -29,17 +28,21 @@ I'm Sam (and my last name is pronounced "chick"). I'm the Data Training Coordina
 
 ### education
 
-**MS in Ecology, Evolution & Marine Biology, 2020** | University of California, Santa Barbara, Santa Barbara, CA
+<span style = 'font-size: 110%;'>`r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` **MS in Ecology, Evolution & Marine Biology, 2020**</span>  
+<span style = 'font-size: 90%;'>University of California, Santa Barbara</span>
 
-**BS in Marine Biology, 2016** | Northeastern University, Boston, MA
+<span style = 'font-size: 110%;'>`r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` **BS in Marine Biology, 2016**</span>  
+<span style = 'font-size: 90%;'>Northeastern University</span>
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
 ### experience
 
-**Data Training Coordinator** (2021-present) - National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara, CA
+<span style = 'font-size: 110%;'>`r fontawesome::fa("chalkboard-teacher", fill = "#98A08D", a11y = "sem")` **Data Training Coordinator, 2021-present**</span>   
+<span style = 'font-size: 90%;'>National Center for Ecological Analysis & Synthesis</span>  
 
-**Data Science Fellow** (2020-2021) - National Center for Ecological Analysis & Synthesis, University of California, Santa Barbara, CA
-:::
+<span style = 'font-size: 110%;'>`r fontawesome::fa("chart-bar", fill = "#98A08D", a11y = "sem")` **Data Science Fellow, 2020-2021**</span>    
+<span style = 'font-size: 90%;'>National Center for Ecological Analysis & Synthesis</span>
+
 
 
