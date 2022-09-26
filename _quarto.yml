@@ -3,6 +3,13 @@ project:
   output-dir: docs
 
 website:
+  # cookie-consent: 
+  #   type: express 
+  #   style: headline
+  #   palette: dark
+  google-analytics: 
+    tracking-id: "UA-242992767-1"
+    anonymize-ip: true
   title: "samantha csik"
   navbar:
     title: false
