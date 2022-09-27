@@ -7,6 +7,7 @@ website:
   #   type: express 
   #   style: headline
   #   palette: dark
+  favicon: images/chick.png
   google-analytics: 
     tracking-id: "UA-242992767-1"
     anonymize-ip: true
