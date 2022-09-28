@@ -15,12 +15,12 @@ knitr::include_graphics("images/tallie.jpeg")
 ```
 :::
 
-I started recording my hikes (and eventually some other activitiess) on [Strava](https://www.strava.com/) in late 2020 and finally got around to scraping my activity data using the [`rStrava`](https://github.com/fawda123/rStrava) package. Below is a heatmap of all my recorded activities made using [`leaflet`](https://rstudio.github.io/leaflet/). I'm still mulling over a better way to display markers and popup information, as the markers overlap a lot at my most frequented trailheads. Huge shout out to [Daniel Cullen](https://www.dancullen.me/) (who also happens to be a Santa Barbara resident!) for his awesome [blogpost](https://www.dancullen.me/articles/creating-a-heatmap-in-r-with-google-polylines) that got me started with my own map.
+I started recording my hikes (and eventually some other activities) on [Strava](https://www.strava.com/) in late 2020 and finally got around to scraping my activity data using the [`rStrava`](https://github.com/fawda123/rStrava) package. Below is a heatmap of all my recorded activities made using [`leaflet`](https://rstudio.github.io/leaflet/). I'm still mulling over a better way to display markers and popup information, as the markers overlap a lot at my most frequented trailheads. Huge shout out to [Daniel Cullen](https://www.dancullen.me/) (who also happens to be a Santa Barbara resident!) for his awesome [blogpost](https://www.dancullen.me/articles/creating-a-heatmap-in-r-with-google-polylines) that got me started with my own map.
 
 You can check out the source code on [`r fontawesome::fa("github", fill = "#64605F", a11y = "sem")`](https://github.com/samanthacsik/strava-hikes).
 
 <!--html_preserve-->
-<center><iframe src = "images/sams_activity_map_20220925.html", width ="1000", height="450"> </iframe></center>
+<center><iframe src = "images/sams_activity_map_20220925.html", width ="800", height="450"> </iframe></center>
 <!--/html_preserve-->
 <span style = 'font-size: 90%;'><em><center>Map last updated: September 25, 2022</em></center></span>
 
