@@ -63,6 +63,13 @@
     "text": "Television slides ~~ GitHub Square GitHub Repo ~~ Video recording ~~ Meetup Meetup Event\n\nOverview\nThis workshop was the result of a collaborative effort between the R-Ladies Santa Barbara and Central Coast Python Meetup groups. A special thanks to Sean Helvey for connecting with us to make this happen!\n\n\nAbstract\nPython can be a powerful alternative/complementary language to R, and while we here at R-Ladies are certainly partial to the latter, adding another language to our data science toolkit is something we are always excited for. In this R to Python (and vice versa) translation workshop, we learn to wrangle and visualize the same dataset using both languages."
   },
   {
+    "objectID": "talks_workshops/2021-11-15-ide-tips-tricks/index.html",
+    "href": "talks_workshops/2021-11-15-ide-tips-tricks/index.html",
+    "title": "RStudio Tips & Tricks",
+    "section": "",
+    "text": "Television slides\n\n\nGitHub Square source code\n\n\n\n\nOverview\nThis talk was originally developed for the Master of Environmental Data Science (MEDS) program, administered by the Bren School of Environmental Science & Management in partnership with the National Center for Ecological Analysis and Synthesis. Last revision: October 3, 2022\n\n\nAbstract\nAs environmental data scientists, we spend a lot of time in RStudio. Taking some time to learn how you can customize your RStudio IDE (Integrated Development Environment) and the keyboard shortcuts used to navigate around that IDE can make you a more efficient (and happier) hacker!"
+  },
+  {
     "objectID": "talks_workshops/2020-08-19-data-viz-with-ggplot2/index.html",
     "href": "talks_workshops/2020-08-19-data-viz-with-ggplot2/index.html",
     "title": "Data Viz with {ggplot2}",
@@ -82,13 +89,6 @@
     "title": "Teach Me How to Google",
     "section": "",
     "text": "Television slides ~~ GitHub Square source code ~~ plus slide adaptations for invited talks ~~ Video recording\n\nOverview\nThis talk was originally developed for the Master of Environmental Data Science (MEDS) program, administered by the Bren School of Environmental Science & Management in partnership with the National Center for Ecological Analysis and Synthesis.\nIt’s since been given to students from UCSB’s Master of Technology Management Program (Jan 2022), R-Ladies St. Louis (Feb 2022), and The Brown School StatLab at the University of Washington in St. Louis (Mar 2022).\n\n\nAbstract\nGoogling for code help is something that all data scientists (at all career stages) do. But figuring out how to get the information you need back can be incredibly challenging, particularly for new coders. In this workshop, we’ll discuss strategies for refining your queries to increase your chances of finding informative solutions."
-  },
-  {
-    "objectID": "talks_workshops/2021-11-15-rstudio-tips-tricks/index.html",
-    "href": "talks_workshops/2021-11-15-rstudio-tips-tricks/index.html",
-    "title": "RStudio Tips & Tricks",
-    "section": "",
-    "text": "Television slides ~~ GitHub Square source code\n\nOverview\nThis talk was originally developed for the Master of Environmental Data Science (MEDS) program, administered by the Bren School of Environmental Science & Management in partnership with the National Center for Ecological Analysis and Synthesis.\n\n\nAbstract\nAs environmental data scientists, we spend a lot of time in RStudio. Taking some time to learn how you can customize your RStudio IDE (Integrated Development Environment) and the keyboard shortcuts used to navigate around that IDE can make you a more efficient (and happier) hacker!"
   },
   {
     "objectID": "talks_workshops/2019-05-15-intro-to-the-tidyverse/index.html",
@@ -123,7 +123,7 @@
     "href": "index.html",
     "title": "samantha csik",
     "section": "",
-    "text": "education\nGraduation Cap MS in Ecology, Evolution & Marine Biology, 2020\nUniversity of California, Santa Barbara\nGraduation Cap BS in Marine Biology, 2016\nNortheastern University\n\n\n\nexperience\nChalkboard Teacher Data Training Coordinator, 2021-present\nNational Center for Ecological Analysis & Synthesis\nBar Chart Data Science Fellow, 2020-2021\nNational Center for Ecological Analysis & Synthesis"
+    "text": "education\n\n\nGraduation Cap MS in Ecology, Evolution & Marine Biology, 2020\n\n\nUniversity of California, Santa Barbara\n\n\nGraduation Cap BS in Marine Biology, 2016\n\n\nNortheastern University\n\n\n\n\n\nexperience\n\n\nChalkboard Teacher Data Training Coordinator, 2021-present\n\n\nNational Center for Ecological Analysis & Synthesis\n\n\nBar Chart Data Science Fellow, 2020-2021\n\n\nNational Center for Ecological Analysis & Synthesis"
   },
   {
     "objectID": "about.html",

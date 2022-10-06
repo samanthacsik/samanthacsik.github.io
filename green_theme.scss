@@ -8,6 +8,7 @@ $light-sage-green: #D1D9CE;
 $dark-sage-green: #98A08D;
 $cream: #FDFBF7;
 $gray: #64605f;
+$light-gray: #949799;
 $purple: #AE8BD1;
 
 // Base document colors
@@ -31,26 +32,96 @@ $code-block-bg: $cream;
 
 /*-- scss:rules --*/
 
-// adjust size of logo (top left corner; see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss)
-.navbar-brand img {
+/* ELEMENT SELECTORS */
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 5px;
+  font-weight: 700;
+  color: #64605F;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+body {
+  line-height: 1.5; // min 1.5 suggested for assistive tech
+  font-size: 19.5px;
+}
+
+/* CLASS SELECTORS (self-defined) */
+
+.custom-subtitle {
+  font-size: 22px;
+  margin-bottom: 0.15em;
+}
+
+.custom-subtitle2 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.topbr {
+    display: block;
+    margin-top: 1em;
+}
+
+.center {
+  text-align: center;
+  left: 50%;
+}
+
+.container {
+  display: flex;
+}
+
+.button-styling {
+  background: $light-sage-green;
+  border-color: $gray;
+  color: $gray;
+  border-radius: 0.6rem;
+  font-size: 25px;
+  letter-spacing: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 6px;
+  padding-left: 6px;
+  transition-duration: 0.4s;
+}
+
+.button-styling:hover {
+  background-color: $cream; 
+}
+
+/* CLASS SELECTORS (copied from inspecting site -- Quarto defined?) */
+
+.navbar-brand img { // see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
   max-height: 60px;
   width: auto;
 }
 
-.about-image img {
-  border-radius: 80%;
+.rounded { // headshot shape
+    border-radius: 50px 20px 50px 20px !important;
 }
 
-// header letter spacing, font weight, color
-h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 5px;
-  font-weight: 300;
-  color: #64605F;
+.about-link-text { // button text size
+  font-size: 18px;
 }
 
-// body text line height (1.5 min for assistive tech)
-body {
-  line-height: 1.5;
+.bi { // button icon size
+  font-size: 18px;
 }
 
+.card {
+  background-color: #FDFBF7;
+  border-radius: 5.25em;
+}
 
+.card-attribution {
+  //padding-top: 5em;
+  padding-bottom: 3em;
+}
+
+.description {
+  font-size: 25px;
+}

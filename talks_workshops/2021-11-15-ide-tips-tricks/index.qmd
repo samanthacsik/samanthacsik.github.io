@@ -1,0 +1,34 @@
+---
+title: "RStudio Tips & Tricks"
+description: |
+  a talk on RStudio IDE tips & tricks and other keyboard shortcuts
+author:
+  - name: Samantha Csik
+    url: https://samanthacsik.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
+    affiliation-url: https://ucsb-meds.github.io/
+date: 2021-11-15
+slug: csik2021Rtipstricks
+categories: [MEDS, R]
+image: lightbulb.gif
+---
+
+<center><iframe src="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" title="IDE Tips & Tricks" width=750px, height=550px></iframe></center>
+
+<br>
+
+<div class="container">
+<div class="center">
+<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide'>`r fontawesome::fa("tv", fill = "#64605f", a11y = "sem")` slides</button>
+<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/IDE-tips-and-tricks'>`r fontawesome::fa("github-square", fill = "#64605f", a11y = "sem")` source code</button> 
+</div>
+</div>
+
+# Overview
+
+This talk was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/). *Last revision: October 3, 2022*
+
+# Abstract
+
+As environmental data scientists, we spend a lot of time in RStudio. Taking some time to learn how you can customize your RStudio IDE (**I**ntegrated **D**evelopment **E**nvironment) and the keyboard shortcuts used to navigate around that IDE can make you a more efficient (and happier) hacker!
