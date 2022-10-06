@@ -33,6 +33,8 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 * [R for Data Science](https://r4ds.had.co.nz/), by Hadley Wickham
 
+* [W3Schools](https://www.w3schools.com/default.asp), particularly for their HTML & CSS tutorials
+
 ## `r fontawesome::fa("users", fill = "#64605F", a11y = "sem")` data science communities
 
 *While these groups are primarily based in SoCal/Santa Barbara, there are tons of awesome groups like these all over the world. Google around to see what's near you!*
