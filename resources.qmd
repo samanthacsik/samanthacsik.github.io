@@ -39,14 +39,16 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 *While these groups are primarily based in SoCal/Santa Barbara, there are tons of awesome groups like these all over the world. Google around to see what's near you!*
 
-* [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/) and [R-Ladies Global](https://rladies.org/), which work to promote gender diversity in the R community
-* [EcoDataScience](https://eco-data-science.github.io/), an environmental data science study group at UCSB
-* [Southern California R Users](https://socalr.org/), an alliance of R user groups in Southern California
+* [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/) and [R-Ladies Global](https://rladies.org/), which work to promote gender diversity in the R community  
+
+* [EcoDataScience](https://eco-data-science.github.io/), an environmental data science study group at UCSB  
+* [Southern California R Users](https://socalr.org/), an alliance of R user groups in Southern California  
 * [Santa Barbara Women in STEM](https://www.sbwomeninstem.org/), while not specifically data science-focused, this group holds some really great career and networking events, panels, flash talks, and more
 
 ## `r fontawesome::fa("window-maximize", fill = "#64605F", a11y = "sem")` web accessibility
 
-* [The A11Y Project](https://www.a11yproject.com/) is a community-driven effort to make digital content more accessible. I still have a long way to go in making my own website [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) compliant -- the A11Y Project not only has a ton of great blog posts, but also WCAG compliance checklist that I will definitely be returning to over and over again.
+* [The A11Y Project](https://www.a11yproject.com/) is a community-driven effort to make digital content more accessible. I still have a long way to go in making my own website [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) compliant -- the A11Y Project not only has a ton of great blog posts, but also WCAG compliance checklist that I will definitely be returning to over and over again.  
+
 * [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/), a color blindness simulator -- just upload a file and view your color palettes as they would appear under different types of color deficiencies
 
 ## `r fontawesome::fa("smile", fill = "#64605F", a11y = "sem")` misc.
