@@ -20,9 +20,9 @@ I started recording my hikes (and eventually some other activities) on [Strava](
 You can check out the source code on [`r fontawesome::fa("github", fill = "#64605F", a11y = "sem")`](https://github.com/samanthacsik/strava-hikes).
 
 <!--html_preserve-->
-<center><iframe src = "images/sams_activity_map_20220925.html", width ="800", height="450"> </iframe></center>
+<center><iframe src = "images/sams_activity_map_20221009.html", width ="800", height="450"> </iframe></center>
 <!--/html_preserve-->
-<span style = 'font-size: 90%;'><em><center>Map last updated: September 25, 2022</em></center></span>
+<span style = 'font-size: 90%;'><em><center>Map last updated: October 09, 2022</em></center></span>
 
 ## `r fontawesome::fa("egg", fill = "#64605F", a11y = "sem")` the logo
 

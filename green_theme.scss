@@ -34,7 +34,7 @@ $code-block-bg: $cream;
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 5px;
   font-weight: 700;
-  color: #64605F;
+  color: $gray;
 }
 
 h3 {
@@ -110,7 +110,7 @@ body {
 }
 
 .card {
-  background-color: #FDFBF7;
+  background-color: $cream;
   border-radius: 5.25em;
 }
 
