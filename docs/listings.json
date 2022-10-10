@@ -2,6 +2,7 @@
   {
     "listing": "/talks_workshops.html",
     "items": [
+      "/talks_workshops/2022-10-10-customizing-quarto-websites/index.html",
       "/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/index.html",
       "/talks_workshops/2022-04-18-intro-to-cloud-computing/index.html",
       "/talks_workshops/2022-02-18-intro-to-shiny/index.html",

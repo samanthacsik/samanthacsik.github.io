@@ -1,0 +1,27 @@
+---
+title: "Customizing Quarto Websites"
+description: |
+  Make your website stand out using Sass & CSS
+author: 
+  - name: "Samantha Csik"
+    url: https://samanthacsik.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
+    affiliation-url: https://ucsb-meds.github.io/
+date: 10-10-2022
+slug: csik2022SassCSS
+categories: [MEDS, R, Quarto, CSS]
+image: sass_css.png
+---
+
+<center><iframe src="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" title="Customizing Quarto Websites" width=750px, height=550px></iframe></center>
+
+[`r fontawesome::fa("file-alt", fill = "#64605F", a11y = "sem")` instructional documentation](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide) ~~ [`r fontawesome::fa("github-square", fill = "#64605F", a11y = "sem")` source code](https://github.com/UCSB-MEDS/creating-quarto-websites) ~~ [`r fontawesome::fa("blog", fill = "#64605F", a11y = "sem")` blog post](https://github.com/UCSB-MEDS/customizing-quarto-websites)
+
+# Overview
+
+This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+
+# Abstract
+
+Quarto provides a user-friendly framework for creating your personal website -- but adding your own creative touch can help make yours stand out from the rest. In this workshop, we learn how to (a) add a template to our landing page and update the `_quarto.yml` file to quickly add fun features/update the overall layout of our website, (b) create a stylesheet and define Sass variables to start modifying the overall theme (colors, fonts, etc) of our site, and (c) define CSS rules to make fine-tuned adjustments to our site's appearance. 
