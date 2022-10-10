@@ -70,6 +70,13 @@
     "text": "Television slides\n\n\nGitHub Square source code\n\n\n\n\nOverview\nThis talk was originally developed for the Master of Environmental Data Science (MEDS) program, administered by the Bren School of Environmental Science & Management in partnership with the National Center for Ecological Analysis and Synthesis. Last revision: October 3, 2022\n\n\nAbstract\nAs environmental data scientists, we spend a lot of time in RStudio. Taking some time to learn how you can customize your RStudio IDE (Integrated Development Environment) and the keyboard shortcuts used to navigate around that IDE can make you a more efficient (and happier) hacker!"
   },
   {
+    "objectID": "talks_workshops/2022-10-10-customizing-quarto-websites/index.html",
+    "href": "talks_workshops/2022-10-10-customizing-quarto-websites/index.html",
+    "title": "Customizing Quarto Websites",
+    "section": "",
+    "text": "Alternate File instructional documentation ~~ GitHub Square source code ~~ Blog blog post\n\nOverview\nThis workshop was originally developed for the Master of Environmental Data Science (MEDS) program, administered by the Bren School of Environmental Science & Management in partnership with the National Center for Ecological Analysis and Synthesis.\n\n\nAbstract\nQuarto provides a user-friendly framework for creating your personal website – but adding your own creative touch can help make yours stand out from the rest. In this workshop, we learn how to (a) add a template to our landing page and update the _quarto.yml file to quickly add fun features/update the overall layout of our website, (b) create a stylesheet and define Sass variables to start modifying the overall theme (colors, fonts, etc) of our site, and (c) define CSS rules to make fine-tuned adjustments to our site’s appearance."
+  },
+  {
     "objectID": "talks_workshops/2020-08-19-data-viz-with-ggplot2/index.html",
     "href": "talks_workshops/2020-08-19-data-viz-with-ggplot2/index.html",
     "title": "Data Viz with {ggplot2}",
@@ -201,12 +208,5 @@
     "title": "resources",
     "section": "Smiling Face misc.",
     "text": "Smiling Face misc.\n\nDiscover new music to jam out to while you hack at Every Noise at Once (HT: Jeanette Clark)"
-  },
-  {
-    "objectID": "talks_workshops/2022-10-10-customizing-quarto-websites/index.html",
-    "href": "talks_workshops/2022-10-10-customizing-quarto-websites/index.html",
-    "title": "Customizing Quarto Websites",
-    "section": "",
-    "text": "Alternate File instructional documentation ~~ GitHub Square source code ~~ Blog blog post\n\nOverview\nThis workshop was originally developed for the Master of Environmental Data Science (MEDS) program, administered by the Bren School of Environmental Science & Management in partnership with the National Center for Ecological Analysis and Synthesis.\n\n\nAbstract\nQuarto provides a user-friendly framework for creating your personal website – but adding your own creative touch can help make yours stand out from the rest. In this workshop, we learn how to (a) add a template to our landing page and update the _quarto.yml file to quickly add fun features/update the overall layout of our website, (b) create a stylesheet and define Sass variables to start modifying the overall theme (colors, fonts, etc) of our site, and (c) define CSS rules to make fine-tuned adjustments to our site’s appearance."
   }
 ]
