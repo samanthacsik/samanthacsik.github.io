@@ -6,14 +6,14 @@ author:
   - name: Samantha Csik 
     orcid: 0000-0002-5300-3075
     url: https://samanthacsik.github.io/
-    affiliation: The National Center for Ecological Analysis & Synthesis
-    affiliation-url: https://www.nceas.ucsb.edu/
+    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
+    affiliation-url: https://ucsb-meds.github.io/ 
 date: 09-24-2021
 slug: csik2021firstBlog
 citation: 
-  url: https://samanthacsik.github.io/posts/2021-09-21-my-first-test-post/
+  url: https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/
 bibliography: biblio.bib
-categories: [distill, R]
+categories: [distill, R, MEDS]
 image: barney_blog.gif
 ---
 

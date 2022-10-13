@@ -151,7 +151,7 @@
     "href": "posts.html",
     "title": "posts",
     "section": "",
-    "text": "R-Ladies\n\n\nOpenscapes\n\n\nR\n\n\nPython\n\n\nQuarto\n\n\n\n\na Quarto Chat with NASA Openscapes, co-hosted with R-Ladies Santa Barbara [orginally published on the Openscapes blog]\n\n\n\n\n\n\nJun 22, 2022\n\n\nSamantha Csik, Julie Lowndes, Amy Steiker, Catalina Oaida Taglialatela, Aaron Friesz, J.J. Allaire, Erin Robinson, Stefanie Butland\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndistill\n\n\nR\n\n\n\n\nI started putting together some slides on the whys and hows of blogging using {distill} when I realized…maybe I’ve just found the content for my first blog post??\n\n\n\n\n\n\nSep 24, 2021\n\n\nSamantha Csik\n\n\n\n\n\n\nNo matching items"
+    "text": "Quarto\n\n\nR\n\n\nMEDS\n\n\n\n\nblah\n\n\n\n\n\n\nOct 24, 2022\n\n\nSamantha Csik\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nR-Ladies\n\n\nOpenscapes\n\n\nR\n\n\nPython\n\n\nQuarto\n\n\n\n\na Quarto Chat with NASA Openscapes, co-hosted with R-Ladies Santa Barbara [orginally published on the Openscapes blog]\n\n\n\n\n\n\nJun 22, 2022\n\n\nSamantha Csik, Julie Lowndes, Amy Steiker, Catalina Oaida Taglialatela, Aaron Friesz, J.J. Allaire, Erin Robinson, Stefanie Butland\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndistill\n\n\nR\n\n\nMEDS\n\n\n\n\nI started putting together some slides on the whys and hows of blogging using {distill} when I realized…maybe I’ve just found the content for my first blog post??\n\n\n\n\n\n\nSep 24, 2021\n\n\nSamantha Csik\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources.html",
@@ -208,5 +208,12 @@
     "title": "resources",
     "section": "Smiling Face misc.",
     "text": "Smiling Face misc.\n\nDiscover new music to jam out to while you hack at Every Noise at Once (HT: Jeanette Clark)"
+  },
+  {
+    "objectID": "posts/2022-10-24-quarto-blogs/index.html",
+    "href": "posts/2022-10-24-quarto-blogs/index.html",
+    "title": "",
+    "section": "",
+    "text": "BibTeX citation:@online{csik2022,\n  author = {Samantha Csik},\n  title = {},\n  date = {2022-10-24},\n  url = {https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSamantha Csik. 2022. October 24, 2022. https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/."
   }
 ]
