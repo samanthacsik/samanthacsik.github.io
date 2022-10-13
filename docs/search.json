@@ -74,7 +74,7 @@
     "href": "talks_workshops/2022-10-10-customizing-quarto-websites/index.html",
     "title": "Customizing Quarto Websites",
     "section": "",
-    "text": "Alternate File instructional documentation ~~ GitHub Square source code ~~ Blog blog post\n\nOverview\nThis workshop was originally developed for the Master of Environmental Data Science (MEDS) program, administered by the Bren School of Environmental Science & Management in partnership with the National Center for Ecological Analysis and Synthesis.\n\n\nAbstract\nQuarto provides a user-friendly framework for creating your personal website – but adding your own creative touch can help make yours stand out from the rest. In this workshop, we learn how to (a) add a template to our landing page and update the _quarto.yml file to quickly add fun features/update the overall layout of our website, (b) create a stylesheet and define Sass variables to start modifying the overall theme (colors, fonts, etc) of our site, and (c) define CSS rules to make fine-tuned adjustments to our site’s appearance."
+    "text": "Television slides ~~ GitHub Square source code\n\nOverview\nThis workshop was originally developed for the Master of Environmental Data Science (MEDS) program, administered by the Bren School of Environmental Science & Management in partnership with the National Center for Ecological Analysis and Synthesis.\n\n\nAbstract\nQuarto provides a user-friendly framework for creating your personal website – but adding your own creative touch can help make yours stand out from the rest. In this workshop, we learn how to (a) add a template to our landing page and update the _quarto.yml file to quickly add fun features/update the overall layout of our website, (b) create a stylesheet and define Sass variables to start modifying the overall theme (colors, fonts, etc) of our site, and (c) define CSS rules to make fine-tuned adjustments to our site’s appearance."
   },
   {
     "objectID": "talks_workshops/2020-08-19-data-viz-with-ggplot2/index.html",
@@ -151,7 +151,7 @@
     "href": "posts.html",
     "title": "posts",
     "section": "",
-    "text": "Quarto\n\n\nR\n\n\nMEDS\n\n\n\n\nblah\n\n\n\n\n\n\nOct 24, 2022\n\n\nSamantha Csik\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nR-Ladies\n\n\nOpenscapes\n\n\nR\n\n\nPython\n\n\nQuarto\n\n\n\n\na Quarto Chat with NASA Openscapes, co-hosted with R-Ladies Santa Barbara [orginally published on the Openscapes blog]\n\n\n\n\n\n\nJun 22, 2022\n\n\nSamantha Csik, Julie Lowndes, Amy Steiker, Catalina Oaida Taglialatela, Aaron Friesz, J.J. Allaire, Erin Robinson, Stefanie Butland\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndistill\n\n\nR\n\n\nMEDS\n\n\n\n\nI started putting together some slides on the whys and hows of blogging using {distill} when I realized…maybe I’ve just found the content for my first blog post??\n\n\n\n\n\n\nSep 24, 2021\n\n\nSamantha Csik\n\n\n\n\n\n\nNo matching items"
+    "text": "R-Ladies\n\n\nOpenscapes\n\n\nR\n\n\nPython\n\n\nQuarto\n\n\n\n\na Quarto Chat with NASA Openscapes, co-hosted with R-Ladies Santa Barbara [orginally published on the Openscapes blog]\n\n\n\n\n\n\nJun 22, 2022\n\n\nSamantha Csik, Julie Lowndes, Amy Steiker, Catalina Oaida Taglialatela, Aaron Friesz, J.J. Allaire, Erin Robinson, Stefanie Butland\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndistill\n\n\nR\n\n\nMEDS\n\n\n\n\nI started putting together some slides on the whys and hows of blogging using {distill} when I realized…maybe I’ve just found the content for my first blog post??\n\n\n\n\n\n\nSep 24, 2021\n\n\nSamantha Csik\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources.html",
@@ -208,12 +208,5 @@
     "title": "resources",
     "section": "Smiling Face misc.",
     "text": "Smiling Face misc.\n\nDiscover new music to jam out to while you hack at Every Noise at Once (HT: Jeanette Clark)"
-  },
-  {
-    "objectID": "posts/2022-10-24-quarto-blogs/index.html",
-    "href": "posts/2022-10-24-quarto-blogs/index.html",
-    "title": "",
-    "section": "",
-    "text": "BibTeX citation:@online{csik2022,\n  author = {Samantha Csik},\n  title = {},\n  date = {2022-10-24},\n  url = {https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSamantha Csik. 2022. October 24, 2022. https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/."
   }
 ]

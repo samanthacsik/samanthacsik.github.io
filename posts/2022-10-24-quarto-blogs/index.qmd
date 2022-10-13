@@ -1,0 +1,44 @@
+---
+title: "Adding a blog to your existing Quarto website"
+description: |
+  Got a Quarto website, but no listing page? We can fix that!
+author:
+  - name: Samantha Csik
+    url: https://samanthacsik.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
+    affiliation-url: https://ucsb-meds.github.io/ 
+date: 2022-10-24
+slug: csik2022QuartoBlog
+citation: 
+  url: https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/
+categories: [Quarto, R, MEDS]
+image: quarto.png
+draft: true
+---
+
+About a year ago, I wrote my first ever blog post ~ about blogging ~ and tbh, I was really hoping to have published a few more posts by now...but here we are, talking again about why blogging is a valuable way to spend your time and feeling a little sad that I haven't done more by now.
+
+I. Adding a blog to your personal Quarto website
+
+Our Master of Environmental Data Science (MEDS) students created the bones of their Quarto websites a few months ago, and more recently took a little dive into website customization using Sass & CSS. For anyone who's looking to get started on their website-building journey, feel free to explore the following resources:
+
+`r fontawesome::fa("window-maximize", fill = "#64605f", a11y = "sem")` [Creating your personal website using Quarto](https://ucsb-meds.github.io/creating-quarto-websites/)
+
+`r fontawesome::fa("palette", fill = "#64605f", a11y = "sem")` [Customizing Quarto Websites: Make your website stand out using Sass & CSS](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide)
+
+If you've spent some time poking around the official [Quarto documentation](https://quarto.org/), you may have noticed instructions for creating either a [**Website**](https://quarto.org/docs/websites/) or a [**Blog**](https://quarto.org/docs/websites/website-blog.html) -- but what's the difference? Not much, aside from the initial structure of your website:
+
+```{r}
+#| eval: true
+#| echo: false
+#| label: fig-website-blog
+#| fig-cap: "Quarto websites vs. blogs"
+#| fig-subcap: 
+#| - "A Quarto 'Website'"
+#| - "A Quarto 'Blog'"
+#| column: page 
+#| layout-nrow: 2
+knitr::include_graphics("media/website.png")
+knitr::include_graphics("media/blog.png")
+```
