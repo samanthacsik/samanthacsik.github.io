@@ -90,6 +90,12 @@ body {
   background-color: $cream; 
 }
 
+.gray-italic {
+  color: $gray;
+  font-style: italic;
+  font-size: 17px;
+}
+
 /* CLASS SELECTORS (copied from inspecting site -- Quarto defined?) */
 
 .navbar-brand img { // see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
