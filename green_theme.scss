@@ -77,7 +77,8 @@ body {
   border-color: $gray;
   color: $gray;
   border-radius: 0.6rem;
-  font-size: 25px;
+  border-width: thin;
+  font-size: 18px;
   letter-spacing: 3px;
   padding-top: 2px;
   padding-bottom: 2px;
@@ -89,6 +90,32 @@ body {
 .button-styling:hover {
   background-color: $cream; 
 }
+
+
+// Example from Meghan Hall
+/* .btn-primary {
+  color: $gray;
+  background-color: $light-sage-green;
+  border: 1px solid $gray;
+  width: 25%;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 0px 2px;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #978e83;
+  border-color: white;
+}
+
+.btn-primary:focus {
+  color: #ffffff;
+  background-color: #978e83;
+  border-color: white;
+} */
 
 .gray-italic {
   color: $gray;

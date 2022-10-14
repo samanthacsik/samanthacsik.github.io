@@ -16,7 +16,12 @@ image: sass_css.png
 
 <center><iframe src="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" title="Customizing Quarto Websites" width=750px, height=550px></iframe></center>
 
-[`r fontawesome::fa("tv", fill = "#64605F", a11y = "sem")` slides](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide) ~~ [`r fontawesome::fa("github-square", fill = "#64605F", a11y = "sem")` source code](https://github.com/UCSB-MEDS/customizing-quarto-websites)
+<div class="container">
+<div class="center">
+<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide'>`r fontawesome::fa("tv", fill = "#64605f", a11y = "sem")` slides</button>
+<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/customizing-quarto-websites'>`r fontawesome::fa("github-square", fill = "#64605f", a11y = "sem")` source code</button> 
+</div>
+</div>
 
 # Overview
 

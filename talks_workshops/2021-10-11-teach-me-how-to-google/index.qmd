@@ -24,7 +24,14 @@ xaringanExtra::embed_xaringan(
 
 <br>
 
-[`r fontawesome::fa("tv", fill = "#64605F", a11y = "sem")` slides](https://ucsb-meds.github.io/teach-me-how-to-google/#1) ~~ [`r fontawesome::fa("github-square", fill = "#64605F", a11y = "sem")` source code](https://github.com/UCSB-MEDS/teach-me-how-to-google) ~~ [`r fontawesome::fa("plus", fill = "#64605F", a11y = "sem")` slide adaptations for invited talks](https://samanthacsik.github.io/teach-me-how-to-google/) ~~ [`r fontawesome::fa("video", fill = "#64605F", a11y = "sem")` recording](https://drive.google.com/file/d/1eAluhmkL3PBvhYXzQ5T6X6TOO1pQStSQ/view)
+<div class="container">
+<div class="center">
+<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/teach-me-how-to-google/#1'>`r fontawesome::fa("tv", fill = "#64605f", a11y = "sem")` slides</button>
+<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/teach-me-how-to-google'>`r fontawesome::fa("github-square", fill = "#64605f", a11y = "sem")` source code</button> 
+<button type="button" class="button-styling" onclick=window.location.href='https://samanthacsik.github.io/teach-me-how-to-google/'>`r fontawesome::fa("plus", fill = "#64605f", a11y = "sem")` invited talks</button> 
+<button type="button" class="button-styling" onclick=window.location.href='https://drive.google.com/file/d/1eAluhmkL3PBvhYXzQ5T6X6TOO1pQStSQ/view'>`r fontawesome::fa("video", fill = "#64605f", a11y = "sem")` recording</button> 
+</div>
+</div>
 
 # Overview
 

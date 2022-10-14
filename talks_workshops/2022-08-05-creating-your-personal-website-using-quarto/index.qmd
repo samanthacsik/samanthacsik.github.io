@@ -23,7 +23,13 @@ image: quarto_share.png
 knitr::include_graphics("penguins_telescope_2.png")
 ```
 
-[`r fontawesome::fa("file-alt", fill = "#64605F", a11y = "sem")` instructional documentation](https://ucsb-meds.github.io/creating-quarto-websites/) ~~ [`r fontawesome::fa("github-square", fill = "#64605F", a11y = "sem")` source code](https://github.com/UCSB-MEDS/creating-quarto-websites) ~~ [`r fontawesome::fa("blog", fill = "#64605F", a11y = "sem")` blog post](https://ucsb-meds.github.io/posts/2022-08-05-building-a-personal-website-using-quarto/)
+<div class="container">
+<div class="center">
+<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/creating-quarto-websites/'>`r fontawesome::fa("file-alt", fill = "#64605f", a11y = "sem")` instructional documentation</button>
+<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/creating-quarto-websites'>`r fontawesome::fa("github-square", fill = "#64605f", a11y = "sem")` source code</button> 
+<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/posts/2022-08-05-building-a-personal-website-using-quarto/'>`r fontawesome::fa("blog", fill = "#64605f", a11y = "sem")` blog</button> 
+</div>
+</div>
 
 # Overview
 

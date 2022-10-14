@@ -21,7 +21,11 @@ knitr::include_graphics("semantics.png")
 
 <br>
 
-[`r fontawesome::fa("tv", fill = "#64605F", a11y = "sem")` slides](https://docs.google.com/presentation/d/10HNe2u-QrtPOTk1G9FdmtBy779HmVlrNC2Nk_-YWEXc/edit?usp=sharing)
+<div class="container">
+<div class="center">
+<button type="button" class="button-styling" onclick=window.location.href='https://docs.google.com/presentation/d/10HNe2u-QrtPOTk1G9FdmtBy779HmVlrNC2Nk_-YWEXc/edit?usp=sharing'>`r fontawesome::fa("tv", fill = "#64605f", a11y = "sem")` slides</button>
+</div>
+</div>
 
 # Overview
 

@@ -28,7 +28,13 @@ knitr::include_graphics("sam_an.jpg")
 
 <br>
 
-[`r fontawesome::fa("markdown", fill = "#64605F", a11y = "sem")` knitted html](https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse) ~~ [`r fontawesome::fa("github-square", fill = "#64605F", a11y = "sem")` GitHub Repo](https://github.com/samanthacsik/Intro-to-the-Tidyverse) ~~ [`r fontawesome::fa("meetup", fill = "#64605F", a11y = "sem")` Meetup Event](https://www.meetup.com/rladies-santa-barbara/events/260710376/)
+<div class="container">
+<div class="center">
+<button type="button" class="button-styling" onclick=window.location.href='https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse'>`r fontawesome::fa("markdown", fill = "#64605f", a11y = "sem")` knitted html</button>
+<button type="button" class="button-styling" onclick=window.location.href='https://github.com/samanthacsik/Intro-to-the-Tidyverse'>`r fontawesome::fa("github-square", fill = "#64605f", a11y = "sem")` source code</button> 
+<button type="button" class="button-styling" onclick=window.location.href='https://www.meetup.com/rladies-santa-barbara/events/260710376/'>`r fontawesome::fa("meetup", fill = "#64605f", a11y = "sem")` meetup event</button> 
+</div>
+</div>
 
 
 # Overview

@@ -10,7 +10,7 @@ author:
     affiliation-url: https://ucsb-meds.github.io/
 date: 2022-02-18
 slug: csik2022shiny
-categories: [MEDS, R]
+categories: [MEDS, R, shiny]
 image: shiny_hex.png
 ---
 
@@ -24,7 +24,12 @@ xaringanExtra::embed_xaringan(
 
 <br>
 
-[`r fontawesome::fa("tv", fill = "#64605F", a11y = "sem")` slides](https://ucsb-meds.github.io/shiny-workshop/#1) ~~ [`r fontawesome::fa("github-square", fill = "#64605F", a11y = "sem")` source code](https://github.com/UCSB-MEDS/shiny-workshop)
+<div class="container">
+<div class="center">
+<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/shiny-workshop/#1'>`r fontawesome::fa("tv", fill = "#64605f", a11y = "sem")` slides</button>
+<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/shiny-workshop'>`r fontawesome::fa("github-square", fill = "#64605f", a11y = "sem")` source code</button> 
+</div>
+</div>
 
 # Overview
 
