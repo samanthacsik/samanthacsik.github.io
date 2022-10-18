@@ -10,6 +10,8 @@ $cream: #FDFBF7;
 $gray: #64605f;
 $light-gray: #949799;
 $purple: #AE8BD1;
+$black: #000000;
+$burnt-orange: #ad7237;
 
 // Base document colors
 $navbar-bg: $cream;
@@ -22,7 +24,7 @@ $link-color: $purple;
 
 // Inline code
 $code-bg: $cream;
-$code-color: $purple; 
+$code-color: $burnt-orange; //$purple; 
 
 // Code blocks
 $code-block-bg: $cream;
@@ -144,13 +146,13 @@ body {
 
 .card {
   background-color: $cream;
-  border-radius: 5.25em;
+  //border-radius: 5.25em;
 }
 
-.card-attribution {
+/* .card-attribution {
   //padding-top: 5em;
   padding-bottom: 3em;
-}
+} */
 
 .description {
   font-size: 25px;

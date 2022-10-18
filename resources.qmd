@@ -25,7 +25,7 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 ## `r fontawesome::fa("book-open", fill = "#64605F", a11y = "sem")` learning materials
 
-* Ever feel like you need a pick-me-up while learning stats or a new R tool? Look no further than [Allison Horst's](https://twitter.com/allison_horst) [R & stats illustrations](https://github.com/allisonhorst/stats-illustrations), featuring the cutest and most educational fuzzy monsters you'll ever see!
+* Ever feel like you need a pick-me-up while learning stats or a new R tool? Look no further than [Allison Horst's](https://twitter.com/allison_horst) [Data Science Illustrations](https://allisonhorst.com/), featuring the cutest and most educational fuzzy monsters you'll ever see!
 
 * [Mastering Shiny](https://mastering-shiny.org/index.html), by Hadley Wickham 
 
