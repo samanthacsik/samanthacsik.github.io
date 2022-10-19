@@ -174,6 +174,8 @@ Some notes on the above options:
 
 - Include an image (or gif) to add as a *preview image*, which will appear on your listing page alongside your post. Your image should live inside your post's subdirectory (e.g. `mywebsite/posts/2022-10-24-my-blog-post/preview-image.png`).
 
+- Set `draft: true` while you're still working on your blog post! This prevents it from showing up on your listing page, site map, or site search. When you're ready to publish, just remove `draft: true` from your YAML (or set to `false`) then render your post.
+
 ```{r}
 #| eval: true
 #| echo: false
@@ -195,12 +197,35 @@ If things aren't working as expected, double check your repository structure -- 
 knitr::include_graphics("media/repo.png")
 ```
 
-## V. Making your posts look pretty
+## V. Some authoring features to explore
 
-- on this page (generated from level 1/2/3 headers)
-- footnotes
-- citations (use visual editor)
-- same Quarto features apply -- photos/text in margins, embeddign code + outputs, etc.
+Blog posts are just Quarto documents, meaning you can combine prose, code, and embedded outputs all in one place, just like you would in any other `.qmd` file (which makes your blog the *perfect* place to create data science/programming tutorials both for yourself and others `r fontawesome::fa("smile-wink", fill = "#64605f", a11y = "sem")`).
+
+#### Footnotes
+
+There are multiple ways to include footnotes throughout your blog posts:
+
+1. Use the `[^#]` syntax to denote where you would like a note to be inserted. Write your note somewhere below following the `[^#]: your note here` syntax. For example:
+
+```{markdown}
+I am going to insert a footnote here[^1].
+
+[^1]: Here is the associated footnote, which will appear at the bottom of my document in a "Footnotes" section.
+```
+
+2. Alternatively, you can write your notes inline to avoid having to use identifiers (e.g. `[^#]`). For example:
+
+```{markdown}
+I am going to insert an inline footnote here^[Here is my inline footnote].
+```
+
+3. You can also add footnotes that include multiple paragraphs. See the [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd) for this blog post and check out footnote #2 for an example on how to do so (or check out the [Quarto documentation](https://quarto.org/docs/authoring/footnotes-and-citations.html#footnotes)).
+
+All footnotes will appear in a "Footnotes" section that is automatically generated when you create your first footnote.
+
+#### Citations
+
+#### Photos in margins/embedding code + outputs
 
 ## VI. Blogs to follow (+ one post from each that I've particularly enjoyed)
 
@@ -213,5 +238,5 @@ There are *tons* of awesome data science bloggers out there, and (at the cost of
 
 * [Cosima Meyer's Blog](https://cosimameyer.com/#post) -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [@cosima_meyer](https://twitter.com/cosima_meyer) and check out her post, [Understanding the Basics of Package Writing in R](https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/) 
 
-* [Notes from a Data Witch](https://blog.djnavarro.net/) by Danielle Navarro -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [@djnavarro](https://twitter.com/djnavarro) and check out her post, [Getting started with Apache Arrow](https://blog.djnavarro.net/posts/2021-11-19_starting-apache-arrow-in-r/)
+* [Notes from a Data Witch](https://blog.djnavarro.net/) by Danielle Navarro -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [@djnavarro](https://twitter.com/djnavarro) and check out her post, [Getting started with Apache Arrow](https://blog.djnavarro.net/posts/2021-11-19_starting-apache-arrow-in-r/)[@navarro2022]
 
