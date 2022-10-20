@@ -9,7 +9,7 @@ author:
     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
     affiliation-url: https://ucsb-meds.github.io/ 
 date: 2022-10-24
-slug: csik2022QuartoBlog
+bibliography: references.bib
 citation: 
   url: https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/
 categories: [Quarto, R, MEDS]
@@ -168,13 +168,13 @@ Some notes on the above options:
 
 - You can include more than one *author* -- see [this post](https://samanthacsik.github.io/posts/2022-06-22-hello_quarto/) and [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-06-22-hello_quarto/index.qmd) as an example.
 
-- You may includes as many self-defined *categories* as you'd like. Make sure that your spelling/capitalization/punctuation is consistent across blog posts should you apply the same categories to multiple posts.
+- You may include as many self-defined *categories* as you'd like. Make sure that your spelling/capitalization/punctuation is consistent across blog posts should you apply the same categories to multiple posts.
 
 - Adding the *citation* option automatically generates both a [BibTeX citation](https://en.wikipedia.org/wiki/BibTeX) and reference for your blog post, and adds them to the bottom of your post.
 
 - Include an image (or gif) to add as a *preview image*, which will appear on your listing page alongside your post. Your image should live inside your post's subdirectory (e.g. `mywebsite/posts/2022-10-24-my-blog-post/preview-image.png`).
 
-- Set `draft: true` while you're still working on your blog post! This prevents it from showing up on your listing page, site map, or site search. When you're ready to publish, just remove `draft: true` from your YAML (or set to `false`) then render your post.
+- Set `draft: true` while you're still working on your blog post to prevent it from showing up on your listing page, site map, or site search. When you're ready to publish, just remove `draft: true` from your YAML (or set to `false`) then render your post.
 
 ```{r}
 #| eval: true
@@ -197,11 +197,11 @@ If things aren't working as expected, double check your repository structure -- 
 knitr::include_graphics("media/repo.png")
 ```
 
-## V. Some authoring features to explore
+## V. Some additional authoring features to explore
 
-Blog posts are just Quarto documents, meaning you can combine prose, code, and embedded outputs all in one place, just like you would in any other `.qmd` file (which makes your blog the *perfect* place to create data science/programming tutorials both for yourself and others `r fontawesome::fa("smile-wink", fill = "#64605f", a11y = "sem")`).
+Blog posts are just Quarto documents, meaning you can combine prose, code, and embedded outputs all in one place, just like you would in any other `.qmd` file (which makes your blog the *perfect* place to create data science/programming tutorials both for yourself and others `r fontawesome::fa("smile-wink", fill = "#64605f", a11y = "sem")`). If you're looking for additional ways to enhance your posts, read on below: :
 
-#### Footnotes
+#### Adding footnotes
 
 There are multiple ways to include footnotes throughout your blog posts:
 
@@ -219,24 +219,83 @@ I am going to insert a footnote here[^1].
 I am going to insert an inline footnote here^[Here is my inline footnote].
 ```
 
-3. You can also add footnotes that include multiple paragraphs. See the [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd) for this blog post and check out footnote #2 for an example on how to do so (or check out the [Quarto documentation](https://quarto.org/docs/authoring/footnotes-and-citations.html#footnotes)).
+3. You can also add footnotes that include multiple paragraphs. See the [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd) for this blog post and take a peek at footnote #2 for an example on how to do so (or check out the [Quarto documentation](https://quarto.org/docs/authoring/footnotes-and-citations.html#footnotes)).
 
-All footnotes will appear in a "Footnotes" section that is automatically generated when you create your first footnote.
+All footnotes will appear in a "Footnotes" section that is automatically generated for you.
 
-#### Citations
+#### Creating a bibliography and adding citations
 
-#### Photos in margins/embedding code + outputs
+Quarto supports the use of bibliography files for citing works throughout your blog post. There are a number of ways to do this, but so far, I've found creating a BibLaTex database to be relatively straightforward. This database takes the form of a plain-text `.bib` file where we can store all of our bibliographic information. That information needs to be encoded in a particular way (more on that below). Follow these steps to cite works in your blog posts:
+
+1. First, create a `.bib` file in the folder containing your blog post (e.g. `mywebsite/posts/2022-10-24-my-blog-post/references.bib`) using the `touch` command in your RStudio Terminal. I called mine `references.bib`, but the name is up to you. 
+
+2. To use your `references.bib` file, you'll need to add the `bibliography` option to your blog post's YAML:
+
+```{r}
+#| eval: false
+#| echo: true
+#| code-line-numbers: "12"
+---
+title: "blog post title"
+# ~ additional YAML options omitted for brevity ~
+bibliography: references.bib
+---
+```
+
+3. Next, we'll want to add some references. These take a particular format that generally looks like this:
+
+```{r}
+#| eval: false
+#| echo: true
+@type{key,
+  author = {LastName, FirstName},
+  title = {Title of work},
+  url = {https://url.com},
+  year = {YYYY}
+}
+```
+
+where `type` can be `manual`, `book`, `article`, `misc`, etc. (all case-insensitive) and `key` is the citation identifier used for inserting in-text citations (we'll get there soon).
+
+- There may be instances where you want to cite a resource that already has a BibTex citation available for you to copy over to your `references.bib` file (e.g. this blog post). For most resources, however, you'll need to construct your own. You can do this manually, or with the help of a BibTeX reference generator (Googling will yield plenty of options, but [zoterobib](https://zbib.org/) is a great place to start, but note that you may have to make some manual adjustments). Check out my [`references.bib` file](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/references.bib) for this post as an example.
+
+4. Now that you have BibTex references in your `.bib` file, you can start adding in-text citations. These generally take the form `[@key]` (but read more about Quarto citation syntax [here](https://quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations)). When you add an in-text citation, Quarto will automatically add the reference to the bottom of your blog post under the "References" section.
+
+- To give one final concrete example, let's say I want to cite my first (ever) blog post from last year. I can copy the BibTeX citation from the bottom of the post and paste it into my `references.bib` file:
+
+```{r}
+#| eval: false
+#| echo: true
+@online{csik2021,
+  author = {Samantha Csik},
+  title = {Why Create Presentation Slides about Blogging When You Can
+    Just Blog about It Instead?},
+  date = {2021-09-24},
+  url = {https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/},
+  langid = {en}
+}
+```
+
+- I can now add an in-text citation using the `[@csik2021]` syntax here [@csik2021] -- once cited, it will appear in my References section at the bottom of this post. 
+
+#### Article layout
+
+Quarto also supports a number of different [page layout options](https://quarto.org/docs/authoring/article-layout.html) to further customize the appearance of your posts. Explore different ways to position elements on your page, including embedding outputs, captions, references in your [page margin](https://quarto.org/docs/authoring/article-layout.html#margin-content).
 
 ## VI. Blogs to follow (+ one post from each that I've particularly enjoyed)
 
 There are *tons* of awesome data science bloggers out there, and (at the cost of sounding like a broken record) Twitter is a great place to find them. Here are just a few I've been reading and enjoying as of late, but get out there and start exploring others for yourself!
 
-* [Piping Hot Data](https://www.pipinghotdata.com/blog.html), by Shannon Pileggi -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [@PipingHotData](https://twitter.com/PipingHotData) and check out her post, [Curating for @WeAreRLadies on Twitter](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/)
+* [Piping Hot Data](https://www.pipinghotdata.com/blog.html), by Shannon Pileggi -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [`@PipingHotData`](https://twitter.com/PipingHotData) and check out her post, [Curating for `@WeAreRLadies` on Twitter](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/) [-@pileggi2021curating]
 
-* [Meghan Hall's Blog](https://meghan.rbind.io/blog/) -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [@MeghanMHall](https://twitter.com/MeghanMHall) and check out her post, [Increasing the Flexibility and Robustness of Plots in ggplot2
-](https://meghan.rbind.io/blog/plot-robustness/)
+* [Meghan Hall's Blog](https://meghan.rbind.io/blog/) -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [`@MeghanMHall`](https://twitter.com/MeghanMHall) and check out her post, [Increasing the Flexibility and Robustness of Plots in ggplot2
+](https://meghan.rbind.io/blog/plot-robustness/) [-@hall2022]
 
-* [Cosima Meyer's Blog](https://cosimameyer.com/#post) -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [@cosima_meyer](https://twitter.com/cosima_meyer) and check out her post, [Understanding the Basics of Package Writing in R](https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/) 
+* [Cosima Meyer's Blog](https://cosimameyer.com/#post) -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [`@cosima_meyer`](https://twitter.com/cosima_meyer) and check out her post, [Understanding the Basics of Package Writing in R](https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/) [-@meyer2022]
 
-* [Notes from a Data Witch](https://blog.djnavarro.net/) by Danielle Navarro -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [@djnavarro](https://twitter.com/djnavarro) and check out her post, [Getting started with Apache Arrow](https://blog.djnavarro.net/posts/2021-11-19_starting-apache-arrow-in-r/)[@navarro2022]
+* [Notes from a Data Witch](https://blog.djnavarro.net/) by Danielle Navarro -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [`@djnavarro`](https://twitter.com/djnavarro) and check out her post, [Getting started with Apache Arrow](https://blog.djnavarro.net/posts/2021-11-19_starting-apache-arrow-in-r/) [-@navarro2021]
+
+## VII. Additional Resources
+
+* [The ultimate guide to starting a Quarto blog](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html), by [Albert Rapp](https://albert-rapp.de/) is incredibly thorough and explores even more ways to customize your blog. Check it out!
 
