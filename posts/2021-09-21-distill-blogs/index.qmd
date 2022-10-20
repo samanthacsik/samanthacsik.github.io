@@ -8,8 +8,7 @@ author:
     url: https://samanthacsik.github.io/
     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
     affiliation-url: https://ucsb-meds.github.io/ 
-date: 09-24-2021
-slug: csik2021firstBlog
+date: 2021-09-24
 citation: 
   url: https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/
 bibliography: biblio.bib

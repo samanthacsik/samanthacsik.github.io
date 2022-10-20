@@ -81,6 +81,25 @@ code span.st { color: #4070a0; } /* String */
 code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -252,8 +271,10 @@ ga('send', {
   <li><a href="#ii.-whats-the-difference-between-a-website-and-a-blog" id="toc-ii.-whats-the-difference-between-a-website-and-a-blog" class="nav-link" data-scroll-target="#ii.-whats-the-difference-between-a-website-and-a-blog">II. What’s the difference between a website and a blog?</a></li>
   <li><a href="#iii.-adding-a-blog-to-your-personal-quarto-website" id="toc-iii.-adding-a-blog-to-your-personal-quarto-website" class="nav-link" data-scroll-target="#iii.-adding-a-blog-to-your-personal-quarto-website">III. Adding a blog to your personal Quarto website</a></li>
   <li><a href="#iv.-add-a-blog-post-to-your-blog" id="toc-iv.-add-a-blog-post-to-your-blog" class="nav-link" data-scroll-target="#iv.-add-a-blog-post-to-your-blog">IV. Add a blog post to your blog</a></li>
-  <li><a href="#v.-making-your-posts-look-pretty" id="toc-v.-making-your-posts-look-pretty" class="nav-link" data-scroll-target="#v.-making-your-posts-look-pretty">V. Making your posts look pretty</a></li>
-  <li><a href="#vi.-blogs-to-follow-one-post-from-each-that-ive-particularly-enjoyed" id="toc-vi.-blogs-to-follow-one-post-from-each-that-ive-particularly-enjoyed" class="nav-link" data-scroll-target="#vi.-blogs-to-follow-one-post-from-each-that-ive-particularly-enjoyed">VI. Blogs to follow (+ one post from each that I’ve particularly enjoyed)</a></li>
+  <li><a href="#v.-some-additional-authoring-features-to-explore" id="toc-v.-some-additional-authoring-features-to-explore" class="nav-link" data-scroll-target="#v.-some-additional-authoring-features-to-explore">V. Some additional authoring features to explore</a></li>
+  <li><a href="#vi.-a-note-on-adding-an-additional-blog-or-more-to-your-site" id="toc-vi.-a-note-on-adding-an-additional-blog-or-more-to-your-site" class="nav-link" data-scroll-target="#vi.-a-note-on-adding-an-additional-blog-or-more-to-your-site">VI. A note on adding an additional blog (or more) to your site</a></li>
+  <li><a href="#vii.-blogs-to-follow-one-post-from-each-that-ive-particularly-enjoyed" id="toc-vii.-blogs-to-follow-one-post-from-each-that-ive-particularly-enjoyed" class="nav-link" data-scroll-target="#vii.-blogs-to-follow-one-post-from-each-that-ive-particularly-enjoyed">VII. Blogs to follow (+ one post from each that I’ve particularly enjoyed)</a></li>
+  <li><a href="#viii.-additional-resources" id="toc-viii.-additional-resources" class="nav-link" data-scroll-target="#viii.-additional-resources">VIII. Additional Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -266,9 +287,9 @@ ga('send', {
 <p>About a year ago, I wrote my first ever blog post ~ about blogging ~ and tbh I’m a <em>little</em> embarrassed that this is only my third post here (does it count that I have <em>ideas</em> for blog posts squirreled away at least?? <svg aria-label="Grinning Face With Sweat" role="img" viewbox="0 0 504 512" style="height:1em;width:0.98em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Grinning Face With Sweat</title><path d="M456 128c26.5 0 48-21 48-47 0-20-28.5-60.4-41.6-77.8-3.2-4.3-9.6-4.3-12.8 0C436.5 20.6 408 61 408 81c0 26 21.5 47 48 47zm0 32c-44.1 0-80-35.4-80-79 0-4.4.3-14.2 8.1-32.2C345 23.1 298.3 8 248 8 111 8 0 119 0 256s111 248 248 248 248-111 248-248c0-35.1-7.4-68.4-20.5-98.6-6.3 1.5-12.7 2.6-19.5 2.6zm-128-8c23.8 0 52.7 29.3 56 71.4.7 8.6-10.8 12-14.9 4.5l-9.5-17c-7.7-13.7-19.2-21.6-31.5-21.6s-23.8 7.9-31.5 21.6l-9.5 17c-4.1 7.4-15.6 4-14.9-4.5 3.1-42.1 32-71.4 55.8-71.4zm-160 0c23.8 0 52.7 29.3 56 71.4.7 8.6-10.8 12-14.9 4.5l-9.5-17c-7.7-13.7-19.2-21.6-31.5-21.6s-23.8 7.9-31.5 21.6l-9.5 17c-4.2 7.4-15.6 4-14.9-4.5 3.1-42.1 32-71.4 55.8-71.4zm80 280c-60.6 0-134.5-38.3-143.8-93.3-2-11.8 9.3-21.6 20.7-17.9C155.1 330.5 200 336 248 336s92.9-5.5 123.1-15.2c11.5-3.7 22.6 6.2 20.7 17.9-9.3 55-83.2 93.3-143.8 93.3z"></path></svg>). Regardless, you should trust me<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> when I say that blogging is a great exercise for you (to learn a new skill, to expand your professional portfolio/online profile, to connect with others) to practice as regularly as you can. Rather than repeat content here, take a peek at my <a href="https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/">first post</a>, which touches on why you should blog and some ideas on how to structure your blog posts. And if you take just one thing away from all this, it’s this tweet:</p>
 <blockquote class="twitter-tweet blockquote">
 <p lang="en" dir="ltr">
-When you’ve written the same code 3 times, write a function<br><br>When you’ve given the same in-person advice 3 times, write a blog post
-</p>
-— David Robinson (<span class="citation" data-cites="drob">@drob</span>) <a href="https://twitter.com/drob/status/928447584712253440?ref_src=twsrc%5Etfw">November 9, 2017</a>
+</p><p>When you’ve written the same code 3 times, write a function<br><br>When you’ve given the same in-person advice 3 times, write a blog post</p>
+<p></p>
+<p>— David Robinson (<span class="citation" data-cites="drob">(<a href="#ref-drob" role="doc-biblioref"><strong>drob?</strong></a>)</span>) <a href="https://twitter.com/drob/status/928447584712253440?ref_src=twsrc%5Etfw">November 9, 2017</a></p>
 </blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <section id="i.-before-we-chat-about-blogs" class="level2">
@@ -310,14 +331,14 @@ When you’ve written the same code 3 times, write a function<br><br>When you’
 <p><svg aria-label="angle-right" role="img" viewbox="0 0 256 512" style="height:1em;width:0.5em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>angle-right</title><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg> blog posts! Your listing page will be blank until you actually add your first blog post</p>
 <p>Let’s create those together now.</p>
 <ol type="1">
-<li><p><strong>Create a <code>/posts</code> folder:</strong> Open up your Quarto website project (I find it easiest to do this in RStudio) and make sure you’re in your root directory. Here, we’ll create a new subdirectory, called <code>posts</code> (you can call this whatever you want), where all of our blog posts will eventually live. To do so, you can either (a) click on the <strong>add folder</strong> button, <img src="media/add-folder.png" alt="" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;">, in the Files pane, or (b) in the RStudio Terminal, run <code>mkdir posts</code>.</p></li>
-<li><p><strong><em>Optional:</em> Add a <code>_metadata.yml</code> file to <code>/posts</code>:</strong> While not required, a <code>_metadata.yml</code> file can make your life easier if you want certain options to apply to all blog posts that you create. In the RStudio Terminal, run <code>cd posts</code> to move into that directory, then <code>touch _metadata.yml</code> to create the file. Open your <code>_metadata.yml</code> in the Source pane to add options. I like these options<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, but it’s entirely up to you what you want to include (if anything at all):</p></li>
+<li><p><strong>Create a <code>/posts</code> folder:</strong> Open up your Quarto website project (I find it easiest to do this in RStudio) and make sure you’re in your root directory. Here, we’ll create a new subdirectory, called <code>posts</code> (you can call this whatever you want), where all of our blog posts will eventually live. To do so, you can either (a) click on the <strong>add folder</strong> button, <img src="media/add-folder.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;">, in the Files pane, or (b) in the RStudio Terminal, run <code>mkdir posts</code>.</p></li>
+<li><p><strong><em>Optional:</em></strong> <strong>Add a <code>_metadata.yml</code> file to <code>/posts</code>:</strong> While not required, a <code>_metadata.yml</code> file can make your life easier if you want certain options to apply to all blog posts that you create. In the RStudio Terminal, run <code>cd posts</code> to move into that directory, then <code>touch _metadata.yml</code> to create the file. Open your <code>_metadata.yml</code> in the Source pane to add options. I like these options<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, but it’s entirely up to you what you want to include (if anything at all):</p></li>
 </ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># options specified here will apply to all posts in this folder</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># re-render posts only when source changes (for more, see https://quarto.org/docs/projects/code-execution.html#freeze)</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>freeze<span class="sc">:</span> auto</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># prevents posts from re-rendering unless explicitly told to do so (for more, see https://quarto.org/docs/projects/code-execution.html#freeze)</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>freeze<span class="sc">:</span> true</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># enable banner style title blocks (see https://quarto.org/docs/authoring/title-blocks.html)</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>title<span class="sc">-</span>block<span class="sc">-</span>banner<span class="sc">:</span> true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -330,13 +351,13 @@ When you’ve written the same code 3 times, write a function<br><br>When you’
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/listing-page.png" class="img-fluid figure-img" width="1235"></p>
-<p></p><figcaption class="figure-caption">The <a href="https://ucsb-meds.github.io/blog.html">MEDS Community Blog</a> listing page, with multiple blog posts arranged in the default-style layout – Quarto has multiple listing page layout options (more on that to come)</figcaption><p></p>
+<p></p><figcaption class="figure-caption">The <a href="https://ucsb-meds.github.io/blog.html">MEDS Community Blog</a> listing page, with multiple blog posts arranged in the default-style layout – Quarto has multiple listing page layout options (default, grid, table) for you to explore</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
 <ul>
-<li>To create a listing page, add a <code>posts.qmd</code> file to your <em>root</em> directory. First, click on the R Project icon, <img src="media/rproj.png" alt="" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;">, in the Files pane to jump back to your project’s root directory. There are a bunch of ways to create a new <code>.qmd</code> file, but one easy way is to choose <em>File</em> &gt; <em>New File</em> &gt; <em>Quarto Document…</em>. Below, I give mine the title “My Blog” when prompted (this name appears at the top of your listing page), then saved it as <code>posts.qmd</code> (but you can choose whatever title and/or file name you’d like).</li>
+<li>To create a listing page, add a <code>posts.qmd</code> file to your <em>root</em> directory. First, click on the R Project icon, <img src="media/rproj.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;">, in the Files pane to jump back to your project’s root directory. There are a bunch of ways to create a new <code>.qmd</code> file, but one easy way is to choose <em>File</em> &gt; <em>New File</em> &gt; <em>Quarto Document…</em>. Below, I give mine the title “My Blog” when prompted (this name appears at the top of your listing page), then saved it as <code>posts.qmd</code> (but you can choose whatever title and/or file name you’d like).</li>
 </ul>
 <ol start="4" type="1">
 <li><strong>Configure your listing page:</strong> Specify how you’d like your listing page to be arranged by updating the YAML section of <code>posts.qmd</code>. There are a variety of options that you can specify. Below are just a few, but check out other options <a href="https://quarto.org/docs/websites/website-listings.html">here</a>:</li>
@@ -344,7 +365,7 @@ When you’ve written the same code 3 times, write a function<br><br>When you’
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"My Blog"</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>listing<span class="sc">:</span> </span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  contents<span class="sc">:</span> posts <span class="co"># includes all Quarto docs in the `posts` directory</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  contents<span class="sc">:</span> posts <span class="co"># all Quarto docs in the `posts` directory will be included on your listing page</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  type<span class="sc">:</span> grid <span class="co"># or `default` or `table`; each type has its own set of yaml options to include</span></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  sort<span class="sc">:</span> <span class="st">"date desc"</span> <span class="co"># can also sort on more than one field</span></span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  categories<span class="sc">:</span> true <span class="co"># allows you to sort posts by assigned categories </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -378,7 +399,7 @@ When you’ve written the same code 3 times, write a function<br><br>When you’
 <p>Now that you have your listing page set up, we can start populating it with blog posts. Repeat the following steps each time you want to add a new post.</p>
 <ol type="1">
 <li><p><strong>Create a subdirectory <em>inside</em> your <code>posts</code> directory:</strong> To stay organized, I usually name mine <code>YYYY-MM-DD-short-post-description</code>. This folder name will also become the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Slug">slug</a> for your published post.</p></li>
-<li><p><strong>Inside your new subdirectory, create an <code>index.qmd</code> file.</strong> The name here is important! It <em>must</em> be called <code>index.qmd</code>. Your file path should look something like this: <code>mywebsite/posts/2022-10-24-my-blog-post/index.qmd</code>.</p></li>
+<li><p><strong>Inside your new subdirectory, create an <code>index.qmd</code> file.</strong> The name here is important! It <em>must</em> be called <code>index.qmd</code>. Your file path should look something like this: <code>mywebsite/posts/2022-10-24-my-blog-post/index.qmd</code>. This file is your blog post. Write all your content here!</p></li>
 <li><p><strong>Configure your blog post:</strong> You can add a variety of different options to the YAML section of <code>index.qmd</code>. Here are my go-to options:</p></li>
 </ol>
 <div class="cell">
@@ -403,9 +424,10 @@ When you’ve written the same code 3 times, write a function<br><br>When you’
 <ul>
 <li><p>You should include a <em>title</em>, but don’t necessarily need a <em>description</em> (although I think they’re nice to have!). Both of these fields will appear on your listing page.</p></li>
 <li><p>You can include more than one <em>author</em> – see <a href="https://samanthacsik.github.io/posts/2022-06-22-hello_quarto/">this post</a> and <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-06-22-hello_quarto/index.qmd">source code</a> as an example.</p></li>
-<li><p>You may includes as many self-defined <em>categories</em> as you’d like. Make sure that your spelling/capitalization/punctuation is consistent across blog posts should you apply the same categories to multiple posts.</p></li>
+<li><p>You may include as many self-defined <em>categories</em> as you’d like. Make sure that your spelling/capitalization/punctuation is consistent across blog posts should you apply the same categories to multiple posts.</p></li>
 <li><p>Adding the <em>citation</em> option automatically generates both a <a href="https://en.wikipedia.org/wiki/BibTeX">BibTeX citation</a> and reference for your blog post, and adds them to the bottom of your post.</p></li>
 <li><p>Include an image (or gif) to add as a <em>preview image</em>, which will appear on your listing page alongside your post. Your image should live inside your post’s subdirectory (e.g.&nbsp;<code>mywebsite/posts/2022-10-24-my-blog-post/preview-image.png</code>).</p></li>
+<li><p>Set <code>draft: true</code> while you’re still working on your blog post to prevent it from showing up on your listing page, site map, or site search. When you’re ready to publish, just remove <code>draft: true</code> from your YAML (or set to <code>false</code>) then render your post.</p></li>
 </ul>
 <div class="cell column-page quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
@@ -438,30 +460,149 @@ When you’ve written the same code 3 times, write a function<br><br>When you’
 </div>
 </div>
 </section>
-<section id="v.-making-your-posts-look-pretty" class="level2">
-<h2 class="anchored" data-anchor-id="v.-making-your-posts-look-pretty">V. Making your posts look pretty</h2>
-<ul>
-<li>on this page (generated from level 1/2/3 headers)</li>
-<li>footnotes</li>
-<li>citations (use visual editor)</li>
-<li>same Quarto features apply – photos/text in margins, embeddign code + outputs, etc.</li>
-</ul>
+<section id="v.-some-additional-authoring-features-to-explore" class="level2">
+<h2 class="anchored" data-anchor-id="v.-some-additional-authoring-features-to-explore">V. Some additional authoring features to explore</h2>
+<p>Blog posts are just Quarto documents, meaning you can combine prose, code, and embedded outputs all in one place, just like you would in any other <code>.qmd</code> file (which makes your blog the <em>perfect</em> place to create data science/programming tutorials both for yourself and others <svg aria-label="Winking Face" role="img" viewbox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Winking Face</title><path d="M0 256c0 137 111 248 248 248s248-111 248-248S385 8 248 8 0 119 0 256zm200-48c0 17.7-14.3 32-32 32s-32-14.3-32-32 14.3-32 32-32 32 14.3 32 32zm158.5 16.5c-14.8-13.2-46.2-13.2-61 0L288 233c-8.3 7.4-21.6.4-19.8-10.8 4-25.2 34.2-42.1 59.9-42.1S384 197 388 222.2c1.7 11.1-11.4 18.3-19.8 10.8l-9.7-8.5zM157.8 325.8C180.2 352.7 213 368 248 368s67.8-15.4 90.2-42.2c13.6-16.2 38.1 4.2 24.6 20.5C334.3 380.4 292.5 400 248 400s-86.3-19.6-114.8-53.8c-13.5-16.3 11.2-36.7 24.6-20.4z"></path></svg>). If you’re looking for additional ways to enhance your posts, read on below:</p>
+<section id="adding-footnotes" class="level4">
+<h4 class="anchored" data-anchor-id="adding-footnotes">Adding footnotes</h4>
+<p>There are multiple ways to include footnotes throughout your blog posts:</p>
+<ol type="1">
+<li>Use the <code>[^#]</code> syntax to denote where you would like a note to be inserted. Write your note somewhere below following the <code>[^#]: your note here</code> syntax. For example:</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>I am going to insert a footnote here<span class="ot">[^1]</span>.</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ot">[^1]: </span>Here is the associated footnote, which will appear at the bottom of my document in a "Footnotes" section.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol start="2" type="1">
+<li>Alternatively, you can write your notes inline to avoid having to use identifiers (e.g.&nbsp;<code>[^#]</code>). For example:</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>I am going to insert an inline footnote here^<span class="co">[</span><span class="ot">Here is my inline footnote</span><span class="co">]</span>.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol start="3" type="1">
+<li>You can also add footnotes that include multiple paragraphs. See the <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd">source code</a> for this blog post and take a peek at footnote #2 for an example on how to do so (or check out the <a href="https://quarto.org/docs/authoring/footnotes-and-citations.html#footnotes">Quarto documentation</a>).</li>
+</ol>
+<p>All footnotes will appear in a “Footnotes” section that is automatically generated for you.</p>
 </section>
-<section id="vi.-blogs-to-follow-one-post-from-each-that-ive-particularly-enjoyed" class="level2">
-<h2 class="anchored" data-anchor-id="vi.-blogs-to-follow-one-post-from-each-that-ive-particularly-enjoyed">VI. Blogs to follow (+ one post from each that I’ve particularly enjoyed)</h2>
+<section id="creating-a-bibliography-and-adding-citations" class="level4">
+<h4 class="anchored" data-anchor-id="creating-a-bibliography-and-adding-citations">Creating a bibliography and adding citations</h4>
+<p>Quarto supports the use of bibliography files for citing works throughout your blog post. There are a number of ways to do this, but so far, I’ve found creating a BibLaTex database to be relatively straightforward. This database takes the form of a plain-text <code>.bib</code> file where we can store all of our bibliographic information. That information needs to be encoded in a particular way (more on that below). Follow these steps to cite works in your blog posts:</p>
+<ol type="1">
+<li><p>First, create a <code>.bib</code> file in the folder containing your blog post (e.g.&nbsp;<code>mywebsite/posts/2022-10-24-my-blog-post/references.bib</code>) using the <code>touch</code> command in your RStudio Terminal. I called mine <code>references.bib</code>, but the name is up to you.</p></li>
+<li><p>To use your <code>references.bib</code> file, you’ll need to add the <code>bibliography</code> option to your blog post’s YAML:</p></li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="sc">---</span></span>
+<span id="cb7-2"><a href="#cb7-2"></a>title<span class="sc">:</span> <span class="st">"blog post title"</span></span>
+<span id="cb7-3"><a href="#cb7-3"></a><span class="co"># ~ additional YAML options omitted for brevity ~</span></span>
+<span id="cb7-4"><a href="#cb7-4"></a>bibliography<span class="sc">:</span> references.bib</span>
+<span id="cb7-5"><a href="#cb7-5"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol start="3" type="1">
+<li>Next, we’ll want to add some references. These take a particular format that generally looks like this (the number/types of fields included may vary):</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>type{key,</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  author <span class="ot">=</span> {LastName, FirstName},</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  title <span class="ot">=</span> {Title of work},</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  date <span class="ot">=</span> {YYYY}</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  url <span class="ot">=</span> {https<span class="sc">:</span><span class="er">//</span>url.com},</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  langid <span class="ot">=</span> {en}</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>where <code>type</code> can be <code>manual</code>, <code>book</code>, <code>article</code>, <code>misc</code>, etc. (all case-insensitive) and <code>key</code> is the citation identifier used for inserting in-text citations (we’ll get there soon).</p>
+<ul>
+<li>There may be instances where you want to cite a resource that already has a BibTex citation available for you to copy over to your <code>references.bib</code> file (e.g.&nbsp;this blog post). For most resources, however, you’ll need to construct your own. You can do this manually, or with the help of a BibTeX reference generator (Googling will yield plenty of options, but <a href="https://zbib.org/">zoterobib</a> is a great place to start. Note that you may have to make some manual adjustments). Check out my <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/references.bib"><code>references.bib</code> file</a> for this post as an example.</li>
+</ul>
+<ol start="4" type="1">
+<li>Now that you have BibTex references in your <code>.bib</code> file, you can start adding in-text citations. These generally take the form <code>[@key]</code> (but read more about Quarto citation syntax <a href="https://quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations">here</a>). When you add an in-text citation, Quarto will automatically add the reference to the bottom of your blog post under the “References” section.</li>
+</ol>
+<ul>
+<li>To give one final concrete example, let’s say I want to cite my first (ever) blog post from last year. I can copy the BibTeX citation from the bottom of the post and paste it into my <code>references.bib</code> file:</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>online{csik2021,</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  author <span class="ot">=</span> {Samantha Csik},</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  title <span class="ot">=</span> {Why Create Presentation Slides about Blogging When You Can</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    Just Blog about It Instead?},</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  date <span class="ot">=</span> {<span class="dv">2021-09-24</span>},</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  url <span class="ot">=</span> {https<span class="sc">:</span><span class="er">//</span>samanthacsik.github.io<span class="sc">/</span>posts<span class="sc">/</span><span class="dv">2021-09-21</span><span class="sc">-</span>distill<span class="sc">-</span>blogs<span class="sc">/</span>},</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  langid <span class="ot">=</span> {en}</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li>I can now add an in-text citation using the <code>[@csik2021]</code> syntax here <svg aria-label="arrow-right" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>arrow-right</title><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg> <span class="citation" data-cites="csik2021">(<a href="#ref-csik2021" role="doc-biblioref">Csik 2021</a>)</span>. Once cited, it will appear in my References section at the bottom of this post.</li>
+</ul>
+<p>That wasn’t so bad, right?? What if I told you there was an even <em>easier</em> way to add citations….Start by popping over to RStudio’s Visual editor, if you’re not already there (you should see buttons for working in either the <strong>Source</strong> or <strong>Visual</strong> editor in the top left corner of your source pane), and follow the steps below:</p>
+<ol type="1">
+<li><p>Place your cursor where you’d like to insert a citation, then from the <strong>Insert</strong> drop down menu, select <strong>Citation</strong>.</p></li>
+<li><p>A new window will pop open with a number of different options for inserting citations. If you’ve already created a <code>references.bib</code> file, it will appear under the <strong>My Sources</strong> and <strong>Bibliography</strong> sections. You can choose any of your existing references to insert an in-text citation from <em>or</em> choose another option, like inserting a citation based on a DOI (!!! I can’t tell you how awesome I think this is !!!). Once you add an in-text citation based on a DOI, the BibTeX reference will automatically be added to your <code>references.bib</code> file, as well as to your references list at the bottom of your post. If you don’t yet have a <code>references.bib</code> file, one will automatically be generated for you. LIKE SERIOUSLY?? SO FREAKIN COOL.</p></li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/citations.png" class="img-fluid figure-img" width="574"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Okay, back to being chill…</p>
+</section>
+<section id="article-layout" class="level4">
+<h4 class="anchored" data-anchor-id="article-layout">Article layout</h4>
+<p>Quarto also supports a number of different <a href="https://quarto.org/docs/authoring/article-layout.html">page layout options</a> to further customize the appearance of your posts. Explore different ways to position elements on your page, including embedding outputs, captions, references in your <a href="https://quarto.org/docs/authoring/article-layout.html#margin-content">page margin</a> (one of my personal faves…despite the fact that I don’t have any here in this post).</p>
+</section>
+</section>
+<section id="vi.-a-note-on-adding-an-additional-blog-or-more-to-your-site" class="level2">
+<h2 class="anchored" data-anchor-id="vi.-a-note-on-adding-an-additional-blog-or-more-to-your-site">VI. A note on adding an additional blog (or more) to your site</h2>
+<p>You aren’t limited to just one blog/listing page! Repeat <a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/#iii.-adding-a-blog-to-your-personal-quarto-website">Part III</a> to add a second listing page + content to your website. My personal website contains two blogs – one called <a href="https://samanthacsik.github.io/posts.html">posts</a> and another called <a href="https://samanthacsik.github.io/talks_workshops.html">talks &amp; workshops</a>. Explore the <a href="https://github.com/samanthacsik/samanthacsik.github.io">GitHub repo</a> to take a peek at the file structure and source code.</p>
+</section>
+<section id="vii.-blogs-to-follow-one-post-from-each-that-ive-particularly-enjoyed" class="level2">
+<h2 class="anchored" data-anchor-id="vii.-blogs-to-follow-one-post-from-each-that-ive-particularly-enjoyed">VII. Blogs to follow (+ one post from each that I’ve particularly enjoyed)</h2>
 <p>There are <em>tons</em> of awesome data science bloggers out there, and (at the cost of sounding like a broken record) Twitter is a great place to find them. Here are just a few I’ve been reading and enjoying as of late, but get out there and start exploring others for yourself!</p>
+<p><em>Also note: I’ve added citations for each of these blog posts. Check out the <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd">source code</a> if you’re looking for additional examples on how to do it.</em></p>
 <ul>
-<li><p><a href="https://www.pipinghotdata.com/blog.html">Piping Hot Data</a>, by Shannon Pileggi – find her on <svg aria-label="Twitter" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Twitter</title><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> <a href="https://twitter.com/PipingHotData"><span class="citation" data-cites="PipingHotData">@PipingHotData</span></a> and check out her post, <a href="https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/">Curating for <span class="citation" data-cites="WeAreRLadies">@WeAreRLadies</span> on Twitter</a></p></li>
-<li><p><a href="https://meghan.rbind.io/blog/">Meghan Hall’s Blog</a> – find her on <svg aria-label="Twitter" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Twitter</title><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> <a href="https://twitter.com/MeghanMHall"><span class="citation" data-cites="MeghanMHall">@MeghanMHall</span></a> and check out her post, <a href="https://meghan.rbind.io/blog/plot-robustness/">Increasing the Flexibility and Robustness of Plots in ggplot2</a></p></li>
-<li><p><a href="https://cosimameyer.com/#post">Cosima Meyer’s Blog</a> – find her on <svg aria-label="Twitter" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Twitter</title><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> <a href="https://twitter.com/cosima_meyer"><span class="citation" data-cites="cosima_meyer">@cosima_meyer</span></a> and check out her post, <a href="https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/">Understanding the Basics of Package Writing in R</a></p></li>
-<li><p><a href="https://blog.djnavarro.net/">Notes from a Data Witch</a> by Danielle Navarro – find her on <svg aria-label="Twitter" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Twitter</title><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> <a href="https://twitter.com/djnavarro"><span class="citation" data-cites="djnavarro">@djnavarro</span></a> and check out her post, <a href="https://blog.djnavarro.net/posts/2021-11-19_starting-apache-arrow-in-r/">Getting started with Apache Arrow</a></p></li>
+<li><p><a href="https://www.pipinghotdata.com/blog.html">Piping Hot Data</a>, by Shannon Pileggi – find her on <svg aria-label="Twitter" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Twitter</title><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> <a href="https://twitter.com/PipingHotData"><code>@PipingHotData</code></a> and check out her post, <a href="https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/">Curating for <code>@WeAreRLadies</code> on Twitter</a> <span class="citation" data-cites="pileggi2021curating">(<a href="#ref-pileggi2021curating" role="doc-biblioref">2021</a>)</span></p></li>
+<li><p><a href="https://meghan.rbind.io/blog/">Meghan Hall’s Blog</a> – find her on <svg aria-label="Twitter" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Twitter</title><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> <a href="https://twitter.com/MeghanMHall"><code>@MeghanMHall</code></a> and check out her post, <a href="https://meghan.rbind.io/blog/plot-robustness/">Increasing the Flexibility and Robustness of Plots in ggplot2</a> <span class="citation" data-cites="hall2022">(<a href="#ref-hall2022" role="doc-biblioref">2022</a>)</span></p></li>
+<li><p><a href="https://cosimameyer.com/#post">Cosima Meyer’s Blog</a> – find her on <svg aria-label="Twitter" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Twitter</title><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> <a href="https://twitter.com/cosima_meyer"><code>@cosima_meyer</code></a> and check out her post, <a href="https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/">Understanding the Basics of Package Writing in R</a> <span class="citation" data-cites="meyer2022">(<a href="#ref-meyer2022" role="doc-biblioref">2022</a>)</span></p></li>
+<li><p><a href="https://blog.djnavarro.net/">Notes from a Data Witch</a> by Danielle Navarro – find her on <svg aria-label="Twitter" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Twitter</title><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> <a href="https://twitter.com/djnavarro"><code>@djnavarro</code></a> and check out her post, <a href="https://blog.djnavarro.net/posts/2021-11-19_starting-apache-arrow-in-r/">Getting started with Apache Arrow</a> <span class="citation" data-cites="navarro2021">(<a href="#ref-navarro2021" role="doc-biblioref">2021</a>)</span></p></li>
+<li><p><a href="https://beamilz.com/posts/">Beatriz Milz’s Blog</a> – find her on <svg aria-label="Twitter" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Twitter</title><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> <a href="https://twitter.com/BeaMilz"><code>@BeaMilz</code></a> and check out her post, <a href="https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/">Introduction to GitHub Actions for R users</a> <span class="citation" data-cites="milz2022">(<a href="#ref-milz2022" role="doc-biblioref">2022</a>)</span></p></li>
 </ul>
+</section>
+<section id="viii.-additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="viii.-additional-resources">VIII. Additional Resources</h2>
+<ul>
+<li><p><a href="https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html">The ultimate guide to starting a Quarto blog</a>, by <a href="https://albert-rapp.de/">Albert Rapp</a> is incredibly thorough and explores even more ways to customize your blog. Check it out!</p></li>
+<li><p><a href="https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/">Creating a blog with Quarto in 10 steps</a>, by <a href="https://beamilz.com/about.html">Beatriz Milz</a> walks through the steps of setting up a new Quarto Blog project. She also details how to set up <a href="https://giscus.app/">giscus</a> to enable comments on your blog posts, which is something I’ve been eager to try myself!</p></li>
+</ul>
+
 
 
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-csik2021" class="csl-entry" role="doc-biblioentry">
+Csik, Samantha. 2021. <span>“Why Create Presentation Slides about Blogging When You Can Just Blog about It Instead?”</span> September 24, 2021. <a href="https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/">https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/</a>.
+</div>
+<div id="ref-hall2022" class="csl-entry" role="doc-biblioentry">
+Hall, Meghan. 2022. <span>“Increasing the Flexibility and Robustness of Plots in Ggplot2.”</span> <a href="https://meghan.rbind.io/blog/plot-robustness/">https://meghan.rbind.io/blog/plot-robustness/</a>.
+</div>
+<div id="ref-meyer2022" class="csl-entry" role="doc-biblioentry">
+Meyer, Cosima. 2022. <span>“Understanding the Basics of Package Writing in R.”</span> <a href="https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/">https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/</a>.
+</div>
+<div id="ref-milz2022" class="csl-entry" role="doc-biblioentry">
+Milz, Beatriz. 2022. <span>“Introcution to GitHub Actions to R Users.”</span> June 30, 2022. <a href="https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/">https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/</a>.
+</div>
+<div id="ref-navarro2021" class="csl-entry" role="doc-biblioentry">
+Navarro, Danielle. 2021. <span>“Getting Started with <span>Apache</span> <span>Arrow</span>.”</span> November 19, 2021. <a href="https://blog.djnavarro.net/starting-apache-arrow-in-r">https://blog.djnavarro.net/starting-apache-arrow-in-r</a>.
+</div>
+<div id="ref-pileggi2021curating" class="csl-entry" role="doc-biblioentry">
+Pileggi, Shannon. 2021. <span>“PIPING HOT DATA: Curating for @WeAreRLadies on Twitter.”</span> <a href="https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/">https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/</a>.
+</div>
+</div></section><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1" role="doc-endnote"><p>Okay, you don’t <em>just</em> have to trust me. Lots of data scientists advocate for blogging as an important skill and communication tool. Check out this <a href="http://varianceexplained.org/r/start-blog/">blog post</a> by <a href="https://twitter.com/drob">David Robinson</a> to start.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
