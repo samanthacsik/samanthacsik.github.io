@@ -33,7 +33,7 @@ About a year ago, I wrote my first ever blog post \~ about blogging \~ and tbh I
 - learn something new and/or solidify your understanding
 
 - combat imposter syndrome    
-    - *"Once you've shared some analyses and code, you'll probably find that you were underrating yourself in some areas."* also [`@drob`](https://twitter.com/drob) in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
+    - *"Once you've shared some analyses and code, you'll probably find that you were underrating yourself in some areas."* -also [`@drob`](https://twitter.com/drob) in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
 
 Rather than repeat more content here, take a peek at my [first post](https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/), which touches more reasons why you should blog and provides some ideas on how to structure your blog posts. Before jumping into things, I'll leave you with one last piece of advice from [`@drob`](https://twitter.com/drob):
 
