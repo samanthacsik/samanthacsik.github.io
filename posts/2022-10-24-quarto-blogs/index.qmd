@@ -225,7 +225,7 @@ If things aren't working as expected, double check your repository structure -- 
 #| eval: true
 #| echo: false
 #| fig-align: center
-knitr::include_graphics("media/repo.png")
+knitr::include_graphics("media/repo-structure.png")
 ```
 
 ## V. Some additional authoring features to explore
