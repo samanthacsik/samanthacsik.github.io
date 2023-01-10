@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -56,7 +61,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -69,7 +74,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -163,41 +168,49 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
-    <img src="../../images/logos/nunito/creamBG_greenText/logo_nunito_cropped.png" alt="">
-  </a>
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logos/nunito/creamBG_greenText/logo_nunito_cropped.png" alt="The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon." class="navbar-logo">
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">home</a>
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">about</a>
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks_workshops.html">talks &amp; workshops</a>
+    <a class="nav-link" href="../../talks_workshops.html">
+ <span class="menu-text">talks &amp; workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html">posts</a>
+    <a class="nav-link" href="../../posts.html">
+ <span class="menu-text">posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html">resources</a>
+    <a class="nav-link" href="../../resources.html">
+ <span class="menu-text">resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../CV/SCsik_CV.pdf">cv</a>
+    <a class="nav-link" href="../../CV/SCsik_CV.pdf">
+ <span class="menu-text">cv</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/samanthacsik/samanthacsik.github.io"><i class="bi bi-github" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/SamanthaCsik"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div class="quarto-toggle-container">
@@ -255,6 +268,7 @@ ga('send', {
         <p class="date">October 24, 2022</p>
       </div>
     </div>
+    
       
     </div>
     
@@ -263,7 +277,7 @@ ga('send', {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -618,11 +632,11 @@ Navarro, Danielle. 2021. <span>“Getting Started with <span>Apache</span> <span
 <div id="ref-pileggi2021curating" class="csl-entry" role="doc-biblioentry">
 Pileggi, Shannon. 2021. <span>“PIPING HOT DATA: Curating for @WeAreRLadies on Twitter.”</span> <a href="https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/">https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/</a>.
 </div>
-</div></section><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1" role="doc-endnote"><p>Okay, you don’t <em>just</em> have to trust me. Lots of data scientists advocate for blogging as an important skill and communication tool. Check out this <a href="http://varianceexplained.org/r/start-blog/">blog post</a> by <a href="https://twitter.com/drob">David Robinson</a> to start.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p><strong>The <code>freeze</code> option:</strong> Setting this option to <code>auto</code> will <em>only</em> re-render posts when you make updates to the source files (as opposed to re-rendering them each time you <strong>Render Website</strong> – this can save time, particularly if you have computationally-heavy content in your blog posts). If you set this option to <code>true</code>, posts will <em>never</em> be re-rendered (even if you’ve made changes to the source files). If you use this option, you’ll need to <strong>Render</strong> individual posts whenever you make changes to their source files <em>before</em> you <strong>Render Website</strong>, otherwise your updates will not appear.</p>
+<li id="fn1"><p>Okay, you don’t <em>just</em> have to trust me. Lots of data scientists advocate for blogging as an important skill and communication tool. Check out this <a href="http://varianceexplained.org/r/start-blog/">blog post</a> by <a href="https://twitter.com/drob">David Robinson</a> to start.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><strong>The <code>freeze</code> option:</strong> Setting this option to <code>auto</code> will <em>only</em> re-render posts when you make updates to the source files (as opposed to re-rendering them each time you <strong>Render Website</strong> – this can save time, particularly if you have computationally-heavy content in your blog posts). If you set this option to <code>true</code>, posts will <em>never</em> be re-rendered (even if you’ve made changes to the source files). If you use this option, you’ll need to <strong>Render</strong> individual posts whenever you make changes to their source files <em>before</em> you <strong>Render Website</strong>, otherwise your updates will not appear.</p>
 <p>The <code>title-block-banner</code> option: Setting this option to <code>true</code> will enable a <a href="https://quarto.org/docs/authoring/title-blocks.html#title-banners">banner style title block</a> (where the title, subtitle, description, and categories are all positioned inside the banner) for all posts.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{csik2022,
@@ -677,7 +691,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -705,31 +736,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

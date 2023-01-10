@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -56,7 +61,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -69,7 +74,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -163,41 +168,49 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
-    <img src="../../images/logos/nunito/creamBG_greenText/logo_nunito_cropped.png" alt="">
-  </a>
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logos/nunito/creamBG_greenText/logo_nunito_cropped.png" alt="The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon." class="navbar-logo">
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">home</a>
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">about</a>
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks_workshops.html">talks &amp; workshops</a>
+    <a class="nav-link" href="../../talks_workshops.html">
+ <span class="menu-text">talks &amp; workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html">posts</a>
+    <a class="nav-link" href="../../posts.html">
+ <span class="menu-text">posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html">resources</a>
+    <a class="nav-link" href="../../resources.html">
+ <span class="menu-text">resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../CV/SCsik_CV.pdf">cv</a>
+    <a class="nav-link" href="../../CV/SCsik_CV.pdf">
+ <span class="menu-text">cv</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/samanthacsik/samanthacsik.github.io"><i class="bi bi-github" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/SamanthaCsik"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div class="quarto-toggle-container">
@@ -255,6 +268,7 @@ ga('send', {
         <p class="date">September 24, 2021</p>
       </div>
     </div>
+    
       
     </div>
     
@@ -263,7 +277,7 @@ ga('send', {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -566,7 +580,7 @@ Horst, Allison. 2021. <span>“Customizing <span class="nocase">tables</span> <s
 Kaye, Ella. 2020. <span>“ELLA KAYE: Advent of Code 2020.”</span> <a href="https://ellakaye.rbind.io/posts/2020-12-09-advent-of-code-2020/">https://ellakaye.rbind.io/posts/2020-12-09-advent-of-code-2020/</a>.
 </div>
 <div id="ref-kerlogue2020automating" class="csl-entry" role="doc-biblioentry">
-Kerlogue, Matt. 2020a. <span>“The Lapsed Geographer: Automating the Covid19 PDF Scraping.”</span> <a href="https://lapsedgeographer.london/2020-04/automating-pdf-scraping/">https://lapsedgeographer.london/2020-04/automating-pdf-scraping/</a>.
+Kerlogue, Matt. 2020a. <span>“The Lapsed Geographer: Automating the COVID19 PDF Scraping.”</span> <a href="https://lapsedgeographer.london/2020-04/automating-pdf-scraping/">https://lapsedgeographer.london/2020-04/automating-pdf-scraping/</a>.
 </div>
 <div id="ref-kerlogue2020scraping" class="csl-entry" role="doc-biblioentry">
 ———. 2020b. <span>“The Lapsed Geographer: Scraping Google’s COVID-19 Mobility Report PDFs.”</span> <a href="https://lapsedgeographer.london/2020-04/covid19-scraping/">https://lapsedgeographer.london/2020-04/covid19-scraping/</a>.
@@ -580,12 +594,12 @@ Xie, Yihui. 2021. <span>“Bookdown: Authoring Books and Technical Documents wit
 <div id="ref-cookbook" class="csl-entry" role="doc-biblioentry">
 Xie, Yihui, Christophe Dervieux, and Emily Riederer. 2021. <span>“<span>R</span> Markdown Cookbook, Section 4.5 Bibliographies and Citations.”</span> <a href="https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html">https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html</a>.
 </div>
-</div></section><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1" role="doc-endnote"><p>This is sometimes referred to as the Protégé Effect or the Feynman Learning Technique. You can learn a bit more from <span class="citation" data-cites="Nestojko2014protege">(<a href="#ref-Nestojko2014protege" role="doc-biblioref">Nestojko et al. 2014</a>)</span> and <span class="citation" data-cites="Ambio2020Feynman">(<a href="#ref-Ambio2020Feynman" role="doc-biblioref">Ambion et al. 2020</a>)</span><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>I might also add that having to look up something 3x <em>for yourself</em> might be a good reason to blog about it. Read David Robinson’s full post about starting a data science blog <a href="http://varianceexplained.org/r/start-blog/">here</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3" role="doc-endnote"><p>Many of the following blogs can be found on the <a href="https://distillery.rbind.io/">distillery</a>, a blog about building distill websites and blogs. Check it out!<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>This is sometimes referred to as the Protégé Effect or the Feynman Learning Technique. You can learn a bit more from <span class="citation" data-cites="Nestojko2014protege">(<a href="#ref-Nestojko2014protege" role="doc-biblioref">Nestojko et al. 2014</a>)</span> and <span class="citation" data-cites="Ambio2020Feynman">(<a href="#ref-Ambio2020Feynman" role="doc-biblioref">Ambion et al. 2020</a>)</span><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>I might also add that having to look up something 3x <em>for yourself</em> might be a good reason to blog about it. Read David Robinson’s full post about starting a data science blog <a href="http://varianceexplained.org/r/start-blog/">here</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Many of the following blogs can be found on the <a href="https://distillery.rbind.io/">distillery</a>, a blog about building distill websites and blogs. Check it out!<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{csik2021,
   author = {Samantha Csik},
@@ -641,7 +655,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -669,31 +700,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

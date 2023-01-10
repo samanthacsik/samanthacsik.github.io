@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -78,41 +83,49 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
-    <img src="./images/logos/nunito/creamBG_greenText/logo_nunito_cropped.png" alt="">
-  </a>
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logos/nunito/creamBG_greenText/logo_nunito_cropped.png" alt="The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon." class="navbar-logo">
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">home</a>
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page">about</a>
+    <a class="nav-link active" href="./about.html" aria-current="page">
+ <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks_workshops.html">talks &amp; workshops</a>
+    <a class="nav-link" href="./talks_workshops.html">
+ <span class="menu-text">talks &amp; workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html">posts</a>
+    <a class="nav-link" href="./posts.html">
+ <span class="menu-text">posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html">resources</a>
+    <a class="nav-link" href="./resources.html">
+ <span class="menu-text">resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV/SCsik_CV.pdf">cv</a>
+    <a class="nav-link" href="./CV/SCsik_CV.pdf">
+ <span class="menu-text">cv</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/samanthacsik/samanthacsik.github.io"><i class="bi bi-github" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/SamanthaCsik"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div class="quarto-toggle-container">
@@ -132,12 +145,12 @@ ga('send', {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-hobby" id="toc-the-hobby" class="nav-link active" data-scroll-target="#the-hobby"><svg aria-label="Hiking" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Hiking</title><path d="M80.95 472.23c-4.28 17.16 6.14 34.53 23.28 38.81 2.61.66 5.22.95 7.8.95 14.33 0 27.37-9.7 31.02-24.23l25.24-100.97-52.78-52.78-34.56 138.22zm14.89-196.12L137 117c2.19-8.42-3.14-16.95-11.92-19.06-43.88-10.52-88.35 15.07-99.32 57.17L.49 253.24c-2.19 8.42 3.14 16.95 11.92 19.06l63.56 15.25c8.79 2.1 17.68-3.02 19.87-11.44zM368 160h-16c-8.84 0-16 7.16-16 16v16h-34.75l-46.78-46.78C243.38 134.11 228.61 128 212.91 128c-27.02 0-50.47 18.3-57.03 44.52l-26.92 107.72a32.012 32.012 0 0 0 8.42 30.39L224 397.25V480c0 17.67 14.33 32 32 32s32-14.33 32-32v-82.75c0-17.09-6.66-33.16-18.75-45.25l-46.82-46.82c.15-.5.49-.89.62-1.41l19.89-79.57 22.43 22.43c6 6 14.14 9.38 22.62 9.38h48v240c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16V176c.01-8.84-7.15-16-15.99-16zM240 96c26.51 0 48-21.49 48-48S266.51 0 240 0s-48 21.49-48 48 21.49 48 48 48z"></path></svg> the hobby</a></li>
-  <li><a href="#the-logo" id="toc-the-logo" class="nav-link" data-scroll-target="#the-logo"><svg aria-label="Egg" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Egg</title><path d="M192 0C86 0 0 214 0 320s86 192 192 192 192-86 192-192S298 0 192 0z"></path></svg> the logo</a></li>
+  <li><a href="#the-hobby" id="toc-the-hobby" class="nav-link active" data-scroll-target="#the-hobby"><svg aria-label="Person hiking" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Person hiking</title><path d="M288 48c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48zM243.3 230.7L224.2 307l49.7 49.7c9 9 14.1 21.2 14.1 33.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V397.3l-73.9-73.9c-15.8-15.8-22.2-38.6-16.9-60.3l20.4-84c8.3-34.1 42.7-54.9 76.7-46.4c19 4.8 35.6 16.4 46.4 32.7L305.1 208H336V184c0-13.3 10.7-24 24-24s24 10.7 24 24v55.8c0 .1 0 .2 0 .2s0 .2 0 .2V488c0 13.3-10.7 24-24 24s-24-10.7-24-24V272H296.6c-16 0-31-8-39.9-21.4l-13.3-20zM81.1 471.9L117.3 334c3 4.2 6.4 8.2 10.1 11.9l41.9 41.9L142.9 488.1c-4.5 17.1-22 27.3-39.1 22.8s-27.3-22-22.8-39.1zm55.5-346L101.4 266.5c-3 12.1-14.9 19.9-27.2 17.9l-47.9-8c-14-2.3-22.9-16.3-19.2-30L31.9 155c9.5-34.8 41.1-59 77.2-59h4.2c15.6 0 27.1 14.7 23.3 29.8z"></path></svg> the hobby</a></li>
+  <li><a href="#the-logo" id="toc-the-logo" class="nav-link" data-scroll-target="#the-logo"><svg aria-label="Egg" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Egg</title><path d="M192 496C86 496 0 410 0 304C0 192 96 16 192 16s192 176 192 288c0 106-86 192-192 192zM156.5 138l0 0 0 0 0 0c5.5-6.9 4.4-17-2.5-22.5s-17-4.4-22.5 2.5L144 128c-12.5-10-12.5-10-12.5-10l0 0 0 0-.1 .1-.2 .2-.6 .8c-.5 .7-1.3 1.7-2.2 3c-1.9 2.6-4.5 6.3-7.7 11c-6.3 9.4-14.6 23-23 39.7C81.1 206.1 64 252.6 64 304c0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.6 14.9-86.1 30.3-116.8c7.6-15.3 15.3-27.7 21-36.3c2.8-4.3 5.2-7.6 6.8-9.8c.8-1.1 1.4-1.9 1.8-2.4l.4-.6 .1-.1 0 0z"></path></svg> the logo</a></li>
   </ul>
 </nav>
     </div>
@@ -155,6 +168,7 @@ ga('send', {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -162,7 +176,7 @@ ga('send', {
 </header>
 
 <section id="the-hobby" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="the-hobby"><svg aria-label="Hiking" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Hiking</title><path d="M80.95 472.23c-4.28 17.16 6.14 34.53 23.28 38.81 2.61.66 5.22.95 7.8.95 14.33 0 27.37-9.7 31.02-24.23l25.24-100.97-52.78-52.78-34.56 138.22zm14.89-196.12L137 117c2.19-8.42-3.14-16.95-11.92-19.06-43.88-10.52-88.35 15.07-99.32 57.17L.49 253.24c-2.19 8.42 3.14 16.95 11.92 19.06l63.56 15.25c8.79 2.1 17.68-3.02 19.87-11.44zM368 160h-16c-8.84 0-16 7.16-16 16v16h-34.75l-46.78-46.78C243.38 134.11 228.61 128 212.91 128c-27.02 0-50.47 18.3-57.03 44.52l-26.92 107.72a32.012 32.012 0 0 0 8.42 30.39L224 397.25V480c0 17.67 14.33 32 32 32s32-14.33 32-32v-82.75c0-17.09-6.66-33.16-18.75-45.25l-46.82-46.82c.15-.5.49-.89.62-1.41l19.89-79.57 22.43 22.43c6 6 14.14 9.38 22.62 9.38h48v240c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16V176c.01-8.84-7.15-16-15.99-16zM240 96c26.51 0 48-21.49 48-48S266.51 0 240 0s-48 21.49-48 48 21.49 48 48 48z"></path></svg> the hobby</h2>
+<h2 class="anchored" data-anchor-id="the-hobby"><svg aria-label="Person hiking" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Person hiking</title><path d="M288 48c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48zM243.3 230.7L224.2 307l49.7 49.7c9 9 14.1 21.2 14.1 33.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V397.3l-73.9-73.9c-15.8-15.8-22.2-38.6-16.9-60.3l20.4-84c8.3-34.1 42.7-54.9 76.7-46.4c19 4.8 35.6 16.4 46.4 32.7L305.1 208H336V184c0-13.3 10.7-24 24-24s24 10.7 24 24v55.8c0 .1 0 .2 0 .2s0 .2 0 .2V488c0 13.3-10.7 24-24 24s-24-10.7-24-24V272H296.6c-16 0-31-8-39.9-21.4l-13.3-20zM81.1 471.9L117.3 334c3 4.2 6.4 8.2 10.1 11.9l41.9 41.9L142.9 488.1c-4.5 17.1-22 27.3-39.1 22.8s-27.3-22-22.8-39.1zm55.5-346L101.4 266.5c-3 12.1-14.9 19.9-27.2 17.9l-47.9-8c-14-2.3-22.9-16.3-19.2-30L31.9 155c9.5-34.8 41.1-59 77.2-59h4.2c15.6 0 27.1 14.7 23.3 29.8z"></path></svg> the hobby</h2>
 <p>I feel very fortunate to be doing so many of things that I love <em>a lot</em> right now. That includes my job, but also spending lots of time outdoors. Living in Santa Barbara is a massive privilege and being here means that we have access to both the mountains and the sea, each a few minutes in either direction. It was the ocean that brought me here originally, but most of my free time is now spent on the trails.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
@@ -179,16 +193,16 @@ ga('send', {
 </div></div><p>I started recording my hikes (and eventually some other activities) on <a href="https://www.strava.com/">Strava</a> in late 2020 and finally got around to retrieving my activity data using the <a href="https://github.com/fawda123/rStrava"><code>{rStrava}</code></a> package. Below is a heatmap of all my recorded activities made using <a href="https://rstudio.github.io/leaflet/"><code>leaflet</code></a>. It’s challenging to see individual markers at my most frequented trail heads/starting points, so I’ve recently began building out my own Strava Dashboard (using <a href="https://rstudio.github.io/shinydashboard/"><code>{shinydashboard}</code></a>) to make it a bit more interactive and filterable – it’s a work in progress, but feel free to check it out <a href="https://samanthacsik.shinyapps.io/strava_dashboard/">here</a>! Huge shout out to <a href="https://www.dancullen.me/">Daniel Cullen</a> (who also happens to be a Santa Barbara resident!) for his awesome <a href="https://www.dancullen.me/articles/creating-a-heatmap-in-r-with-google-polylines">blogpost</a> that got me started with my own map.</p>
 <p>You can check out the source code on <a href="https://github.com/samanthacsik/strava-dashboard"><svg aria-label="GitHub" role="img" viewbox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>GitHub</title><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a>.</p>
 
-<center><iframe src="images/leaflet_2022-11-29.html" ,="" width="800" height="450"> </iframe></center>
+<center><iframe src="images/leaflet_2023-01-09.html" ,="" width="800" height="450"> </iframe></center>
  <span style="font-size: 90%;"><em>
 </em><center><em>
-Map last updated: November 30, 2022</em>
+Map last updated: January 9, 2023</em>
 </center>
 <p></p>
 </span></section>
 <section id="the-logo" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="the-logo"><svg aria-label="Egg" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Egg</title><path d="M192 0C86 0 0 214 0 320s86 192 192 192 192-86 192-192S298 0 192 0z"></path></svg> the logo</h2>
-<p>I’m a proud Csik (pronounced “chick” – Hungarian, for the curious), though I spent many of my younger years embarrassed when people (understandably) got it wrong (variations include “sea-sick,” “sick,” “ca-sick,” to name a few) – and many of us know how brutal little kid peers can be when there’s a funny way to mispronounce a name. At some point, I learned to embrace the weird and it became very much a part of my everyday identity. My track coaches and teammates would shout “LET’S GO CSIK” during my events at meets, I signed year books as “Sam [drawing of a chick]” and every handmade card received my “The Csik Press” identifying mark on the back. As I’ve grown older, I’ve taken more care to help colleagues, peers, and strangers learn the correct pronunciation – because if I’m being totally honest, I think my name is pretty darn cool <svg aria-label="Winking Face" role="img" viewbox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Winking Face</title><path d="M0 256c0 137 111 248 248 248s248-111 248-248S385 8 248 8 0 119 0 256zm200-48c0 17.7-14.3 32-32 32s-32-14.3-32-32 14.3-32 32-32 32 14.3 32 32zm158.5 16.5c-14.8-13.2-46.2-13.2-61 0L288 233c-8.3 7.4-21.6.4-19.8-10.8 4-25.2 34.2-42.1 59.9-42.1S384 197 388 222.2c1.7 11.1-11.4 18.3-19.8 10.8l-9.7-8.5zM157.8 325.8C180.2 352.7 213 368 248 368s67.8-15.4 90.2-42.2c13.6-16.2 38.1 4.2 24.6 20.5C334.3 380.4 292.5 400 248 400s-86.3-19.6-114.8-53.8c-13.5-16.3 11.2-36.7 24.6-20.4z"></path></svg>. So my first ever <em>real</em> logo is an homage to my earliest attempts at claiming my Csik identity. It may evolve a bit, but for now, it makes me pretty happy. Made using the (free!) <a href="https://www.adobe.com/express/create/logo">Adobe Express logo maker</a>.</p>
+<h2 class="anchored" data-anchor-id="the-logo"><svg aria-label="Egg" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Egg</title><path d="M192 496C86 496 0 410 0 304C0 192 96 16 192 16s192 176 192 288c0 106-86 192-192 192zM156.5 138l0 0 0 0 0 0c5.5-6.9 4.4-17-2.5-22.5s-17-4.4-22.5 2.5L144 128c-12.5-10-12.5-10-12.5-10l0 0 0 0-.1 .1-.2 .2-.6 .8c-.5 .7-1.3 1.7-2.2 3c-1.9 2.6-4.5 6.3-7.7 11c-6.3 9.4-14.6 23-23 39.7C81.1 206.1 64 252.6 64 304c0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.6 14.9-86.1 30.3-116.8c7.6-15.3 15.3-27.7 21-36.3c2.8-4.3 5.2-7.6 6.8-9.8c.8-1.1 1.4-1.9 1.8-2.4l.4-.6 .1-.1 0 0z"></path></svg> the logo</h2>
+<p>I’m a proud Csik (pronounced “chick” – Hungarian, for the curious), though I spent many of my younger years embarrassed when people (understandably) got it wrong (variations include “sea-sick,” “sick,” “ca-sick,” to name a few) – and many of us know how brutal little kid peers can be when there’s a funny way to mispronounce a name. At some point, I learned to embrace the weird and it became very much a part of my everyday identity. My track coaches and teammates would shout “LET’S GO CSIK” during my events at meets, I signed year books as “Sam [drawing of a chick]” and every handmade card received my “The Csik Press” identifying mark on the back. As I’ve grown older, I’ve taken more care to help colleagues, peers, and strangers learn the correct pronunciation – because if I’m being totally honest, I think my name is pretty darn cool <svg aria-label="Face Smile Wink" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Face Smile Wink</title><path d="M256 352C293.2 352 319.2 334.5 334.4 318.1C343.3 308.4 358.5 307.7 368.3 316.7C378 325.7 378.6 340.9 369.6 350.6C347.7 374.5 309.7 400 256 400C202.3 400 164.3 374.5 142.4 350.6C133.4 340.9 133.1 325.7 143.7 316.7C153.5 307.7 168.7 308.4 177.6 318.1C192.8 334.5 218.8 352 256 352zM208.4 208C208.4 225.7 194 240 176.4 240C158.7 240 144.4 225.7 144.4 208C144.4 190.3 158.7 176 176.4 176C194 176 208.4 190.3 208.4 208zM281.9 230.6C273.9 223 273.5 210.4 281 202.3C295.6 186.8 316.3 180 335.6 180C354.1 180 375.7 186.8 390.2 202.3C397.8 210.4 397.4 223 389.3 230.6C381.2 238.1 368.6 237.7 361 229.7C355.6 223.8 346.3 220 335.6 220C324.1 220 315.7 223.8 310.2 229.7C302.7 237.7 290 238.1 281.9 230.6zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"></path></svg>. So my first ever <em>real</em> logo is an homage to my earliest attempts at claiming my Csik identity. It may evolve a bit, but for now, it makes me pretty happy. Made using the (free!) <a href="https://www.adobe.com/express/create/logo">Adobe Express logo maker</a>.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="cell">
@@ -256,7 +270,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -284,31 +315,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
