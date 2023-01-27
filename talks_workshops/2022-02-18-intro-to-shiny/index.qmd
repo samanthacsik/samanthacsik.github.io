@@ -12,6 +12,7 @@ date: 2022-02-18
 slug: csik2022shiny
 categories: [MEDS, R, shiny]
 image: shiny_hex.png
+draft: true
 ---
 
 ```{r}
