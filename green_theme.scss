@@ -60,6 +60,10 @@ body {
   font-style: italic;
 }
 
+.large-text {
+  font-size: 20px;
+}
+
 .topbr {
     display: block;
     margin-top: 1em;
@@ -92,7 +96,6 @@ body {
 .button-styling:hover {
   background-color: $cream; 
 }
-
 
 // Example from Meghan Hall
 /* .btn-primary {
@@ -156,4 +159,13 @@ body {
 
 .description {
   font-size: 25px;
+}
+
+.quote-text-bg {
+  background-color: rgba(166, 164, 161, 0.4);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 8px;
+  border-radius: 15px;
 }
