@@ -128,6 +128,15 @@ body {
   font-size: 17px;
 }
 
+.quote-text-bg {
+  background-color: rgba(166, 164, 161, 0.4);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 8px;
+  border-radius: 15px;
+}
+
 /* CLASS SELECTORS (copied from inspecting site -- Quarto defined?) */
 
 .navbar-brand img { // see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
@@ -139,11 +148,11 @@ body {
     border-radius: 50px 20px 50px 20px !important;
 }
 
-.about-link-text { // button text size
+.about-link-text { // button text size (landing page)
   font-size: 18px;
 }
 
-.bi { // button icon size
+.bi { // button icon size (landing page)
   font-size: 18px;
 }
 
@@ -159,13 +168,4 @@ body {
 
 .description {
   font-size: 25px;
-}
-
-.quote-text-bg {
-  background-color: rgba(166, 164, 161, 0.4);
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 5px;
-  padding-left: 8px;
-  border-radius: 15px;
 }
