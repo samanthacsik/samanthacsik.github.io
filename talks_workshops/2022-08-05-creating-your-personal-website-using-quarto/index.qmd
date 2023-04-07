@@ -19,7 +19,7 @@ image: quarto_share.png
 ```{r}
 #| echo: false
 #| fig-alt: "One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo 'moon' in the night sky."
-#| fig-cap: "Art by [Allison Horst](https://github.com/allisonhorst/stats-illustrations): One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo 'moon' in the night sky."
+#| fig-cap: "Art by [Allison Horst](https://allisonhorst.com/): One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo 'moon' in the night sky."
 knitr::include_graphics("penguins_telescope_2.png")
 ```
 

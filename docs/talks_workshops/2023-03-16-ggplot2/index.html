@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Samantha Csik">
-<meta name="dcterms.date" content="2021-08-31">
-<meta name="description" content="a brief intro to using CSS to customize {distill} websites">
+<meta name="dcterms.date" content="2023-03-16">
+<meta name="description" content="a workshop on iteratively building ggplots">
 
-<title>Customizing Your Personal Website with CSS</title>
+<title>One workflow for building effective (and pretty) {ggplot2} data visualizations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -76,7 +76,6 @@ ga('send', {
   'anonymizeIp': true,
 });
 </script>
-<script src="../../site_libs/fitvids-2.1.1/fitvids.min.js"></script>
 
 
 </head>
@@ -148,16 +147,17 @@ ga('send', {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Customizing Your Personal Website with CSS</h1>
+      <h1 class="title">One workflow for building effective (and pretty) <code>{ggplot2}</code> data visualizations</h1>
                   <div>
         <div class="description">
-          <p>a brief intro to using CSS to customize {distill} websites</p>
+          <p>a workshop on iteratively building ggplots</p>
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">MEDS</div>
-                <div class="quarto-category">distill</div>
-                <div class="quarto-category">CSS</div>
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">ggplot2</div>
+                <div class="quarto-category">data visualization</div>
               </div>
                   </div>
   </div>
@@ -184,7 +184,7 @@ ga('send', {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">August 31, 2021</p>
+        <p class="date">March 16, 2023</p>
       </div>
     </div>
     
@@ -213,30 +213,31 @@ ga('send', {
 
 <div class="cell">
 <div class="cell-output-display">
-<div class="shareagain" style="min-width:300px;margin:1em auto;">
-<iframe src="https://ucsb-meds.github.io/customizing-websites-css/#1" width="400" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
-<script>fitvids('.shareagain', {players: 'iframe'});</script>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ahorst_ggplot2.png" class="img-fluid figure-img" alt="One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo 'moon' in the night sky." width="960"></p>
+<p></p><figcaption class="figure-caption">Art by <a href="https://allisonhorst.com/">Allison Horst</a>: A fuzzy monster in a beret and scarf, critiquing their own column graph on a canvas in front of them while other assistant monsters (also in berets) carry over boxes full of elements that can be used to customize a graph (like themes and geometric shapes). In the background is a wall with framed data visualizations. Stylized text reads ‘ggplot2: build a data masterpiece.’</figcaption><p></p>
+</figure>
 </div>
 </div>
 </div>
-<p><br></p>
 <div class="container">
 <div class="center">
-<button type="button" class="button-styling" onclick="window.location.href='https://ucsb-meds.github.io/customizing-websites-css/#1'">
-<svg aria-label="Television" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Television</title><path d="M592 0H48A48 48 0 0 0 0 48v320a48 48 0 0 0 48 48h240v32H112a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16H352v-32h240a48 48 0 0 0 48-48V48a48 48 0 0 0-48-48zm-16 352H64V64h512z"></path></svg> slides
+<button type="button" class="button-styling" onclick="window.location.href='https://ucsb-meds.github.io/ggplot2-workflow/'">
+<svg aria-label="File lines" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>File lines</title><path d="M365.3 93.38l-74.63-74.64C278.6 6.742 262.3 0 245.4 0L64-.0001c-35.35 0-64 28.65-64 64l.0065 384c0 35.34 28.65 64 64 64H320c35.2 0 64-28.8 64-64V138.6C384 121.7 377.3 105.4 365.3 93.38zM336 448c0 8.836-7.164 16-16 16H64.02c-8.838 0-16-7.164-16-16L48 64.13c0-8.836 7.164-16 16-16h160L224 128c0 17.67 14.33 32 32 32h79.1V448zM96 280C96 293.3 106.8 304 120 304h144C277.3 304 288 293.3 288 280S277.3 256 264 256h-144C106.8 256 96 266.8 96 280zM264 352h-144C106.8 352 96 362.8 96 376s10.75 24 24 24h144c13.25 0 24-10.75 24-24S277.3 352 264 352z"></path></svg> instructional documentation
 </button>
-<button type="button" class="button-styling" onclick="window.location.href='https://github.com/UCSB-MEDS/customizing-websites-css'">
+<button type="button" class="button-styling" onclick="window.location.href='https://github.com/UCSB-MEDS/ggplot2-workflow/tree/main'">
 <svg aria-label="GitHub Square" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>GitHub Square</title><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z"></path></svg> source code
 </button>
 </div>
 </div>
 <section id="overview" class="level1">
 <h1>Overview</h1>
-<p>This talk was originally developed for the <a href="https://ucsb-meds.github.io/">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
+<p>This workshop was originally developed for the <a href="https://ucsb-meds.github.io/">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
 </section>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
-<p>Our MEDS students started off the inaugural year by learning how to create their own personal websites using the <code>{distill}</code> R package. This workshop offers an intro to CSS and how to use it to further customize <code>distill</code> sites. We cover how to change the default element styling (fonts, colors, sizes), how to create custom CSS rules, and how to find inspiration from other distill websites (and their source code) on the <a href="https://distillery.rbind.io/">distillery</a>.</p>
+<p><code>{ggplot2}</code> has, in many ways, become the de facto tool for data visualization in R. And with the many extension packages available, there’s hardly a limit to what you can create. Building effective and visually-pleasing data visualizations is a skill that gets easier with practice, and following a somewhat structured workflow – at least at the start – can help you get there faster. This workshop covers one approach for doing so, though you’ll find what works best for you with time.</p>
 
 
 </section>
