@@ -69,13 +69,28 @@ body {
     margin-top: 1em;
 }
 
-.center {
+.center-text {
   text-align: center;
   left: 50%;
 }
 
-.container {
+/*.container {
   display: flex;
+}*/
+
+.container { // for centering buttons
+  height: 20px;
+  position: relative;
+}
+
+.center { // for centering buttons
+  //width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .button-styling {

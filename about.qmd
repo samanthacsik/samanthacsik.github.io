@@ -22,7 +22,7 @@ I started recording my hikes (and eventually some other activities) on [Strava](
 <!--html_preserve-->
 <center><iframe src = "images/leaflet_2023-04-07.html", width ="800", height="450"> </iframe></center>
 <!--/html_preserve-->
-<span style = 'font-size: 90%;'><em><center>Map last updated: April 7, 2023</em></center></span>
+<span style = 'font-size: 90%;'><em><center>Map last updated: May 1, 2023</em></center></span>
 
 ## {{< fa egg title="An egg" >}} the logo
 
