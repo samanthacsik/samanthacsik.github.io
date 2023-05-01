@@ -1,6 +1,7 @@
 ---
 title: "samantha csik"
 image: images/sam.jpg
+toc: false
 about: 
   template: trestles
   image-shape: rounded
@@ -29,10 +30,10 @@ about:
 ### education
 
 <div class="topbr">
-<p class="custom-subtitle">`r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` **MS in Ecology, Evolution & Marine Biology, 2020**</p>  
+<p class="custom-subtitle">{{< fa graduation-cap title="A graduation cap" >}}  **MS in Ecology, Evolution & Marine Biology, 2020**</p>  
 <p class="custom-subtitle2">University of California, Santa Barbara</p>
 
-<p class="custom-subtitle">`r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` **BS in Marine Biology, 2016**</p>  
+<p class="custom-subtitle">{{< fa graduation-cap title="A graduation cap" >}} **BS in Marine Biology, 2016**</p>  
 <p class="custom-subtitle2">Northeastern University</p>
 </div>
 
@@ -41,11 +42,11 @@ about:
 ### experience
 
 <div class="topbr">
-<p class="custom-subtitle">`r fontawesome::fa("chalkboard-teacher", fill = "#98A08D", a11y = "sem")` **Data Training Coordinator, 2021-present**</p>   
+<p class="custom-subtitle">{{< fa chalkboard-teacher title="A teacher at a chalkboard" >}} **Data Training Coordinator, 2021-present**</p>   
 <p class="custom-subtitle2">National Center for Ecological Analysis & Synthesis</p>  
 
-<p class="custom-subtitle">`r fontawesome::fa("chart-bar", fill = "#98A08D", a11y = "sem")` **Data Science Fellow, 2020-2021**</p>    
+<p class="custom-subtitle">{{< fa chart-bar title="A bar chart" >}} **Data Science Fellow, 2020-2021**</p>    
 <p class="custom-subtitle2">National Center for Ecological Analysis & Synthesis</p>
 </div>
 
-
+<!-- `r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` # stopped working 5/1/2023? -->
