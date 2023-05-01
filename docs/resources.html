@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.313">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -40,6 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,54 +90,49 @@ ga('send', {
     <img src="./images/logos/nunito/creamBG_greenText/logo_nunito_cropped.png" alt="The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon." class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks_workshops.html">
+    <a class="nav-link" href="./talks_workshops.html" rel="" target="">
  <span class="menu-text">talks &amp; workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html">
+    <a class="nav-link" href="./posts.html" rel="" target="">
  <span class="menu-text">posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resources.html" aria-current="page">
+    <a class="nav-link active" href="./resources.html" rel="" target="" aria-current="page">
  <span class="menu-text">resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV/SCsik_CV.pdf">
+    <a class="nav-link" href="./CV/SCsik_CV.pdf" rel="" target="">
  <span class="menu-text">cv</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/samanthacsik/samanthacsik.github.io"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/samanthacsik/samanthacsik.github.io" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/SamanthaCsik"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/SamanthaCsik" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div class="quarto-toggle-container">
-                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
-              </div>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -149,13 +146,13 @@ ga('send', {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#r-tools" id="toc-r-tools" class="nav-link active" data-scroll-target="#r-tools"><svg aria-label="Screwdriver wrench" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Screwdriver wrench</title><path d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM104 432c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24z"></path></svg> r tools</a></li>
-  <li><a href="#data-viz" id="toc-data-viz" class="nav-link" data-scroll-target="#data-viz"><svg aria-label="Bar Chart" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Bar Chart</title><path d="M24 32C37.25 32 48 42.75 48 56V408C48 421.3 58.75 432 72 432H488C501.3 432 512 442.7 512 456C512 469.3 501.3 480 488 480H72C32.24 480 0 447.8 0 408V56C0 42.75 10.75 32 24 32zM128 136C128 122.7 138.7 112 152 112H360C373.3 112 384 122.7 384 136C384 149.3 373.3 160 360 160H152C138.7 160 128 149.3 128 136zM296 208C309.3 208 320 218.7 320 232C320 245.3 309.3 256 296 256H152C138.7 256 128 245.3 128 232C128 218.7 138.7 208 152 208H296zM424 304C437.3 304 448 314.7 448 328C448 341.3 437.3 352 424 352H152C138.7 352 128 341.3 128 328C128 314.7 138.7 304 152 304H424z"></path></svg> data viz</a></li>
-  <li><a href="#reporting-presentations" id="toc-reporting-presentations" class="nav-link" data-scroll-target="#reporting-presentations"><svg aria-label="Desktop" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Desktop</title><path d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64H240l-10.7 32H160c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H346.7L336 416H512c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM512 64V288H64V64H512z"></path></svg> reporting &amp; presentations</a></li>
-  <li><a href="#learning-materials" id="toc-learning-materials" class="nav-link" data-scroll-target="#learning-materials"><svg aria-label="Book Open" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Book Open</title><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C87.5 32 35.1 48.6 9 59.9c-5.6 2.4-9 8-9 14V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V73.9c0-6.1-3.4-11.6-9-14C540.9 48.6 488.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"></path></svg> learning materials</a></li>
-  <li><a href="#data-science-communities" id="toc-data-science-communities" class="nav-link" data-scroll-target="#data-science-communities"><svg aria-label="Users" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Users</title><path d="M144 160c-44.2 0-80-35.8-80-80S99.8 0 144 0s80 35.8 80 80s-35.8 80-80 80zm368 0c-44.2 0-80-35.8-80-80s35.8-80 80-80s80 35.8 80 80s-35.8 80-80 80zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM416 224c0 53-43 96-96 96s-96-43-96-96s43-96 96-96s96 43 96 96zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"></path></svg> data science communities</a></li>
-  <li><a href="#web-accessibility" id="toc-web-accessibility" class="nav-link" data-scroll-target="#web-accessibility"><svg aria-label="Window Maximize" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Window Maximize</title><path d="M7.724 65.49C13.36 55.11 21.79 46.47 32 40.56C39.63 36.15 48.25 33.26 57.46 32.33C59.61 32.11 61.79 32 64 32H448C483.3 32 512 60.65 512 96V416C512 451.3 483.3 480 448 480H64C28.65 480 0 451.3 0 416V96C0 93.79 .112 91.61 .3306 89.46C1.204 80.85 3.784 72.75 7.724 65.49V65.49zM48 416C48 424.8 55.16 432 64 432H448C456.8 432 464 424.8 464 416V224H48V416z"></path></svg> web accessibility</a></li>
-  <li><a href="#misc." id="toc-misc." class="nav-link" data-scroll-target="#misc."><svg aria-label="Face Smile" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Face Smile</title><path d="M256 352C293.2 352 319.2 334.5 334.4 318.1C343.3 308.4 358.5 307.7 368.3 316.7C378 325.7 378.6 340.9 369.6 350.6C347.7 374.5 309.7 400 256 400C202.3 400 164.3 374.5 142.4 350.6C133.4 340.9 133.1 325.7 143.7 316.7C153.5 307.7 168.7 308.4 177.6 318.1C192.8 334.5 218.8 352 256 352zM208.4 208C208.4 225.7 194 240 176.4 240C158.7 240 144.4 225.7 144.4 208C144.4 190.3 158.7 176 176.4 176C194 176 208.4 190.3 208.4 208zM304.4 208C304.4 190.3 318.7 176 336.4 176C354 176 368.4 190.3 368.4 208C368.4 225.7 354 240 336.4 240C318.7 240 304.4 225.7 304.4 208zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"></path></svg> misc.</a></li>
+  <li><a href="#fa-tools-titlea-wrench-and-a-screw-driver-r-tools" id="toc-fa-tools-titlea-wrench-and-a-screw-driver-r-tools" class="nav-link active" data-scroll-target="#fa-tools-titlea-wrench-and-a-screw-driver-r-tools"><i class="fa-solid fa-tools" title="A wrench and a screw driver" aria-hidden="true"></i> r tools</a></li>
+  <li><a href="#fa-chart-bar-titlea-bar-chart-data-viz" id="toc-fa-chart-bar-titlea-bar-chart-data-viz" class="nav-link" data-scroll-target="#fa-chart-bar-titlea-bar-chart-data-viz"><i class="fa-solid fa-chart-bar" title="A bar chart" aria-hidden="true"></i> data viz</a></li>
+  <li><a href="#fa-desktop-titlea-desktop-computer-screen-reporting-presentations" id="toc-fa-desktop-titlea-desktop-computer-screen-reporting-presentations" class="nav-link" data-scroll-target="#fa-desktop-titlea-desktop-computer-screen-reporting-presentations"><i class="fa-solid fa-desktop" title="A desktop computer screen" aria-hidden="true"></i> reporting &amp; presentations</a></li>
+  <li><a href="#fa-book-open-titlean-open-book-learning-materials" id="toc-fa-book-open-titlean-open-book-learning-materials" class="nav-link" data-scroll-target="#fa-book-open-titlean-open-book-learning-materials"><i class="fa-solid fa-book-open" title="An open book" aria-hidden="true"></i> learning materials</a></li>
+  <li><a href="#fa-users-titlethree-people-data-science-communities" id="toc-fa-users-titlethree-people-data-science-communities" class="nav-link" data-scroll-target="#fa-users-titlethree-people-data-science-communities"><i class="fa-solid fa-users" title="Three people" aria-hidden="true"></i> data science communities</a></li>
+  <li><a href="#fa-universal-access-titlethe-web-accessibility-symbol-which-is-a-person-with-outstretched-arms-inside-a-circle-web-accessibility" id="toc-fa-universal-access-titlethe-web-accessibility-symbol-which-is-a-person-with-outstretched-arms-inside-a-circle-web-accessibility" class="nav-link" data-scroll-target="#fa-universal-access-titlethe-web-accessibility-symbol-which-is-a-person-with-outstretched-arms-inside-a-circle-web-accessibility"><i class="fa-solid fa-universal-access" title="The Web Accessibility symbol, which is a person with outstretched arms inside a circle" aria-hidden="true"></i> web accessibility</a></li>
+  <li><a href="#fa-smile-titlea-smiling-face-misc." id="toc-fa-smile-titlea-smiling-face-misc." class="nav-link" data-scroll-target="#fa-smile-titlea-smiling-face-misc."><i class="fa-solid fa-smile" title="A smiling face" aria-hidden="true"></i> misc.</a></li>
   </ul>
 </nav>
     </div>
@@ -181,30 +178,30 @@ ga('send', {
 </header>
 
 <p>It’s finally time for an upgraded notebook! I’ve been Slacking myself (and subsequently burying) links to resources for far too long, so my favorites will now live here.</p>
-<section id="r-tools" class="level2">
-<h2 class="anchored" data-anchor-id="r-tools"><svg aria-label="Screwdriver wrench" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Screwdriver wrench</title><path d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM104 432c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24z"></path></svg> r tools</h2>
+<section id="fa-tools-titlea-wrench-and-a-screw-driver-r-tools" class="level2">
+<h2 class="anchored" data-anchor-id="fa-tools-titlea-wrench-and-a-screw-driver-r-tools"><i class="fa-solid fa-tools" title="A wrench and a screw driver" aria-hidden="true"></i> r tools</h2>
 <ul>
 <li><a href="https://fontawesome.com/v5/search?m=free">free icons from fontawesome</a> + the <a href="https://github.com/rstudio/fontawesome"><code>{fontawesome}</code></a> R package for infusing your slides, website, RMarkdowns/Quarto Markdowns, and more with an extra splash of fun</li>
 </ul>
 </section>
-<section id="data-viz" class="level2">
-<h2 class="anchored" data-anchor-id="data-viz"><svg aria-label="Bar Chart" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Bar Chart</title><path d="M24 32C37.25 32 48 42.75 48 56V408C48 421.3 58.75 432 72 432H488C501.3 432 512 442.7 512 456C512 469.3 501.3 480 488 480H72C32.24 480 0 447.8 0 408V56C0 42.75 10.75 32 24 32zM128 136C128 122.7 138.7 112 152 112H360C373.3 112 384 122.7 384 136C384 149.3 373.3 160 360 160H152C138.7 160 128 149.3 128 136zM296 208C309.3 208 320 218.7 320 232C320 245.3 309.3 256 296 256H152C138.7 256 128 245.3 128 232C128 218.7 138.7 208 152 208H296zM424 304C437.3 304 448 314.7 448 328C448 341.3 437.3 352 424 352H152C138.7 352 128 341.3 128 328C128 314.7 138.7 304 152 304H424z"></path></svg> data viz</h2>
+<section id="fa-chart-bar-titlea-bar-chart-data-viz" class="level2">
+<h2 class="anchored" data-anchor-id="fa-chart-bar-titlea-bar-chart-data-viz"><i class="fa-solid fa-chart-bar" title="A bar chart" aria-hidden="true"></i> data viz</h2>
 <ul>
 <li><p><a href="https://www.data-to-viz.com/">from Data to Viz</a>, a choose-your-adventure-type experience for creating your best data visualizations</p></li>
 <li><p><a href="https://www.sessions.edu/color-calculator/">The Sessions College Color Calculator</a>, for creating color palettes</p></li>
 <li><p><a href="https://www.cararthompson.com/talks/rl-cambridge-beautifully-annotated/">Beautifully Annotated: Enhancing your ggplots with Text</a>, by <a href="https://www.cararthompson.com/about.html">Cara Thompson</a>, a seriously wonderful talk on using annotations in your ggplots</p></li>
 </ul>
 </section>
-<section id="reporting-presentations" class="level2">
-<h2 class="anchored" data-anchor-id="reporting-presentations"><svg aria-label="Desktop" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Desktop</title><path d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64H240l-10.7 32H160c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H346.7L336 416H512c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM512 64V288H64V64H512z"></path></svg> reporting &amp; presentations</h2>
+<section id="fa-desktop-titlea-desktop-computer-screen-reporting-presentations" class="level2">
+<h2 class="anchored" data-anchor-id="fa-desktop-titlea-desktop-computer-screen-reporting-presentations"><i class="fa-solid fa-desktop" title="A desktop computer screen" aria-hidden="true"></i> reporting &amp; presentations</h2>
 <ul>
 <li><p>Quarto is all the rage these days (and by these days, I mean post-March 2022). Download and find some great tutorials <a href="https://quarto.org/">here</a> to get started</p></li>
 <li><p><a href="https://arm.rbind.io/slides/xaringan.html#1">Meet xaringan: Making slides in R Markdown</a>, by Allison Hill</p></li>
 <li><p><a href="https://www.garrickadenbuie.com/blog/sharing-xaringan-slides/">Sharing Your <code>xaringan</code> Slides</a>, by Garrick Aden-Buie</p></li>
 </ul>
 </section>
-<section id="learning-materials" class="level2">
-<h2 class="anchored" data-anchor-id="learning-materials"><svg aria-label="Book Open" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Book Open</title><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C87.5 32 35.1 48.6 9 59.9c-5.6 2.4-9 8-9 14V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V73.9c0-6.1-3.4-11.6-9-14C540.9 48.6 488.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"></path></svg> learning materials</h2>
+<section id="fa-book-open-titlean-open-book-learning-materials" class="level2">
+<h2 class="anchored" data-anchor-id="fa-book-open-titlean-open-book-learning-materials"><i class="fa-solid fa-book-open" title="An open book" aria-hidden="true"></i> learning materials</h2>
 <ul>
 <li><p>Ever feel like you need a pick-me-up while learning stats or a new R tool? Look no further than <a href="https://twitter.com/allison_horst">Allison Horst’s</a> <a href="https://allisonhorst.com/">Data Science Illustrations</a>, featuring the cutest and most educational fuzzy monsters you’ll ever see!</p></li>
 <li><p><a href="https://mastering-shiny.org/index.html">Mastering Shiny</a>, by Hadley Wickham</p></li>
@@ -213,8 +210,8 @@ ga('send', {
 <li><p><a href="https://www.w3schools.com/default.asp">W3Schools</a>, particularly for their HTML &amp; CSS tutorials</p></li>
 </ul>
 </section>
-<section id="data-science-communities" class="level2">
-<h2 class="anchored" data-anchor-id="data-science-communities"><svg aria-label="Users" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Users</title><path d="M144 160c-44.2 0-80-35.8-80-80S99.8 0 144 0s80 35.8 80 80s-35.8 80-80 80zm368 0c-44.2 0-80-35.8-80-80s35.8-80 80-80s80 35.8 80 80s-35.8 80-80 80zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM416 224c0 53-43 96-96 96s-96-43-96-96s43-96 96-96s96 43 96 96zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"></path></svg> data science communities</h2>
+<section id="fa-users-titlethree-people-data-science-communities" class="level2">
+<h2 class="anchored" data-anchor-id="fa-users-titlethree-people-data-science-communities"><i class="fa-solid fa-users" title="Three people" aria-hidden="true"></i> data science communities</h2>
 <p><em>While these groups are primarily based in SoCal/Santa Barbara, there are tons of awesome groups like these all over the world. Google around to see what’s near you!</em></p>
 <ul>
 <li><p><a href="https://www.meetup.com/rladies-santa-barbara/">R-Ladies Santa Barbara</a> and <a href="https://rladies.org/">R-Ladies Global</a>, which work to promote gender diversity in the R community</p></li>
@@ -225,15 +222,15 @@ ga('send', {
 <li><p><a href="https://www.sbwomeninstem.org/">Santa Barbara Women in STEM</a>, while not specifically data science-focused, this group holds some really great career and networking events, panels, flash talks, and more</p></li>
 </ul>
 </section>
-<section id="web-accessibility" class="level2">
-<h2 class="anchored" data-anchor-id="web-accessibility"><svg aria-label="Window Maximize" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Window Maximize</title><path d="M7.724 65.49C13.36 55.11 21.79 46.47 32 40.56C39.63 36.15 48.25 33.26 57.46 32.33C59.61 32.11 61.79 32 64 32H448C483.3 32 512 60.65 512 96V416C512 451.3 483.3 480 448 480H64C28.65 480 0 451.3 0 416V96C0 93.79 .112 91.61 .3306 89.46C1.204 80.85 3.784 72.75 7.724 65.49V65.49zM48 416C48 424.8 55.16 432 64 432H448C456.8 432 464 424.8 464 416V224H48V416z"></path></svg> web accessibility</h2>
+<section id="fa-universal-access-titlethe-web-accessibility-symbol-which-is-a-person-with-outstretched-arms-inside-a-circle-web-accessibility" class="level2">
+<h2 class="anchored" data-anchor-id="fa-universal-access-titlethe-web-accessibility-symbol-which-is-a-person-with-outstretched-arms-inside-a-circle-web-accessibility"><i class="fa-solid fa-universal-access" title="The Web Accessibility symbol, which is a person with outstretched arms inside a circle" aria-hidden="true"></i> web accessibility</h2>
 <ul>
 <li><p><a href="https://www.a11yproject.com/">The A11Y Project</a> is a community-driven effort to make digital content more accessible. I still have a long way to go in making my own website <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG</a> compliant – the A11Y Project not only has a ton of great blog posts, but also WCAG compliance checklist that I will definitely be returning to over and over again.</p></li>
 <li><p><a href="https://www.color-blindness.com/coblis-color-blindness-simulator/">Coblis</a>, a color blindness simulator – just upload a file and view your color palettes as they would appear under different types of color deficiencies</p></li>
 </ul>
 </section>
-<section id="misc." class="level2">
-<h2 class="anchored" data-anchor-id="misc."><svg aria-label="Face Smile" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Face Smile</title><path d="M256 352C293.2 352 319.2 334.5 334.4 318.1C343.3 308.4 358.5 307.7 368.3 316.7C378 325.7 378.6 340.9 369.6 350.6C347.7 374.5 309.7 400 256 400C202.3 400 164.3 374.5 142.4 350.6C133.4 340.9 133.1 325.7 143.7 316.7C153.5 307.7 168.7 308.4 177.6 318.1C192.8 334.5 218.8 352 256 352zM208.4 208C208.4 225.7 194 240 176.4 240C158.7 240 144.4 225.7 144.4 208C144.4 190.3 158.7 176 176.4 176C194 176 208.4 190.3 208.4 208zM304.4 208C304.4 190.3 318.7 176 336.4 176C354 176 368.4 190.3 368.4 208C368.4 225.7 354 240 336.4 240C318.7 240 304.4 225.7 304.4 208zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"></path></svg> misc.</h2>
+<section id="fa-smile-titlea-smiling-face-misc." class="level2">
+<h2 class="anchored" data-anchor-id="fa-smile-titlea-smiling-face-misc."><i class="fa-solid fa-smile" title="A smiling face" aria-hidden="true"></i> misc.</h2>
 <ul>
 <li>Discover new music to jam out to while you hack at <a href="https://everynoise.com/engenremap.html">Every Noise at Once</a> (HT: Jeanette Clark)</li>
 </ul>
@@ -269,9 +266,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -336,6 +347,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -385,6 +482,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

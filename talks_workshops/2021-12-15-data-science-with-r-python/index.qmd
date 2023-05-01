@@ -36,16 +36,25 @@ knitr::include_graphics("cover_slide.png")
 
 <div class="container">
 <div class="center">
-<button type="button" class="button-styling" onclick=window.location.href='https://docs.google.com/presentation/d/1jXb8wbcP2f7flSfLMoX2gui70G67XRjftJRMLselOlE/edit?usp=sharing'>`r fontawesome::fa("tv", fill = "#64605f", a11y = "sem")` slides</button>
-<button type="button" class="button-styling" onclick=window.location.href='https://github.com/samanthacsik/RLadiesSB-RvsPython'>`r fontawesome::fa("github-square", fill = "#64605f", a11y = "sem")` source code</button> 
-<button type="button" class="button-styling" onclick=window.location.href='https://www.meetup.com/rladies-santa-barbara/events/281807986/'>`r fontawesome::fa("meetup", fill = "#64605f", a11y = "sem")` meetup event</button> 
-<button type="button" class="button-styling" onclick=window.location.href='https://drive.google.com/file/d/1OenD9vq8pr558iuk1th2fjZBRs9sWoXt/view'>`r fontawesome::fa("video", fill = "#64605f", a11y = "sem")` recording</button> 
+<button type="button" class="button-styling" onclick=window.location.href='https://docs.google.com/presentation/d/1jXb8wbcP2f7flSfLMoX2gui70G67XRjftJRMLselOlE/edit?usp=sharing'>{{< fa tv title="A television screen" >}} slides</button>
+<button type="button" class="button-styling" onclick=window.location.href='https://github.com/samanthacsik/RLadiesSB-RvsPython'>{{< fa code title="A symbol for code, </>" >}} source code</button> 
+<!-- <button type="button" class="button-styling" onclick=window.location.href='https://www.meetup.com/rladies-santa-barbara/events/281807986/'>{{< fa meetup title="The Meetup symbol, an 'm' inside a circle" >}} meetup event</button> -->
+<button type="button" class="button-styling" onclick=window.location.href='https://drive.google.com/file/d/1OenD9vq8pr558iuk1th2fjZBRs9sWoXt/view'>{{< fa video title="A video camera" >}} recording</button>
 </div>
 </div>
+
+<!-- <br> -->
+
+<!-- <div class="container"> -->
+<!-- <div class="center"> -->
+<!-- <button type="button" class="button-styling" onclick=window.location.href='https://www.meetup.com/rladies-santa-barbara/events/281807986/'>`r fontawesome::fa("meetup", fill = "#64605f", a11y = "sem")` meetup event</button> -->
+<!-- <button type="button" class="button-styling" onclick=window.location.href='https://drive.google.com/file/d/1OenD9vq8pr558iuk1th2fjZBRs9sWoXt/view'>`r fontawesome::fa("video", fill = "#64605f", a11y = "sem")` recording</button> -->
+<!-- </div> -->
+<!-- </div> -->
 
 # Overview
 
-This workshop was the result of a collaborative effort between the [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/) and [Central Coast Python Meetup](https://www.meetup.com/central-coast-python/) groups. A special thanks to Sean Helvey for connecting with us to make this happen!
+This workshop was the result of a collaborative effort between the [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/events/281807986/) and [Central Coast Python Meetup](https://www.meetup.com/central-coast-python/) groups. A special thanks to Sean Helvey for connecting with us to make this happen!
 
 # Abstract 
 

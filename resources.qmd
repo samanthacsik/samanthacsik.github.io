@@ -5,11 +5,11 @@ subtitle: "a collection of other people's writings, tutorials, etc. that I find 
 
 It's finally time for an upgraded notebook! I've been Slacking myself (and subsequently burying) links to resources for far too long, so my favorites will now live here. 
 
-## `r fontawesome::fa("tools", fill = "#64605F", a11y = "sem")` r tools
+## {{< fa tools title="A wrench and a screw driver" >}} r tools
 
 * [free icons from fontawesome](https://fontawesome.com/v5/search?m=free) + the [`{fontawesome}`](https://github.com/rstudio/fontawesome) R package for infusing your slides, website, RMarkdowns/Quarto Markdowns, and more with an extra splash of fun
 
-## `r fontawesome::fa("chart-bar", fill = "#64605F", a11y = "sem")` data viz
+## {{< fa chart-bar title="A bar chart" >}} data viz
 
 * [from Data to Viz](https://www.data-to-viz.com/), a choose-your-adventure-type experience for creating your best data visualizations
 
@@ -17,7 +17,7 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 * [Beautifully Annotated: Enhancing your ggplots with Text](https://www.cararthompson.com/talks/rl-cambridge-beautifully-annotated/), by [Cara Thompson](https://www.cararthompson.com/about.html), a seriously wonderful talk on using annotations in your ggplots
 
-## `r fontawesome::fa("desktop", fill = "#64605F", a11y = "sem")` reporting & presentations
+## {{< fa desktop title="A desktop computer screen" >}} reporting & presentations
 
 * Quarto is all the rage these days (and by these days, I mean post-March 2022). Download and find some great tutorials [here](https://quarto.org/) to get started
 
@@ -25,7 +25,7 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 * [Sharing Your `xaringan` Slides](https://www.garrickadenbuie.com/blog/sharing-xaringan-slides/), by Garrick Aden-Buie
 
-## `r fontawesome::fa("book-open", fill = "#64605F", a11y = "sem")` learning materials
+## {{< fa book-open title="An open book" >}} learning materials
 
 * Ever feel like you need a pick-me-up while learning stats or a new R tool? Look no further than [Allison Horst's](https://twitter.com/allison_horst) [Data Science Illustrations](https://allisonhorst.com/), featuring the cutest and most educational fuzzy monsters you'll ever see!
 
@@ -37,7 +37,7 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 * [W3Schools](https://www.w3schools.com/default.asp), particularly for their HTML & CSS tutorials
 
-## `r fontawesome::fa("users", fill = "#64605F", a11y = "sem")` data science communities
+## {{< fa users title="Three people" >}} data science communities
 
 *While these groups are primarily based in SoCal/Santa Barbara, there are tons of awesome groups like these all over the world. Google around to see what's near you!*
 
@@ -47,12 +47,12 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 * [Southern California R Users](https://socalr.org/), an alliance of R user groups in Southern California  
 * [Santa Barbara Women in STEM](https://www.sbwomeninstem.org/), while not specifically data science-focused, this group holds some really great career and networking events, panels, flash talks, and more
 
-## `r fontawesome::fa("window-maximize", fill = "#64605F", a11y = "sem")` web accessibility
+## {{< fa universal-access title="The Web Accessibility symbol, which is a person with outstretched arms inside a circle" >}} web accessibility
 
 * [The A11Y Project](https://www.a11yproject.com/) is a community-driven effort to make digital content more accessible. I still have a long way to go in making my own website [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) compliant -- the A11Y Project not only has a ton of great blog posts, but also WCAG compliance checklist that I will definitely be returning to over and over again.  
 
 * [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/), a color blindness simulator -- just upload a file and view your color palettes as they would appear under different types of color deficiencies
 
-## `r fontawesome::fa("smile", fill = "#64605F", a11y = "sem")` misc.
+## {{< fa smile title="A smiling face" >}} misc.
 
 * Discover new music to jam out to while you hack at [Every Noise at Once](https://everynoise.com/engenremap.html) (HT: Jeanette Clark)

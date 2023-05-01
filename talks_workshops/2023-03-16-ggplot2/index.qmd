@@ -23,10 +23,13 @@ knitr::include_graphics("ahorst_ggplot2.png")
 
 <div class="container">
 <div class="center">
-<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/ggplot2-workflow/'>`r fontawesome::fa("file-alt", fill = "#64605f", a11y = "sem")` instructional documentation</button>
-<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/ggplot2-workflow/tree/main'>`r fontawesome::fa("github-square", fill = "#64605f", a11y = "sem")` source code</button> 
+<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/ggplot2-workflow/'>{{< fa file-alt title="A file with lines of text" >}} instructional documentation</button>
+<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/ggplot2-workflow/tree/main'>{{< fa code title="A symbol for code, </>" >}} source code</button> 
 </div>
 </div>
+
+<!-- `r fontawesome::fa("file-alt", fill = "#64605f", a11y = "sem")` -->
+<!-- `r fontawesome::fa("github-square", fill = "#64605f", a11y = "sem")` -->
 
 # Overview
 

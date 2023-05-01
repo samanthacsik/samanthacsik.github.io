@@ -3,7 +3,7 @@ title: "about"
 subtitle: "~ a bit more about me outside of my job ~"
 ---
 
-## `r fontawesome::fa("hiking", fill = "#64605F", a11y = "sem")` the hobby 
+## {{< fa hiking title="A person with a backpack and trekking pole" >}} the hobby 
 
 I feel very fortunate to be doing so many of things that I love *a lot* right now. That includes my job, but also spending lots of time outdoors. Living in Santa Barbara is a massive privilege and being here means that we have access to both the mountains and the sea, each a few minutes in either direction. It was the ocean that brought me here originally, but most of my free time is now spent on the trails.
 
@@ -22,9 +22,9 @@ I started recording my hikes (and eventually some other activities) on [Strava](
 <!--html_preserve-->
 <center><iframe src = "images/leaflet_2023-04-07.html", width ="800", height="450"> </iframe></center>
 <!--/html_preserve-->
-<span style = 'font-size: 90%;'><em><center>Map last updated: April 7, 2023</em></center></span>
+<span style = 'font-size: 90%;'><em><center>Map last updated: May 1, 2023</em></center></span>
 
-## `r fontawesome::fa("egg", fill = "#64605F", a11y = "sem")` the logo
+## {{< fa egg title="An egg" >}} the logo
 
 I'm a proud Csik (pronounced "chick" -- Hungarian, for the curious), though I spent many of my younger years embarrassed when people (understandably) got it wrong (variations include "sea-sick," "sick," "ca-sick," to name a few) -- and many of us know how brutal little kid peers can be when there's a funny way to mispronounce a name. At some point, I learned to embrace the weird and it became very much a part of my everyday identity. My track coaches and teammates would shout "LET'S GO CSIK" during my events at meets, I signed year books as "Sam [drawing of a chick]" and every handmade card received my "The Csik Press" identifying mark on the back. As I've grown older, I've taken more care to help colleagues, peers, and strangers learn the correct pronunciation -- because if I'm being totally honest, I think my name is pretty darn cool `r fontawesome::fa("smile-wink", fill = "#64605F", a11y = "sem")`. So my first ever *real* logo is an homage to my earliest attempts at claiming my Csik identity. It may evolve a bit, but for now, it makes me pretty happy. Made using the (free!) [Adobe Express logo maker](https://www.adobe.com/express/create/logo).
 

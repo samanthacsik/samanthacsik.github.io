@@ -14,12 +14,13 @@ categories: [MEDS, R, shiny]
 image: shiny_hex.png
 ---
 
-<center><iframe src="https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide" title="EDS 430 - Intro to Shiny" width=750px, height=550px></iframe></center>
+<center><iframe src="https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide" title="EDS 430 - Intro to Shiny" width="750px," height="550px"></iframe></center>
+
 
 <div class="container">
 <div class="center">
-<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide'>`r fontawesome::fa("tv", fill = "#64605f", a11y = "sem")` slides</button>
-<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/EDS430-Shiny'>`r fontawesome::fa("github-square", fill = "#64605f", a11y = "sem")` source code</button> 
+<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide/'>{{< fa tv title="A television screen" >}} slides</button>
+<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/EDS430-Shiny'>{{< fa code title="A symbol for code, </>" >}} source code</button>
 </div>
 </div>
 
@@ -27,10 +28,10 @@ image: shiny_hex.png
 
 This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
 
-# Abstract 
+# Abstract
 
-These materials accompany the 1-unit, 2-day, hands-on coding workshop, [EDS 430 - Intro to Shiny](https://bren.ucsb.edu/courses/eds-430), offered in winter 2023 through the Bren School of Environmental Science & Management, in partnership with the National Center for Ecological Analysis & Synthesis. 
+These materials accompany the 1-unit, 2-day, hands-on coding workshop, [EDS 430 - Intro to Shiny](https://bren.ucsb.edu/courses/eds-430), offered in winter 2023 through the Bren School of Environmental Science & Management, in partnership with the National Center for Ecological Analysis & Synthesis.
 
-In this workshop, students will learn how to build and deploy Shiny applications. The `{shiny}` package provides a framework that allows R users to build interactive web applications and dashboards, and has become a popular tool for sharing data analyses and data-derived outputs with broad audiences. In this two-part short course, students will learn the fundamentals of reactivity, how to customize an application user interface (UI), best practices and workflows for developing shiny apps, how to deploy their apps online via RStudio’s hosting service, [shinyapps.io](https://shinyapps.io/), and more.
+In this workshop, students will learn how to build and deploy Shiny applications. The `{shiny}` package provides a framework that allows R users to build interactive web applications and dashboards, and has become a popular tool for sharing data analyses and data-derived outputs with broad audiences. In this two-part short course, students will learn the fundamentals of reactivity, how to customize an application user interface (UI), best practices and workflows for developing shiny apps, how to deploy their apps online via RStudio's hosting service, [shinyapps.io](https://shinyapps.io/), and more.
 
 Presentation slides are available [here](https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide) and are meant to be a stand-alone resource for those who were unable to attend the workshop, but would like to follow along/self-learn. The workshop walks through building a number of shiny apps and dashboards -- find complete versions of each in [this GitHub repository](https://github.com/samanthacsik/EDS430-shiny-app).
