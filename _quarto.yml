@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  site-url: https://samanthacsik.github.io/
   # cookie-consent: 
   #   type: express 
   #   style: headline
