@@ -2,6 +2,7 @@
 title: "talks & workshops"
 listing:
   contents: talks_workshops
+  feed: true
   sort: "date desc"
   type: grid
   grid-item-border: true
