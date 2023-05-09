@@ -12,6 +12,7 @@ date: 2021-03-03
 slug: csik2021semantics
 categories: [SB Women in STEM, semantics]
 image: wahwah.jpg
+draft: true
 ---
 
 ```{r}

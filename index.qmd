@@ -1,52 +1,56 @@
 ---
-title: "samantha csik"
-image: images/sam.jpg
+title: ""
+image: images/sam_cropped.jpg
 toc: false
 about: 
-  template: trestles
-  image-shape: rounded
+  template: jolla
+  image-shape: round
   image-width: 16em
-  links:
-    - icon: linkedin 
-      text: LinkedIn
-      href: https://www.linkedin.com/in/samanthacsik/
-    - icon: twitter 
-      text: Twitter
-      href: https://twitter.com/SamanthaCsik
-    - icon: github 
-      text: GitHub
-      href: https://github.com/samanthacsik
-    - icon: envelope 
-      text: Email
-      href: mailto:scsik@ucsb.edu
+  # links:
+  #   - icon: linkedin 
+  #     text: LinkedIn
+  #     href: https://www.linkedin.com/in/samanthacsik/
+  #   - icon: twitter 
+  #     text: Twitter
+  #     href: https://twitter.com/SamanthaCsik
+  #   - icon: github 
+  #     text: GitHub
+  #     href: https://github.com/samanthacsik
+  #   - icon: envelope 
+  #     text: Email
+  #     href: mailto:scsik@ucsb.edu
 ---
 
-### hi there!    
+<!-- ::: {.small-text} -->
+Hi there! I'm Sam (and my last name is pronounced "chick"). Professionally, I love teaching data science skills, learning and implementing inclusive pedagogical approaches, and the communities that supports both of those things. Outside of work, I'm an avid hiker, novice (but passionate) meal-maker, and I really love the color green. You can learn more by poking around my website!
+<!-- ::: -->
 
-<p class="topbr">I'm Sam (and my last name is pronounced "chick"). I'm the Data Training Coordinator at the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/) (NCEAS) located at UC Santa Barbara, where I'm working to develop and teach data science training curricula for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) (MEDS) program and other data science initiatives across NCEAS and UCSB. I am also a co-organizer of [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/), a local data science group which works to promote gender diversity in the R community. In my spare time, you'll typically find me hiking with my pup or cooking family dinners with friends.</p>
+<!-- ### hi there!     -->
 
------------------------------------------------------------------------------------------------------------------------------------
+<!-- I'm Sam (and my last name is pronounced "chick"). I'm the Data Training Coordinator at the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/) (NCEAS) located at UC Santa Barbara, where I'm working to develop and teach data science training curricula for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) (MEDS) program and other data science initiatives across NCEAS and UCSB. I am also a co-organizer of [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/), a local data science group which works to promote gender diversity in the R community. In my spare time, you'll typically find me hiking with my pup or cooking family dinners with friends. -->
 
-### education
+<!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
 
-<div class="topbr">
-<p class="custom-subtitle">{{< fa graduation-cap title="A graduation cap" >}} **MS in Ecology, Evolution & Marine Biology, 2020**</p>  
-<p class="custom-subtitle2">University of California, Santa Barbara</p>
+<!-- ### education -->
 
-<p class="custom-subtitle">{{< fa graduation-cap title="A graduation cap" >}} **BS in Marine Biology, 2016**</p>  
-<p class="custom-subtitle2">Northeastern University</p>
-</div>
+<!-- <div class="topbr"> -->
+<!-- <p class="custom-subtitle">{{< fa graduation-cap title="A graduation cap" >}} **MS in Ecology, Evolution & Marine Biology, 2020**</p>   -->
+<!-- <p class="custom-subtitle2">University of California, Santa Barbara</p> -->
 
------------------------------------------------------------------------------------------------------------------------------------
+<!-- <p class="custom-subtitle">{{< fa graduation-cap title="A graduation cap" >}} **BS in Marine Biology, 2016**</p>   -->
+<!-- <p class="custom-subtitle2">Northeastern University</p> -->
+<!-- </div> -->
 
-### experience
+<!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
 
-<div class="topbr">
-<p class="custom-subtitle">{{< fa chalkboard-teacher title="A teacher at a chalkboard" >}} **Data Training Coordinator, 2021-present**</p>   
-<p class="custom-subtitle2">National Center for Ecological Analysis & Synthesis</p>  
+<!-- ### experience -->
 
-<p class="custom-subtitle">{{< fa chart-bar title="A bar chart" >}} **Data Science Fellow, 2020-2021**</p>    
-<p class="custom-subtitle2">National Center for Ecological Analysis & Synthesis</p>
-</div>
+<!-- <div class="topbr"> -->
+<!-- <p class="custom-subtitle">{{< fa chalkboard-teacher title="A teacher at a chalkboard" >}} **Data Training Coordinator, 2021-present**</p>    -->
+<!-- <p class="custom-subtitle2">National Center for Ecological Analysis & Synthesis</p>   -->
 
-<!-- `r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` # stopped working 5/1/2023? -->
+<!-- <p class="custom-subtitle">{{< fa chart-bar title="A bar chart" >}} **Data Science Fellow, 2020-2021**</p>     -->
+<!-- <p class="custom-subtitle2">National Center for Ecological Analysis & Synthesis</p> -->
+<!-- </div> -->
+
+<!-- FOR REFERENCE: `r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` # stopped working 5/1/2023? -->

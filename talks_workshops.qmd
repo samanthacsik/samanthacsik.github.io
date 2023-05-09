@@ -1,5 +1,6 @@
 ---
 title: "talks & workshops"
+subtitle: "a selection of my favorite talks & workshops and associated materials" 
 listing:
   contents: talks_workshops
   feed: true

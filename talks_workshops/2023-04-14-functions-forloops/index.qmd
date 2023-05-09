@@ -21,6 +21,8 @@ image: an_bui_planet.png
 knitr::include_graphics("an_bui_function-structure.jpeg")
 ```
 
+<br>
+
 <div class="container">
 <div class="center">
 <button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/functions-workshop/'>{{< fa file-alt title="A file with lines of text" >}} instructional documentation</button>
