@@ -6,19 +6,19 @@ about:
   template: jolla
   image-shape: round
   image-width: 16em
-  # links:
-  #   - icon: linkedin 
-  #     text: LinkedIn
-  #     href: https://www.linkedin.com/in/samanthacsik/
-  #   - icon: twitter 
-  #     text: Twitter
-  #     href: https://twitter.com/SamanthaCsik
-  #   - icon: github 
-  #     text: GitHub
-  #     href: https://github.com/samanthacsik
-  #   - icon: envelope 
-  #     text: Email
-  #     href: mailto:scsik@ucsb.edu
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/samanthacsik/
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/SamanthaCsik
+    - icon: github
+      text: GitHub
+      href: https://github.com/samanthacsik
+    - icon: envelope
+      text: Email
+      href: mailto:scsik@ucsb.edu
 ---
 
 <!-- ::: {.small-text} -->
