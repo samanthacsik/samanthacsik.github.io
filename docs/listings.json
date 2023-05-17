@@ -2,6 +2,7 @@
   {
     "listing": "/talks_workshops.html",
     "items": [
+      "/talks_workshops/2023-05-23-js-in-r/index.html",
       "/talks_workshops/2023-04-14-functions-forloops/index.html",
       "/talks_workshops/2023-03-16-ggplot2/index.html",
       "/talks_workshops/2023-01-20-eds430-intro-to-shiny/index.html",
