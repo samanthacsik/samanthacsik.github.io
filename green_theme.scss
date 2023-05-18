@@ -7,6 +7,7 @@
 $light-sage-green: #D1D9CE;
 $dark-sage-green: #98A08D;
 $cream: #FDFBF7;
+$dark-gray: #5A5856;
 $gray: #64605f;
 $light-gray: #949799;
 $purple: #AE8BD1;
@@ -68,6 +69,10 @@ body {
   font-size: 17px;
 }
 
+.extra-small-text{
+  font-size: 14px;  
+}
+
 .topbr {
     display: block;
     margin-top: 1em;
@@ -76,6 +81,10 @@ body {
 .center-text {
   text-align: center;
   left: 50%;
+}
+
+.dark-gray-text{
+  color: $dark-gray;
 }
 
 /*.container {

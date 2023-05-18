@@ -10,7 +10,7 @@ website:
   #   palette: dark
   favicon: images/chick.png
   google-analytics: 
-    tracking-id: "UA-242992767-1"
+    tracking-id: "G-LW03VL0YTS" #"UA-242992767-1"
     anonymize-ip: true
   # title: "samantha csik"
   navbar:

@@ -12,9 +12,12 @@ My background is in marine ecology / ecophysiology -- I was afforded opportuniti
 :::{.column-margin}
 ```{r}
 #| echo: false
-#| fig-cap: "Teaching MEDS students how to build their own personal websites using Quarto! This was especially fun for me, since Quarto was still such a new tool when I first gave this workshop -- it meant a lot of discovery and learning on-the-fly alongside our students."
+#| fig-alt: "A classroom full of students face forward towards the instructor, who stands at a podium at the front of the room. Students have their laptops open on their desks. Three large TV screens are illuminated at the front of the classroom, displaying workshop materials."
 knitr::include_graphics("images/teaching.jpeg")
 ```
+::: {.extra-small-text .dark-gray-text .topbr}
+Teaching MEDS students how to build their own personal websites using Quarto! This was especially fun for me, since Quarto was still such a new tool when I first gave this workshop -- it meant a lot of discovery and learning on-the-fly alongside our students.
+:::
 :::
 
 I'm afforded a lot of flexibility in how I teach and what I teach. Primarily, I focus on developing and delivering workshop-style classes that supplement the [MEDS core curriculum](https://ucsb-meds.github.io/courses.html). I teach primarily via live-coding (where my computer is hooked up to a screen for workshop participants to see and hear me talk through code in real time as they follow along on their own computers) -- this teaching style was invaluable in my own development as a data scientist, and I really believe that, when done well, live-coding can be a game-changing experience for early-career coders and data scientists. I am always looking for new ways to make my teaching style and materials more approachable and inclusive for all learners -- I try to build [my materials](https://samanthacsik.github.io/talks_workshops.html) to be stand-alone resources both for participants to refer back to and also for those learning on their own time.
@@ -26,9 +29,12 @@ I feel very fortunate to be doing so many of things that I love *a lot* right no
 :::{.column-margin}
 ```{r}
 #| echo: false
-#| fig-cap: "My right-hand hiking gal, Tallie (aka TunaB)."
+#| fig-alt: "A smiling woman with braiding pigtails, a blue bandana tied around her neck, and a blue hiking backback takes a selfie with a brown dog. The dog is looking towards the camera with it's tongue out. There are mountains in the background."
 knitr::include_graphics("images/tallie.jpeg")
 ```
+::: {.extra-small-text .dark-gray-text .topbr}
+My right-hand hiking gal, Tallie (aka Bean aka TunaB aka SweetCheeks).
+:::
 :::
 
 I started recording my hikes (and eventually some other activities) on [Strava](https://www.strava.com/) in late 2020 and finally got around to retrieving my activity data using the [`{rStrava}`](https://github.com/fawda123/rStrava) package. Below is a heatmap of all my recorded activities made using [`leaflet`](https://rstudio.github.io/leaflet/). It's challenging to see individual markers at my most frequented trail heads/starting points, so I've recently began building out my own Strava Dashboard (using [`{shinydashboard}`](https://rstudio.github.io/shinydashboard/)) to make it a bit more interactive and filterable -- it's a work in progress, but a fun side project that I'm excited to continue iterating upon. Huge shout out to [Daniel Cullen](https://www.dancullen.me/) (who also happens to be a Santa Barbara resident!) for his awesome [blogpost](https://www.dancullen.me/articles/creating-a-heatmap-in-r-with-google-polylines) that got me started with my own map.
@@ -47,9 +53,12 @@ I'm a proud Csik (pronounced "chick" -- Hungarian, for the curious), though I sp
 :::{.column-margin}
 ```{r}
 #| echo: false
-#| fig-cap: "The back of a handmade birthday card by yours truly (aka 'The Csik Press'). Thanks, Mom, for sending me pics of these decade+ old treasures whenever you come across them. Artist: Sam Csik. Medium: construction paper, Elmer's glue. Date: 2010 (apparently)."
+#| fig-alt: "The back of a handmade card made of construction paper. A yellow chick with an orange beak holds an 'S'-shaped worm in its beak. It sits on top of the text, 'The Csik Press'. Below this, the year '2010' is written in pen."
 knitr::include_graphics("images/the_csik_press.jpeg")
 ```
+::: {.extra-small-text .dark-gray-text .topbr}
+The back of a handmade birthday card by yours truly (aka 'The Csik Press'). Thanks, Mom, for sending me pics of these decade+ old treasures whenever you come across them. Artist: Sam Csik. Medium: construction paper, Elmer's glue. Date: 2010 (apparently).
+:::
 :::
 
 ```{r}
@@ -57,5 +66,6 @@ knitr::include_graphics("images/the_csik_press.jpeg")
 #| fig-align: center
 #| fig-width: 5
 #| fig-height: 3
+#| fig-alt: "The name, 'sam csik' in white lettering. Above 'csik' sits a horizontal dark green bar. Above the green bar is a white chick."
 knitr::include_graphics("images/logos/nunito/creamText_darkGreenBar/logo_nunito_cropped.png")
 ```
