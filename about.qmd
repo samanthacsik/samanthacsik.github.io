@@ -20,7 +20,7 @@ Teaching MEDS students how to build their own personal websites using Quarto! Th
 :::
 :::
 
-I'm afforded a lot of flexibility in how I teach and what I teach. Primarily, I focus on developing and delivering workshop-style classes that supplement the [MEDS core curriculum](https://ucsb-meds.github.io/courses.html). I teach primarily via live-coding (where my computer is hooked up to a screen for workshop participants to see and hear me talk through code in real time as they follow along on their own computers) -- this teaching style was invaluable in my own development as a data scientist, and I really believe that, when done well, live-coding can be a game-changing experience for early-career coders and data scientists. I am always looking for new ways to make my teaching style and materials more approachable and inclusive for all learners -- I try to build [my materials](https://samanthacsik.github.io/talks_workshops.html) to be stand-alone resources both for participants to refer back to and also for those learning on their own time.
+I'm afforded a lot of flexibility in how I teach and what I teach. My focus is on developing and delivering workshop-style classes that supplement the [MEDS core curriculum](https://ucsb-meds.github.io/courses.html). I teach primarily via live-coding (where my computer is hooked up to a screen for workshop participants to see and hear me talk through code in real time as they follow along on their own computers) -- this teaching style was invaluable in my own development as a data scientist, and I really believe that, when done well, live-coding can be a game-changing experience for early-career coders and data scientists. I am always looking for new ways to make my teaching style and materials more approachable and inclusive for all learners -- I try to build [my materials](https://samanthacsik.github.io/talks_workshops.html) to be stand-alone resources both for participants to refer back to and also for those learning on their own time.
 
 ## {{< fa hiking title="A person with a backpack and trekking pole" >}} the hobby 
 
@@ -42,9 +42,9 @@ I started recording my hikes (and eventually some other activities) on [Strava](
 <center><p class="large-text quote-text-bg">Feel free to check out my Strava dashboard, [Sam's Strava Stats](https://samanthacsik.shinyapps.io/strava_dashboard/) (still working on a better name...)! Source code available on [`r fontawesome::fa("github", fill = "#AE8BD1", a11y = "sem")` GitHub](https://github.com/samanthacsik/strava-dashboard).</p></center>
 
 <!--html_preserve-->
-<center><iframe src = "images/leaflet_2023-04-07.html", width ="800", height="450"> </iframe></center>
+<center><iframe src = "images/leaflet_2023-06-03.html", width ="800", height="450"> </iframe></center>
 <!--/html_preserve-->
-<span style = 'font-size: 90%;'><em><center>Map last updated: May 1, 2023</em></center></span>
+<span style = 'font-size: 90%;'><em><center>Map last updated: June 3, 2023</em></center></span>
 
 ## {{< fa egg title="An egg" >}} the logo
 
