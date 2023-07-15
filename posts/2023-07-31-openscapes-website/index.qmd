@@ -107,7 +107,9 @@ Building this website has been a real journey (a 6-month long one)! While I can'
 
 #### **Greatest victory:** responsive webpages
 
-We want websites to look good no matter what viewport or device that they're viewed on -- page elements should be resized and reorganized so that they fit neatly within a computer's web browser or on a mobile device screen. For example, see how the landing page appears/changes as the viewport size is adjusted on a laptop: 
+A *responsive* web page is one with elements that automatically resize and reorganize based on the size and shape of the viewport and/or device it's being viewed on. This responsiveness is critically important for ensuring a high quality user experience, regardless how a user is accessing a website.
+
+For example, note how elements organized in columns (e.g. Engage/Empower/Amplify, the three stat boxes) when the browser viewport is at full width will stack vertically once the browser window is made narrower:
 
 ```{r}
 #| eval: true
@@ -118,7 +120,18 @@ We want websites to look good no matter what viewport or device that they're vie
 knitr::include_graphics("laptop.gif")
 ```
 
-versus how the landing page appears on a mobile device: 
+as opposed to columns getting crunched when the browser window is made narrower:
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| out-width: "40%" 
+#| fig-alt: ""
+knitr::include_graphics("non-responsive.png")
+```
+
+Now note the automatic vertical stacking of elements when viewed from a mobile device:
 
 ```{r}
 #| eval: true
@@ -128,9 +141,6 @@ versus how the landing page appears on a mobile device:
 #| fig-alt: ""
 knitr::include_graphics("phone.gif")
 ```
-
-
-- responsive landing page (done using CSS grid, which is native to Quarto)
 
 #### **Favorite new thing(s) learned:** mobile device previews and regex
 
