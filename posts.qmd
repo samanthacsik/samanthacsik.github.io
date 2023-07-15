@@ -1,5 +1,6 @@
 ---
 title: "posts"
+subtitle: ""
 listing:
   contents: posts
   sort: "date desc"

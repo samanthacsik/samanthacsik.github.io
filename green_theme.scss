@@ -1,7 +1,8 @@
 /*-- scss:defaults --*/
 
 // Import fonts (define mainfont in _quarto.yml)
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@300&family=Roboto+Mono:wght@300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@300&family=Roboto+Mono:wght@300&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Nunito:wght@300;800&family=Roboto+Mono:wght@400;700&display=swap');
 
 // Colors
 $light-sage-green: #D1D9CE;
@@ -35,7 +36,7 @@ $code-block-bg: $cream;
 /* ELEMENT SELECTORS */
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-weight: 700;
   color: $gray;
 }
