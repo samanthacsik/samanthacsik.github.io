@@ -7,7 +7,6 @@ author:
     url: https://samanthacsik.github.io/
     orcid: 0000-0002-5300-3075
 date: 2023-07-31
-#bibliography: references.bib
 citation: 
   url: https://samanthacsik.github.io/posts/2023-07-31-openscapes-website/
 categories: [Quarto, Openscapes]
@@ -17,7 +16,7 @@ draft: true
 
 Y'all, I did something really exciting -- I built another website! This time as a first-time freelancer. I'm not sure that I would have had the confidence to accept just any ole' request to do so, but when [Julie Lowndes](https://jules32.github.io/), founding director of Openscapes, and also a mentor turned friend (thank you [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/) community!), asked if I'd be interested in rebuilding the Openscapes website, it felt like a really awesome personal and professional growth opportunity. 
 
-There's so many amazing things I could say about this process and experience, but I'd be writing a novel. Instead, I'm going to do some high-level reflection and focus a bit on the parts of the process that I enjoyed the most. 
+There are so many amazing things I could say about this process and experience, but I'd be writing a novel. Instead, I'm going to do some high-level reflection and focus a bit on the parts of the process that I enjoyed the most. 
 
 ## **Task:** Port the Openscapes website from blogdown to Quarto
 
@@ -39,7 +38,6 @@ knitr::include_graphics("old_site.png")
 :::
 
 Unfortunately, because of changes to Hugo [CHECK WITH JULIE/STEF ABOUT THIS], the site could no longer build locally (i.e. you couldn't preview the site on a personal computer). This meant that the site needed to be redeployed in order to view any changes. Not only was this a rather slow process, but it also meant that there was no easy way to test out new additions/pages/features (or even check for typos) before sharing those updates with the rest of the online world. 
-
 Additionally, the Openscapes team has used Quarto since its earliest days (read more about that in their [quarto blog posts](https://openscapes.org/blog.html#category=quarto)) -- it seemed like a good time as any to begin using this same tool for building the Openscapes website as well.
 
 ## **Pause:** Why me?
@@ -107,9 +105,9 @@ Building this website has been a real journey (a 6-month long one)! While I can'
 
 #### **Greatest victory:** responsive webpages
 
-A *responsive* web page is one with elements that automatically resize and reorganize based on the size and shape of the viewport and/or device it's being viewed on. This responsiveness is critically important for ensuring a high quality user experience, regardless how a user is accessing a website.
+A *responsive* web page is one with elements that automatically resize and reorganize based on the size and shape of the viewport and/or device it's being viewed on. This responsiveness is critically important for ensuring a high quality user experience, no matter how a user is accessing the website.
 
-For example, note how elements organized in columns (e.g. Engage/Empower/Amplify, the three stat boxes) when the browser viewport is at full width will stack vertically once the browser window is made narrower:
+For example, note how elements organized in columns (e.g. Engage/Empower/Amplify, the three stat boxes) when the browser viewport is at full width will stack vertically once the browser window is made narrower (elements will also be stacked vertically when viewed on a mobile device):
 
 ```{r}
 #| eval: true
@@ -131,16 +129,64 @@ as opposed to columns getting crunched when the browser window is made narrower:
 knitr::include_graphics("non-responsive.png")
 ```
 
-Now note the automatic vertical stacking of elements when viewed from a mobile device:
+I left figuring this out until the very end...mostly because I had no idea how to approach doing so. The Quarto documentation makes [reference to Bootstrap's CSS Grid](https://quarto.org/docs/output-formats/page-layout.html#css-grid) and provides a simple, but clear example of creating columns in our Quarto doc. This helped me get started on a non-responsive 3-column layout, which looks like this:
+
+```{md}
+::: {.grid}
+
+::: {.g-col-4}
+left-hand column content
+:::
+
+::: {.g-col-4}
+center column content
+:::
+  
+::: {.g-col-4}
+right-hand column content
+:::  
+
+:::
+```
+
+where `{.g-col-4}` defines the width of the column (Bootstrap's grid system has a total of 12 columns across a page, so each of our 3 columns will be a width of 4). 
+
+I got stuck for a long while after this point -- the [CSS Grid documenation](https://getbootstrap.com/docs/5.1/layout/css-grid/) makes it clear that this approach can be used to create responsive columns, but I found the [provided example](https://getbootstrap.com/docs/5.1/layout/css-grid/#responsive) to be a bit confusing. After *a lot* of trial and error, and stumbling across [this table](https://getbootstrap.com/docs/4.0/layout/grid/#grid-options) that (sort of) makes reference to `.g-col` vs. `.g-col-md` classes from the [CSS Grid documentation example](https://getbootstrap.com/docs/5.1/layout/css-grid/#responsive), I eventually got myself some working responsive columns. While I still don't fully understand it, this is my best attempt at explaining my working solution...here's what it looks like:
+
+```{md}
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+left-hand column content
+:::
+
+::: {.g-col-12 .g-col-md-4}
+center column content
+:::
+  
+::: {.g-col-12 .g-col-md-4}
+right-hand column content
+:::  
+
+:::
+```
+
+`.g-col-12` represents the width of each column when the viewport is made smaller (e.g. either a narrow browser window or on a mobile device) -- since the width of our browser is a total of 12 units, each column will take up the full width of the browser and be forced to stack vertically.
+
+`.g-col-md-4` represents the width of each column when the viewport is made larger (e.g. a browser window that takes up a full laptop screen) -- in this case, each column will only take up 4 units, or a third of the full width of the browser and can sit side-by-side on another.
+
+Here's the above example in action:
 
 ```{r}
 #| eval: true
 #| echo: false
 #| fig-align: center
-#| out-width: "30%" 
+#| out-width: "80%" 
 #| fig-alt: ""
-knitr::include_graphics("phone.gif")
+knitr::include_graphics("columns.gif")
 ```
+
+Ultimately, I used this approach for all pages that needed to be made responsive (largely the [landing page](https://openscapes.org/), but also the [Our Team page](https://openscapes.org/team.html) and [Resources page](https://openscapes.org/resources.html)). If you end up finding this helpful in your own responsive web page journey -- Yay!! If you have an alternative or improved solution, *or* if you understand these CSS grid classes more than I do, please do drop me a line -- I'd love to hear all about it {{< fa face-grin-wide >}}
 
 #### **Favorite new thing(s) learned:** mobile device previews and regex
 
@@ -162,7 +208,7 @@ knitr::include_graphics("mobile-view.png")
 *View a web page as if on a mobile device by clicking on the laptop/phone button (circled in red) at the top of the Inspect pane.*
 :::
 
-2. **Regular expressions (regex) are really powerful:** I've heard the terms "regular expressions" and "regex," and I know they underlie some really powerful R packages (e.g. [`{stringr}`](https://stringr.tidyverse.org/) for manipulating character strings), but I never *really* knew what they were or how to use them. Julie first introduced me to using regex during one late-night co-working session (she broke out her original copy of [Practical Computing for Biologists](https://practicalcomputing.org/), by Steven H. D. Haddock and Casey W. Dunn, which has includes an excellent primer). Not more than a few days later, we realized we needed to reformat our redirects file, changing the way blog post URLs were represented from this:
+2. **Regular expressions (regex) are really powerful:** I've heard the terms "regular expressions" and "regex," and I know they underlie some really powerful R packages (e.g. [`{stringr}`](https://stringr.tidyverse.org/) for manipulating character strings), but I never *really* knew what they were or how to use them. Julie first introduced me to using regex during one late-night co-working session (she broke out her original copy of [Practical Computing for Biologists](https://practicalcomputing.org/), by Steven H. D. Haddock and Casey W. Dunn, which includes an excellent primer). Not more than a few days later, we realized we needed to reformat our redirects file, changing the way blog post URLs were represented from this:
 
 ```{md}
 # Redirects from what the browser requests to what we serve
@@ -202,13 +248,7 @@ I'm honestly so jazzed about wikis at the moment and plan to start using them mo
 
 #### **Most valuable personal growth moment:** overcoming imposter syndrome
 
-I'm in this funny position where I'm a data science educator, but not a practicing data scientist. I teach learners to code, to troubleshoot, to communicate and collaborate, and help them develop the professional skills needed for the workforce...yet I really have so little professional experience myself.
+I've struggled with imposter syndrome throughout my professional career (as so many do!) -- and it is *hard* to shake the feeling that I'm not qualified to be doing [fill in the blank with any one of the things that I get in my own head about]. This project was *not* one of those things. And I totally credit it to the supportive (and just generally fun) community that Julie and Stef create. It's not easy to foster an honest no-such-thing-as-failing environment, but I really felt that way from the moment I got started (which says a lot, given that I'd be learning on the go for much of the project). I feel *very* lucky and honored that they trusted me with this work.
 
-I've struggled with Imposter's Syndrome throughout my professional career (as many do!), which began in grad school and has followed me ever since. I've worked really hard on learning to recognize my successes (self affirmations are important!!) and being less harsh on myself when I stumble. 
-
-
-- freelancing/contracting typically involves hiring someone who knows *a lot* about completing a given task. I didn't quite fall into that category. Julie & Stef were encouraging, supportive, while also being transparent about what they wanted to see -- this pushed me to figure out things I would have otherwise dropped
-<!-- - I've struggled with imposter's syndrome throughout my professional career, starting in grad school and following me ever since. I'm in this funny place where I teach new learners about data science tools, best practices, and how to collaborate on projects, yet I really have so little professional experience myself. Which only  -->
-
-<!-- I'm in this funny situation where I teach new learners about data science best practices, collaborative  -->
+The Openscapes team certainly pracitices what they preach -- you can read all about the [Openscapes Approach](https://openscapes.github.io/approach-guide/approach/) for promoting psychological safety, kinder science, and a growth mindset, as well as explore the many other great [resources](https://openscapes.org/resources.html) developed by Openscapes.
 
