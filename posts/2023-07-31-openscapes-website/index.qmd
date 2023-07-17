@@ -88,7 +88,7 @@ Specifically, the [R-Ladies Global](https://rladies.org/) Slack workspace (again
 #| fig-align: center
 #| out-width: "100%" 
 #| fig-alt: "Stephanie Butland sends a congratulatory slack message that reads, \"Sam and Julie CONGRATULATIONS on the beautiful website release! What an accomplishment. It represents Openscapes and our vision and work so well. [fox emoji][hedgehog emoji][squid emoji][wave emoji]\". Sam and Julie both reacted to the message with a purple heart."
-knitr::include_graphics("slack.png")
+knitr::include_graphics("media/slack.png")
 ```
 
 ::: {.small-text .center-text .dark-gray-text}
@@ -115,7 +115,7 @@ For example, note how elements organized in columns (e.g. Engage/Empower/Amplify
 #| fig-align: center
 #| out-width: "80%" 
 #| fig-alt: ""
-knitr::include_graphics("laptop.gif")
+knitr::include_graphics("media/laptop.gif")
 ```
 
 as opposed to columns getting crunched when the browser window is made narrower:
@@ -126,7 +126,7 @@ as opposed to columns getting crunched when the browser window is made narrower:
 #| fig-align: center
 #| out-width: "40%" 
 #| fig-alt: ""
-knitr::include_graphics("non-responsive.png")
+knitr::include_graphics("media/non-responsive.png")
 ```
 
 I left figuring this out until the very end...mostly because I had no idea how to approach doing so. The Quarto documentation makes [reference to Bootstrap's CSS Grid](https://quarto.org/docs/output-formats/page-layout.html#css-grid) and provides a simple, but clear example of creating columns in our Quarto doc. This helped me get started on a non-responsive 3-column layout, which looks like this:
@@ -183,10 +183,10 @@ Here's the above example in action:
 #| fig-align: center
 #| out-width: "80%" 
 #| fig-alt: ""
-knitr::include_graphics("columns.gif")
+knitr::include_graphics("media/columns.gif")
 ```
 
-Ultimately, I used this approach for all pages that needed to be made responsive (largely the [landing page](https://openscapes.org/), but also the [Our Team page](https://openscapes.org/team.html) and [Resources page](https://openscapes.org/resources.html)). If you end up finding this helpful in your own responsive web page journey -- Yay!! If you have an alternative or improved solution, *or* if you understand these CSS grid classes more than I do, please do drop me a line -- I'd love to hear all about it {{< fa face-grin-wide >}}
+Ultimately, I used this approach for all pages that needed responsive columns (largely the [landing page](https://openscapes.org/), but also the [Our Team page](https://openscapes.org/team.html) and [Resources page](https://openscapes.org/resources.html)). If you end up finding this helpful in your own responsive web page journey -- Yay!! If you have an alternative or improved solution, *or* if you understand these CSS grid classes more than I do, please do drop me a line -- I'd love to hear all about it {{< fa face-grin-wide >}}
 
 #### **Favorite new thing(s) learned:** mobile device previews and regex
 
@@ -201,7 +201,7 @@ Okay, I couldn't choose one, so here are my top two:
 #| out-width: "85%" 
 #| fig-alt: "The Openscapes website's landing page, as viewed on a mobile device. To the right is the \"Inspect\" window, which shows the webpage's underlying HTML and CSS. A button with a laptop and phone icon at the top of this section is circled in red. Clicking this button toggles between mobile and standard computer viewport sizes."
 
-knitr::include_graphics("mobile-view.png")
+knitr::include_graphics("media/mobile-view.png")
 ```
 
 ::: {.small-text .center-text .dark-gray-text}
