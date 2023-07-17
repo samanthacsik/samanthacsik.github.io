@@ -14,7 +14,7 @@ image: openscapes_hex.png
 draft: true
 ---
 
-Y'all, I did something really exciting -- I built another website! This time as a first-time freelancer. I'm not sure that I would have had the confidence to accept just any ole' request to do so, but when [Julie Lowndes](https://jules32.github.io/), founding director of Openscapes, and also a mentor turned friend (thank you [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/) community!), asked if I'd be interested in rebuilding the Openscapes website, it felt like a really awesome personal and professional growth opportunity. 
+Y'all, I did something really exciting -- I built another website! This time as a first-time freelancer. I'm not sure that I would have had the confidence to accept just any ole' request to do so, but when [Julie Lowndes](https://jules32.github.io/), founding director of [Openscapes](https://openscapes.org/), and also a mentor turned friend (thank you [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/) community!), asked if I'd be interested in rebuilding the Openscapes website, it felt like a really awesome personal and professional growth opportunity. 
 
 There are so many amazing things I could say about this process and experience, but I'd be writing a novel. Instead, I'm going to do some high-level reflection and focus a bit on the parts of the process that I enjoyed the most. 
 
@@ -22,7 +22,7 @@ There are so many amazing things I could say about this process and experience, 
 
 To start, what does **port** mean -- while it may be obvious to some, I feel like this word is sort of jargon-y. I first learned of it when [Quarto](https://quarto.org/) was thrust into the spotlight and the R community at large began *"porting their websites from distill/blogdown/etc to Quarto"*. I came to understand that (at least in this context) "port" means "to convert or migrate" a website from one framework to another (or in other words, rebuild a website using different tools).
 
-So why the need to port the Openscapes website to Quarto? Julie originally built the site back in 2018 using [blogdown](https://bookdown.org/yihui/blogdown/) and the [Universal Theme for Hugo](https://github.com/Openscapes/website/tree/main/themes/hugo-universal-theme) -- and it was really beautiful! 
+So why the need to port the Openscapes website to Quarto? Julie originally built the site back (you can still check out the [GitHub repo](https://github.com/Openscapes/website) in 2018 using [blogdown](https://bookdown.org/yihui/blogdown/) and the [Universal Theme for Hugo](https://github.com/Openscapes/website/tree/main/themes/hugo-universal-theme) -- and it was really beautiful! 
 
 ```{r}
 #| eval: true
@@ -251,4 +251,8 @@ I'm honestly so jazzed about wikis at the moment and plan to start using them mo
 I've struggled with imposter syndrome throughout my professional career (as so many do!) -- and it is *hard* to shake the feeling that I'm not qualified to be doing [fill in the blank with any one of the things that I get in my own head about]. This project was *not* one of those things. And I totally credit it to the supportive (and just generally fun) community that Julie and Stef create. It's not easy to foster an honest no-such-thing-as-failing environment, but I really felt that way from the moment I got started (which says a lot, given that I'd be learning on the go for much of the project). I feel *very* lucky and honored that they trusted me with this work.
 
 The Openscapes team certainly pracitices what they preach -- you can read all about the [Openscapes Approach](https://openscapes.github.io/approach-guide/approach/) for promoting psychological safety, kinder science, and a growth mindset, as well as explore the many other great [resources](https://openscapes.org/resources.html) developed by Openscapes.
+
+:::{.quote-text-bg .large-text .center-text}
+You can check out the Openscapes website at <https://openscapes.org/>. Source code is available on [{{< fa brands github >}} GitHub](https://github.com/Openscapes/website-new).
+:::
 
