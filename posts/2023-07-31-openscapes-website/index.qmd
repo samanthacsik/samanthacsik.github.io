@@ -20,9 +20,9 @@ There are so many amazing things I could say about this process and experience, 
 
 ## **Task:** Port the Openscapes website from blogdown to Quarto
 
-To start, what does **port** mean -- while it may be obvious to some, I feel like this word is sort of jargon-y. I first learned of it when [Quarto](https://quarto.org/) was thrust into the spotlight and the R community at large began *"porting their websites from distill/blogdown/etc to Quarto"*. I came to understand that (at least in this context) "port" means "to convert or migrate" a website from one framework to another (or in other words, rebuild a website using different tools).
+To start, what does **port** mean? While it may be obvious to some, I feel like this word is sort of jargon-y. I first learned of it when [Quarto](https://quarto.org/) was thrust into the spotlight and the R community at large began *"porting their websites from distill/blogdown/etc to Quarto"*. I came to understand that (at least in this context) "port" means "to convert or migrate" a website from one framework to another (or in other words, rebuild a website using different tools).
 
-So why the need to port the Openscapes website to Quarto? Julie originally built the site back (you can still check out the [GitHub repo](https://github.com/Openscapes/website) in 2018 using [blogdown](https://bookdown.org/yihui/blogdown/) and the [Universal Theme for Hugo](https://github.com/Openscapes/website/tree/main/themes/hugo-universal-theme) -- and it was really beautiful! 
+So why the need to port the Openscapes website to Quarto? Julie originally built the site back in 2018 using [blogdown](https://bookdown.org/yihui/blogdown/) and the [Universal Theme for Hugo](https://github.com/Openscapes/website/tree/main/themes/hugo-universal-theme) (you can still check out the [GitHub repo](https://github.com/Openscapes/website))  -- and it was really beautiful! 
 
 ```{r}
 #| eval: true
