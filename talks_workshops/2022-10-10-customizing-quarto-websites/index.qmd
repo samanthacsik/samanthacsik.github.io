@@ -19,7 +19,7 @@ image: sass_css.png
 <br>
 
 ::: {.center-text}
-[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/customizing-quarto-websites){.btn .btn-secondary role="button"}
+[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/customizing-quarto-websites){.btn role="button"}
 :::
 
 # Abstract

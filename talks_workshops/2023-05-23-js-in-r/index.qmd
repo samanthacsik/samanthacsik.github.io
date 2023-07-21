@@ -33,7 +33,7 @@ An interactive map made with the `{leaflet}` R package.
 <br>
 
 ::: {.center-text}
-[{{< fa file-alt title="A file with lines of text" >}} materials](https://samanthacsik.github.io/SORTEE-May2023/){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/SORTEE-May2023){.btn .btn-secondary role="button"}
+[{{< fa file-alt title="A file with lines of text" >}} materials](https://samanthacsik.github.io/SORTEE-May2023/){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/SORTEE-May2023){.btn role="button"}
 :::
 
 # Abstract 

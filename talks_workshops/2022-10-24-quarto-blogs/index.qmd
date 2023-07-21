@@ -30,7 +30,7 @@ Art by [Allison Horst](https://allisonhorst.com/)
 <br>
 
 ::: {.center-text}
-[{{< fa blog title="The blog symbol" >}} blogpost](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd){.btn .btn-secondary role="button"}
+[{{< fa blog title="The blog symbol" >}} blogpost](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd){.btn role="button"}
 :::
 
 # Abstract 

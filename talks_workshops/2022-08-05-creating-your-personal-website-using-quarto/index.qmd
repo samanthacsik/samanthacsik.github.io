@@ -32,7 +32,7 @@ Art by [Allison Horst](https://allisonhorst.com/)
 <br>
 
 ::: {.center-text}
-[{{< fa file-alt title="A file with lines of text" >}} materials](https://ucsb-meds.github.io/creating-quarto-websites/){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/creating-quarto-websites){.btn .btn-secondary role="button"} 
+[{{< fa file-alt title="A file with lines of text" >}} materials](https://ucsb-meds.github.io/creating-quarto-websites/){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/creating-quarto-websites){.btn role="button"} 
 :::
 
 # Abstract

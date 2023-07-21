@@ -50,6 +50,25 @@ body {
   font-size: 19.5px;
 }
 
+/* ID selectors */
+
+// responsive-ish iframes (width adjusts to viewport size; couldn't figure out how to expand viewport height, so set to this size for now)
+#map-size {
+  width: 100%;
+  height: 350px;
+}
+
+/*iframe.slide-deck {
+  //border: 3px solid #dee2e6;
+  width: 100%;
+  height: 475px;
+}*/
+
+/*#eds430-size {
+  width: 60%;
+  height: 380px;
+}*/
+
 /* CLASS SELECTORS (self-defined) */
 
 .custom-subtitle {
@@ -62,42 +81,45 @@ body {
   font-style: italic;
 }
 
-.larger-text {
-  font-size: 25px;  
-}
-
 .large-text {
-  font-size: 20px;
+  font-size: 25px;
 }
 
+// slightly smaller than default text
 .small-text {
   font-size: 17px;
 }
 
+// smallest text
 .extra-small-text{
   font-size: 14px;  
 }
 
+// extra space above line of text (but not as much as <br>)
 .topbr {
     display: block;
     margin-top: 1em;
 }
 
+// center align text
 .center-text {
   text-align: center;
   left: 50%;
 }
 
+// dark gray text
 .dark-gray-text{
   color: $dark-gray;
 }
 
+// gray-italic text (mostly used for captions)
 .gray-italic {
   color: $gray;
   font-style: italic;
   font-size: 17px;
 }
 
+// gray background
 .quote-text-bg {
   background-color: rgba(166, 164, 161, 0.4);
   padding-top: 5px;
@@ -107,18 +129,19 @@ body {
   border-radius: 15px;
 }
 
+// btn styling
 .btn {
   color: $gray;
   background-color: $light-sage-green;
   border-color: $dark-gray;
 }
 
+// button hover styling
 .btn:hover {
   color: $gray;
   background-color: $cream;
   border-color: $dark-gray;
 }
-
 
 /*.container {
   display: flex;
@@ -173,47 +196,36 @@ body {
   vertical-align: middle;
 }
 
-.btn-primary:hover {
-  color: #ffffff;
-  background-color: #978e83;
-  border-color: white;
-}
-
-.btn-primary:focus {
-  color: #ffffff;
-  background-color: #978e83;
-  border-color: white;
-} */
-
 /* CLASS SELECTORS (copied from inspecting site -- Quarto defined?) */
 
-.navbar-brand img { // see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
+// resize logo (top left corner) see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
+.navbar-brand img { 
   max-height: 60px;
   width: auto;
 }
 
-.rounded { // headshot shape
+// headshot shape
+.rounded { 
     border-radius: 50px 20px 50px 20px !important;
 }
 
-.about-link-text { // button text size (landing page)
+// button text size (landing page)
+.about-link-text { 
   font-size: 18px;
 }
 
-.bi { // button icon size (landing page)
+// button icon size (landing page)
+.bi { 
   font-size: 18px;
 }
 
+// listing card styling
 .card {
   background-color: $cream;
   //border-radius: 5.25em;
 }
 
-/* .card-attribution {
-  //padding-top: 5em;
-  padding-bottom: 3em;
-} */
-
+// listing description text styling
 .description {
   font-size: 25px;
 }
