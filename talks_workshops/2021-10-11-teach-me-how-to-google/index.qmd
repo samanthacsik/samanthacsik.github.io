@@ -26,7 +26,7 @@ xaringanExtra::embed_xaringan(
 <br>
 
 ::: {.center-text}
-[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/teach-me-how-to-google/#1){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/teach-me-how-to-google){.btn .btn-secondary role="button"}
+[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/teach-me-how-to-google/#1){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/teach-me-how-to-google){.btn role="button"}
 :::
 
 # Abstract

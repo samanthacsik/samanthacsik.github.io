@@ -19,15 +19,8 @@ image: shiny_hex.png
 <br>
 
 ::: {.center-text}
-[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide/){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/EDS430-Shiny){.btn .btn-secondary role="button"}
+[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide/){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/EDS430-Shiny){.btn role="button"}
 :::
-
-<!-- <div class="container"> -->
-<!-- <div class="center"> -->
-<!-- <button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide/'>{{< fa tv title="A television screen" >}} slides</button> -->
-<!-- <button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/EDS430-Shiny'>{{< fa code title="A symbol for code, </>" >}} source code</button> -->
-<!-- </div> -->
-<!-- </div> -->
 
 # Abstract
 

@@ -30,7 +30,7 @@ Art by [Allison Horst](https://allisonhorst.com/)
 <br>
 
 ::: {.center-text}
-[{{< fa file-alt title="A file with lines of text" >}} materials](https://ucsb-meds.github.io/ggplot2-workflow/){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/ggplot2-workflow/tree/main){.btn .btn-secondary role="button"}
+[{{< fa file-alt title="A file with lines of text" >}} materials](https://ucsb-meds.github.io/ggplot2-workflow/){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/ggplot2-workflow/tree/main){.btn role="button"}
 :::
 
 # Abstract 
