@@ -12,5 +12,27 @@ draft: false
 
 <br>
 
+# What's the Bren Student Data Explorer?
+
+In an effort to increase transparency surrounding student demographics and post-graduation career placement statistics, the [Bren School](https://bren.ucsb.edu/) hired R Shiny Developer Fellow, [Halina Do-Linh](https://github.com/hdolinh/) -- she designed and built v1.0 of the public-facing [dashboard](https://shinyapps.bren.ucsb.edu/student-data-explorer/) for exploring these data in summer 2022.
+
+<br>
+
+<img class="center-img" src="dashboard.jpeg" alt="A online dashboard with a banner image depicting the Bren School building with the ocean to the left. Atop the image reads in all capital letters, 'BREN STUDENT DATA EXPLORER'. Beneath the banner image are two side-by-side boxes with text. The top of the left-hand box reads, 'Learn about students at the Bren School', and the top of the right-hand box reads, 'About the data'. A left-hand sidebar indicates that we're viewing the Welcome page. Two other pages are listed below: Demographics and Career Outcomes." width="70%">
+
+::: {.gray-italic .center-text}
+The landing page of the Bren Student Data Explorer, accessible at <https://shinyapps.bren.ucsb.edu/student-data-explorer/>
+:::
+
+<br>
+
+# My role
+
+I (along with a number of other Bren staff) oversaw the development of Bren Student Data Explorer v1.0 (though to be clear, Halina led the design and technical development of the dashboard -- it's really her product to brag about!). Each year, the dashboard will be updated with new demographic data based on applications and admissions, provided by [UCSB's Graduate Division](https://www.graddiv.ucsb.edu/), and post-grad career placement data from the [Bren's Career Services Team](https://bren.ucsb.edu/career-services). 
+
+In January 2023, I took over as the primary dashboard maintainer. This involved refactoring the code base, processing new data, and updating the dashboard. Some additional refactoring is likely to happen during the next big update in order to further simplify the code base and improve readability for future maintainers. 
+
+Check back each year to learn more about our Bren students!
+
 
 

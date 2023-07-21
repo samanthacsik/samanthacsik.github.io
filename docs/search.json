@@ -340,6 +340,6 @@
     "href": "projects/2023-02-15-bren-student-data-explorer/index.html",
     "title": "Bren Student Data Explorer",
     "section": "",
-    "text": "Shiny dashboard  Source code"
+    "text": "Shiny dashboard  Source code\n\n\nWhat’s the Bren Student Data Explorer?\nIn an effort to increase transparency surrounding student demographics and post-graduation career placement statistics, the Bren School hired R Shiny Developer Fellow, Halina Do-Linh – she designed and built v1.0 of the public-facing dashboard for exploring these data in summer 2022.\n\n\n\nThe landing page of the Bren Student Data Explorer, accessible at https://shinyapps.bren.ucsb.edu/student-data-explorer/\n\n\n\n\nMy role\nI (along with a number of other Bren staff) oversaw the development of Bren Student Data Explorer v1.0 (though to be clear, Halina led the design and technical development of the dashboard – it’s really her product to brag about!). Each year, the dashboard will be updated with new demographic data based on applications and admissions, provided by UCSB’s Graduate Division, and post-grad career placement data from the Bren’s Career Services Team.\nIn January 2023, I took over as the primary dashboard maintainer. This involved refactoring the code base, processing new data, and updating the dashboard. Some additional refactoring is likely to happen during the next big update in order to further simplify the code base and improve readability for future maintainers.\nCheck back each year to learn more about our Bren students!"
   }
 ]

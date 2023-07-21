@@ -60,7 +60,8 @@ body {
 
 /* CLASS SELECTORS (self-defined) */
 
-.custom-subtitle {
+// subtitles used with trestles template (currently using jolla)
+/*.custom-subtitle {
   font-size: 22px;
   margin-bottom: 0.15em;
 }
@@ -68,8 +69,9 @@ body {
 .custom-subtitle2 {
   font-size: 20px;
   font-style: italic;
-}
+}*/
 
+// larger text
 .large-text {
   font-size: 25px;
 }
@@ -142,57 +144,11 @@ body {
  //width: 80%;
 }
 
-/*.container {
-  display: flex;
-}*/
-
-/*.container { // for centering buttons
-  height: 20px;
-  position: relative;
-}*/
-
-/*
-.center { // for centering buttons
-  //width: 100%;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}*/
-
-/*.button-styling {
-  background: $light-sage-green;
-  border-color: $gray;
-  color: $gray;
-  border-radius: 0.6rem;
-  border-width: thin;
-  font-size: 18px;
-  letter-spacing: 3px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 6px;
-  padding-left: 6px;
-  transition-duration: 0.4s;
-}
-
-.button-styling:hover {
-  background-color: $cream; 
-}*/
-
-
-// Example from Meghan Hall
-/*.btn-primary {
-  color: $gray;
-  background-color: $light-sage-green;
-  border: 1px solid $gray;
-  width: 25%;
-  margin-bottom: 0;
-  text-align: center;
-  padding: 0px 2px;
-  border-radius: 25px;
-  vertical-align: middle;
+// center image only
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* CLASS SELECTORS (copied from inspecting site -- Quarto defined?) */
