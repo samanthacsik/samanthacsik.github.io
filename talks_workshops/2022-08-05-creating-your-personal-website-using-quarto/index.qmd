@@ -17,26 +17,28 @@ image: quarto_share.png
 ---
 
 ```{r}
+#| eval: true 
 #| echo: false
+#| fig-align: "center"
+#| out-width: "85%" 
 #| fig-alt: "One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo 'moon' in the night sky."
-#| fig-cap: "Art by [Allison Horst](https://allisonhorst.com/): One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo 'moon' in the night sky."
 knitr::include_graphics("penguins_telescope_2.png")
 ```
 
+::: {.gray-italic .center-text}
+Art by [Allison Horst](https://allisonhorst.com/)
+:::
+
 <br>
 
-<div class="container">
-<div class="center">
-<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/creating-quarto-websites/'>{{< fa file-alt title="A file with lines of text" >}} instructional documentation</button>
-<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/creating-quarto-websites'>{{< fa code title="A symbol for code, </>" >}} source code</button> 
-<!-- <button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/posts/2022-08-05-building-a-personal-website-using-quarto/'>{{< fa blog title="A symbol for blog, b with lines above it" >}} blog</button>  -->
-</div>
-</div>
-
-# Overview
-
-This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+::: {.center-text}
+[{{< fa file-alt title="A file with lines of text" >}} materials](https://ucsb-meds.github.io/creating-quarto-websites/){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/creating-quarto-websites){.btn .btn-secondary role="button"} 
+:::
 
 # Abstract
 
 A personal website is not only a great way to showcase your experiences and skills, but also gives people (potential employers included!) a better sense of who you are as a person. There are lots of great tools for building websites using R (e.g. `{distill}`, `{blogdown}`) -- this year, we'll be using [Quarto](https://quarto.org/), an exciting, new, and versatile publishing tool that supports R, Python, Julia, and ObservableJS. Want to get started on building your own website using Quarto? Check out this [tutorial](https://ucsb-meds.github.io/creating-quarto-websites/).
+
+# Audience
+
+This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).

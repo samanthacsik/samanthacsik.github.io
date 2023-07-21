@@ -24,18 +24,15 @@ xaringanExtra::embed_xaringan(
 
 <br>
 
-<div class="container">
-<div class="center">
-<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/cloud-computing/#1'>{{< fa tv title="A television screen" >}} slides</button>
-<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/cloud-computing'>{{< fa code title="A symbol for code, </>" >}} source code</button> 
-</div>
-</div>
-
-# Overview
-
-This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+::: {.center-text}
+[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/cloud-computing/#1){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/cloud-computing){.btn .btn-secondary role="button"}
+:::
 
 # Abstract
 
 “The Cloud” is a buzzword we often hear, but maybe don’t quite understand. In this workshop, we’ll learn a bit about what cloud computing means and what it can look like, how to launch a virtual machine (i.e. an instance) using Amazon Web Services (AWS), and how we can leverage more powerful computers (e.g. the cloud) to run computationally-intensive processes in less time.
+
+# Audience
+
+This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
 
