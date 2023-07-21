@@ -44,7 +44,7 @@ Additionally, the Openscapes team has used Quarto since its earliest days (read 
 
 For one, I *am not* a web developer. I also had never used blogdown before, but I *have* worked a fair bit with Quarto. My real job involves teaching data science skills to students in the Bren School's [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds) (MEDS) program -- this includes teaching students [how to build a personal website using Quarto](https://ucsb-meds.github.io/creating-quarto-websites/), [how to customize Quarto websites using Sass & CSS](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide), and [how to add a blog to their Quarto website](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/). 
 
-*However*, all websites I've built/contributed to/taught about were personal websites (e.g. like my own website, <https://samanthacsik.github.io>) -- oftentimes, these leverage a [special template](https://quarto.org/docs/websites/website-about.html#templates) to easily arrange the contents of a website's landing page. Rebuilding the Openscapes website meant diving deeper into custom layouts, responsive webpages, and generally, a whole lot of stuff I had little to no familiarity with...which honestly really scared me (aren't freelancers supposed to know how to do what they're being hired to do??). With Julie's reassurances that not knowing was okay, and that there was time and space to learn together (*very* on brand for the community she and her team foster through Openscapes {{< fa face-smile >}}), I set off on my first freelancing adventure.
+*However*, all websites I've built/contributed to/taught about have been personal websites (e.g. like my own, <https://samanthacsik.github.io>) -- oftentimes, these leverage a [special template](https://quarto.org/docs/websites/website-about.html#templates) to easily arrange the contents of a website's landing page. Rebuilding the Openscapes website meant diving deeper into custom layouts, responsive web pages, and generally, a whole lot of stuff I had little to no familiarity with...which honestly really scared me (aren't freelancers supposed to know how to do what they're being hired to do??). With Julie's reassurances that not knowing was okay, and that there was time and space to learn together (*very* on brand for the community she and her team foster through Openscapes {{< fa face-smile >}}), I set off on my first freelancing adventure.
 
 ## **General Porting Process:** Easy stuff first, then lots and lots of learning and iterating!
 
@@ -56,12 +56,12 @@ Steps for porting the website generally looked like this:
 2. **Incorporate events:** Openscapes Events were historically announced through a separate [Events blog](https://openscapes.github.io/events/), which we decided to incorporate fully into the Openscapes website on it's own [events listing](https://openscapes.org/events).
 3. **Feedback & updates:** Stef and Julie did multiple deep dive reviews of the website and I made changes based off their suggestions/requests. Some of these were minor (e.g. "Can we add a bit more vertical space in underlined text", "this hyperlinked text is broken"), while others required a bit more thought (e.g. "let's rethink how we structure content on this page", figuring out CSS to style particular page elements). They *also* had the chance to share the website with a focus group, which provided invaluable feedback on content organization, language, etc. (e.g. "remove unnecessary text from the landing page", "replace the words *instructional materials* with *curriculum*")
 4. **More feedback & updates:** The hardest part and also the most fun part was the back-and-forth discussion on how to rethink, try out, and change the website. We fiddled a lot with content reorganization and CSS styling to better highlight different resources/elements. It was a super collaborative and iterative process to get things to where they are now!
-5. **Figure out responsive web pages:** I saved the most technically challenging part (at least for me) for last -- learning how to create responsive webpages (where content adjusts size and positioning based on viewport size) involved a lot of trial and error.
+5. **Figure out responsive web pages:** I saved the most technically challenging part (at least for me) for last -- learning how to create responsive web pages (where content adjusts size and positioning based on viewport size) involved a lot of trial and error.
 6. **Deploy with Netlify & troubleshoot redirects:** It took us a minute to understand how to get redirects to work. I won't go into that here, but you can read about our solution on our [redirects wiki](https://github.com/Openscapes/website-new/wiki/Redirects).
 
 ## **Culture & Communication:** Share openly and often, we're all here to brainstorm, support, cheer on
 
-While Julie, Stef, and I all had some level of experience using Quarto, we were dancing at the edge of our collective existing knowledge and trying out things that we weren't always sure would work out. Sharing progress and celebrating victories was a super important part of the process.
+While Julie, Stef, and I all had some level of experience using Quarto, we were dancing at the edge of our collective existing knowledge and trying out things that we weren't always sure would work. Sharing progress and celebrating victories was a super important part of the process.
 
 ```{r}
 #| eval: true
@@ -103,7 +103,7 @@ Our primary place for keeping track of TODOs, documenting solutions, and solicit
 
 Building this website has been a real journey (a 6-month long one)! While I can't recount all the details here, I did want to reflect on a few things I'm most excited about:
 
-#### **Greatest victory:** responsive webpages
+#### **Greatest victory:** responsive web pages
 
 A *responsive* web page is one with elements that automatically resize and reorganize based on the size and shape of the viewport and/or device it's being viewed on. This responsiveness is critically important for ensuring a high quality user experience, no matter how a user is accessing the website.
 
@@ -173,7 +173,7 @@ right-hand column content
 
 `.g-col-12` represents the width of each column when the viewport is made smaller (e.g. either a narrow browser window or on a mobile device) -- since the width of our browser is a total of 12 units, each column will take up the full width of the browser and be forced to stack vertically.
 
-`.g-col-md-4` represents the width of each column when the viewport is made larger (e.g. a browser window that takes up a full laptop screen) -- in this case, each column will only take up 4 units, or a third of the full width of the browser and can sit side-by-side on another.
+`.g-col-md-4` represents the width of each column when the viewport is made larger (e.g. a browser window that takes up a full laptop screen) -- in this case, each column will only take up 4 units, or a third of the full width of the browser and can sit side-by-side one another.
 
 Here's the above example in action:
 
@@ -192,14 +192,14 @@ Ultimately, I used this approach for all pages that needed responsive columns (l
 
 Okay, I couldn't choose one, so here are my top two: 
 
-1. **Previewing a webpage for mobile device viewing:** When building my own personal website, I always took the "let's make changes, redeploy, then check it out on my phone to see how it looks" approach...which is never ideal. Huge shout out to my husband, [Brendan Shanny](https://github.com/brenshanny), who showed me that you can preview a website as it would appear on a mobile device directly from Google Chrome. Right click on a webpage > choose Inspect > click on the button with the laptop and phone icon in the top left corner of the Inspect pane to toggle between standard computer and mobile viewport sizes. 
+1. **Previewing a web page for mobile device viewing:** When building my own personal website, I always took the "let's make changes, redeploy, then check it out on my phone to see how it looks" approach...which is never ideal. Huge shout out to my husband, [Brendan Shanny](https://github.com/brenshanny), who showed me that you can preview a website as it would appear on a mobile device directly from Google Chrome. Right click on a web page > choose Inspect > click on the button with the laptop and phone icon in the top left corner of the Inspect pane to toggle between standard computer and mobile viewport sizes. 
 
 ```{r}
 #| eval: true
 #| echo: false
 #| fig-align: center
 #| out-width: "85%" 
-#| fig-alt: "The Openscapes website's landing page, as viewed on a mobile device. To the right is the \"Inspect\" window, which shows the webpage's underlying HTML and CSS. A button with a laptop and phone icon at the top of this section is circled in red. Clicking this button toggles between mobile and standard computer viewport sizes."
+#| fig-alt: "The Openscapes website's landing page, as viewed on a mobile device. To the right is the \"Inspect\" window, which shows the web page's underlying HTML and CSS. A button with a laptop and phone icon at the top of this section is circled in red. Clicking this button toggles between mobile and standard computer viewport sizes."
 knitr::include_graphics("media/mobile-view.png")
 ```
 
