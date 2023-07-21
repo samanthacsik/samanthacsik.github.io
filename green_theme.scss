@@ -92,15 +92,44 @@ body {
   color: $dark-gray;
 }
 
+.gray-italic {
+  color: $gray;
+  font-style: italic;
+  font-size: 17px;
+}
+
+.quote-text-bg {
+  background-color: rgba(166, 164, 161, 0.4);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 8px;
+  border-radius: 15px;
+}
+
+.btn {
+  color: $gray;
+  background-color: $light-sage-green;
+  border-color: $dark-gray;
+}
+
+.btn:hover {
+  color: $gray;
+  background-color: $cream;
+  border-color: $dark-gray;
+}
+
+
 /*.container {
   display: flex;
 }*/
 
-.container { // for centering buttons
+/*.container { // for centering buttons
   height: 20px;
   position: relative;
-}
+}*/
 
+/*
 .center { // for centering buttons
   //width: 100%;
   margin: 0;
@@ -109,9 +138,9 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
+}*/
 
-.button-styling {
+/*.button-styling {
   background: $light-sage-green;
   border-color: $gray;
   color: $gray;
@@ -128,10 +157,11 @@ body {
 
 .button-styling:hover {
   background-color: $cream; 
-}
+}*/
+
 
 // Example from Meghan Hall
-/* .btn-primary {
+/*.btn-primary {
   color: $gray;
   background-color: $light-sage-green;
   border: 1px solid $gray;
@@ -154,21 +184,6 @@ body {
   background-color: #978e83;
   border-color: white;
 } */
-
-.gray-italic {
-  color: $gray;
-  font-style: italic;
-  font-size: 17px;
-}
-
-.quote-text-bg {
-  background-color: rgba(166, 164, 161, 0.4);
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 5px;
-  padding-left: 8px;
-  border-radius: 15px;
-}
 
 /* CLASS SELECTORS (copied from inspecting site -- Quarto defined?) */
 

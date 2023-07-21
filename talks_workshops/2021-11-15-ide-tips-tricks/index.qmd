@@ -16,17 +16,17 @@ image: lightbulb.gif
 
 <center><iframe src="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" title="IDE Tips & Tricks" width=750px, height=550px></iframe></center>
 
-<div class="container">
-<div class="center">
-<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide'>{{< fa tv title="A tv screen" >}} slides</button>
-<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/IDE-tips-and-tricks'>{{< fa code title="A symbol for code, </>" >}} source code</button> 
-</div>
-</div>
+<br>
 
-# Overview
-
-This talk was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/). *Last revision: October 3, 2022*
+::: {.center-text}
+[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/IDE-tips-and-tricks){.btn .btn-secondary role="button"}
+:::
 
 # Abstract
 
 As environmental data scientists, we spend a lot of time in RStudio. Taking some time to learn how you can customize your RStudio IDE (**I**ntegrated **D**evelopment **E**nvironment) and the keyboard shortcuts used to navigate around that IDE can make you a more efficient (and happier) hacker!
+
+# Audience
+
+This talk was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/). *Last revision: October 3, 2022*
+

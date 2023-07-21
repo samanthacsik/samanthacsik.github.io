@@ -15,25 +15,28 @@ image: an_bui_planet.png
 ---
 
 ```{r}
+#| eval: true 
 #| echo: false
+#| fig-align: "center"
+#| out-width: "75%" 
 #| fig-alt: "A hand-drawn function showcasing the basic expected structure. The function is named 'my.function' and takes an arguement called, 'arguments'. A 'new.object' is created by something that takes 'arguments' and retruns 'new.object' at the end. Hand-drawn stars and a smiling Saturn-shaped planet are in the background."
-#| fig-cap: "Art by [An Bui](https://an-bui.com/)"
 knitr::include_graphics("an_bui_function-structure.jpeg")
 ```
 
+::: {.gray-italic .center-text}
+Art by [An Bui](https://an-bui.com/)
+:::
+
 <br>
 
-<div class="container">
-<div class="center">
-<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/functions-workshop/'>{{< fa file-alt title="A file with lines of text" >}} instructional documentation</button>
-<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/functions-workshop'>{{< fa code title="A symbol for code, </>" >}} source code</button> 
-</div>
-</div>
-
-# Overview
-
-This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+::: {.center-text}
+[{{< fa file-alt title="A file with lines of text" >}} materials](https://ucsb-meds.github.io/functions-workshop/){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/functions-workshop){.btn .btn-secondary role="button"} 
+:::
 
 # Abstract 
 
 As your data processing and analyses get longer and more complex, the chances that you’ll benefit from writing functions and/or for loops will also increase. However, whether you're a new learner or seasoned programmer, it can sometimes feel overwhelming to know exactly where to start -- especially when you have an end goal that builds additional complexity/flexibility into your functions and for loops. Taking an iterative approach to building out your code can help make this process clearer, less daunting, and more fun. In this workshop, we'll use one case study to practice breaking down the function and for loop writing process into manageable, bite-sized steps.
+
+# Audience
+
+This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).

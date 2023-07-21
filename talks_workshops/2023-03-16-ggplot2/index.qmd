@@ -15,26 +15,28 @@ image: ahorst_ggplot2_small.png
 ---
 
 ```{r}
+#| eval: true 
 #| echo: false
-#| fig-alt: "One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo 'moon' in the night sky."
-#| fig-cap: "Art by [Allison Horst](https://allisonhorst.com/): A fuzzy monster in a beret and scarf, critiquing their own column graph on a canvas in front of them while other assistant monsters (also in berets) carry over boxes full of elements that can be used to customize a graph (like themes and geometric shapes). In the background is a wall with framed data visualizations. Stylized text reads 'ggplot2: build a data masterpiece.'"
+#| fig-align: "center"
+#| out-width: "75%" 
+#| fig-alt: "A fuzzy monster in a beret and scarf, critiquing their own column graph on a canvas in front of them while other assistant monsters (also in berets) carry over boxes full of elements that can be used to customize a graph (like themes and geometric shapes). In the background is a wall with framed data visualizations. Stylized text reads \"ggplot2: build a data masterpiece.\""
 knitr::include_graphics("ahorst_ggplot2.png")
 ```
 
-<div class="container">
-<div class="center">
-<button type="button" class="button-styling" onclick=window.location.href='https://ucsb-meds.github.io/ggplot2-workflow/'>{{< fa file-alt title="A file with lines of text" >}} instructional documentation</button>
-<button type="button" class="button-styling" onclick=window.location.href='https://github.com/UCSB-MEDS/ggplot2-workflow/tree/main'>{{< fa code title="A symbol for code, </>" >}} source code</button> 
-</div>
-</div>
+::: {.gray-italic .center-text}
+Art by [Allison Horst](https://allisonhorst.com/)
+:::
 
-<!-- `r fontawesome::fa("file-alt", fill = "#64605f", a11y = "sem")` -->
-<!-- `r fontawesome::fa("github-square", fill = "#64605f", a11y = "sem")` -->
+<br>
 
-# Overview
-
-This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+::: {.center-text}
+[{{< fa file-alt title="A file with lines of text" >}} materials](https://ucsb-meds.github.io/ggplot2-workflow/){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/ggplot2-workflow/tree/main){.btn .btn-secondary role="button"}
+:::
 
 # Abstract 
 
 `{ggplot2}` has, in many ways, become the de facto tool for data visualization in R. And with the many extension packages available, there's hardly a limit to what you can create. Building effective and visually-pleasing data visualizations is a skill that gets easier with practice, and following a somewhat structured workflow -- at least at the start -- can help you get there faster. This workshop covers one approach for doing so, though you'll find what works best for you with time.
+
+# Audience
+
+This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).

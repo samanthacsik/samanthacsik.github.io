@@ -20,29 +20,30 @@ image: infinity.gif
 ---
 
 ```{r}
+#| eval: true 
 #| echo: false
-#| fig-cap: "An Bui and I getting ready to teach our very first R workshop to R-Ladies SB, hosted at NCEAS"
+#| fig-align: "center"
+#| out-width: "75%" 
 #| fig-alt: "Two women, Sam and An, stand smiling in front of a projector screen with a GitHub repository on display."
 knitr::include_graphics("sam_an.jpg")
 ```
 
+::: {.gray-italic .center-text}
+An Bui and I getting ready to teach our very first R workshop to R-Ladies SB, hosted at NCEAS
+:::
+
 <br>
 
-<div class="container">
-<div class="center">
-<button type="button" class="button-styling" onclick=window.location.href='https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse'>{{< fa file-alt title="A file with lines of text" >}} instructional documentation</button>
-<button type="button" class="button-styling" onclick=window.location.href='https://github.com/samanthacsik/Intro-to-the-Tidyverse'>{{< fa code title="A symbol for code, </>" >}} source code</button> 
-<!-- <button type="button" class="button-styling" onclick=window.location.href='https://www.meetup.com/rladies-santa-barbara/events/260710376/'>`r fontawesome::fa("meetup", fill = "#64605f", a11y = "sem")` meetup event</button>  -->
-</div>
-</div>
-
-
-# Overview
-
-My *very first time* (co)leading an R-based live-coding workshop(!) and the experience that got me hooked on teaching RStats/data science 💜, given to [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/events/260710376/).
+::: {.center-text}
+[{{< fa file-alt title="A file with lines of text" >}} materials](https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse){.btn .btn-secondary role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/Intro-to-the-Tidyverse){.btn .btn-secondary role="button"} 
+:::
 
 # Abstract 
 
 In this live-coding workshop, we teach useful functions for data tidying, wrangling and visualization using tidyverse packages & functions (e.g. `dplyr`, `tidyr`, `ggplot2`, `forcats`, etc.). This session is intended for R users at any level, whether it's your first time exploring the tidyverse or if you're refreshing your wrangling skills!
+
+# Audience
+
+My *very first time* (co)leading an R-based live-coding workshop(!) and the experience that got me hooked on teaching RStats/data science 💜, given to [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/events/260710376/).
 
 
