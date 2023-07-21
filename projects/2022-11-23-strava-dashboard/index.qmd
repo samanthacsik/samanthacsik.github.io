@@ -8,7 +8,7 @@ image: strava-logo-white-bg.png
 draft: false
 ---
 
-[{{< fa brands r-project >}} Shiny dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn} [{{< fa brands github >}} Source Code](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn}
+[{{< fa brands r-project >}} Shiny dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn} [{{< fa brands github >}} Source code](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn}
 
 <br>
 

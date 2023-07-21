@@ -16,7 +16,3 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-
-::: {.large-text .center-text}
-UNDER CONSTRUCTION
-:::
