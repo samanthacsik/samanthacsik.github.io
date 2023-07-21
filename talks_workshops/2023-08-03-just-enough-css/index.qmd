@@ -1,0 +1,28 @@
+---
+title: "Just enough CSS (and Sass) for data scientists"
+description: |
+  a hands-on workshop for data scientists looking to add a little pizzazz to their web pages
+author:
+  - name: Samantha Csik
+    url: https://samanthacsik.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: The National Center for Ecological Analysis and Synthesis
+    affiliation-url: https://www.nceas.ucsb.edu/
+date: 2023-08-03
+slug: csik2023css
+categories: [NCEAS, Quarto, CSS]
+image: bob-ross.gif
+draft: true
+---
+
+<center><iframe src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" title="Just Enough CSS (and Sass) for data scientists" width="750px," height="550px"></iframe></center>
+
+# Abstract
+
+While many of us in the broader data science community may not consider ourselves web developers, tools like Quarto and GitHub have made it more approachable than ever before to create, publish, and share HTML web pages. The default styling of these web pages is pretty sleek -- but knowing even just a little bit of CSS can help you transform your reports, websites, blog posts, presentation slides, etc. into personalized and stand-out web products.
+
+In this workshop-style Roundtable, we'll first introduce and interact with some HTML and CSS, the building blocks of all web pages. We'll then learn about how Sass extends CSS features to help simplify our stylesheets. Finally, we'll practice writing Sass and CSS to style a Quarto Markdown (`.qmd`) report.
+
+# Audience
+
+This workshop was delivered to NCEAS residents and staff during the monthly [Roundtable](https://www.nceas.ucsb.edu/roundtable) seminar. Roundtable is a series of informal presentations and discussions on a wide variety of topics related to current work happening at NCEAS. Sign up for the [Google Group](https://groups.google.com/a/nceas.ucsb.edu/g/roundtable) to receive announcements of upcoming Roundtables.
