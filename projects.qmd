@@ -1,8 +1,8 @@
 ---
-title: "talks & workshops"
-subtitle: "a selection of my favorite talks & workshops and associated materials" 
+title: "projects"
+subtitle: "some of my more notable side projects, courses, and freelancing work" 
 listing:
-  contents: talks_workshops
+  contents: projects
   feed: true
   sort: "date desc"
   type: grid
@@ -10,9 +10,13 @@ listing:
   grid-item-align: left
   max-description-length: 175
   date-format: medium
-  categories: numbered
+  #categories: numbered
   sort-ui: false
   filter-ui: false
 page-layout: full
 title-block-banner: true
 ---
+
+::: {.large-text .center-text}
+UNDER CONSTRUCTION
+:::

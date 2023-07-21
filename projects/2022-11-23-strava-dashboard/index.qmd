@@ -1,0 +1,33 @@
+---
+title: "Shiny Strava Dashboard"
+description: |
+  a personal (and ongoing) side-project to explore my Strava data and learn more about building Shiny apps
+date: 2022-11-23
+categories: [Shiny]
+image: strava-logo-white-bg.png
+draft: false
+---
+
+[{{< fa brands r-project >}} Shiny dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn} [{{< fa brands github >}} Source Code](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn}
+
+<br>
+
+# Motivation 
+
+It doesn't get much better than playing around with data that mean a lot to you. For me, that's my Strava data (yes, I do recognize that that might sound a bit silly) -- I'm fortunate enough to have near-immediate access to some of the greatest hiking trails around (yes, I also recognize that I'm totally biased), and spending my free time romping around our local mountains has been so important for my mental health. *So,* when I was ready to do my first real deep-dive into learning how to build Shiny apps and dashboards, I knew these were the data I needed to use.
+
+<br>
+
+<img class="img-styling" src="cathedral-peak.jpeg" alt="A woman stands on top of a rocky peak with blue sky and chapparal-covered mountains in the background. Blue sky is visible to the left, and foggy, dark clouds are rolling in from the right." width="70%">
+
+::: {.gray-italic .center-text}
+Cathedral Peak, Santa Barbara, CA
+:::
+
+<br>
+
+# What's on the dashboard?
+
+This is very much an ongoing work in-progress, but the first version included a "Gear Garage" for tracking mileage on my hiking boots and bike, an activity heat map of all recorded hikes, bike rides, and walks, visualizations for exploring activity distance and elevation gain, and an interactive table of the raw data.
+
+There are many more visualizations and features I'd love to add (but have been severely lacking the time to do so). I also still manually retrieve new activities using the Strava API via the [`{rstrava}` package](https://github.com/fawda123/rStrava), but I hope to automate this in the next version. Stay tuned!

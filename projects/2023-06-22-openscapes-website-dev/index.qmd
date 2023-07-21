@@ -1,0 +1,9 @@
+---
+title: "Openscapes Website"
+description: |
+  porting and redesigning the Openscapes website
+date: 2023-06-22
+categories: [Quarto website]
+image: openscapes-hex-white-bg.png
+draft: false
+---

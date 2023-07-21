@@ -1,6 +1,6 @@
 ---
 title: "posts"
-subtitle: ""
+subtitle: "still working on learning how to write more often"
 listing:
   contents: posts
   sort: "date desc"
@@ -12,5 +12,5 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: false
+title-block-banner: true
 ---

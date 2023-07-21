@@ -1,0 +1,12 @@
+---
+title: "Bren Student Data Explorer"
+description: |
+  refactoring & maintaining Bren's Shiny app for visualizing admissions and career outcome data of current students and recent graduates
+date: 2023-02-15
+categories: [Shiny]
+image: bren-hex-white-bg.png
+draft: false
+---
+
+
+

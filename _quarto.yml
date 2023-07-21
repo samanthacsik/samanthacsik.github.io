@@ -23,6 +23,8 @@ website:
       - about.qmd
       - href: talks_workshops.qmd
         text: talks & workshops
+      - href: projects.qmd
+        text: projects
       - posts.qmd
       - resources.qmd
       - href: CV/SCsik_CV.pdf
