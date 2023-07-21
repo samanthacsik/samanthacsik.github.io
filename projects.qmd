@@ -1,0 +1,18 @@
+---
+title: "projects"
+subtitle: "some of my more notable side projects, courses, and freelancing work" 
+listing:
+  contents: projects
+  feed: true
+  sort: "date desc"
+  type: grid
+  grid-item-border: true
+  grid-item-align: left
+  max-description-length: 175
+  date-format: medium
+  #categories: numbered
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---

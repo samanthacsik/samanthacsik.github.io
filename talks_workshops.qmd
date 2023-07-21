@@ -14,5 +14,5 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: false
+title-block-banner: true
 ---

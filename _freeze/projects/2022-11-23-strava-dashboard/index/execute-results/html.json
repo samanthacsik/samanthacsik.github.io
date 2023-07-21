@@ -1,0 +1,14 @@
+{
+  "hash": "ff43f31e1aba92d504d5a9de5c4509a0",
+  "result": {
+    "markdown": "---\ntitle: \"Shiny Strava Dashboard\"\ndescription: |\n  a personal (and ongoing) side-project to explore my Strava data and learn more about building Shiny apps\ndate: 2022-11-23\ncategories: [Shiny]\nimage: strava-logo-white-bg.png\ndraft: false\n---\n\n\n[{{< fa brands r-project >}} Shiny dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn} [{{< fa brands github >}} Source Code](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn}\n\n<br>\n\n# Motivation \n\nIt doesn't get much better than playing around with data that means a lot to you. For me, that's my Strava data (yes, I do recognize that that might sound a bit silly) -- I'm fortunate enough to have near-immediate access to some of the greatest hiking trails around (yes, I also recognize that I'm totally biased), and spending my free time romping around our local mountains has been so important for my mental health.\n\n<br>\n\n<img class=\"img-styling\" src=\"cathedral-peak.jpeg\" alt=\"A woman stands on top of a rocky peak with blue sky and chapparal-covered mountains in the background. Blue sky is visible to the left, and foggy, dark clouds are rolling in from the right.\" width=\"75%\">\n\n\n::: {.cell layout-align=\"center\"}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

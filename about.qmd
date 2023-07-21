@@ -1,6 +1,7 @@
 ---
 title: "about"
 subtitle: "~ a bit more about me both inside and outside of my job ~"
+title-block-banner: true
 ---
 
 ## {{< fa chalkboard-teacher title="A teacher at a chalkboard" >}} the profession
