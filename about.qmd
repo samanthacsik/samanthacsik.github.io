@@ -39,12 +39,12 @@ My right-hand hiking gal, Tallie (aka Bean aka TunaB aka SweetCheeks).
 
 I started recording my hikes (and eventually some other activities) on [Strava](https://www.strava.com/) in late 2020 and finally got around to retrieving my activity data using the [`{rStrava}`](https://github.com/fawda123/rStrava) package. Below is a heatmap of all my recorded activities made using [`leaflet`](https://rstudio.github.io/leaflet/). It's challenging to see individual markers at my most frequented trail heads/starting points, so I've recently began building out my own Strava Dashboard (using [`{shinydashboard}`](https://rstudio.github.io/shinydashboard/)) to make it a bit more interactive and filterable -- it's a work in progress, but a fun side project that I'm excited to continue iterating upon. Huge shout out to [Daniel Cullen](https://www.dancullen.me/) (who also happens to be a Santa Barbara resident!) for his awesome [blogpost](https://www.dancullen.me/articles/creating-a-heatmap-in-r-with-google-polylines) that got me started with my own map.
 
-<center><p class="large-text quote-text-bg">Feel free to check out my Strava dashboard, [Sam's Strava Stats](https://samanthacsik.shinyapps.io/strava_dashboard/) (still working on a better name...)! Source code available on [`r fontawesome::fa("github", fill = "#AE8BD1", a11y = "sem")` GitHub](https://github.com/samanthacsik/strava-dashboard).</p></center>
-
 <!--html_preserve-->
 <center><iframe src = "images/leaflet_2023-07-17.html", width ="800", height="450"> </iframe></center>
 <!--/html_preserve-->
 <span style = 'font-size: 90%;'><em><center>Map last updated: July 17, 2023</em></center></span>
+
+<center><p class="larger-text quote-text-bg">{{< fa arrow-pointer >}} For a more interactive experience, click around my [Strava dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/) <br> {{< fa brands github >}} Source code available on [GitHub](https://github.com/samanthacsik/strava-dashboard)</p></center>
 
 ## {{< fa egg title="An egg" >}} the logo
 
