@@ -249,9 +249,6 @@ I'm honestly so jazzed about wikis at the moment and plan to start using them mo
 
 I've struggled with imposter syndrome throughout my professional career (as so many do!) -- and it is *hard* to shake the feeling that I'm not qualified to be doing [fill in the blank with any one of the things that I get in my own head about]. This project was *not* one of those things. And I totally credit it to the supportive (and just generally fun) community that Julie and Stef create. It's not easy to foster an honest no-such-thing-as-failing environment, but I really felt that way from the moment I got started (which says a lot, given that I'd be learning on the go for much of the project). I feel *very* lucky and honored that they trusted me with this work.
 
-The Openscapes team certainly pracitices what they preach -- you can read all about the [Openscapes Approach](https://openscapes.github.io/approach-guide/approach/) for promoting psychological safety, kinder science, and a growth mindset, as well as explore the many other great [resources](https://openscapes.org/resources.html) developed by Openscapes.
+The Openscapes team certainly practices what they preach -- you can read all about the [Openscapes Approach](https://openscapes.github.io/approach-guide/approach/) for promoting psychological safety, kinder science, and a growth mindset, as well as explore the many other great [resources](https://openscapes.org/resources.html) developed by Openscapes.
 
-:::{.quote-text-bg .large-text .center-text}
-You can check out the Openscapes website at <https://openscapes.org/>. Source code is available on [{{< fa brands github >}} GitHub](https://github.com/Openscapes/website-new).
-:::
-
+<p class="quote-text-bg large-text center-text">You can check out the Openscapes website at <https://openscapes.org/>. Source code is available on [{{< fa brands github >}} GitHub](https://github.com/Openscapes/website-new).</p>
