@@ -27,6 +27,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/2023-08-01-openscapes-website/index.html",
       "/posts/2022-10-24-quarto-blogs/index.html",
       "/posts/2022-06-22-hello-quarto/index.html",
       "/posts/2021-09-21-distill-blogs/index.html"
