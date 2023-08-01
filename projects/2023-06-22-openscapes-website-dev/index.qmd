@@ -8,15 +8,13 @@ image: openscapes-hex-white-bg.png
 draft: false
 ---
 
-[{{< fa laptop >}} Openscapes website](https://openscapes.org/){.btn} [{{< fa brands github >}} source code](https://github.com/Openscapes/website-new){.btn} [{{< fa blog >}} blogpost (coming soon)](){.btn} 
-
-<!-- https://samanthacsik.github.io/posts/2023-07-31-openscapes-website/ -->
+[{{< fa laptop >}} Openscapes website](https://openscapes.org/){.btn} [{{< fa brands github >}} source code](https://github.com/Openscapes/website-new){.btn} [{{< fa blog >}} blogpost](https://samanthacsik.github.io/posts/2023-08-01-openscapes-website/){.btn} 
 
 <br>
 
 # Project overview
 
-My first freelancing adventure(!) was spent porting the [Openscapes website](https://openscapes.org/) from [`{blogdown}`](https://bookdown.org/yihui/blogdown/) to [Quarto](https://quarto.org/) and redesigning aspects of the website's layout, styling, and overall functionality. I worked closely with [Julie Lowndes](https://jules32.github.io/) (founding director of Openscapes) and [Stefanie Butland](https://stefaniebutland.netlify.app/) (core Openscapes team member) to bring their vision to life and it was *seriously* such a fun project. I wrote a [blog post]() (coming soon!) about my experience / some of the highlights. Check it out!
+My first freelancing adventure(!) was spent porting the [Openscapes website](https://openscapes.org/) from [`{blogdown}`](https://bookdown.org/yihui/blogdown/) to [Quarto](https://quarto.org/) and redesigning aspects of the website's layout, styling, and overall functionality. I worked closely with [Julie Lowndes](https://jules32.github.io/) (founding director of Openscapes) and [Stefanie Butland](https://stefaniebutland.netlify.app/) (core Openscapes team member) to bring their vision to life and it was *seriously* such a fun project. I wrote a [blog post](https://samanthacsik.github.io/posts/2023-08-01-openscapes-website/) about my experience / some of the highlights. Check it out!
 
 <br>
 

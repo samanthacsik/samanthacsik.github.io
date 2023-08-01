@@ -1,107 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://samanthacsik.github.io/posts/2023-08-01-openscapes-website/index.html</loc>
+    <lastmod>2023-08-01T21:53:05.032Z</lastmod>
+  </url>
+  <url>
     <loc>https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/index.html</loc>
-    <lastmod>2023-08-01T20:46:04.416Z</lastmod>
+    <lastmod>2023-08-01T21:53:06.463Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/index.html</loc>
-    <lastmod>2023-08-01T20:46:05.596Z</lastmod>
-  </url>
-  <url>
-    <loc>https://samanthacsik.github.io/posts/2023-07-31-openscapes-website/index.html</loc>
-    <lastmod>2023-08-01T20:46:06.803Z</lastmod>
+    <lastmod>2023-08-01T21:53:07.606Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/posts/2022-06-22-hello-quarto/index.html</loc>
-    <lastmod>2023-08-01T20:46:07.406Z</lastmod>
+    <lastmod>2023-08-01T21:53:08.210Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/index.html</loc>
-    <lastmod>2023-08-01T20:46:07.872Z</lastmod>
+    <lastmod>2023-08-01T21:53:08.669Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2023-08-03-just-enough-css/index.html</loc>
-    <lastmod>2023-08-01T20:46:08.186Z</lastmod>
+    <lastmod>2023-08-01T21:53:08.997Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2022-10-24-quarto-blogs/index.html</loc>
-    <lastmod>2023-08-01T20:46:08.850Z</lastmod>
+    <lastmod>2023-08-01T21:53:09.669Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2021-11-15-ide-tips-tricks/index.html</loc>
-    <lastmod>2023-08-01T20:46:09.530Z</lastmod>
+    <lastmod>2023-08-01T21:53:10.367Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2022-10-10-customizing-quarto-websites/index.html</loc>
-    <lastmod>2023-08-01T20:46:09.863Z</lastmod>
+    <lastmod>2023-08-01T21:53:10.724Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2023-04-14-functions-forloops/index.html</loc>
-    <lastmod>2023-08-01T20:46:10.536Z</lastmod>
+    <lastmod>2023-08-01T21:53:11.408Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2023-01-20-eds430-intro-to-shiny/index.html</loc>
-    <lastmod>2023-08-01T20:46:11.213Z</lastmod>
+    <lastmod>2023-08-01T21:53:12.077Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2021-10-11-teach-me-how-to-google/index.html</loc>
-    <lastmod>2023-08-01T20:46:11.554Z</lastmod>
+    <lastmod>2023-08-01T21:53:12.415Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2019-05-15-intro-to-the-tidyverse/index.html</loc>
-    <lastmod>2023-08-01T20:46:11.882Z</lastmod>
+    <lastmod>2023-08-01T21:53:12.762Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2023-05-23-js-in-r/index.html</loc>
-    <lastmod>2023-08-01T20:46:12.244Z</lastmod>
+    <lastmod>2023-08-01T21:53:13.119Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2022-04-18-intro-to-cloud-computing/index.html</loc>
-    <lastmod>2023-08-01T20:46:12.569Z</lastmod>
+    <lastmod>2023-08-01T21:53:13.433Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2023-03-16-ggplot2/index.html</loc>
-    <lastmod>2023-08-01T20:46:12.920Z</lastmod>
+    <lastmod>2023-08-01T21:53:13.772Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/projects/2022-11-23-strava-dashboard/index.html</loc>
-    <lastmod>2023-08-01T20:46:13.547Z</lastmod>
+    <lastmod>2023-08-01T21:53:14.413Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/projects/2023-02-15-bren-student-data-explorer/index.html</loc>
-    <lastmod>2023-08-01T20:46:13.844Z</lastmod>
+    <lastmod>2023-08-01T21:53:14.708Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/projects/2023-06-22-openscapes-website-dev/index.html</loc>
-    <lastmod>2023-08-01T20:46:14.138Z</lastmod>
+    <lastmod>2023-08-01T21:53:15.000Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops.html</loc>
-    <lastmod>2023-08-01T20:46:15.369Z</lastmod>
+    <lastmod>2023-08-01T21:53:16.226Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/projects.html</loc>
-    <lastmod>2023-08-01T20:46:15.771Z</lastmod>
+    <lastmod>2023-08-01T21:53:16.611Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/index.html</loc>
-    <lastmod>2023-08-01T20:47:05.482Z</lastmod>
+    <lastmod>2023-08-01T21:53:16.898Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/about.html</loc>
-    <lastmod>2023-08-01T20:46:17.244Z</lastmod>
+    <lastmod>2023-08-01T21:53:18.123Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/posts.html</loc>
-    <lastmod>2023-08-01T20:47:05.037Z</lastmod>
+    <lastmod>2023-08-01T21:53:18.632Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/resources.html</loc>
-    <lastmod>2023-08-01T20:46:18.090Z</lastmod>
-  </url>
-  <url>
-    <loc>https://samanthacsik.github.io/posts/2023-08-01-openscapes-website/index.html</loc>
-    <lastmod>2023-08-01T20:47:04.521Z</lastmod>
+    <lastmod>2023-08-01T21:53:18.997Z</lastmod>
   </url>
 </urlset>
