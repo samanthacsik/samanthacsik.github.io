@@ -12,7 +12,7 @@ date: 2023-08-03
 slug: csik2023css
 categories: [NCEAS, Quarto, CSS]
 image: bob-ross.gif
-draft: true
+draft: false
 ---
 
 <center><iframe src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" title="Just Enough CSS (and Sass) for data scientists" width="750px," height="550px"></iframe></center>

@@ -8,7 +8,7 @@ image: openscapes-hex-white-bg.png
 draft: false
 ---
 
-[{{< fa laptop >}} Openscapes website](https://openscapes.org/){.btn} [{{< fa brands github >}} Source code](https://github.com/Openscapes/website-new){.btn} [{{< fa blog >}} Blogpost (coming soon)](){.btn} 
+[{{< fa laptop >}} Openscapes website](https://openscapes.org/){.btn} [{{< fa brands github >}} source code](https://github.com/Openscapes/website-new){.btn} [{{< fa blog >}} blogpost (coming soon)](){.btn} 
 
 <!-- https://samanthacsik.github.io/posts/2023-07-31-openscapes-website/ -->
 
