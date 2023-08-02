@@ -8,7 +8,7 @@ author:
     orcid: 0000-0002-5300-3075
 date: 2023-08-01
 citation: 
-  url: https://samanthacsik.github.io/posts/2023-07-31-openscapes-website/
+  url: https://samanthacsik.github.io/posts/2023-08-01-openscapes-website/
 categories: [Quarto, Openscapes]
 image: media/new-site.png
 draft: false
