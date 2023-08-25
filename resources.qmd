@@ -6,26 +6,6 @@ title-block-banner: true
 
 It's finally time for an upgraded notebook! I've been Slacking myself (and subsequently burying) links to resources for far too long, so my favorites will now live here. 
 
-## {{< fa tools title="A wrench and a screw driver" >}} r tools
-
-* [free icons from fontawesome](https://fontawesome.com/v5/search?m=free) + the [`{fontawesome}`](https://github.com/rstudio/fontawesome) R package for infusing your slides, website, RMarkdowns/Quarto Markdowns, and more with an extra splash of fun
-
-## {{< fa chart-bar title="A bar chart" >}} data viz
-
-* [from Data to Viz](https://www.data-to-viz.com/), a choose-your-adventure-type experience for creating your best data visualizations
-
-* [The Sessions College Color Calculator](https://www.sessions.edu/color-calculator/), for creating color palettes
-
-* [Beautifully Annotated: Enhancing your ggplots with Text](https://www.cararthompson.com/talks/rl-cambridge-beautifully-annotated/), by [Cara Thompson](https://www.cararthompson.com/about.html), a seriously wonderful talk on using annotations in your ggplots
-
-## {{< fa desktop title="A desktop computer screen" >}} reporting & presentations
-
-* Quarto is all the rage these days (and by these days, I mean post-March 2022). Download and find some great tutorials [here](https://quarto.org/) to get started
-
-* [Meet xaringan: Making slides in R Markdown](https://arm.rbind.io/slides/xaringan.html#1), by Allison Hill
-
-* [Sharing Your `xaringan` Slides](https://www.garrickadenbuie.com/blog/sharing-xaringan-slides/), by Garrick Aden-Buie
-
 ## {{< fa book-open title="An open book" >}} learning materials
 
 * Ever feel like you need a pick-me-up while learning stats or a new R tool? Look no further than [Allison Horst's](https://twitter.com/allison_horst) [Data Science Illustrations](https://allisonhorst.com/), featuring the cutest and most educational fuzzy monsters you'll ever see!
@@ -36,7 +16,31 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 * [R for Data Science](https://r4ds.had.co.nz/), by Hadley Wickham
 
+* [Hitchhiker's Guide to Python](https://docs.python-guide.org/), by Kenneth Reitz & Tanya Schlusser
+
 * [W3Schools](https://www.w3schools.com/default.asp), particularly for their HTML & CSS tutorials
+
+## {{< fa chart-bar title="A bar chart" >}} data viz
+
+* [from Data to Viz](https://www.data-to-viz.com/), a choose-your-adventure-type experience for creating your best data visualizations
+
+* [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/), by Claus O. Wilke
+
+* [The Sessions College Color Calculator](https://www.sessions.edu/color-calculator/), for creating color palettes
+
+* [Beautifully Annotated: Enhancing your ggplots with Text](https://www.cararthompson.com/talks/rl-cambridge-beautifully-annotated/), by [Cara Thompson](https://www.cararthompson.com/about.html), a seriously wonderful talk on using annotations in your ggplots
+
+## {{< fa tools title="A wrench and a screw driver" >}} r tools
+
+* [free icons from fontawesome](https://fontawesome.com/v5/search?m=free) + the [`{fontawesome}`](https://github.com/rstudio/fontawesome) R package for infusing your slides, website, RMarkdowns/Quarto Markdowns, and more with an extra splash of fun
+
+## {{< fa desktop title="A desktop computer screen" >}} reporting & presentations
+
+* Quarto is all the rage these days (and by these days, I mean post-March 2022). Download and find some great tutorials [here](https://quarto.org/) to get started
+
+* [Meet xaringan: Making slides in R Markdown](https://arm.rbind.io/slides/xaringan.html#1), by Allison Hill
+
+* [Sharing Your `xaringan` Slides](https://www.garrickadenbuie.com/blog/sharing-xaringan-slides/), by Garrick Aden-Buie
 
 ## {{< fa users title="Three people" >}} data science communities
 
