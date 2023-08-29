@@ -18,6 +18,8 @@ It's finally time for an upgraded notebook! I've been Slacking myself (and subse
 
 * [Hitchhiker's Guide to Python](https://docs.python-guide.org/), by Kenneth Reitz & Tanya Schlusser
 
+* [Data wrangling essentials: comparisons in JavaScript, Python, SQL, R, and Excel](https://observablehq.com/@observablehq/data-wrangling-translations), by Allison Horst & Paul Buffa
+
 * [W3Schools](https://www.w3schools.com/default.asp), particularly for their HTML & CSS tutorials
 
 ## {{< fa chart-bar title="A bar chart" >}} data viz
