@@ -58,6 +58,11 @@ body {
   height: 350px;
 }
 
+.figure-caption {
+  color: $gray;
+  font-style: italic;
+}
+
 /* CLASS SELECTORS (self-defined) */
 
 // subtitles used with trestles template (currently using jolla)
