@@ -118,7 +118,7 @@ freeze: true
 title-block-banner: true
 ```
 
-3.  **Create a [listing page](https://quarto.org/docs/websites/website-listings.html):** A listing page is a page with content that is automatically generated from a list of documents -- in this case, that would be a list of blog posts -- and looks something like this (or check out my blog's listing page [here](https://samanthacsik.github.io/posts.html)):
+3.  **Create a [listing page](https://quarto.org/docs/websites/website-listings.html):** A listing page is a page with content that is automatically generated from a list of documents -- in this case, that would be a list of blog posts -- and looks something like this (or check out [my blog's listing page](https://samanthacsik.github.io/posts.html)):
 
 ```{r}
 #| eval: true
@@ -131,7 +131,7 @@ knitr::include_graphics("media/listing-page.png")
 
 4.  **Configure your listing page:** Specify how you'd like your listing page to be arranged by updating the YAML section of `posts.qmd`. There are a variety of options that you can specify. Below are just a few, but be sure to check out [other options](https://quarto.org/docs/websites/website-listings.html):
 
-```{md filename="posts.qmd"}
+```{r filename="posts.qmd"}
 #| eval: false
 #| echo: true
 ---
@@ -175,13 +175,13 @@ knitr::include_graphics("media/blog-added.png")
 
 Now that you have your listing page set up, we can start populating it with blog posts. Repeat the following steps each time you want to add a new post.
 
-1.  **Create a subdirectory *inside* your `posts` directory:** To stay organized, I usually name mine `YYYY-MM-DD-short-post-description`. This folder name will also become the [slug](https://developer.mozilla.org/en-US/docs/Glossary/Slug) for your published post.
+1.  **Create a subdirectory *inside* your `posts/` directory:** To stay organized, I usually name mine `YYYY-MM-DD-short-post-description`. This folder name will also become the [slug](https://developer.mozilla.org/en-US/docs/Glossary/Slug) for your published post.
 
-2.  **Inside your new subdirectory, create an `index.qmd` file.** The name here is important! It *must* be called `index.qmd`. Your file path should look something like this: `mywebsite/posts/2022-10-24-my-blog-post/index.qmd`. This file is your blog post. Write all your content here!
+2.  **Inside your new subdirectory, create an `index.qmd` file.** The name here is important! It *must* be called `index.qmd`. Your file path should look something like this: `myWebsite/posts/2022-10-24-my-blog-post/index.qmd`. This file is your blog post. Write all your content here!
 
 3.  **Configure your blog post:** You can add a variety of different options to the YAML section of `index.qmd`. Here are my go-to options:
 
-```{r}
+```{r filename="posts/2022-10-24-my-blog-post/index.qmd"}
 #| eval: false
 #| echo: true
 ---
@@ -196,7 +196,7 @@ author:
 date: 10-24-2022
 categories: [Quarto, R, MEDS] # self-defined categories
 citation: 
-  url: https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/ 
+  url: https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/ 
 image: preview_image.jpg
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
@@ -204,17 +204,17 @@ draft: false # setting this to `true` will prevent your post from appearing on y
 
 Some notes on the above options:
 
--   You should include a *title*, but don't necessarily need a *description* (although I think they're nice to have!). Both of these fields will appear on your listing page.
+-   You should include a **title**, but don't necessarily need a **description** (although I think they're nice to have!). Both of these fields will appear on your listing page.
 
--   You can include more than one *author* -- see [this post](https://samanthacsik.github.io/posts/2022-06-22-hello_quarto/) and [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-06-22-hello_quarto/index.qmd) as an example.
+-   You can include more than one **author** -- see [this post](https://samanthacsik.github.io/posts/2022-06-22-hello-quarto/) and [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-06-22-hello-quarto/index.qmd) as an example.
 
--   You may include as many self-defined *categories* as you'd like. Make sure that your spelling/capitalization/punctuation is consistent across blog posts should you apply the same categories to multiple posts.
+-   You may include as many self-defined **categories** as you'd like. Make sure that your spelling/capitalization/punctuation is consistent across blog posts should you apply the same categories to multiple posts.
 
--   Adding the *citation* option automatically generates both a [BibTeX citation](https://en.wikipedia.org/wiki/BibTeX) and reference for your blog post, and adds them to the bottom of your post.
+-   Adding the **citation** option automatically generates both a [BibTeX citation](https://en.wikipedia.org/wiki/BibTeX) and reference for your blog post, and adds them to the bottom of your post.
 
--   Include an image (or gif) to add as a *preview image*, which will appear on your listing page alongside your post. Your image should live inside your post's subdirectory (e.g. `mywebsite/posts/2022-10-24-my-blog-post/preview-image.png`).
+-   Include an image (or gif) to add as a **preview image**, which will appear on your listing page alongside your post. Your image should live inside your post's subdirectory (e.g. `mywebsite/posts/2022-10-24-my-blog-post/preview-image.png`).
 
--   Set `draft: true` while you're still working on your blog post to prevent it from showing up on your listing page, site map, or site search. When you're ready to publish, just remove `draft: true` from your YAML (or set to `false`) then render your post.
+-   Set **`draft: true`** while you're still working on your blog post to prevent it from showing up on your listing page, site map, or site search (it will still be available at a searchable URL). When you're ready to publish, just remove `draft: true` from your YAML (or set to `false`), then render your post. 
 
 ```{r}
 #| eval: true
@@ -223,12 +223,12 @@ Some notes on the above options:
 #| column: page
 #| fig-subcap: 
 #| - "A grid-style listing page featuring one blog post with a preview image, title, three categories, description, author, and publishing date"
-#| - "An example blog post, with a banner style title block"
+#| - "An example blog post, with a banner-style title block"
 knitr::include_graphics("media/ex-listing-page.png")
 knitr::include_graphics("media/my-first-post.png")
 ```
 
-If things aren't working as expected, double check your repository structure -- it should look something like this:
+If things aren't working as expected, double check your repository structure -- it should be organized similar to this:
 
 ```{r}
 #| eval: true
@@ -344,19 +344,23 @@ You aren't limited to just one blog/listing page! Repeat [Part III](https://sama
 
 ## VII. Blogs to follow (+ one post from each that I've particularly enjoyed)
 
-There are *tons* of awesome data science bloggers out there, and (at the cost of sounding like a broken record) Twitter is a great place to find them. Here are just a few I've been reading and enjoying as of late, but get out there and start exploring others for yourself!
+There are *tons* of awesome data science bloggers out there -- here are just a few that I've enjoyed, but get out there and start exploring others for yourself!
 
-*Also note: I've added citations for each of these blog posts. Check out the [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd) if you're looking for additional examples on how to do it.*
+*Also note: I've included one blog post from each creator and added citations. Check out the [source code for this post](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd) if you're looking for additional examples on how to do it.*
 
--   [Piping Hot Data](https://www.pipinghotdata.com/blog.html), by Shannon Pileggi -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [`@PipingHotData`](https://twitter.com/PipingHotData) and check out her post, [Curating for `@WeAreRLadies` on Twitter](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/) [-@pileggi2021curating]
+-   [Piping Hot Data](https://www.pipinghotdata.com/blog.html), by Shannon Pileggi, and her post, [Curating for `@WeAreRLadies` on Twitter](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/) [-@pileggi2021curating]
 
--   [Meghan Hall's Blog](https://meghan.rbind.io/blog/) -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [`@MeghanMHall`](https://twitter.com/MeghanMHall) and check out her post, [Increasing the Flexibility and Robustness of Plots in ggplot2](https://meghan.rbind.io/blog/plot-robustness/) [-@hall2022]
+-   [Meghan Hall's Blog](https://meghan.rbind.io/blog/), and her post, [Increasing the Flexibility and Robustness of Plots in ggplot2](https://meghan.rbind.io/blog/plot-robustness/) [-@hall2022]
 
--   [Cosima Meyer's Blog](https://cosimameyer.com/#post) -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [`@cosima_meyer`](https://twitter.com/cosima_meyer) and check out her post, [Understanding the Basics of Package Writing in R](https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/) [-@meyer2022]
+-   [Cosima Meyer's Blog](https://cosimameyer.com/#post), and her post, [Understanding the Basics of Package Writing in R](https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/) [-@meyer2022]
 
--   [Notes from a Data Witch](https://blog.djnavarro.net/) by Danielle Navarro -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [`@djnavarro`](https://twitter.com/djnavarro) and check out her post, [Getting started with Apache Arrow](https://blog.djnavarro.net/posts/2021-11-19_starting-apache-arrow-in-r/) [-@navarro2021]
+-   [Notes from a Data Witch](https://blog.djnavarro.net/) by Danielle Navarro, and her post, [Getting started with Apache Arrow](https://blog.djnavarro.net/posts/2021-11-19_starting-apache-arrow-in-r/) [-@navarro2021]
 
--   [Beatriz Milz's Blog](https://beamilz.com/posts/) -- find her on `r fontawesome::fa("twitter", fill = "#64605f", a11y = "sem")` [`@BeaMilz`](https://twitter.com/BeaMilz) and check out her post, [Introduction to GitHub Actions for R users](https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/) [-@milz2022]
+-   [Beatriz Milz's Blog](https://beamilz.com/posts/), and her post [Introduction to GitHub Actions for R users](https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/) [-@milz2022]
+
+-  [Albert Rapp's Blog](https://albert-rapp.de/blog.html), and his post [Recreating the Storytelling with Data look with ggplot](https://albert-rapp.de/posts/ggplot2-tips/10_recreating_swd_look/10_recreating_swd_look) [-@rapp2022]
+
+-  [Cédric Scherer](https://www.cedricscherer.com/), and his post [A ggplot2 Tutorial for Beautiful Plotting in R](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/) [-@scherer2019]
 
 ## VIII. Additional Resources
 
