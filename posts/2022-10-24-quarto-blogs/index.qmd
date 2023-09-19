@@ -20,25 +20,27 @@ draft: false
 
 About a year ago, I wrote my first ever blog post \~ about blogging \~ and tbh I'm a *little* embarrassed that this is only my third post here (does it count that I have *ideas* for blog posts squirreled away at least?? `r fontawesome::fa("grin-beam-sweat", fill = "#64605f", a11y = "sem")`). Regardless, you should trust me[^1] when I say that blogging is a great exercise for you to practice as regularly as you can -- it can help you to:
 
-- build your online profile/portfolio
-    - *"...sharing anything is almost always better than sharing nothing"* -[`@drob`](https://twitter.com/drob) in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
-    
-- practice your writing & communication skills
+[^1]: Okay, you don't *just* have to trust me. Lots of data scientists advocate for blogging as an important skill and communication tool. Check out this [blog post](http://varianceexplained.org/r/start-blog/) by [David Robinson](https://twitter.com/drob) to start.
 
-- stay atop data science trends
+-   build your online profile/portfolio
 
-- solicit feedback from the community
+    -   *"...sharing anything is almost always better than sharing nothing"* -[`@drob`](https://twitter.com/drob) in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
 
-- network
+-   practice your writing & communication skills
 
-- learn something new and/or solidify your understanding
+-   stay atop data science trends
 
-- combat imposter syndrome    
-    - *"Once you've shared some analyses and code, you'll probably find that you were underrating yourself in some areas."* -also [`@drob`](https://twitter.com/drob) in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
+-   solicit feedback from the community
+
+-   network
+
+-   learn something new and/or solidify your understanding
+
+-   combat imposter syndrome
+
+    -   *"Once you've shared some analyses and code, you'll probably find that you were underrating yourself in some areas."* -also [`@drob`](https://twitter.com/drob) in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
 
 Rather than repeat more content here, take a peek at my [first post](https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/), which touches on more reasons why you should blog and provides some ideas on how to structure your blog posts. Before jumping into things, I'll leave you with one last piece of advice from [`@drob`](https://twitter.com/drob):
-
-[^1]: Okay, you don't *just* have to trust me. Lots of data scientists advocate for blogging as an important skill and communication tool. Check out this [blog post](http://varianceexplained.org/r/start-blog/) by [David Robinson](https://twitter.com/drob) to start.
 
 <blockquote class="twitter-tweet">
 
@@ -83,7 +85,7 @@ A Quarto Blog is *a type* of Quarto Website -- according to the Quarto documenta
 
 ## III. Adding a blog to your personal Quarto website
 
-::: {.quote-text-bg}
+::: quote-text-bg
 **TL;DR:** A couple of steps are required for setting up your blog, but generally speaking, you'll need:
 
 `r fontawesome::fa("angle-right", fill = "#64605f", a11y = "sem")` **a folder** (i.e. subdirectory) to hold all of your individual blog posts -- I called my folder `posts` (though the name is up to you). I also (optionally) added a `_metadata.yml` file to this folder which includes some formatting and configuration options that will apply to *all* blog posts in this folder
@@ -99,7 +101,7 @@ Let's create those together now.
 
 1.  **Create a `/posts` folder:** Open up your Quarto website project (I find it easiest to do this in RStudio) and make sure you're in your root directory. Here, we'll create a new subdirectory, called `posts` (you can call this whatever you want), where all of our blog posts will eventually live. To do so, you can either (a) click on the **add folder** button, <img src="media/add-folder.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;"/>, in the Files pane, or (b) in the RStudio Terminal, run `mkdir posts`.
 
-2.  ***Optional:*** **Add a `_metadata.yml` file to `/posts`:** While not required, a `_metadata.yml` file can make your life easier if you want certain options to apply to all blog posts that you create. Create this one of two ways: **(a)** In the RStudio Terminal, run `cd posts` to move into that directory, then `touch _metadata.yml` to create the file, or **(b)** click into the `posts/` folder in the Files pane, then click *Blank File* > *Text File* > type `_metadata.yml` > click *OK*. Open your `_metadata.yml` in the Source pane to add options. I like these options[^2], but it's entirely up to you what you want to include (if anything at all):
+2.  ***Optional:*** **Add a `_metadata.yml` file to `/posts`:** While not required, a `_metadata.yml` file can make your life easier if you want certain options to apply to all blog posts that you create. Create this one of two ways: **(a)** In the RStudio Terminal, run `cd posts` to move into that directory, then `touch _metadata.yml` to create the file, or **(b)** click into the `posts/` folder in the Files pane, then click *Blank File* \> *Text File* \> type `_metadata.yml` \> click *OK*. Open your `_metadata.yml` in the Source pane to add options. I like these options[^2], but it's entirely up to you what you want to include (if anything at all):
 
 [^2]: **The `freeze` option:** Setting this option to `auto` will *only* re-render posts when you make updates to the source files (as opposed to re-rendering them each time you **Render Website** -- this can save time, particularly if you have computationally-heavy content in your blog posts). If you set this option to `true`, posts will *never* be re-rendered (even if you've made changes to the source files). If you use this option, you'll need to **Render** individual posts whenever you make changes to their source files *before* you **Render Website**, otherwise your updates will not appear.
 
@@ -214,7 +216,7 @@ Some notes on the above options:
 
 -   Include an image (or gif) to add as a **preview image**, which will appear on your listing page alongside your post. Your image should live inside your post's subdirectory (e.g. `mywebsite/posts/2022-10-24-my-blog-post/preview-image.png`).
 
--   Set **`draft: true`** while you're still working on your blog post to prevent it from showing up on your listing page, site map, or site search (it will still be available at a searchable URL). When you're ready to publish, just remove `draft: true` from your YAML (or set to `false`), then render your post. 
+-   Set **`draft: true`** while you're still working on your blog post to prevent it from showing up on your listing page, site map, or site search (it will still be available at a searchable URL). When you're ready to publish, just remove `draft: true` from your YAML (or set to `false`), then render your post.
 
 ```{r}
 #| eval: true
@@ -267,7 +269,7 @@ All footnotes will appear in a "Footnotes" section that is automatically generat
 
 Quarto supports the use of bibliography files for citing works throughout your blog post. There are a number of ways to do this, but so far, I've found creating a BibLaTex database to be relatively straightforward. This database takes the form of a plain-text `.bib` file where we can store all of our bibliographic information. That information needs to be encoded in a particular way (more on that below). Follow these steps to cite works in your blog posts:
 
-1.  First, create a `.bib` file in the folder containing your blog post (e.g. `mywebsite/posts/2022-10-24-my-blog-post/references.bib`) using the `touch` command in your RStudio Terminal. I called mine `references.bib`, but the name is up to you.
+1.  First, create a `.bib` file in the folder containing your blog post (e.g. `myWebsite/posts/2022-10-24-my-blog-post/references.bib`) using the `touch` command in your RStudio Terminal or using the *Blank File* \> *Text File* button in the Files pane. I called mine `references.bib`, but the name is up to you.
 
 2.  To use your `references.bib` file, you'll need to add the `bibliography` option to your blog post's YAML:
 
@@ -284,7 +286,7 @@ bibliography: references.bib
 
 3.  Next, we'll want to add some references. These take a particular format that generally looks like this (the number/types of fields included may vary):
 
-```{r}
+```{r filename="references.bib"}
 #| eval: false
 #| echo: true
 @type{key,
@@ -329,6 +331,7 @@ That wasn't so bad, right?? What if I told you there was an even *easier* way to
 #| eval: true
 #| echo: false
 #| fig-align: center
+#| out-width: "100%"
 knitr::include_graphics("media/citations.png")
 ```
 
@@ -340,7 +343,7 @@ Quarto also supports a number of different [page layout options](https://quarto.
 
 ## VI. A note on adding an additional blog (or more) to your site
 
-You aren't limited to just one blog/listing page! Repeat [Part III](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/#iii.-adding-a-blog-to-your-personal-quarto-website) to add a second listing page + content to your website. My personal website contains two blogs -- one called [posts](https://samanthacsik.github.io/posts.html) and another called [talks & workshops](https://samanthacsik.github.io/talks_workshops.html). Explore the [GitHub repo](https://github.com/samanthacsik/samanthacsik.github.io) to take a peek at the file structure and source code.
+You aren't limited to just one blog/listing page! Repeat [Part III](https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/#iii.-adding-a-blog-to-your-personal-quarto-website) to add a second listing page + content to your website. My personal website contains three listing pages -- one called [posts](https://samanthacsik.github.io/posts) (aka my actual blog), one called [talks & workshops](https://samanthacsik.github.io/talks_workshops), and one called [projects](https://samanthacsik.github.io/projects). Explore the [GitHub repo](https://github.com/samanthacsik/samanthacsik.github.io) to take a peek at the file structure and source code. 
 
 ## VII. Blogs to follow (+ one post from each that I've particularly enjoyed)
 
@@ -358,12 +361,12 @@ There are *tons* of awesome data science bloggers out there -- here are just a f
 
 -   [Beatriz Milz's Blog](https://beamilz.com/posts/), and her post [Introduction to GitHub Actions for R users](https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/) [-@milz2022]
 
--  [Albert Rapp's Blog](https://albert-rapp.de/blog.html), and his post [Recreating the Storytelling with Data look with ggplot](https://albert-rapp.de/posts/ggplot2-tips/10_recreating_swd_look/10_recreating_swd_look) [-@rapp2022]
+-   [Albert Rapp's Blog](https://albert-rapp.de/blog.html), and his post [Recreating the Storytelling with Data look with ggplot](https://albert-rapp.de/posts/ggplot2-tips/10_recreating_swd_look/10_recreating_swd_look) [-@rapp2022]
 
--  [Cédric Scherer](https://www.cedricscherer.com/), and his post [A ggplot2 Tutorial for Beautiful Plotting in R](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/) [-@scherer2019]
+-   [Cédric Scherer](https://www.cedricscherer.com/), and his post [A ggplot2 Tutorial for Beautiful Plotting in R](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/) [-@scherer2019]
 
 ## VIII. Additional Resources
 
 -   [The ultimate guide to starting a Quarto blog](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html), by [Albert Rapp](https://albert-rapp.de/) is incredibly thorough and explores even more ways to customize your blog. Check it out!
 
--  [Creating a blog with Quarto in 10 steps](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/), by [Beatriz Milz](https://beamilz.com/about.html) walks through the steps of setting up a new Quarto Blog project. She also details how to set up [giscus](https://giscus.app/) to enable comments on your blog posts, which is something I've been eager to try myself!
+-   [Creating a blog with Quarto in 10 steps](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/), by [Beatriz Milz](https://beamilz.com/about.html) walks through the steps of setting up a new Quarto Blog project. She also details how to set up [giscus](https://giscus.app/) to enable comments on your blog posts, which is something I've been eager to try myself!

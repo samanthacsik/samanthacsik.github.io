@@ -532,7 +532,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <h4 class="anchored" data-anchor-id="creating-a-bibliography-and-adding-citations">Creating a bibliography and adding citations</h4>
 <p>Quarto supports the use of bibliography files for citing works throughout your blog post. There are a number of ways to do this, but so far, I’ve found creating a BibLaTex database to be relatively straightforward. This database takes the form of a plain-text <code>.bib</code> file where we can store all of our bibliographic information. That information needs to be encoded in a particular way (more on that below). Follow these steps to cite works in your blog posts:</p>
 <ol type="1">
-<li><p>First, create a <code>.bib</code> file in the folder containing your blog post (e.g.&nbsp;<code>mywebsite/posts/2022-10-24-my-blog-post/references.bib</code>) using the <code>touch</code> command in your RStudio Terminal. I called mine <code>references.bib</code>, but the name is up to you.</p></li>
+<li><p>First, create a <code>.bib</code> file in the folder containing your blog post (e.g.&nbsp;<code>myWebsite/posts/2022-10-24-my-blog-post/references.bib</code>) using the <code>touch</code> command in your RStudio Terminal or using the <em>Blank File</em> &gt; <em>Text File</em> button in the Files pane. I called mine <code>references.bib</code>, but the name is up to you.</p></li>
 <li><p>To use your <code>references.bib</code> file, you’ll need to add the <code>bibliography</code> option to your blog post’s YAML:</p></li>
 </ol>
 <div class="cell">
@@ -546,6 +546,10 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <li>Next, we’ll want to add some references. These take a particular format that generally looks like this (the number/types of fields included may vary):</li>
 </ol>
 <div class="cell">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>references.bib</strong></pre>
+</div>
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>type{key,</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  author <span class="ot">=</span> {LastName, FirstName},</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  title <span class="ot">=</span> {Title of work},</span>
@@ -553,6 +557,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  url <span class="ot">=</span> {https<span class="sc">:</span><span class="er">//</span>url.com},</span>
 <span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  langid <span class="ot">=</span> {en}</span>
 <span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </div>
 <p>where <code>type</code> can be <code>manual</code>, <code>book</code>, <code>article</code>, <code>misc</code>, etc. (all case-insensitive) and <code>key</code> is the citation identifier used for inserting in-text citations (we’ll get there soon).</p>
 <ul>
@@ -586,7 +591,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="media/citations.png" class="img-fluid figure-img" width="574"></p>
+<p><img src="media/citations.png" class="img-fluid figure-img" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -600,7 +605,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 </section>
 <section id="vi.-a-note-on-adding-an-additional-blog-or-more-to-your-site" class="level2">
 <h2 class="anchored" data-anchor-id="vi.-a-note-on-adding-an-additional-blog-or-more-to-your-site">VI. A note on adding an additional blog (or more) to your site</h2>
-<p>You aren’t limited to just one blog/listing page! Repeat <a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/#iii.-adding-a-blog-to-your-personal-quarto-website">Part III</a> to add a second listing page + content to your website. My personal website contains two blogs – one called <a href="https://samanthacsik.github.io/posts.html">posts</a> and another called <a href="https://samanthacsik.github.io/talks_workshops.html">talks &amp; workshops</a>. Explore the <a href="https://github.com/samanthacsik/samanthacsik.github.io">GitHub repo</a> to take a peek at the file structure and source code.</p>
+<p>You aren’t limited to just one blog/listing page! Repeat <a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/#iii.-adding-a-blog-to-your-personal-quarto-website">Part III</a> to add a second listing page + content to your website. My personal website contains three listing pages – one called <a href="https://samanthacsik.github.io/posts">posts</a> (aka my actual blog), one called <a href="https://samanthacsik.github.io/talks_workshops">talks &amp; workshops</a>, and one called <a href="https://samanthacsik.github.io/projects">projects</a>. Explore the <a href="https://github.com/samanthacsik/samanthacsik.github.io">GitHub repo</a> to take a peek at the file structure and source code.</p>
 </section>
 <section id="vii.-blogs-to-follow-one-post-from-each-that-ive-particularly-enjoyed" class="level2">
 <h2 class="anchored" data-anchor-id="vii.-blogs-to-follow-one-post-from-each-that-ive-particularly-enjoyed">VII. Blogs to follow (+ one post from each that I’ve particularly enjoyed)</h2>
