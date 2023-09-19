@@ -71,5 +71,5 @@ The back of a handmade birthday card by yours truly (aka 'The Csik Press'). Than
 #| fig-width: 5
 #| fig-height: 3
 #| fig-alt: "The name, 'sam csik' in white lettering. Above 'csik' sits a horizontal dark green bar. Above the green bar is a white chick."
-knitr::include_graphics("images/logos/nunito/creamText_darkGreenBar/logo_nunito_cropped.png")
+knitr::include_graphics("images/logos/logo-light.png")
 ```
