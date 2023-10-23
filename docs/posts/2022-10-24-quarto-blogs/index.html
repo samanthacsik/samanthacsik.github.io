@@ -250,7 +250,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">September 19, 2023</p>
+        <p class="date-modified">October 22, 2023</p>
       </div>
     </div>
       
@@ -341,7 +341,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="iii.-adding-a-blog-to-your-personal-quarto-website">III. Adding a blog to your personal Quarto website</h2>
 <div class="quote-text-bg">
 <p><strong>TL;DR:</strong> A couple of steps are required for setting up your blog, but generally speaking, you’ll need:</p>
-<p><svg aria-label="Angle Right" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Angle Right</title><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg> <strong>a folder</strong> (i.e.&nbsp;subdirectory) to hold all of your individual blog posts – I called my folder <code>posts</code> (though the name is up to you). I also (optionally) added a <code>_metadata.yml</code> file to this folder which includes some formatting and configuration options that will apply to <em>all</em> blog posts in this folder</p>
+<p><svg aria-label="Angle Right" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Angle Right</title><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg> <strong>a folder</strong> (i.e.&nbsp;subdirectory) to hold all of your individual blog posts – I called my folder <code>posts/</code> (though the name is up to you). I also (optionally) added a <code>_metadata.yml</code> file to this folder which includes some formatting and configuration options that will apply to <em>all</em> blog posts in this folder</p>
 <p><svg aria-label="Angle Right" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Angle Right</title><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg> <strong>a listing page</strong>, which lists all of your blog posts for viewers to browse and click through – this is a <code>.qmd</code> file that you’ll add to your website’s navbar by including it in <code>_quarto.yml</code></p>
 <p><svg aria-label="Angle Right" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Angle Right</title><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg> <strong>blog posts!</strong> Your listing page will be blank until you actually add your first blog post</p>
 </div>
@@ -359,7 +359,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># options specified here will apply to all posts in this folder</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># prevents posts from re-rendering unless explicitly told to do so (for more, see https://quarto.org/docs/projects/code-execution.html#freeze)</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>freeze<span class="sc">:</span> true</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>freeze<span class="sc">:</span> auto</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># enable banner style title blocks (see https://quarto.org/docs/authoring/title-blocks.html)</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>title<span class="sc">-</span>block<span class="sc">-</span>banner<span class="sc">:</span> true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -458,7 +458,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>categories<span class="sc">:</span> [Quarto, R, MEDS] <span class="co"># self-defined categories</span></span>
 <span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>citation<span class="sc">:</span> </span>
 <span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  url<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>samanthacsik.github.io<span class="sc">/</span>posts<span class="sc">/</span><span class="dv">2022-10-24</span><span class="sc">-</span>my<span class="sc">-</span>blog<span class="sc">-</span>post<span class="sc">/</span> </span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> preview_image.jpg</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> preview<span class="sc">-</span>image.png</span>
 <span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>draft<span class="sc">:</span> false <span class="co"># setting this to `true` will prevent your post from appearing on your listing page until you're ready!</span></span>
 <span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -663,7 +663,7 @@ Scherer, Cédric. 2019. <span>“A Ggplot2 Tutorial for Beautiful Plotting in R.
 <ol>
 <li id="fn1"><p>Okay, you don’t <em>just</em> have to trust me. Lots of data scientists advocate for blogging as an important skill and communication tool. Check out this <a href="http://varianceexplained.org/r/start-blog/">blog post</a> by <a href="https://twitter.com/drob">David Robinson</a> to start.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p><strong>The <code>freeze</code> option:</strong> Setting this option to <code>auto</code> will <em>only</em> re-render posts when you make updates to the source files (as opposed to re-rendering them each time you <strong>Render Website</strong> – this can save time, particularly if you have computationally-heavy content in your blog posts). If you set this option to <code>true</code>, posts will <em>never</em> be re-rendered (even if you’ve made changes to the source files). If you use this option, you’ll need to <strong>Render</strong> individual posts whenever you make changes to their source files <em>before</em> you <strong>Render Website</strong>, otherwise your updates will not appear.</p>
-<p>The <code>title-block-banner</code> option: Setting this option to <code>true</code> will enable a <a href="https://quarto.org/docs/authoring/title-blocks.html#title-banners">banner style title block</a> (where the title, subtitle, description, and categories are all positioned inside the banner) for all posts.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<p><strong>The <code>title-block-banner</code> option:</strong> Setting this option to <code>true</code> will enable a <a href="https://quarto.org/docs/authoring/title-blocks.html#title-banners">banner style title block</a> (where the title, subtitle, description, and categories are all positioned inside the banner) for all posts.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{csik2022,
   author = {Csik, Samantha},

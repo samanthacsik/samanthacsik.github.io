@@ -88,7 +88,7 @@ A Quarto Blog is *a type* of Quarto Website -- according to the Quarto documenta
 ::: quote-text-bg
 **TL;DR:** A couple of steps are required for setting up your blog, but generally speaking, you'll need:
 
-`r fontawesome::fa("angle-right", fill = "#64605f", a11y = "sem")` **a folder** (i.e. subdirectory) to hold all of your individual blog posts -- I called my folder `posts` (though the name is up to you). I also (optionally) added a `_metadata.yml` file to this folder which includes some formatting and configuration options that will apply to *all* blog posts in this folder
+`r fontawesome::fa("angle-right", fill = "#64605f", a11y = "sem")` **a folder** (i.e. subdirectory) to hold all of your individual blog posts -- I called my folder `posts/` (though the name is up to you). I also (optionally) added a `_metadata.yml` file to this folder which includes some formatting and configuration options that will apply to *all* blog posts in this folder
 
 `r fontawesome::fa("angle-right", fill = "#64605f", a11y = "sem")` **a listing page**, which lists all of your blog posts for viewers to browse and click through -- this is a `.qmd` file that you'll add to your website's navbar by including it in `_quarto.yml`
 
@@ -105,7 +105,7 @@ Let's create those together now.
 
 [^2]: **The `freeze` option:** Setting this option to `auto` will *only* re-render posts when you make updates to the source files (as opposed to re-rendering them each time you **Render Website** -- this can save time, particularly if you have computationally-heavy content in your blog posts). If you set this option to `true`, posts will *never* be re-rendered (even if you've made changes to the source files). If you use this option, you'll need to **Render** individual posts whenever you make changes to their source files *before* you **Render Website**, otherwise your updates will not appear.
 
-    The `title-block-banner` option: Setting this option to `true` will enable a [banner style title block](https://quarto.org/docs/authoring/title-blocks.html#title-banners) (where the title, subtitle, description, and categories are all positioned inside the banner) for all posts.
+    **The `title-block-banner` option:** Setting this option to `true` will enable a [banner style title block](https://quarto.org/docs/authoring/title-blocks.html#title-banners) (where the title, subtitle, description, and categories are all positioned inside the banner) for all posts.
 
 ```{r filename="_metadata.yml"}
 #| eval: false
@@ -114,7 +114,7 @@ Let's create those together now.
 # options specified here will apply to all posts in this folder
 
 # prevents posts from re-rendering unless explicitly told to do so (for more, see https://quarto.org/docs/projects/code-execution.html#freeze)
-freeze: true
+freeze: auto
 
 # enable banner style title blocks (see https://quarto.org/docs/authoring/title-blocks.html)
 title-block-banner: true
@@ -199,7 +199,7 @@ date: 10-24-2022
 categories: [Quarto, R, MEDS] # self-defined categories
 citation: 
   url: https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/ 
-image: preview_image.jpg
+image: preview-image.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 ```
