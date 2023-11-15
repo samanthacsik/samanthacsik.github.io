@@ -8,7 +8,7 @@ title-block-banner: true
 
 I'm the Data Training Coordinator at the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/) (NCEAS) located at UC Santa Barbara, where I'm working to develop and teach data science training curricula for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) (MEDS) program and other data science initiatives across NCEAS and UCSB. I am also a co-organizer of [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/), a local data science group which works to promote gender diversity in the R community.
 
-My background is in marine ecology / ecophysiology -- I was afforded opportunities to study coral disease in Panama and the Florida Keys as an undergrad, then temperature effects on spiny lobster metabolism and foraging behavior in Santa Barbara for my Masters degree. Since the beginning of my time in STEM, I was totally terrified of all things data/coding/data science, but thanks to a super supportive community and some really rad colleagues/instructors, I found my new path in data science education and I absolutely *love* it.
+My background is in marine ecology / ecophysiology -- I was afforded opportunities to study coral disease in Panama and the Florida Keys as an undergrad, then temperature effects on spiny lobster metabolism and foraging behavior in Santa Barbara for my Masters degree. Since the beginning of my time in STEM, I was totally terrified of all things data / coding / data science, but thanks to a super supportive community and some really rad colleagues / instructors, I found my new path in data science education and I absolutely *love* it.
 
 :::{.column-margin}
 ```{r}
@@ -40,10 +40,10 @@ My right-hand hiking gal, Tallie (aka Bean aka TunaB aka SweetCheeks).
 
 I started recording my hikes (and eventually some other activities) on [Strava](https://www.strava.com/) in late 2020 and finally got around to retrieving my activity data using the [`{rStrava}`](https://github.com/fawda123/rStrava) package. Below is a heatmap of all my recorded activities made using [`leaflet`](https://rstudio.github.io/leaflet/). It's challenging to see individual markers at my most frequented trail heads/starting points, so I've recently began building out my own Strava Dashboard (using [`{shinydashboard}`](https://rstudio.github.io/shinydashboard/)) to make it a bit more interactive and filterable -- it's a work in progress, but a fun side project that I'm excited to continue iterating upon. Huge shout out to [Daniel Cullen](https://www.dancullen.me/) (who also happens to be a Santa Barbara resident!) for his awesome [blogpost](https://www.dancullen.me/articles/creating-a-heatmap-in-r-with-google-polylines) that got me started with my own map.
 
-<iframe id="map-size" src = "images/leaflet_2023-09-25.html"></iframe>
+<iframe id="map-size" src = "images/leaflet_2023-11-15.html"></iframe>
 
 ::: {.gray-italic .center-text}
-Map last updated: September 25, 2023
+Map last updated: November 15, 2023
 :::
 
 <p class="large-text quote-text-bg center-text">{{< fa arrow-pointer >}} For a more interactive experience, click around my [Strava dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/) <br> {{< fa brands github >}} Source code available on [GitHub](https://github.com/samanthacsik/strava-dashboard)</p>
