@@ -59,7 +59,7 @@ format:
     page-layout: full
     sidebar: false
     theme: 
-      - green_theme.scss
+      - styles.scss
     # css: styles.css
     mainfont: Nunito
     toc: true
