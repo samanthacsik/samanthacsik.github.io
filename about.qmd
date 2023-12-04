@@ -40,10 +40,10 @@ My right-hand hiking gal, Tallie (aka Bean aka TunaB aka SweetCheeks).
 
 I started recording my hikes (and eventually some other activities) on [Strava](https://www.strava.com/) in late 2020 and finally got around to retrieving my activity data using the [`{rStrava}`](https://github.com/fawda123/rStrava) package. Below is a heatmap of all my recorded activities made using [`leaflet`](https://rstudio.github.io/leaflet/). It's challenging to see individual markers at my most frequented trail heads/starting points, so I've recently began building out my own Strava Dashboard (using [`{shinydashboard}`](https://rstudio.github.io/shinydashboard/)) to make it a bit more interactive and filterable -- it's a work in progress, but a fun side project that I'm excited to continue iterating upon. Huge shout out to [Daniel Cullen](https://www.dancullen.me/) (who also happens to be a Santa Barbara resident!) for his awesome [blogpost](https://www.dancullen.me/articles/creating-a-heatmap-in-r-with-google-polylines) that got me started with my own map.
 
-<iframe id="map-size" src = "images/leaflet_2023-11-15.html"></iframe>
+<iframe id="map-size" src = "images/leaflet_2023-12-03.html"></iframe>
 
 ::: {.gray-italic .center-text}
-Map last updated: November 15, 2023
+Map last updated: December 03, 2023
 :::
 
 <p class="large-text quote-text-bg center-text">{{< fa arrow-pointer >}} For a more interactive experience, click around my [Strava dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/) <br> {{< fa brands github >}} Source code available on [GitHub](https://github.com/samanthacsik/strava-dashboard)</p>

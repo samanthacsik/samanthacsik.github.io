@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  open-graph: true
   site-url: https://samanthacsik.github.io/
   # cookie-consent: 
   #   type: express 
