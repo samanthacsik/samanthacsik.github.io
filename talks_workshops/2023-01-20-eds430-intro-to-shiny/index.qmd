@@ -19,7 +19,7 @@ image: shiny_hex.png
 <br>
 
 ::: {.center-text}
-[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide/){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/EDS430-Shiny){.btn role="button"}
+[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide/){.btn role="button" target="_blank"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/EDS430-Shiny){.btn role="button" target="_blank"}
 :::
 
 # Abstract

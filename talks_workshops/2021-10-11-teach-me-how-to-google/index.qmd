@@ -16,7 +16,7 @@ image: google.gif
 
 ```{r}
 #| echo: false
-#| out-width: "75%"
+#| out-width: "30%"
 xaringanExtra::embed_xaringan(
   url = "https://ucsb-meds.github.io/teach-me-how-to-google/#1",
   ratio = "4:3"
@@ -26,7 +26,7 @@ xaringanExtra::embed_xaringan(
 <br>
 
 ::: {.center-text}
-[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/teach-me-how-to-google/#1){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/teach-me-how-to-google){.btn role="button"}
+[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/teach-me-how-to-google/#1){.btn role="button" target=_blank} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/teach-me-how-to-google){.btn role="button" target=_blank}
 :::
 
 # Abstract
@@ -37,5 +37,5 @@ Googling for code help is something that all data scientists (at all career stag
 
 This talk was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
 
-It's since been adapted for a number of non-MEDS audiences, including students from UCSB's [Master of Technology Management Program](https://tmp.ucsb.edu/academics/master-technology-management) (Jan 2022), [R-Ladies St. Louis](https://www.meetup.com/rladies-st-louis/?_cookie-check=tJVp_VfFF4axweCV) (Feb 2022), [The Brown School StatLab](https://gwbweb.wustl.edu/News/Pages/Brown-School-StatLab-offers-statistics-support.aspx) at the University of Washington in St. Louis (Mar 2022), undergraduate students in [UCSB's Environmental Studies Program](https://samanthacsik.github.io/teach-me-how-to-google/slides/WaterData_2022-11-08.html#1) (Nov 2022), and UCSB's [Data Analysis and Coding Club (DAnC)](https://samanthacsik.github.io/teach-me-how-to-google/slides/DAnC-2023-05-17.html#1) (May 2023). Most times, the slides remain unchanged (aside from an updated title slide), but there are minor differences here and there depending on audience needs/experiences. Find all additional talk versions [here](https://samanthacsik.github.io/teach-me-how-to-google/)!
+It's since been adapted for a number of non-MEDS audiences, including students from UCSB's [Master of Technology Management Program](https://tmp.ucsb.edu/academics/master-technology-management) (Jan 2022), [R-Ladies St. Louis](https://www.meetup.com/rladies-st-louis/?_cookie-check=tJVp_VfFF4axweCV) (Feb 2022), [The Brown School StatLab](https://gwbweb.wustl.edu/News/Pages/Brown-School-StatLab-offers-statistics-support.aspx) at the University of Washington in St. Louis (Mar 2022), undergraduate students in [UCSB's Environmental Studies Program](https://samanthacsik.github.io/teach-me-how-to-google/slides/WaterData_2022-11-08.html#1) (Nov 2022 & 2023), and UCSB's [Data Analysis and Coding Club (DAnC)](https://samanthacsik.github.io/teach-me-how-to-google/slides/DAnC-2023-05-17.html#1) (May 2023). Most times, the slides remain unchanged (aside from an updated title slide), but there are minor differences here and there depending on audience needs/experiences. Find all additional talk versions [here](https://samanthacsik.github.io/teach-me-how-to-google/)!
 

@@ -35,7 +35,7 @@ An Bui and I getting ready to teach our very first R workshop to R-Ladies SB, ho
 <br>
 
 ::: {.center-text}
-[{{< fa file-alt title="A file with lines of text" >}} materials](https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/Intro-to-the-Tidyverse){.btn role="button"} 
+[{{< fa file-alt title="A file with lines of text" >}} materials](https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse){.btn role="button" target=_blank} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/Intro-to-the-Tidyverse){.btn role="button" target=_blank} 
 :::
 
 # Abstract 

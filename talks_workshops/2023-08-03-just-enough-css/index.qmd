@@ -18,7 +18,7 @@ draft: false
 <center><iframe src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" title="Just Enough CSS (and Sass) for data scientists" width="750px," height="550px"></iframe></center>
 
 ::: {.center-text}
-[{{< fa tv title="A television screen" >}} slides](https://samanthacsik.github.io/just-enough-css-sass/#/title-slide){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/just-enough-css-sass){.btn role="button"}
+[{{< fa tv title="A television screen" >}} slides](https://samanthacsik.github.io/just-enough-css-sass/#/title-slide){.btn role="button" target="_blank"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/just-enough-css-sass){.btn role="button" target="_blank"}
 :::
 
 

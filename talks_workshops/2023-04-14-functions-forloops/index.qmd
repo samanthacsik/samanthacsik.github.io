@@ -30,7 +30,7 @@ Art by [An Bui](https://an-bui.com/)
 <br>
 
 ::: {.center-text}
-[{{< fa file-alt title="A file with lines of text" >}} materials](https://ucsb-meds.github.io/functions-workshop/){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/functions-workshop){.btn role="button"} 
+[{{< fa file-alt title="A file with lines of text" >}} materials](https://ucsb-meds.github.io/functions-workshop/){.btn role="button" target="_blank"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/functions-workshop){.btn role="button" target="_blank"} 
 :::
 
 # Abstract 

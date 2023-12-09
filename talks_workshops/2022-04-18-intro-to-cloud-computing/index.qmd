@@ -25,7 +25,7 @@ xaringanExtra::embed_xaringan(
 <br>
 
 ::: {.center-text}
-[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/cloud-computing/#1){.btn role="button"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/cloud-computing){.btn role="button"}
+[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/cloud-computing/#1){.btn role="button" target="_blank"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/cloud-computing){.btn role="button" target="_blank"}
 :::
 
 # Abstract

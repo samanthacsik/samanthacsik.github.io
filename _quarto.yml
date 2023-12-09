@@ -30,18 +30,22 @@ website:
       - resources.qmd
       - href: CV/SCsik_CV.pdf
         text: cv
+        target: _blank
       - icon: github
         href: https://github.com/samanthacsik/samanthacsik.github.io
+        target: _blank
       - icon: twitter
         href: https://twitter.com/SamanthaCsik
+        target: _blank
       - icon: linkedin
         href: https://www.linkedin.com/in/samanthacsik/
+        target: _blank
       - icon: envelope
         href: mailto:scsik@ucsb.edu
   page-footer: 
     background: light
     left: Copyright 2021, Samantha Csik
-    right: This website is built with {{< fa heart title="a heart" >}} and [Quarto](https://quarto.org/)
+    right: This website is built with {{< fa heart title="a heart" >}}, {{< fa brands r-project title="R Project" >}} and [Quarto](https://quarto.org/)
     # right: 
     #   - icon: github
     #     href: https://github.com/samanthacsik

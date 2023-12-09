@@ -8,7 +8,7 @@ image: bren-hex-white-bg.png
 draft: false
 ---
 
-[{{< fa brands r-project >}} shiny dashboard](https://shinyapps.bren.ucsb.edu/student-data-explorer/){.btn} [{{< fa brands github >}} source code](https://github.com/UCSB-MEDS/shiny-dashboard){.btn}
+[{{< fa brands r-project >}} shiny dashboard](https://shinyapps.bren.ucsb.edu/student-data-explorer/){.btn target=_blank} [{{< fa brands github >}} source code](https://github.com/UCSB-MEDS/shiny-dashboard){.btn target=_blank}
 
 <br>
 
