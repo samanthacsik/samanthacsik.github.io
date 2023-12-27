@@ -1,0 +1,32 @@
+---
+title: "EDS 430 - Intro to Shiny"
+description: |
+  materials for EDS 430, a 1-unit graduate-level course taught at the Bren School for Environmental Science & Management
+# categories: [Shiny]
+image: shiny-hex.png
+draft: false
+---
+
+[{{< fa window-maximize >}} course website](https://ucsb-meds.github.io/EDS-430-Intro-to-Shiny/){.btn target=_blank} [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-430){.btn target=_blank}
+
+<br>
+
+# Course Description
+
+These materials accompany the 1-unit, 2-day, hands-on coding workshop, [EDS 430 - Intro to Shiny](https://bren.ucsb.edu/courses/eds-430), offered through the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/), in partnership with the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/).
+
+In this workshop, students will learn how to build and deploy Shiny applications. The [`{shiny}` package](https://shiny.posit.co/) provides a framework that allows R users to build interactive web applications and dashboards, and has become a popular tool for sharing data analyses and data-derived outputs with broad audiences. In this two-part short course, students will learn the fundamentals of reactivity, how to customize an application user interface (UI), best practices and workflows for developing shiny apps, and how to deploy their apps online via RStudio’s hosting service, [shinyapps.io](https://www.shinyapps.io/).
+
+<br>
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "25%"
+#| fig-align: "center"
+knitr::include_graphics("shiny-hex.png")
+```
+
+# When is this taught?
+
+This course began as a humble, 2-hour long workshop in Winter 2022, when I was just beginning to learn Shiny myself. It was expanded into a credit-bearing 2-day long course in Winter 2023, and I've revamped / reorganized materials into their own course website for Winter 2024. You can expect that materials will be reviewed and updated at least once annually, around late fall - early winter.

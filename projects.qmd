@@ -1,6 +1,6 @@
 ---
 title: "projects"
-subtitle: "some of my more notable side projects, courses, and freelancing work" 
+subtitle: "some of my more notable side projects and freelancing work" 
 listing:
   contents: projects
   feed: true
