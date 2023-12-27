@@ -1,0 +1,42 @@
+---
+title: "EDS 240 - Data Visualization & Communication"
+description: |
+  materials for EDS 240, a 4-unit graduate-level course taught at the Bren School for Environmental Science & Management
+# categories: [Data Viz, ggplot]
+image: horst-eco-r4ds.png
+draft: false
+---
+
+[{{< fa window-maximize >}} course website](https://samanthacsik.github.io/EDS-240-data-viz/){.btn target=_blank} [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-240){.btn target=_blank}
+
+<br>
+
+# Course Description
+
+Effectively communicating your work in a responsible, accessible and visually-pleasing way is often (if not, always) a central part of data science. This course will focus on the basic principles for effective communication through data visualization and using technical tools and workflows for creating and sharing data visualizations with diverse audiences.
+
+By the end of this course, learners should be able to:
+
+- Identify which types of visualizations are most appropriate for your data and your audience
+- Prepare (e.g. clean, explore, wrangle) data so that it’s appropriately formatted for building data visualizations
+- Build effective, responsible, accessible, and aesthetically-pleasing, visualizations using the R programming language, and specifically {ggplot2} + ggplot2 extension packages
+- Write code from scratch and read and adapt code written by others
+- Apply a DEI (Diversity, Equity & Inclusion) lens to the process of designing data visualizations
+- Assess, critique, and provide constructive feedback on data visualizations
+
+<br>
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "50%"
+#| fig-align: "center"
+#| fig-alt: "A fuzzy monster in a beret and scarf, critiquing their own column graph on a canvas in front of them while other assistant monsters (also in berets) carry over boxes full of elements that can be used to customize a graph (like themes and geometric shapes). In the background is a wall with framed data visualizations. Stylized text reads 'ggplot2: build a data masterpiece.'"
+knitr::include_graphics("horst-ggplot-masterpiece.png")
+```
+
+# When is this taught?
+
+EDS 240 is a core course of the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds) (MEDS) program, taught in Winter quarter each year (since the inaugural cohort, Winter 2022). I am re-envisioning and teaching it for the first time in Winter 2024. Materials are still very much under development (as of Dec 2023) and untested -- I'm looking forward to reflecting on what worked and what to improve on after I finish up teaching in March 2024.
+
+

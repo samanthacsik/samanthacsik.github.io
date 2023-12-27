@@ -12,6 +12,7 @@ date: 2023-01-20
 slug: csik2023shiny
 categories: [MEDS, R, shiny]
 image: shiny_hex.png
+draft: true
 ---
 
 <center><iframe src="https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide" title="EDS 430 - Intro to Shiny" width="750px," height="550px"></iframe></center>

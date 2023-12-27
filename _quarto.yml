@@ -24,6 +24,8 @@ website:
       - about.qmd
       - href: talks_workshops.qmd
         text: talks & workshops
+      - href: courses.qmd
+        text: courses
       - href: projects.qmd
         text: projects
       - posts.qmd
