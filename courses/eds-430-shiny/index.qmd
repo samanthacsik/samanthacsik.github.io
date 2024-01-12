@@ -2,7 +2,7 @@
 title: "EDS 430 - Intro to Shiny"
 description: |
   materials for EDS 430, a 1-unit graduate-level course taught at the Bren School for Environmental Science & Management
-# categories: [Shiny]
+categories: [UCSB, shiny]
 image: shiny-hex.png
 draft: false
 ---

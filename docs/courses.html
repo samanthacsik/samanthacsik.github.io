@@ -74,9 +74,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -192,7 +192,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
+    <div class="quarto-title column-page-left">
       <h1 class="title">courses</h1>
             <p class="subtitle lead">credit-bearing courses developed &amp; taught by yours truly (with a lot of inspiration and help from other educators)</p>
                       </div>
@@ -210,11 +210,11 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UCSB">UCSB <span class="quarto-category-count">(2)</span></div><div class="category" data-category="data visualization">data visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ggplot">ggplot <span class="quarto-category-count">(1)</span></div><div class="category" data-category="shiny">shiny <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
@@ -225,7 +225,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1703704982742" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="0" data-categories="UCSB,shiny" data-listing-file-modified-sort="1705031023285" data-listing-reading-time-sort="2">
 <a href="./courses/eds-430-shiny/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -235,6 +235,14 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <h5 class="no-anchor card-title listing-title">
 EDS 430 - Intro to Shiny
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UCSB'); return false;">
+UCSB
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('shiny'); return false;">
+shiny
+</div>
+</div>
 <div class="card-text listing-description">
 <p>materials for EDS 430, a 1-unit graduate-level course taught at the Bren School for Environmental Science &amp; Management</p>
 </div>
@@ -247,7 +255,7 @@ EDS 430 - Intro to Shiny
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1703707969517" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="1" data-categories="UCSB,data visualization,R,ggplot" data-listing-file-modified-sort="1705030988739" data-listing-reading-time-sort="2">
 <a href="./courses/eds-240-data-viz/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -257,6 +265,20 @@ EDS 430 - Intro to Shiny
 <h5 class="no-anchor card-title listing-title">
 EDS 240 - Data Visualization &amp; Communication
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UCSB'); return false;">
+UCSB
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ggplot'); return false;">
+ggplot
+</div>
+</div>
 <div class="card-text listing-description">
 <p>materials for EDS 240, a 4-unit graduate-level course taught at the Bren School for Environmental Science &amp; Management</p>
 </div>

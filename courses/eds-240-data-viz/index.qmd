@@ -2,7 +2,7 @@
 title: "EDS 240 - Data Visualization & Communication"
 description: |
   materials for EDS 240, a 4-unit graduate-level course taught at the Bren School for Environmental Science & Management
-# categories: [Data Viz, ggplot]
+categories: [UCSB, data visualization, R, ggplot]
 image: horst-eco-r4ds.png
 draft: false
 ---
