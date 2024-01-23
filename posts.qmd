@@ -1,6 +1,6 @@
 ---
 title: "posts"
-subtitle: "still working on learning how to write more often"
+subtitle: "some workshop-related posts and other musings"
 listing:
   contents: posts
   sort: "date desc"
