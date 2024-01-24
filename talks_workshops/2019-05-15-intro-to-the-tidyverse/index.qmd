@@ -44,6 +44,6 @@ In this live-coding workshop, we teach useful functions for data tidying, wrangl
 
 # Audience
 
-My *very first time* (co)leading an R-based live-coding workshop(!) and the experience that got me hooked on teaching RStats/data science 💜, given to [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/events/260710376/).
+My *very first time* (co)leading an R-based live-coding workshop(!) and the experience that got me hooked on teaching R / data science 💜, given to [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/events/260710376/). This workshop was special for a lot of reasons, but the one that stands out the most was learning to overcome the nerves (and general feelings of being too inexperienced), with my very best learning partner by my side. Despite being in separate labs and offices throughout grad school, An and I quickly became data science accountability-buddies, course crashers, and collaborators. I will forever credit my successful journey into the environmental data science / teaching space to this friendship. 
 
 
