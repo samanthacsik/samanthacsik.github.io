@@ -179,6 +179,12 @@ body {
   font-size: 18px;
 }
 
+// dropdown navbar text color
+.dropdown-item{
+  color: $dark-sage-green;
+  background-color: $cream;
+}
+
 // listing card styling
 .card {
   background-color: $cream;
