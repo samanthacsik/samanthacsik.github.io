@@ -1,0 +1,41 @@
+---
+title: "Building (and teaching) a graduate-level data science course"
+description: |
+  a brain-dump of the many thoughts, processes, and considerations that have been at the center of my attention for the past eight(!) months
+author:
+  - name: Samantha Csik
+    url: https://samanthacsik.github.io/
+    orcid: 0000-0002-5300-3075
+date: 2024-03-31
+citation: 
+  url: https://samanthacsik.github.io/posts/2024-03-31-data-viz-course/
+categories: [MEDS, R, data-visualization]
+image: media/horst-eco-r4ds.png
+draft: false
+---
+
+Where do you even start with building a syllabus?
+
+- learning objectives
+- schedule of classes
+- tentative topics by date
+
+How will student success be meaured?
+
+- alternative grading
+- tokens
+
+How do you distribute materials?
+
+- course website
+- google slides vs. quarto slides
+
+How do you distribute assessments?
+
+- github classroom
+
+Misc. things to learn / consider:
+
+- canvas
+- spreadsheets for tracking
+- egrades
