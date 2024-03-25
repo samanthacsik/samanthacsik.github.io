@@ -2,11 +2,17 @@
 
 // Import fonts (define mainfont in _quarto.yml)
 /*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@300&family=Roboto+Mono:wght@300&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Nunito:wght@300;800&family=Roboto+Mono:wght@400;700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Nunito:wght@300;800&family=Roboto+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+// fonts
+$nunito: 'Nunito', sans-serif; 
+$josefin: 'Josefin Sans', sans-serif; 
 
 // Colors
 $light-sage-green: #D1D9CE;
-$dark-sage-green: #98A08D;
+$sage-green: #98A08D;
+$dark-sage-green: #757B6D;
 $cream: #FDFBF7;
 $dark-gray: #5A5856;
 $gray: #64605f;
@@ -17,7 +23,7 @@ $burnt-orange: #ad7237;
 
 // Base document colors
 $navbar-bg: $cream;
-$navbar-fg: $dark-sage-green; 
+$navbar-fg: $sage-green; 
 $navbar-hl: $purple; 
 $body-bg: $light-sage-green;
 $body-color: $gray;
@@ -26,7 +32,7 @@ $link-color: $purple;
 
 // Inline code
 $code-bg: $cream;
-$code-color: $burnt-orange; //$purple; 
+$code-color: $burnt-orange; 
 
 // Code blocks
 $code-block-bg: $cream;
@@ -36,7 +42,8 @@ $code-block-bg: $cream;
 /* ELEMENT SELECTORS */
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 3px;
+  font-family: $josefin; 
+  letter-spacing: 1px;
   font-weight: 700;
   color: $gray;
 }
@@ -46,8 +53,10 @@ h3 {
 }
 
 body {
+  font-family: $nunito;
   line-height: 1.5; // min 1.5 suggested for assistive tech
   font-size: 19.5px;
+  font-weight: 350;
 }
 
 /* ID selectors */
@@ -181,7 +190,7 @@ body {
 
 // dropdown navbar text color
 .dropdown-item{
-  color: $dark-sage-green;
+  color: $sage-green;
   background-color: $cream;
 }
 

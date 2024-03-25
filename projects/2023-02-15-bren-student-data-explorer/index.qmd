@@ -30,9 +30,6 @@ The landing page of the Bren Student Data Explorer, accessible at <https://shiny
 
 I (along with a number of other Bren staff) oversaw the development of Bren Student Data Explorer v1.0 (though to be clear, Halina led the design and technical development of the dashboard -- it's really her product to brag about!). Each year, the dashboard will be updated with new demographic data based on applications and admissions, provided by [UCSB's Graduate Division](https://www.graddiv.ucsb.edu/), and post-grad career placement data from the [Bren's Career Services Team](https://bren.ucsb.edu/career-services). 
 
-In January 2023, I took over as the primary dashboard maintainer. This involved refactoring the code base, processing new data, and updating the dashboard. Some additional refactoring is likely to happen during the next big update in order to further simplify the code base and improve readability for future maintainers. 
-
-Check back each year to learn more about our Bren students!
-
+The proverbial torch was passed to me for the next round of maintenance and updates in January 2023. This involved refactoring the code base, processing new data, and updating the dashboard. Some additional refactoring is likely to happen during the next big update in order to further simplify the code base and improve readability -- I'll be working with MEDS Program Coordinator, [Jamie Montgomery](https://www.jamiecmontgomery.com/), to continue this maintenance year-to-year.
 
 
