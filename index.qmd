@@ -11,10 +11,10 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/samanthacsik/
       target: _blank
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/SamanthaCsik
-      target: _blank
+    # - icon: twitter
+    #   text: Twitter
+    #   href: https://twitter.com/SamanthaCsik
+    #   target: _blank
     - icon: github
       text: GitHub
       href: https://github.com/samanthacsik
