@@ -206,13 +206,12 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
    
   <ul>
   <li><a href="#first-some-context" id="toc-first-some-context" class="nav-link active" data-scroll-target="#first-some-context">First, some context</a></li>
-  <li><a href="#a-general-timeline-from-start-to-finish" id="toc-a-general-timeline-from-start-to-finish" class="nav-link" data-scroll-target="#a-general-timeline-from-start-to-finish">A general timeline (from start to finish)</a></li>
-  <li><a href="#where-does-one-even-start-when-building-a-syllabus" id="toc-where-does-one-even-start-when-building-a-syllabus" class="nav-link" data-scroll-target="#where-does-one-even-start-when-building-a-syllabus">Where does one even start when building a syllabus?</a></li>
-  <li><a href="#how-will-student-success-be-measured" id="toc-how-will-student-success-be-measured" class="nav-link" data-scroll-target="#how-will-student-success-be-measured">How will student success be measured?</a></li>
-  <li><a href="#how-do-you-distribute-assessments" id="toc-how-do-you-distribute-assessments" class="nav-link" data-scroll-target="#how-do-you-distribute-assessments">How do you distribute assessments?</a></li>
-  <li><a href="#misc.-things-to-learn-consider" id="toc-misc.-things-to-learn-consider" class="nav-link" data-scroll-target="#misc.-things-to-learn-consider">Misc. things to learn / consider:</a></li>
-  <li><a href="#random-things-that-are-worthwhile-to-do" id="toc-random-things-that-are-worthwhile-to-do" class="nav-link" data-scroll-target="#random-things-that-are-worthwhile-to-do">Random things that are worthwhile to do:</a></li>
-  <li><a href="#other-musings" id="toc-other-musings" class="nav-link" data-scroll-target="#other-musings">Other musings:</a></li>
+  <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">My preparation timeline</a></li>
+  <li><a href="#syllabus" id="toc-syllabus" class="nav-link" data-scroll-target="#syllabus">Building the course syllabus</a></li>
+  <li><a href="#grades" id="toc-grades" class="nav-link" data-scroll-target="#grades">Deciding to implement specifications (specs) grading</a></li>
+  <li><a href="#course-materials" id="toc-course-materials" class="nav-link" data-scroll-target="#course-materials">How do you distribute materials?</a></li>
+  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">How do you distribute assessments?</a></li>
+  <li><a href="#other-stuff" id="toc-other-stuff" class="nav-link" data-scroll-target="#other-stuff">Other stuff</a></li>
   <li><a href="#people-to-thank" id="toc-people-to-thank" class="nav-link" data-scroll-target="#people-to-thank">People to thank:</a></li>
   </ul>
 </nav>
@@ -232,7 +231,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <strong>TL;DR</strong> some text here
 </div>
 <p><br></p>
-<p>It felt like running a marathon at sprint speed at times (okay, almost the whole time), but I just finished teaching my first(!!) graduate-level course for the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds">Master of Environmental Data Science</a> (MEDS) program – I’m so exhausted and so proud and I can’t wait to (hopefully) do it again next year. While I’ve witnessed so many incredible colleagues successfully teach really rad courses in this program since it first began in 2021, I still felt like I was stepping into a large unknown. Now that I’m through the other side, I wanted to reflect on my process, experience, and considerations. I’ve learned so much (<em>seriously sooooo much</em>) from other educators who have openly shared their materials and ideas online, and writing this here is my small way of trying to give back to that community. I’ll try to be as transparent as possible about all steps of this process.</p>
+<p>It felt like running a marathon at sprint speed at times (okay, almost the whole time), but I just finished teaching my first(!!) graduate-level course for the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds">Master of Environmental Data Science</a> (MEDS) program – I’m so exhausted and so proud and I can’t wait to (hopefully) do it again next year. While I’ve witnessed many incredible colleagues successfully teach really rad courses in this program since it first began in 2021, I still felt like I was stepping into a large unknown. Now that I’m through the other side, I wanted to reflect on my process, experience, and considerations. I’ve learned so much (<em>seriously sooooo much</em>) from other educators who have openly shared their materials and ideas online, and writing this here is my small way of trying to give back to that community. I’ll try to be as transparent as possible about all steps of this process.</p>
 <section id="first-some-context" class="level2">
 <h2 class="anchored" data-anchor-id="first-some-context">First, some context</h2>
 <p>The MEDS program is an 11-month professional masters program, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a> (NCEAS). The program is designed to provide data and technical skills to students with prior experience in the environmental sciences, preparing them for a workforce where data and programming literacy is increasingly becoming the norm.</p>
@@ -273,73 +272,113 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 </div>
 <p><a href="https://bren.ucsb.edu/courses/eds-240">EDS 240: Data Visualization and Communication</a> is MEDS a “core” course, meaning students need to enroll in and pass the course to earn their degree. While I’m not new to teaching – in fact, my role within the MEDS program is primarily centered around developing and teaching short (<em>typically</em> 1-3 hours) workshop-style courses that supplement the core curricula – taking on a 4-unit core course was certainly new territory. When the opportunity to teach EDS 240 opened up, I was pretty excited and also <em>really</em> nervous. Sure, I was familiar with the idea of data visualization – I’ve created my fair share of ggplots, discussed / admired / critiqued plenty of viz, and I’ve made good use of some of the most popular online data viz resources – but I certainly would not consider myself an “expert” in this field or even in using <code>{ggplot2}</code> + extension packages in R.</p>
 <p>My only real guidelines were to beef up the technical skills / lessons – the prior version of this course was highly conceptual and didn’t involve much programming. Other than that, I was free to do what I wanted. And so, I set off on building my very first grad-level data science course.</p>
+<p>My extremely broad TODO list looked like this:</p>
+<ol type="1">
+<li><a href="#timeline">Figure out my preparation timeline</a></li>
+<li><a href="#syllabus">Build the course syllabus (incl.&nbsp;learning objectives, topics, schedule, policies)</a></li>
+<li><a href="#grades">Decide how I will assess student success (i.e.&nbsp;grades)</a></li>
+<li><a href="#course-materials">Determine how to build / organizing course materials</a></li>
+<li><a href="#assignments">Create assignments and figure out how best to distribute them</a></li>
+</ol>
+<p>I’ll walk through each of these TODOs in a bit more detail, then end with some things that worked particularly well, things I’d like to do differently, and other musings.</p>
 </section>
-<section id="a-general-timeline-from-start-to-finish" class="level2">
-<h2 class="anchored" data-anchor-id="a-general-timeline-from-start-to-finish">A general timeline (from start to finish)</h2>
+<section id="timeline" class="level2">
+<h2 class="anchored" data-anchor-id="timeline">My preparation timeline</h2>
 <p><strong>I spent about 7 months sincerely preparing for and teaching EDS 240 (not including the application and interview process).</strong> I recognize that’s a loonnggg runway and that not every instructor is afforded the time or has the capacity to do the same (particularly lecturers). As an existing employee of the MEDS program whose responsibilities are largely centered around teaching, I was allowed the time and space to think deeply about this course. I’m a super nervous planner when it comes to anything work / teaching-related (hello, imposter syndrome!), so I personally needed this prep time to feel like I had things (sort of) under control. Here’s how that timeline roughly shook out:</p>
 <p><em><strong>Note:</strong> I’m also including information about the application process here – it was totally foreign to me, and while this is specific to UCSB / Bren, I imagine other institutions may follow a similar (somewhat lengthy) process.</em></p>
 <ul>
-<li><strong>April 2023:</strong> Submitted my application for <a href="https://recruit.ap.ucsb.edu/JPF02448">Teaching Positions, Bren School of Environmental Science &amp; Management</a> – this is a general call for <a href="https://ap.ucsb.edu/policies.and.procedures/red.binder/sections/%5B2_01%5D%20Unit%2018%20Faculty%20and%20Supervisor%20of%20Teacher%20Education%20Series.pdf">Unit 18 Faculty</a> (also referred to as Lecturers). Applications require a cover letter, CV, Teaching Statement, and three references. You are asked to specify which course(s) you are interested in teaching.</li>
-<li><strong>June 2023:</strong> Interviewed – this hour-long interview began with a 10min teaching demo followed by ~5min of Q&amp;A. Your demo must be related to the topic area of the course you’re intending to teach (i.e.&nbsp;in my case, it needed to be about data viz). I chose to do a live-coding demo, since my vision for EDS 240 would involve a lot of that.</li>
-<li><strong>September 2023:</strong> Signed my contract. After negotiations, I ended up at 50% time in my typical full-time role (Data Training Coordinator, more formally classified as Academic Coordinator I), 33% time as Unit 18 Lecturer, and 17% time for curriculum development. It’s important to note that these appointments are for the quarter in which the course is taught <em>only</em> (e.g.&nbsp;winter quarter, Jan - Mar 2024). The lecturer salary scale is higher than than my current full-time salary, so this split appointment meant I would earn a bit more during winter quarter.</li>
-<li><strong>September - November 2023:</strong> While my appointment didn’t officially start until January, I spent about 30-40hrs/week prepping for the class (which is a lot of time…this is not an attempt to applaud “the grind,” but rather reflect how this experience played out for me). I focused primarily on the syllabus, grading structure, drafting high-level outlines of weekly topics, building the skeleton of the course website, and learning other necessary classroom management tools (I’ll elaborate more on all of these in the next sections). I was able to prep ~2 of 4 homework assignments (plus jot down ideas for others), and even a couple early lectures. I also spent ~20hrs/week teaching my typical fall workshops, reviewing / updating materials for <a href="https://ucsb-meds.github.io/EDS-430-Intro-to-Shiny/">EDS 430: Intro to Shiny</a> (a 2-day short course that I also teach in winter quarter), and other MEDS administrative stuff.</li>
-<li><strong>December 2023:</strong> Oof, this was definitely the hardest month out of the whole experience – while most folks were winding down after a busy fall quarter, I felt like I had to ramp up (more so than I already had been). I was also tired from a stacked fall and wanted so desperately for a break that I felt like I couldn’t really take. I was also coming to terms with the fact I would absolutely not have the whole course planned / materials created ahead of the January 8th start date (<i class="fa-solid fa-face-grin-beam-sweat" title="a grinning face with a drop of sweat dripping from it’s brow" aria-hidden="true"></i> yes, that was incredibly naive thinking on my part). I <em>did</em> hope to have materials / plans for the first 6 weeks of the quarter largely created – I would also be teaching my (shorter) Shiny course and helping to facilitate NCEAS’ annual <a href="https://www.nceas.ucsb.edu/environmental-data-science-summit">Environmental Data Science Summit</a> during this first half of the quarter and was genuinely worried about not having enough time to do it all.</li>
-<li><strong>January - March 2023:</strong> Here we go! By this point, I had weeks 1-4 fully planned, weeks 5-6 outlined(ish), and weeks 7-10 were largely untouched (aside from having scheduled Allison Horst’s guest lecture on using Observable JS to create interactive viz during week 9!). I tried my best to work ahead to continue prepping future lectures / assignments / etc. but this wasn’t totally sustainable. By ~mid-quarter, I had about a week to prepare for an upcoming class (though it generally got easier to prep as the quarter went on, since I would accumulate lots of resources and ideas for future lessons while building earlier lectures.)</li>
+<li><p><strong>April 2023:</strong> Submitted my application for <a href="https://recruit.ap.ucsb.edu/JPF02448">Teaching Positions, Bren School of Environmental Science &amp; Management</a> – this is a general call for <a href="https://ap.ucsb.edu/policies.and.procedures/red.binder/sections/%5B2_01%5D%20Unit%2018%20Faculty%20and%20Supervisor%20of%20Teacher%20Education%20Series.pdf">Unit 18 Faculty</a> (also referred to as Lecturers). Applications require a cover letter, CV, Teaching Statement, and three references. You are asked to specify which course(s) you are interested in teaching.</p></li>
+<li><p><strong>June 2023:</strong> Interviewed – this hour-long interview began with a 10min teaching demo followed by ~10min of Q&amp;A. Your demo must be related to the topic area of the course you’re intending to teach (i.e.&nbsp;in my case, it needed to be about data viz). I chose to do a live coding demo, since my vision for EDS 240 would involve a lot of that (see <a href="tps://doi.org/10.1371/journal.pcbi.1008090">Nederbragt et al.&nbsp;(2020)</a> for more on this teaching technique).</p></li>
+<li><p><strong>September 2023:</strong> Signed my contract. After negotiations, I ended up at 50% time in my typical full-time role (Data Training Coordinator, more formally classified as Academic Coordinator I), 33% time as Unit 18 Lecturer, and 17% time for curriculum development. It’s important to note that these appointments are for the quarter in which the course is taught <em>only</em> (e.g.&nbsp;winter quarter, Jan - Mar 2024). The lecturer salary scale is higher than than my current full-time salary, so this split appointment meant I would earn a bit more during winter quarter.</p></li>
+<li><p><strong>September - November 2023:</strong> While my appointment didn’t officially start until January, I spent about 30-40hrs/week prepping for the class (which is a lot of time…this is not an attempt to applaud “the grind,” but rather reflect how this experience played out for me). I focused primarily on the syllabus, grading structure, drafting high-level outlines of weekly topics, building the skeleton of the course website, and learning other necessary classroom management tools (I’ll elaborate more on all of these in the next sections). I was able to prep ~2 of 4 homework assignments (plus jot down ideas for others), and even a couple early lectures. I also spent ~30hrs/week teaching my typical fall workshops, reviewing / updating materials for <a href="https://ucsb-meds.github.io/EDS-430-Intro-to-Shiny/">EDS 430: Intro to Shiny</a> (a 2-day short course that I also teach in winter quarter), and other MEDS administrative stuff.</p></li>
+<li><p><strong>December 2023:</strong> Oof, this was definitely the hardest month out of the whole experience – while most folks were winding down after a busy fall quarter, I felt like I had to ramp up (more so than I already had been). I was also tired from a stacked fall and wanted so desperately for a break that I felt like I couldn’t really take. I was also coming to terms with the fact I would absolutely not have the whole course planned / materials created ahead of the January 8th start date (<i class="fa-solid fa-face-grin-beam-sweat" title="a grinning face with a drop of sweat dripping from it’s brow" aria-hidden="true"></i> yes, that was incredibly naive thinking on my part). I <em>did</em> hope to have materials / plans for the first 6 weeks of the quarter largely created – I had a number of other non-EDS 240 events, teaching, and responsibilities during this first half of the quarter and I was genuinely worried about not having enough time to do it all.</p></li>
+<li><p><strong>January - March 2023:</strong> Here we go! By this point, I had weeks 1-4 fully planned, weeks 5-6 outlined(ish), and weeks 7-10 were largely untouched (aside from having scheduled <a href="https://github.com/allisonhorst/">Allison Horst</a>’s guest lecture on using Observable JS to create interactive viz during week 9!). I tried my best to work ahead and continue prepping future lectures / assignments / etc. but this wasn’t totally sustainable. By ~week 5, I was prepping each lecture the week before delivering it. That said, I had compiled so many resources and jotted down so many random ideas as I came across things, that creating new lectures did get a bit easier as time went on.</p></li>
 </ul>
 </section>
-<section id="where-does-one-even-start-when-building-a-syllabus" class="level2">
-<h2 class="anchored" data-anchor-id="where-does-one-even-start-when-building-a-syllabus">Where does one even start when building a syllabus?</h2>
-<p>This was probably the most intimidating part, given that it’s the one place to comprehensively describe all aspects of course proceedings – from (tentative) topics covered to assignment due dates, and grading schemes to course policies. <strong>I chose to begin with defining the course’s learning objectives, i.e.&nbsp;what I wanted all students to feel comfortable with / confident in by the end of the course.</strong> It was really important to me that I blended both technical skills (e.g.&nbsp;using <code>{ggplot2}</code>) with information design theory and a solid conceptual understanding of what makes a good data visualization.</p>
-<p>I knew I’d be teaching <code>{ggplot2}</code> as the data viz package / tool of choice throughout the course (partly because it’s the tool I know how to use best, but also because I think <code>{ggplot2}</code> is one of the greatest, most well-supported tools out there for creating data viz). However, it was also super important to me that I blended technical skills with information design / data viz theory</p>
-<p>After a lot of iterating, seeking feedback from a mix of past MEDS students (now NCEAS data scientists) and NCEAS educators, I ended up with a list of six learning objectives (check out the <a href="https://docs.google.com/document/d/1iv-bsakUA-7FDSZCt0Qq1TUYXBzq0cktzLlxV2AxhZc/edit#heading=h.thw5uolxraye">syllabus</a> to see what they are!)</p>
-<ul>
-<li>technical skills (ggplot2) but also theory/conceptual stuff which is largely transferable</li>
-</ul>
-<p>mindful of holidays, other due dates capstone</p>
-<ul>
-<li>learning objectives</li>
-<li>schedule of classes</li>
-<li>tentative topics by date</li>
-</ul>
+<section id="syllabus" class="level2">
+<h2 class="anchored" data-anchor-id="syllabus">Building the course syllabus</h2>
+<p>This was probably the most intimidating part, given that it’s the one place to comprehensively describe all aspects of course proceedings – from (tentative) topics covered to assignment due dates, and grading schemes to course policies. <strong>I chose to begin with defining the course’s learning objectives, i.e.&nbsp;what I wanted all students to feel comfortable with / confident in by the end of the course.</strong> It was really important to me that I blended both technical skills (e.g.&nbsp;using <code>{ggplot2}</code>) with information design theory and a solid conceptual understanding of what makes a good data visualization (i.e.&nbsp;transferable knowledge, regardless of the programming language / data viz tool of choice).</p>
+<p>After a lot of iterating, seeking feedback from a mix of past MEDS students (now NCEAS data scientists) and other NCEAS educators, I ended up with a list of six learning objectives (check out the <a href="https://docs.google.com/document/d/1iv-bsakUA-7FDSZCt0Qq1TUYXBzq0cktzLlxV2AxhZc/edit#heading=h.thw5uolxraye">syllabus</a> to see what they are!). <strong>Next, I began mapping out tentative topics by date</strong>, being mindful of holidays, large non-EDS 240 deadlines (e.g.&nbsp;<a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science/meds-capstone-projects">MEDS Capstone</a> faculty reviews), and the skills we’d need to cover ahead of distributing each new homework assignment. This schedule was a detailed draft at best – topics were shifted around a bit (e.g.&nbsp;I couldn’t always cover as much as I planned in a given class) or dropped entirely as the quarter went on – but it was an important starting point / road map for me a to return to as I moved through the planning process.</p>
+<p><strong>After these pieces were drafted up, I started filling in the remaining (large) gaps: course policies, grading structure, student resources, etc.</strong> The syllabus was in a constant state of revision right up until the start of the course, but getting that first draft squared away felt like a <em>huge</em> accomplishment and it served as my North Star when I finally began creating course materials.</p>
 </section>
-<section id="how-will-student-success-be-measured" class="level2">
-<h2 class="anchored" data-anchor-id="how-will-student-success-be-measured">How will student success be measured?</h2>
+<section id="grades" class="level2">
+<h2 class="anchored" data-anchor-id="grades">Deciding to implement specifications (specs) grading</h2>
+<p>A conversation <a href="https://www.citral.ucsb.edu/people/nate-emery">Nate Emery</a>, the STEM Education Coordinator at UCSB’s <a href="https://www.citral.ucsb.edu/home">Center for Innovative Teaching, Research, and Learning</a> inspired me to explore alternative grading approaches for this course. He had passed me a copy of <a href="https://www.amazon.com/Grading-Growth-Alternative-Practices-Engagement/dp/1642673811">Grading for Growth: A Guide to Alternative Grading Practices That Promote Authentic Learning and Student Engagement in Higher Education</a>, by David Clark &amp; Robert Talbert (also check out the <a href="https://gradingforgrowth.com/">Grading for Growth Substack</a>) and some other awesome case studies / resources, which I dove into for the better portion of August 2023. <strong>I decided to implement a version of specifications (specs) grading for EDS 240.</strong> Generally speaking, specs grading refers to:</p>
+<p><br></p>
+<blockquote class="blockquote">
+<p><em>“an alternative grading method where instructors create a <strong>list of specifications that describe the qualities and characteristics of a successful submission</strong> for an assignment. Student work is <strong>graded holistically</strong> based on those specifications, earning a single mark: “Satisfactory” or “Not Yet”. Students have the <strong>chance to use feedback</strong> by revisiting and resubmitting for full credit.”</em></p>
+</blockquote>
+<div class="right-align-text small-text">
+<p><em>-expert from “Grading for Growth: A Guide to Alternative Grading Practices That Promote Authentic Learning and Student Engagement in Higher Education”, by David Clark &amp; Robert Talbert</em></p>
+</div>
+<p><br></p>
+<p>Why implement something like specs grading? <strong>“Traditional” grading (assigning points to one-time assessments and aggregating those points into a letter grade for a course) comes with a variety of challenges:</strong></p>
 <ul>
-<li>alternative grading</li>
-<li>tokens</li>
+<li>It <strong>lacks feedback loops</strong> – there are (often) no reattempts or revisions of work based on feedback, making it difficult for students to demonstrate (and instructors to assess) learning or growth</li>
+<li>It disproportionately <strong>benefits students who learn fast</strong>, or who already have familiarity with the material</li>
+<li>Traditional grades are <strong>bias-prone</strong> (e.g.&nbsp;awarding participation points, granting deadline extensions)</li>
+<li>It can be <strong>demotivating</strong> and discourage students from learning for its own sake (motivation often comes from “chasing the A,” rather than learning and growing)</li>
+<li>It can <strong>promote unhealthy student-instructor relationships</strong></li>
 </ul>
-<p>How do you distribute materials?</p>
+<p>In EDS 240, students earned either a “Satisfactory” or “Not Yet” mark on each assignment based on whether or not they met all rubric specifications (which are provided alongside each assignment). Students could trade in tokens to revise / resubmit assignments based on instructor feedback, for assignment extensions, or to miss class. Students earned tokens (primarily) by attending discussion section each week. <strong>The Grade Tracker below, summarizes the different types of assignments, how students can earn and use tokens, and how to calculate your course grade based on the number of “Satisfactory” grades received:</strong></p>
+<!-- ::: {.center-text} -->
+<!-- **An overview of course assignments and the specs grading implementation that I used in EDS 240 is summarized in the Grade Tracker, below:**  -->
+<!-- ::: -->
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/grade-tracker-green.png" class="img-fluid figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="center-text small-text">
+<p><em>The EDS 240 Grade Tracker was inspired by and adapted from the syllabus for BIO SCI E106 Lec A (Processes in Ecology and Evolution, Winter 2022), by <a href="https://faculty.sites.uci.edu/cfaiola/people/">Dr.&nbsp;Celia Faiola</a> &amp; <a href="https://www.symonslab.com/people">Dr.&nbsp;Celia Symons</a></em></p>
+</div>
+<p>I would be lying if I said that I wasn’t <strong>incredibly nervous</strong> to try this out. While all the literature I had explored got me super jazzed about the idea of specs grading, it <em>is</em> quite different than what our students are used to…and <strong>change can feel disruptive</strong>. I spent the first full hour of our (3 hour-long) first class laying out this grading structure, the accompanying token system, and expectations (and of course, answering many questions).</p>
+<p>Benefits: - know what your grade is at any given point in time - if you don’t care about the + or the A, you can decide how to spend your energy - no haggling over points - revise / resubmit (also spreads out grading)</p>
+<p>Quotes from students.</p>
+</section>
+<section id="course-materials" class="level2">
+<h2 class="anchored" data-anchor-id="course-materials">How do you distribute materials?</h2>
 <ul>
 <li>course website</li>
 <li>google slides vs.&nbsp;quarto slides</li>
 </ul>
 </section>
-<section id="how-do-you-distribute-assessments" class="level2">
-<h2 class="anchored" data-anchor-id="how-do-you-distribute-assessments">How do you distribute assessments?</h2>
+<section id="assignments" class="level2">
+<h2 class="anchored" data-anchor-id="assignments">How do you distribute assessments?</h2>
 <ul>
 <li>github classroom</li>
 </ul>
 </section>
-<section id="misc.-things-to-learn-consider" class="level2">
-<h2 class="anchored" data-anchor-id="misc.-things-to-learn-consider">Misc. things to learn / consider:</h2>
+<section id="other-stuff" class="level2">
+<h2 class="anchored" data-anchor-id="other-stuff">Other stuff</h2>
+<section id="misc.-things-to-learn-consider" class="level4">
+<h4 class="anchored" data-anchor-id="misc.-things-to-learn-consider">Misc. things to learn / consider:</h4>
 <ul>
 <li>canvas</li>
 <li>spreadsheets for tracking</li>
 <li>egrades</li>
 </ul>
 </section>
-<section id="random-things-that-are-worthwhile-to-do" class="level2">
-<h2 class="anchored" data-anchor-id="random-things-that-are-worthwhile-to-do">Random things that are worthwhile to do:</h2>
+<section id="things-ive-learned" class="level4">
+<h4 class="anchored" data-anchor-id="things-ive-learned">Things I’ve learned</h4>
 <ul>
-<li>hws take a long time to come up with!</li>
+<li>hws take a long time to come up with! need to streamline these</li>
 <li>keep all the cool resources that you use and those that you don’t!</li>
 <li>later lectures are easier bc I saved so many resources along the way</li>
+<li>3 hrs is long (for students)</li>
+<li>too much content (i always overestimate)</li>
+<li>make more time to run through materials</li>
+<li>create qmd templates – live coding is great, but coding every single thing takes a lot of time; it’s a balance of getting that practice while also getting through enough material; having some code pre-written in templates might be the way to go next year</li>
 </ul>
-<p>Things I’ve learned: - 3 hrs is long (for students) - too much content (i always overestimate) - make more time to run through materials</p>
 </section>
-<section id="other-musings" class="level2">
-<h2 class="anchored" data-anchor-id="other-musings">Other musings:</h2>
+<section id="other-musings" class="level4">
+<h4 class="anchored" data-anchor-id="other-musings">Other musings:</h4>
 <ul>
+<li>specs grading worked great for me (grad students, 31 MEDS 6 non-MEDS, 37 total)</li>
 <li>you forget stuff that you made a while ago</li>
 <li>there’s no such thing as part time lecturering, at least for your first year teaching a course. Most other responsibilities had to be put on hold, and I was working ~80hr weeks throughout winter quarter</li>
 <li>follow up with students when they have questions!</li>
@@ -347,6 +386,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <li>you’re going to get a lot of feedback – that’s great, and some is super helpful. But it’s important to remind yourself that you’ve thougth <em>really</em> hard about each choice you’ve made and it’s okay to not incorporate feedback</li>
 <li>recognize that burnout is real</li>
 </ul>
+</section>
 </section>
 <section id="people-to-thank" class="level2">
 <h2 class="anchored" data-anchor-id="people-to-thank">People to thank:</h2>
