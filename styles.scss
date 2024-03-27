@@ -59,6 +59,13 @@ body {
   font-weight: 350;
 }
 
+// modify blockquote styling
+blockquote {
+  margin: 0 0 1rem;
+  padding: 0.625rem 1.25rem;
+  border-left: 0.25rem solid $cream;
+}
+
 /* ID selectors */
 
 // responsive-ish iframes (width adjusts to viewport size; couldn't figure out how to expand viewport height, so set to this size for now)
@@ -67,23 +74,16 @@ body {
   height: 350px;
 }
 
+// figure caption text styling
 .figure-caption {
   color: $gray;
   font-style: italic;
 }
 
-/* CLASS SELECTORS (self-defined) */
-
-// subtitles used with trestles template (currently using jolla)
-/*.custom-subtitle {
-  font-size: 22px;
-  margin-bottom: 0.15em;
+// blockquote text styling
+.blockquote {
+  color: $dark-gray;
 }
-
-.custom-subtitle2 {
-  font-size: 20px;
-  font-style: italic;
-}*/
 
 // larger text
 .large-text {
@@ -110,6 +110,11 @@ body {
 .center-text {
   text-align: center;
   left: 50%;
+}
+
+// right-align text
+.right-align-text{
+  text-align: right;
 }
 
 // dark gray text
