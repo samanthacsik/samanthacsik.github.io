@@ -46,7 +46,7 @@ I started recording my hikes (and eventually some other activities) on [Strava](
 Map last updated: February 2023
 :::
 
-<p class="large-text quote-text-bg center-text">{{< fa arrow-pointer >}} For a more interactive experience, click around my [Strava dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/) <br> {{< fa brands github >}} Source code available on [GitHub](https://github.com/samanthacsik/strava-dashboard)</p>
+<p class="large-text dark-green-bg center-text">{{< fa arrow-pointer >}} For a more interactive experience, click around my [Strava dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/) <br> {{< fa brands github >}} Source code available on [GitHub](https://github.com/samanthacsik/strava-dashboard)</p>
 
 <!-- NOTE: large space between last line of text and bottom of gray background when using quarto syntax, so sticking with HTML syntax above -->
 
