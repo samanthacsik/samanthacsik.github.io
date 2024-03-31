@@ -26,7 +26,7 @@ draft: true
 
 <br>
 
-It felt like running a marathon at sprint speed at times (okay, almost the whole time), but I just finished teaching my first(!!) graduate-level course for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds) (MEDS) program -- I'm so exhausted and so proud and I can't wait to (hopefully) do it again next year. While I've witnessed many incredible colleagues successfully teach really rad courses in this program since it first began in 2021, I still felt like I was stepping into a large unknown. Now that I'm through the other side, I wanted to reflect on my process, experience, and considerations. I've learned so much (*seriously sooooo much*) from other educators who have openly shared their materials and ideas online, and writing this here is my small way of trying to give back to that community. I'll try to be as transparent as possible about all steps of this process.
+It felt like running a marathon at sprint speed at times (okay, almost the whole time), but I just finished teaching my first(!!) graduate-level course for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds) (MEDS) program -- I'm so exhausted and so proud and I can't wait to (hopefully) do it again next year. While I've witnessed many incredible colleagues successfully teach really rad courses in this program since it first began in 2021, I still felt like I was stepping into a large unknown. Now that I'm through the other side, I wanted to reflect on my process, experience, and considerations. I've learned so much (*seriously sooooo much*) from other educators who have openly shared their materials and ideas online, and writing this here is my small way of trying to give back to that community.
 
 ## First, some context
 
@@ -69,7 +69,11 @@ knitr::include_graphics("media/NCEAS-hex.png")
 
 :::
 
-[EDS 240: Data Visualization and Communication](https://bren.ucsb.edu/courses/eds-240) is MEDS a "core" course, meaning students need to enroll in and pass the course to earn their degree. While I'm not new to teaching -- in fact, my role within the MEDS program is primarily centered around developing and teaching short (*typically* 1-3 hours) workshop-style courses that supplement the core curricula -- taking on a 4-unit core course was certainly new territory. When the opportunity to teach EDS 240 opened up, I was pretty excited and also *really* nervous. Sure, I was familiar with the idea of data visualization -- I've created my fair share of ggplots, discussed / admired / critiqued plenty of viz, and I've made good use of some of the most popular online data viz resources -- but I certainly would not consider myself an "expert" in this field or even in using `{ggplot2}` + extension packages in R. 
+::: {.center-text .small-text}
+*Of course we have hex designs for each of these departments / programs {{< fa face-smile-wink title="a smiling, winking face" >}}. From left to right: Bren School of Environmental Science & Management, Master of Environmental Data Science (MEDS), National Center for Ecological Analysis and Synthesis (NCEAS). If you're new to the R community, [hex stickers](https://github.com/rstudio/hex-stickers) often accompany popular packages and adorn the laptop lids of many R users.*
+:::
+
+[EDS 240: Data Visualization and Communication](https://bren.ucsb.edu/courses/eds-240) is MEDS a "core" course, meaning students need to enroll in and pass the course as a step towards earning their degree. While I'm not new to teaching -- in fact, my role within the MEDS program is primarily centered around developing and teaching short (*typically* 1-3 hours) workshop-style courses that supplement the core curricula -- taking on a 4-unit core course was certainly new territory. When the opportunity to teach EDS 240 opened up, I was pretty excited and also *really* nervous. Sure, I was familiar with the idea of data visualization -- I've created my fair share of ggplots, discussed / admired / critiqued plenty of viz, and I've made good use of some of the most popular online data viz resources -- but I certainly would not consider myself an "expert" in this field or even in using `{ggplot2}` + extension packages in R. 
 
 My only real guidelines were to beef up the technical skills / lessons -- the prior version of this course was highly conceptual and didn't involve much programming. Other than that, I was free to do what I wanted. And so, I set off on building my very first grad-level data science course. 
 
@@ -92,10 +96,10 @@ Some action items needed to be addressed in advance of even beginning to plan th
 - **April 2023:** Submitted my application for [Teaching Positions, Bren School of Environmental Science & Management](https://recruit.ap.ucsb.edu/JPF02448) -- this is a general call for [Unit 18 Faculty](https://ap.ucsb.edu/policies.and.procedures/red.binder/sections/%5B2_01%5D%20Unit%2018%20Faculty%20and%20Supervisor%20of%20Teacher%20Education%20Series.pdf) (often referred to as Lecturers). Applications require a cover letter, CV, Teaching Statement, and three references. You are asked to specify which course(s) you are interested in teaching.
 - **June 2023:** Interviewed -- this hour-long interview began with a 10min teaching demo followed by ~10min of Q&A. Your demo must be related to the topic area of the course you're intending to teach (i.e. in my case, it needed to be about data viz). I chose to do a live coding demo, since my vision for EDS 240 would involve a lot of that (see [Nederbragt et al. (2020)](tps://doi.org/10.1371/journal.pcbi.1008090) for more on this teaching technique).
 - **September 2023:** Signed my contract. After negotiations, I ended up at 50% time in my typical full-time role (Data Training Coordinator, more formally classified as Academic Coordinator I), 33% time as Unit 18 Lecturer, and 17% time for curriculum development. It's important to note that these appointments are for the quarter in which the course is taught *only* (e.g. winter quarter, Jan - Mar 2024). The lecturer salary scale is higher than than my current full-time salary, so this split appointment meant I would earn a bit more during winter quarter.
-- **October - November 2023:** While my appointment didn't officially start until January, I spent about 30-40hrs/week prepping for the class (which is a lot of time...this is not an attempt to applaud "the grind," but rather reflect how this experience played out for me). I focused primarily on the syllabus, grading structure, drafting high-level outlines of weekly topics, building the skeleton of the course website, and learning other necessary classroom management tools (I'll elaborate more on all of these in the next sections). I was able to prep ~2 of 4 homework assignments (plus jot down ideas for others), and even a couple early lectures. I also spent ~30hrs/week teaching my typical fall workshops, reviewing / updating materials for [EDS 430: Intro to Shiny](https://ucsb-meds.github.io/EDS-430-Intro-to-Shiny/) (a 2-day short course that I also teach in winter quarter), and other MEDS administrative stuff.
+- **October - November 2023:** While my appointment didn't officially start until January, I spent about 30-40hrs/week prepping for the class during fall quarter (which is a lot of time...this is not an attempt to applaud "the grind," but rather reflect how this experience played out for me). I focused primarily on the syllabus, grading structure, drafting high-level outlines of weekly topics, building the skeleton of the course website, and learning other necessary classroom management tools (I'll elaborate more on all of these in the next sections). I was able to prep ~2 of 4 homework assignments (plus jot down ideas for others), and even a couple early lectures. I also spent ~30hrs/week teaching my typical fall workshops, reviewing / updating materials for [EDS 430: Intro to Shiny](https://ucsb-meds.github.io/EDS-430-Intro-to-Shiny/) (a 2-day short course that I also teach in winter quarter), and other MEDS administrative stuff.
 - **December 2023:** Oof, this was definitely the hardest month out of the whole experience -- while most folks were winding down after a busy fall quarter, I felt like I had to ramp up (more so than I already had been). I was also tired from a stacked fall and wanted so desperately for a break that I felt like I couldn't really take. I was also coming to terms with the fact I would absolutely not have the whole course planned / materials created ahead of the January 8th start date ({{< fa face-grin-beam-sweat title="a grinning face with a drop of sweat dripping from it's brow" >}} yes, that was incredibly naive thinking on my part). I *did* hope to have materials / plans for the first 6 weeks of the quarter largely created -- I had a number of other non-EDS 240 events, teaching, and responsibilities during this first half of the quarter and I was genuinely worried about not having enough time to do it all.
 
-- **January - March 2023:** Here we go! By this point, I had weeks 1-4 fully planned, weeks 5-6 outlined(ish), and weeks 7-10 were largely untouched (aside from having scheduled [Allison Horst](https://github.com/allisonhorst/)'s guest lecture on using Observable JS to create interactive viz during week 9!). I tried my best to work ahead and continue prepping future lectures / assignments / etc. but this wasn't totally sustainable. By ~week 5, I was prepping each lecture the week before delivering it. That said, I had compiled so many resources and jotted down so many random ideas as I came across things, that creating new lectures did get a bit easier as time went on.
+- **January - March 2023:** Here we go! By this point, I had weeks 1-4 fully planned, weeks 5-6 outlined(ish), and weeks 7-10 were largely untouched (aside from having scheduled [Allison Horst](https://github.com/allisonhorst/)'s guest lecture on using Observable JS to create interactive viz during week 9!). I tried my best to work ahead and continue prepping future lectures / assignments / etc. but this wasn't totally sustainable. By ~week 5, I was prepping each lecture the week before delivering it. That said, I had compiled so many resources and jotted down so many random ideas as I came across things, so creating new lectures did get a bit easier as time went on.
 
 ## Building the course
 
@@ -103,14 +107,13 @@ I very quickly realized that building a course involves a whole lot more than ju
 
 1. [Build the course syllabus (including learning objectives, topics, schedule, policies)](#syllabus)
 2. [Decide how to assess student success (i.e. grades)](#grades)
-3. [Determine how to build & organizing course materials](#course-materials)
-4. [Create assignments & figure out how best to distribute them](#assignments)
+3. [Determine how to build & organize course materials](#course-materials)
+4. [Create & manage assignments + provide feedback](#assignments)
 5. [Plan TA responsibilities](#TA)
 
 I'll walk through each of these in a bit more detail, then wrap up with some things that worked particularly well, things I'd like to do differently, and other musings.
 
 ### 1. Build the course syllabus{#syllabus}
-<!-- Building the course syllabus{#syllabus} -->
 
 This was probably the most intimidating part, given that it's the one place to comprehensively describe all aspects of course proceedings -- from (tentative) topics covered to assignment due dates, and grading schemes to course policies. **I chose to begin with defining the course's learning objectives, i.e. what I wanted all students to feel comfortable with / confident in by the end of the course.** It was really important to me that I blended both technical skills (e.g. using `{ggplot2}`) with information design theory and a solid conceptual understanding of what makes a good data visualization (i.e. transferable knowledge, regardless of the programming language / data viz tool of choice).
 
@@ -119,7 +122,6 @@ After a lot of iterating, seeking feedback from a mix of past MEDS students (now
 **After these pieces were drafted up, I started filling in the remaining gaps: course policies, grading structure, student resources, etc.** The syllabus was in a constant state of revision right up until the start of the course, but getting that first draft squared away felt like a *huge* accomplishment and it served as my North Star once I finally began creating course materials.
 
 ### 2. Decide how to assess student success{#grades}
-<!-- Implementing specifications (specs) grading{#grades} -->
 
 A conversation [Nate Emery](https://www.citral.ucsb.edu/people/nate-emery), the STEM Education Coordinator at UCSB's [Center for Innovative Teaching, Research, and Learning](https://www.citral.ucsb.edu/home) inspired me to explore alternative grading approaches for this course. He had passed me a copy of [Grading for Growth: A Guide to Alternative Grading Practices That Promote Authentic Learning and Student Engagement in Higher Education](https://www.amazon.com/Grading-Growth-Alternative-Practices-Engagement/dp/1642673811), by David Clark & Robert Talbert (also check out the [Grading for Growth Substack](https://gradingforgrowth.com/)) and some other awesome case studies / resources, which I dove into for the better portion of August 2023. **I decided to implement a version of specifications (specs) grading for EDS 240.** Generally speaking, specs grading refers to: 
 
@@ -181,57 +183,172 @@ From my (an instructor's) perspective, this grading system was really wonderful 
 ::: {.dark-green-bg .center-text}
 [**Importantly, student success within this grading system relies on thorough instructor feedback.**]{.large-text}
 
-While I did spend a lot of time providing detailed constructive feedback on assignments, I certainly saved myself time trying to assign / subtract points across assignments. Ultimately, concentrating my efforts on providing constructive criticisms was *a lot* more fun for me and (I hope) much more helpful for students in their learning journeys.
+While I did spend a lot of time providing detailed constructive feedback on assignments, I certainly saved myself time trying to assign / subtract points across assignments. Ultimately, concentrating my efforts on providing constructive criticism was *a lot* more fun for me and (I hope) much more helpful for students in their learning journeys.
 :::
 
-### 3. Determine how to build & organizing course materials{#course-materials}
-<!-- How do you distribute materials?{#course-materials} -->
+<br>
 
-- course website
-- google slides vs. quarto slides
+Maybe you're thinking, "this seems like a lot to keep track of..." and to be fair, it sort of is. But **a nicely organized Google Sheet helped tremendously in my efforts to keep track of attendance, tokens earned / used, and completed assignments**. Students were required to fill out a [Google form](https://docs.google.com/forms/d/e/1FAIpQLSdOP32K7_A3zzENvYQvIBCnLveaLE-exnFlqDV1xBWz66rWoA/viewform) (also adopted from Drs. Fiola & Symons' BIO SCI E106 Lec A syllabus) when redeeming tokens, which acted as an "official record" (I did end up making lots of notes in my Google sheet when students used tokens, since this proved to be an easier place for me to reference).
 
-### 4. Create assignments & figure out how best to distribute them{#assignments}
-<!-- How do you distribute assessments?{#assignments} -->
+<div class="dark-green-bg center-text large-text">{{< fa file-excel title="an excel file" >}} Google Sheets to the rescue! I was able to keep grades and tokens organized with this [grade tracker (template)](https://docs.google.com/spreadsheets/d/1Avqldk7X_wPrcAgWBd0L9RHSaWmBwIejvj2ZcKrACNU/edit?usp=sharing){target="_blank"}.</div>
 
-- github classroom
+### 3. Determine how to build & organize course materials{#course-materials}
+
+I'm a total sucker for some good organization, so figuring out how I was going to package and present course materials to students was my favorite type of puzzle to solve. I ended up with a [Quarto](https://quarto.org/) website that houses everything from lecture slides, to assignments, to resources and more. 
+
+#### Website layout 
+
+My goal for the website was to **keep things simple, predictable, and also aesthetically-pleasing** (for my own happiness, if nothing else). A couple simple design choices that I made, which I felt worked well:
+
+- **Materials were organized by week (with each week getting its own page)** under the *course materials* drop-down menu
+- **Weekly materials followed a predictable format** with the same four sections: Pre-class Prep, Lecture Materials, Discussion Materials, and Assignment Reminders
+- **Lectures were divided into multiple slide decks**, which forced me to take breaks throughout class (I needed it, and students *definitely* needed it -- 3 hours is long!). 
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "100%"
+#| fig-align: "center"
+knitr::include_graphics("media/eds240-week1.gif")
+```
+
+::: {.center-text .small-text}
+*Scrolling through week 1 materials on the EDS 240 course website*
+:::
+
+#### Slide deck development
+
+Lecture materials -- both conceptual and technical -- were packaged as individual slide decks. I debated for a while about how to create these, but ultimately opted to build them with Quarto. This was largely driven by the desire to embed the code used in live-coding exercises directly in the slides for easy reference. 
+
+I tend to pack *a lot* of explanatory information and code in my teaching materials for a couple of reasons: 
+
+- it makes it easier for students to go back and **review content after class, or catch up** if they happen to miss a lecture
+- they **serve as my own teaching notes** and make reviewing materials ahead of teaching a bit easier 
+- **I don't typically show all slides while teaching** -- anytime we encounter a slide with code on it, we'll instead pop over to RStudio for a live-coding exercise
+  - the slides offer both **textual explanations and the code "key,"** should students need to refer to it at any point during lecture (e.g. if they fall behind during live-coding, need to copy a code chunk to move forward because they can't quite spot the typo, etc.)
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "100%"
+#| fig-align: "center"
+knitr::include_graphics("media/slide-example.png")
+```
+
+::: {.center-text .small-text}
+*An example of a slide that I wouldn't necessarily show on screen, but rather move to RStudio to live-code and talk through. The textual information serves as information for students to refer back to, and the embedded code makes copying / pasting easy should anyone fall behind (I always encourage learners to type as much as they can by hand during class).*
+:::
+
+Some potentially helpful tips: 
+
+- **create a [stylesheet](https://github.com/samanthacsik/EDS-240-data-viz/blob/main/meds-slides-styles.scss)** to maintain a consistent look across all slide decks (it also facilitates faster slide development)
+- **use an iPad or second device while teaching** -- I absolutely do not memorize all the code we cover during class and I need an easy way to reference it while live-coding. My laptop / RStudio will be visible on the screen for students to follow along with, while I reference the slides / code on my separate device
+
+<div class="dark-green-bg center-text large-text">{{< fa arrow-pointer title="a computer mouse pointer" >}} Click around the EDS 240 [course website](https://samanthacsik.github.io/EDS-240-data-viz/){target="_blank"} if you're interested in exploring further!</div>
+
+### 4. Create & manage assignments + provide feedback{#assignments}
+
+#### Creating assignments
+
+This was honestly the part I dreaded the most. While I've taught my fair share of workshops, I've never had to actually come up with creative and effective ways to assess student learning -- it was **super intimidating** and they took *wayyyy* longer to put together than I initially thought they would. Some things I considered for each assignment:
+
+- which of the course **learning objectives** would each assignment address?
+- how much is a **reasonable amount of work** to ask of students given the submission schedule (they had ~2 weeks per assignment)?
+- how can we shift assessments to be more **learner-centered** and less susceptible to plagiarism in the age of generative AI tools (e.g. ChatGPT)?
+
+While I won't go into specific tasks for each assignment (you can check them out on the [course website](https://samanthacsik.github.io/EDS-240-data-viz/assignments.html) though!), **I really enjoyed asking students to both complete a coding task *and* describe in writing their considerations, workflow, design choices, etc. which (I hoped) would put a greater focus on the decision-making process.** I definitely felt a bit of validation when a student responded to the question, *"How have your learning goals changed? Have they stayed the same?"* (from the [mid-course self-reflection](https://samanthacsik.github.io/EDS-240-data-viz/assignments/SR2-midcourse.html)):
+
+>[*"I feel that this class has greatly allowed me to progress towards my learning goals, but in a different way than I originally thought. My initial goal in taking this class was to get better at `{ggplot2}` and other data viz packages. While I have definitely been doing this, I have much more so been progressing in my learning of how to approach data visualization and then using packages like `{ggplot2}` as a tool to execute this. My learning goals have sort of shifted for the better in a way that I wasn’t really anticipating."*]{.small-text}
+
+#### Managing assignments 
+
+All assignments were posted to the [course website](https://samanthacsik.github.io/EDS-240-data-viz/assignments.html), and depending on the assignment / task, **students were asked to submit completed work either [(a) via GitHub Classroom](#gh-classroom) *or* [(b) by submitting rendered or published `.qmd` files](#qmd-files):** 
+
+##### (a) GitHub Classroom{#gh-classroom} 
+
+Self-reflections and parts of the first two homework assignments were distributed and managed using **[GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/about-github-classroom), a service that allows educators to create and manage digital classrooms and distribute / track assignments**. While there was a bit of a learning curve, I ultimately found it to be a fairly intuitive way to track assignment submissions. In a nutshell, GitHub Classroom allows you to easily distribute assignment repositories (containing template files, starter code, etc.) as forks to all rostered students. I got started by following these [instructions](https://docs.google.com/document/d/1ul63iuNWcy49exHIf2Xw7oeodT503oC-ebAbdhpPr90/edit?usp=sharing) (though note the [upcoming changes](https://github.blog/changelog/2024-01-22-migrating-github-classroom-assignment-repository-creation-from-create-from-template-to-forks-public-beta/) to assignment repos). 
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "100%"
+#| fig-align: "center"
+knitr::include_graphics("media/gh-classroom-ex-assignment.png")
+```
+
+::: {.center-text .small-text}
+*A view of the teacher dashboard, where I'm able to access each of my students repositories for a particular homework assignment.*
+:::
+
+For assignments submitted via GitHub Classroom, **we provided feedback largely by copying and commenting on a submitted `.qmd` file** following this workflow:
+
+  - make a copy of a submitted `.qmd` file in the repo
+  - add comments such as, `# SC feedback: some feedback on code / approach here`
+  - push the new file back to GitHub and prompt students to pull changes
+  - ask students to search for `# SC feedback` to identify all comments
+  
+#### (b) Submitting rendered or published `.qmd` files{#qmd-files}
+
+The [final course assignment](https://samanthacsik.github.io/EDS-240-data-viz/assignments/HW4.html) asked students to create a series of visualizations using data of their choosing. This large task was broken down into smaller pieces and spread across all four homework assignments (so students were working on it throughout the entire quarter). **For this course-long project, we asked students to create their own GitHub repositories (i.e. not using GitHub Classroom), where they would do all related work.** Final projects were submitted either as published Quarto documents (using [GitHub Pages](https://pages.github.com/)) or as published blog posts on student personal websites. Intermediate submissions (i.e. those that were a part of the first three homework assignments) were submitted as rendered HTML files, which we could open and assess via the web browser. **We provided feedback for these submissions by opening [issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) on student repos.**
 
 ### 5. Plan TA responsibilities{#TA}
 
-My teaching assistant (TA), [Sevan Esaian](https://www.linkedin.com/in/sevan-esaian-92b7794b/) (who was absolutely incredible to work with), would lead these.
+I was *so* lucky to have an incredible teaching assistant (TA), [Sevan Esaian](https://www.linkedin.com/in/sevan-esaian-92b7794b/), to collaborate with throughout the quarter. His efforts in the following areas contributed largely to my own success while teaching *and* student success throughout the course:
 
-## Other stuff
+#### Lectures & student support
 
-#### Misc. things to learn / consider:
+A major challenge when teaching technical skills (e.g. coding) is assisting students who encounter error messages or other troubleshooting roadblocks while also delivering content at a fair pace. Sevan attended lectures and assisted students who needed an extra set of eyes on troublesome code. **We found that it was minimally disruptive for students to meet Sevan, with their laptops, in the back of the classroom when they needed help.**
 
-- canvas
-- spreadsheets for tracking
-- egrades
+#### Discussion sections
 
-#### Things I've learned
+**Sevan also taught weekly discussion sections and took lead on planning much of the content and activities.** They went something like this:
 
-- hws take a long time to come up with! need to streamline these
+- **Weeks 1-4:** I had extra content that I ended up having to cut from lecture, but felt was important for students to think about / get some additional practice on (data wrangling and ggplot practice, writing alt text, intro to customizing ggplot themes). We shuttled this content to discussion section for Sevan to cover.
+- **Weeks 5-9:** These weeks were a mix of introducing additional chart types that hadn't been covered in lecture, and importantly, having students share in-progress data viz (part of their final course assignment) and receiving constructive feedback from peers.
+- **Week 10:** Students presented their final projects!
+
+#### Grading
+
+**Sevan and I split grading.** I read and wrote responses to student self-reflections, while Sevan graded homework assignments 1-3 (along with any that were revised / resubmitted for a regrade), in accordance with the provided rubrics. I provided written feedback to all students on homework #3 (separate from their grades), since this assignment asked for the first complete draft of all data visualizations which would be submitted as part of their [final course assignment](https://samanthacsik.github.io/EDS-240-data-viz/assignments/HW4.html). I chose to grade these final assignments (along with any regrades), in part because I wanted to understand where tweaks could me made for next year, and also because I was super excited to dive into what students had created throughout the quarter.
+
+## Other musings
+
+There's so much more that I learned along the way, but that didn't quite fit under the above sections. I'm listing a spattering of thoughts here for anyone interested in doing just a bit more reading {{< fa face-smile-wink title="a smiling winking face" >}}
+
+### A few more tools to consider using
+
+I already mentioned a fair number of tools that made teaching this course possible (R/RStudio, git/GitHub, GitHub Classrooms, Google Sheets & Forms, Quarto), but there are a few more that are worth noting:
+
+- The MEDS program uses **[Slack](https://slack.com/)** for internal staff / instructor communications, and also for instructor / student communications. Each course has its own dedicated channel (e.g. **#eds-240-data-viz**) where instructors can share updates, resources, and answer student questions. 
+- UCSB recently made the switch to **[Canvas LMS](https://www.instructure.com/canvas)** as their default online learning platform -- some instructors use this to host course materials, share assignment grades, administer quizzes, etc. I thought I might use it to share grades with students throughout the quarter, but given the Satisfactory / Not Yet nature of assignment grades, it was easier just to communicate that information either via direct messages on Slack or as GitHub issues (on private repos).
+- Instructors will eventually need to submit final grades -- UCSB uses a web application called **EGrades**, though I imagine this will differ by institution. Making note of it here, because you'll want to confirm that you both have access to whatever system your university uses and also understand how to use it (this was my first time, so I had a bit of learning to do!). 
+
+
+### Things that worked well 
+
+- students like being able to work on final project from the get go (find quotes)
 - keep all the cool resources that you use and those that you don't!
-- later lectures are easier bc I saved so many resources along the way
+- So, would I implement specs grading again (in this course and / or others)? ABSOLUTELY! While it does require more work up front (e.g. building clear assignment rubrics, determining exactly what a student needs to do to earn a particular grade)
+- self-reflections / goal setting is important and appreciated
+- follow up with students when they have questions!
+
+### Things to improve
+
+- need to streamline HWs
 - 3 hrs is long (for students)
 - too much content (i always overestimate)
-- make more time to run through materials
+- make more time to run through materials (you forget stuff that you made a while ago)
 - create qmd templates -- live coding is great, but coding every single thing takes a lot of time; it's a balance of getting that practice while also getting through enough material; having some code pre-written in templates might be the way to go next year
-- So, would I implement specs grading again (in this course and / or others)? ABSOLUTELY! While it does require more work up front (e.g. building clear assignment rubrics, determining exactly what a student needs to do to earn a particular grade)
 - refine specifications
-- self-reflections / goal setting is important and appreciated
 
-#### Other musings:
+### Self-reflecting
 
-- specs grading worked great for me (grad students, 31 MEDS 6 non-MEDS, 37 total)
-- you forget stuff that you made a while ago
 - there's no such thing as part time lecturering, at least for your first year teaching a course. Most other responsibilities had to be put on hold, and I was working ~80hr weeks throughout winter quarter
-- follow up with students when they have questions!
 - teaching is a way more vulnerable act / job than I think I realized
 - you're going to get a lot of feedback -- that's great, and some is super helpful. But it's important to remind yourself that you've thougth *really* hard about each choice you've made and it's okay to not incorporate feedback
 - recognize that burnout is real
-- 
 
-## People to thank: 
+## It takes a village
 
 Educators who openly share their work: 
 - [Meghan Hall](https://meghan.rbind.io/) [CMU 36-315: Statistical Graphics & Visualization](https://cmu-36315.netlify.app/)
@@ -241,6 +358,7 @@ Educators who openly share their work:
 Friends / colleagues who think a lot about educational pedagogy and are absolutely changing the field
 - An Bui (self-reflections)
 - Nate Emery (alternative grading)
+- Ruth Oliver 
 
 Instructors who inspire:
 Allison Horst
@@ -248,5 +366,7 @@ Allison Horst
 Friends that encourage you to share out: 
 Julie Lowndes
 
+Keep me sane: 
+Brendan Shanny
 
 
