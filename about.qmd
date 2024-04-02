@@ -6,7 +6,7 @@ title-block-banner: true
 
 ## {{< fa chalkboard-teacher title="A teacher at a chalkboard" >}} the profession
 
-I'm the Data Training Coordinator at the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/) (NCEAS) located at UC Santa Barbara, where I'm working to develop and teach data science training curricula for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) (MEDS) program and other data science initiatives across NCEAS and UCSB. I am also a co-organizer of [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/), a local data science group which works to promote gender diversity in the R community.
+I'm the Data Training Coordinator at the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/) (NCEAS) and a lecturer at the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/), both located at UC Santa Barbara, where I'm working to develop and teach data science training curricula for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) (MEDS) program and other data science initiatives across NCEAS and UCSB. I am also a co-organizer of [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/), a local data science group which works to promote gender diversity in the R community.
 
 My background is in marine ecology / ecophysiology -- I had opportunities to study coral disease in Panama and the Florida Keys as an undergrad, then temperature effects on spiny lobster metabolism and foraging behavior in Santa Barbara for my Masters degree. Since the beginning of my time in STEM, I was totally terrified of all things data / coding / data science, but thanks to a super supportive community and some really rad colleagues / instructors, I found my new path in data science education and I absolutely *love* it.
 
@@ -46,7 +46,7 @@ I started recording my hikes (and eventually some other activities) on [Strava](
 Map last updated: February 2023
 :::
 
-<p class="large-text quote-text-bg center-text">{{< fa arrow-pointer >}} For a more interactive experience, click around my [Strava dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/) <br> {{< fa brands github >}} Source code available on [GitHub](https://github.com/samanthacsik/strava-dashboard)</p>
+<p class="large-text dark-green-bg center-text">{{< fa arrow-pointer >}} For a more interactive experience, click around my [Strava dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/) <br> {{< fa brands github >}} Source code available on [GitHub](https://github.com/samanthacsik/strava-dashboard)</p>
 
 <!-- NOTE: large space between last line of text and bottom of gray background when using quarto syntax, so sticking with HTML syntax above -->
 

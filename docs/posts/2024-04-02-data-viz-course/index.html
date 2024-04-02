@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Samantha Csik">
+<meta name="dcterms.date" content="2024-04-02">
+<meta name="description" content="a brain-dump of the many thoughts, processes, and considerations that have been my focus for the past seven(!) months">
+
+<title>Building (and teaching) a graduate-level data science course</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/chick.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LW03VL0YTS"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
+</script>
+
+
+<meta property="og:title" content="Building (and teaching) a graduate-level data science course">
+<meta property="og:description" content="a brain-dump of the many thoughts, processes, and considerations that have been my focus for the past seven(!) months">
+<meta property="og:image" content="https://samanthacsik.github.io/posts/2024-04-02-data-viz-course/media/horst-eco-r4ds.png">
+<meta property="og:image:height" content="2700">
+<meta property="og:image:width" content="4800">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logos/logo-dark.png" alt="The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon." class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">about</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks_workshops.html" rel="" target="">
+ <span class="menu-text">talks &amp; workshops</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../courses.html" rel="" target="">
+ <span class="menu-text">courses</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html" rel="" target="">
+ <span class="menu-text">projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html" rel="" target="">
+ <span class="menu-text">posts</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-get-in-touch" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">get in touch!</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-get-in-touch">    
+        <li>
+    <a class="dropdown-item" href="https://twitter.com/SamanthaCsik" rel="" target="_blank"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="dropdown-text">Twitter</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.linkedin.com/in/samanthacsik/" rel="" target="_blank"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="dropdown-text">LinkedIn</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="mailto:scsik@ucsb.edu" rel="" target=""><i class="bi bi-envelope" role="img">
+</i> 
+ <span class="dropdown-text">email</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/samanthacsik/samanthacsik.github.io" rel="" target="_blank"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Building (and teaching) a graduate-level data science course</h1>
+                  <div>
+        <div class="description">
+          <p>a brain-dump of the many thoughts, processes, and considerations that have been my focus for the past seven(!) months</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">MEDS</div>
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">data-visualization</div>
+                <div class="quarto-category">pedagogy</div>
+                <div class="quarto-category">curriculum-development</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://samanthacsik.github.io/">Samantha Csik</a> <a href="https://orcid.org/0000-0002-5300-3075" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 2, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#first-some-context" id="toc-first-some-context" class="nav-link active" data-scroll-target="#first-some-context">First, some context</a></li>
+  <li><a href="#early-logistics-class-schedules-enrollment" id="toc-early-logistics-class-schedules-enrollment" class="nav-link" data-scroll-target="#early-logistics-class-schedules-enrollment">Early logistics: class schedules &amp; enrollment</a></li>
+  <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">My preparation timeline</a></li>
+  <li><a href="#building-the-course" id="toc-building-the-course" class="nav-link" data-scroll-target="#building-the-course">Building the course</a>
+  <ul class="collapse">
+  <li><a href="#syllabus" id="toc-syllabus" class="nav-link" data-scroll-target="#syllabus">1. Build the course syllabus</a></li>
+  <li><a href="#grades" id="toc-grades" class="nav-link" data-scroll-target="#grades">2. Decide how to assess student success</a></li>
+  <li><a href="#course-materials" id="toc-course-materials" class="nav-link" data-scroll-target="#course-materials">3. Determine how to build &amp; organize course materials</a></li>
+  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">4. Create &amp; manage assignments + provide feedback</a></li>
+  <li><a href="#TA" id="toc-TA" class="nav-link" data-scroll-target="#TA">5. Plan TA responsibilities</a></li>
+  </ul></li>
+  <li><a href="#other-musings" id="toc-other-musings" class="nav-link" data-scroll-target="#other-musings">Other musings</a>
+  <ul class="collapse">
+  <li><a href="#a-few-more-tools-to-consider-using" id="toc-a-few-more-tools-to-consider-using" class="nav-link" data-scroll-target="#a-few-more-tools-to-consider-using">A few more tools to consider using</a></li>
+  <li><a href="#some-things-that-worked-well" id="toc-some-things-that-worked-well" class="nav-link" data-scroll-target="#some-things-that-worked-well">Some things that worked well</a></li>
+  <li><a href="#some-things-to-improve" id="toc-some-things-to-improve" class="nav-link" data-scroll-target="#some-things-to-improve">Some things to improve</a></li>
+  <li><a href="#some-final-thoughts-on-teaching-more-generally" id="toc-some-final-thoughts-on-teaching-more-generally" class="nav-link" data-scroll-target="#some-final-thoughts-on-teaching-more-generally">Some final thoughts on teaching, more generally</a></li>
+  </ul></li>
+  <li><a href="#it-takes-a-village" id="toc-it-takes-a-village" class="nav-link" data-scroll-target="#it-takes-a-village">It takes a village</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+<div class="center-text">
+<p><em>I had initially intended for this to be a short, high-level reflection of what it was like to build and teach a new (to me) grad-level course. I decided part-way through, however, that this might be the best time to jot down some of the more nitty-gritty details (planning timelines, pedagogy, classroom management, curriculum, etc.), and as a result, it’s turned into a short novel. I hope other new educators might find some of these details helpful!</em></p>
+<p><em>I’m eternally grateful to the many colleagues, educators, and online strangers who have taken the time to share their own experiences, advice, and materials – the open data science community is a real gem, and I’m so lucky to be a part of it.</em></p>
+</div>
+<p><br></p>
+<div class="dark-green-bg">
+<strong>TL;DR</strong> I recently developed and taught a grad-level course on data visualization &amp; communication! It was incredibly challenging and equally rewarding. I began the planning process by defining the course learning objectives, which ultimately guided what topics to cover and how to design homework assignments. I implemented a version of specifications grading, where students have the opportunity to use feedback to revise and resubmit assignments for an improved score. I built out a <a href="https://samanthacsik.github.io/EDS-240-data-viz/">course website</a> which housed all course-related content in one, easy-to-access place. Throughout the course, we prioritized transparency, goal-setting, and opportunities for instructor, TA, and peer-to-peer feedback on student-created data visualizations. I learned so much from other educators, both those that I know personally, and those who so willingly share their resources and ideas online.
+</div>
+<p><br></p>
+<p>It felt like running a marathon at sprint speed at times (okay, almost the whole time), but I just finished teaching my first(!!) graduate-level course for the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds">Master of Environmental Data Science</a> (MEDS) program – I’m so exhausted and so proud and I can’t wait to (hopefully) do it again next year. While I’ve witnessed many incredible colleagues successfully teach really rad courses in this program since it first began in 2021, I still felt like I was stepping into a large unknown. Now that I’m through the other side, I wanted to reflect on my process, experience, and considerations. I’ve learned so much (<em>seriously sooooo much</em>) from other educators who have openly shared their materials and ideas online, and writing this here is my small way of trying to to do the same.</p>
+<section id="first-some-context" class="level2">
+<h2 class="anchored" data-anchor-id="first-some-context">First, some context</h2>
+<p>The MEDS program is an 11-month professional masters program, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a> (NCEAS). The program is designed to provide data and technical skills to students with prior experience in the environmental sciences, preparing them for a workforce where data and programming literacy is increasingly becoming the norm.</p>
+<div class="grid">
+<div class="g-col-12 g-col-md-4">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/bren-hex.png" class="img-fluid figure-img" style="width:70.0%" alt="tbd"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/MEDS-hex.png" class="img-fluid figure-img" style="width:70.0%" alt="tbd"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/NCEAS-hex.png" class="img-fluid figure-img" style="width:70.0%" alt="tbd"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="center-text small-text">
+<p><em>Of course we have hex designs for each of these departments / programs <i class="fa-solid fa-face-smile-wink" title="a smiling, winking face" aria-hidden="true"></i>. From left to right: Bren School of Environmental Science &amp; Management, Master of Environmental Data Science (MEDS), National Center for Ecological Analysis and Synthesis (NCEAS). If you’re new to the R community, <a href="https://github.com/rstudio/hex-stickers">hex stickers</a> often accompany popular packages and adorn the laptop lids of many R users.</em></p>
+</div>
+<p><a href="https://bren.ucsb.edu/courses/eds-240">EDS 240: Data Visualization and Communication</a> is MEDS a “core” course, meaning students need to enroll in and pass the course as a step towards earning their degree. While I’m not new to teaching – in fact, my role within the MEDS program is primarily centered around developing and teaching short (<em>typically</em> 1-3 hours) workshop-style courses that supplement the core curricula – taking on a 4-unit core course was certainly new territory. When the opportunity to teach EDS 240 opened up, I was pretty excited and also <em>really</em> nervous. Sure, I was familiar with the idea of data visualization – I’ve created my fair share of ggplots, discussed / admired / critiqued plenty of viz, and I’ve made good use of some of the most popular online data viz resources – but I certainly would not consider myself an “expert” in this field or even in using <code>{ggplot2}</code> + extension packages in R.</p>
+<p>My only real guidelines were to beef up the technical skills / lessons – the prior version of this course was highly conceptual and didn’t involve much programming. Other than that, I was free to do what I wanted. And so, I set off on building my very first grad-level data science course.</p>
+</section>
+<section id="early-logistics-class-schedules-enrollment" class="level2">
+<h2 class="anchored" data-anchor-id="early-logistics-class-schedules-enrollment">Early logistics: class schedules &amp; enrollment</h2>
+<p>Some action items needed to be addressed in advance of even beginning to plan the course, including submitting my desired meeting times and setting the maximum student enrollment – Bren’s Academics team would use this information to work on the absolutely insane puzzle that is class scheduling (they are truly rock stars).</p>
+<p><strong>I chose to hold lecture once a week for 3 hours</strong> – my vision for the class was a mix of lecture-based conceptual content and applied coding exercises, and I hoped that this longer block of time would allow me to switch back and forth between the two more easily than in a shorter 1.5 hour-long class that met twice per week.</p>
+<p><strong>I set my maximum enrollment to 40 students and ultimately ended up with 37</strong> – this included all 31 MEDS students, 4 <a href="">Master of Environmental Science &amp; Management</a> (MESM) students, and 2 non-Bren students. Non-MEDS students were required to reach out to me and confirm that they met course prerequisites (they needed to have taken at least one prior course taught in R + have familiarity with git / GitHub) before receiving an enrollment code.</p>
+<p><strong>Students would also be required to enroll in one of two 50 minute-long discussion sections</strong> – these are new to MEDS this 2023-2024 academic year and each instructor has used them in slightly different ways. I had no idea how these would look until I got farther along in the course planning process (more on that later).</p>
+</section>
+<section id="timeline" class="level2">
+<h2 class="anchored" data-anchor-id="timeline">My preparation timeline</h2>
+<p><strong>I spent about 7 months sincerely preparing for and teaching EDS 240 (not including the application and interview process).</strong> I recognize that’s a long runway and that not every instructor is afforded the time or has the capacity to do the same. As an existing employee of the MEDS program whose responsibilities are largely centered around teaching, I was allowed the time and space to think deeply about this course. I’m a super nervous planner when it comes to anything work / teaching-related (hello, imposter syndrome!), so I personally needed this prep time to feel like I had things (sort of) under control. Here’s how that timeline roughly shook out:</p>
+<p><em><strong>Note:</strong> I’m also including information about the application process here – it was totally foreign to me, and while this is specific to UCSB / Bren, I imagine other institutions may follow a similar process.</em></p>
+<ul>
+<li><p><strong>April 2023:</strong> Submitted my application for <a href="https://recruit.ap.ucsb.edu/JPF02448">Teaching Positions, Bren School of Environmental Science &amp; Management</a> – this is a general call for <a href="https://ap.ucsb.edu/policies.and.procedures/red.binder/sections/%5B2_01%5D%20Unit%2018%20Faculty%20and%20Supervisor%20of%20Teacher%20Education%20Series.pdf">Unit 18 Faculty</a> (often referred to as Lecturers). Applications require a cover letter, CV, Teaching Statement, and three references. You are asked to specify which course(s) you are interested in teaching.</p></li>
+<li><p><strong>June 2023:</strong> Interviewed – this hour-long interview began with a 10min teaching demo followed by ~10min of Q&amp;A. Your demo must be related to the subject area of the course you’re intending to teach (i.e.&nbsp;in my case, it needed to be about data viz). I chose to do a live coding demo, since my vision for EDS 240 would involve a lot of that (see <a href="https://doi.org/10.1371/journal.pcbi.1008090">Nederbragt et al.&nbsp;(2020)</a> for more on this teaching technique).</p></li>
+<li><p><strong>September 2023:</strong> Signed my contract. After negotiations, I ended up at 50% time in my typical full-time role (Data Training Coordinator, more formally classified as Academic Coordinator I), 33% time as Unit 18 Lecturer, and 17% time for curriculum development. It’s important to note that these appointments are <em>only</em> for the quarter in which the course is taught (i.e.&nbsp;winter quarter, Jan - Mar 2024). The lecturer salary scale is higher than than my current full-time salary, so this split appointment meant I would earn a bit more during winter quarter. Once signed, I got started working on the course syllabus.</p></li>
+<li><p><strong>October - November 2023:</strong> While my appointment didn’t officially start until January, I spent about 30-40hrs/week prepping for the class during fall quarter (which is a lot of time…this is not an attempt to applaud “the grind,” but rather reflect how this experience played out for me). I focused primarily on the syllabus, grading structure, drafting high-level outlines of weekly topics, building the skeleton of the course website, and learning other necessary classroom management tools (I’ll elaborate more on all of these in the next sections). I was able to prep ~2 of 4 homework assignments (plus jot down ideas for others), and even a couple early lectures. I also spent ~30hrs/week teaching my typical fall workshops, reviewing / updating materials for <a href="https://ucsb-meds.github.io/EDS-430-Intro-to-Shiny/">EDS 430: Intro to Shiny</a> (a 2-day short course that I also teach in winter quarter), and other MEDS administrative stuff.</p></li>
+<li><p><strong>December 2023:</strong> Oof, this was definitely the hardest month out of the whole experience – while most folks were winding down after a busy fall quarter, I felt like I had to ramp up (more so than I already had been). I was also tired from a stacked fall and wanted so desperately for a break that I felt like I couldn’t really take. I was also coming to terms with the fact I would absolutely not have the whole course planned / materials created ahead of the January 8th start date (<i class="fa-solid fa-face-grin-beam-sweat" title="a grinning face with a drop of sweat dripping from it’s brow" aria-hidden="true"></i> yes, that was incredibly naive thinking on my part). I <em>did</em> hope to have materials and plans for the first 6 weeks of the quarter largely created – I had a number of other non-EDS 240 events, teaching, and responsibilities during this first half of the quarter and I was genuinely worried about not having enough time to do it all.</p></li>
+<li><p><strong>January - March 2023 (winter quarter):</strong> Here we go! By this point, I had weeks 1-4 fully planned, weeks 5-6 outlined(ish), and weeks 7-10 were largely untouched (aside from having scheduled <a href="https://github.com/allisonhorst/">Allison Horst</a>’s guest lecture on using Observable JS to create interactive viz during week 9!). I tried my best to work ahead and continue prepping future lectures / assignments / etc. but this wasn’t totally sustainable. By ~week 5, I was prepping each lecture the week before delivering it. That said, I had compiled so many resources and jotted down so many random ideas as I came across things, so creating new lectures did get a bit easier as time went on.</p></li>
+</ul>
+</section>
+<section id="building-the-course" class="level2">
+<h2 class="anchored" data-anchor-id="building-the-course">Building the course</h2>
+<p>I very quickly realized that building a course involves a whole lot more than just figuring out what topics to teach. My initial TODO list looked something like this:</p>
+<ol type="1">
+<li><a href="#syllabus">Build the course syllabus (including learning objectives, topics, schedule, policies)</a></li>
+<li><a href="#grades">Decide how to assess student success (i.e.&nbsp;grades)</a></li>
+<li><a href="#course-materials">Determine how to build &amp; organize course materials</a></li>
+<li><a href="#assignments">Create &amp; manage assignments + provide feedback</a></li>
+<li><a href="#TA">Plan TA responsibilities</a></li>
+</ol>
+<p>I’ll walk through each of these in a bit more detail, then wrap up with some things that worked particularly well, things I’d like to do differently, and other musings.</p>
+<section id="syllabus" class="level3">
+<h3 class="anchored" data-anchor-id="syllabus">1. Build the course syllabus</h3>
+<p>This was probably the most intimidating part, given that it’s the one place to comprehensively describe all aspects of course proceedings – from (tentative) topics covered to assignment due dates, and grading schemes to course policies. <strong>I chose to begin with defining the course’s learning objectives, i.e.&nbsp;what I wanted all students to feel comfortable with and be able to execute on by the end of the course.</strong> It was really important to me that I blended both technical skills (e.g.&nbsp;using <code>{ggplot2}</code>) with information design theory and a solid conceptual understanding of what makes a good data visualization (i.e.&nbsp;transferable knowledge, regardless of the programming language / data viz tool of choice).</p>
+<p>After a lot of iterating, seeking feedback from a mix of past MEDS students (now NCEAS data scientists) and other NCEAS educators, I ended up with a list of six learning objectives (check out the <a href="https://docs.google.com/document/d/1iv-bsakUA-7FDSZCt0Qq1TUYXBzq0cktzLlxV2AxhZc/edit#heading=h.thw5uolxraye">syllabus</a> to see what they are!). <strong>Next, I began mapping out tentative topics by date</strong>, being mindful of holidays (no lectures during weeks 2 &amp; 7), large non-EDS 240 deadlines (e.g.&nbsp;<a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science/meds-capstone-projects">MEDS Capstone</a> faculty reviews), and the skills we’d need to cover ahead of distributing each new homework assignment. This schedule was a detailed draft at best – topics were shifted around a bit or dropped entirely leading up to the start of the quarter and even during the quarter (once I had a better understanding of how much I could realistically cover in a given class).</p>
+<p><strong>After these pieces were drafted up, I started filling in the remaining gaps: course policies, grading structure, student resources, etc.</strong> The syllabus was in a constant state of revision right up until the start of the course, but getting that first draft squared away felt like a <em>huge</em> accomplishment and it served as my North Star once I finally began creating course materials.</p>
+</section>
+<section id="grades" class="level3">
+<h3 class="anchored" data-anchor-id="grades">2. Decide how to assess student success</h3>
+<p>A conversation <a href="https://www.citral.ucsb.edu/people/nate-emery">Nate Emery</a>, the STEM Education Coordinator at UCSB’s <a href="https://www.citral.ucsb.edu/home">Center for Innovative Teaching, Research, and Learning</a> inspired me to explore alternative grading approaches for this course. He had passed me a copy of <a href="https://www.amazon.com/Grading-Growth-Alternative-Practices-Engagement/dp/1642673811">Grading for Growth: A Guide to Alternative Grading Practices That Promote Authentic Learning and Student Engagement in Higher Education</a>, by David Clark &amp; Robert Talbert (also check out the <a href="https://gradingforgrowth.com/">Grading for Growth Substack</a>) and some other awesome case studies / resources, which I dove into for the better portion of August 2023. <strong>I decided to implement a version of specifications (specs) grading for EDS 240.</strong> Generally speaking, specs grading refers to:</p>
+<p><br></p>
+<blockquote class="blockquote">
+<p><em>“an alternative grading method where instructors create a <strong>list of specifications that describe the qualities and characteristics of a successful submission</strong> for an assignment. Student work is <strong>graded holistically</strong> based on those specifications, earning a single mark: “Satisfactory” or “Not Yet”. Students have the <strong>chance to use feedback</strong> by revisiting and resubmitting for full credit.”</em></p>
+</blockquote>
+<div class="right-align-text small-text">
+<p><em>-expert from “Grading for Growth: A Guide to Alternative Grading Practices That Promote Authentic Learning and Student Engagement in Higher Education”, by David Clark &amp; Robert Talbert</em></p>
+</div>
+<p><br></p>
+<p>Why implement something like specs grading? <strong>“Traditional” grading (assigning points to one-time assessments and aggregating those points into a letter grade for a course) comes with a variety of challenges</strong> (summarized from <em>Grading for Growth</em>):</p>
+<ul>
+<li>It <strong>lacks feedback loops</strong> – there are (often) no reattempts or revisions of work based on feedback, making it difficult for students to demonstrate (and instructors to assess) learning or growth</li>
+<li>It disproportionately <strong>benefits students who learn fast</strong>, or who already have familiarity with the material</li>
+<li>Traditional grades are <strong>bias-prone</strong> (e.g.&nbsp;awarding participation points, granting deadline extensions)</li>
+<li>It can be <strong>demotivating</strong> and discourage students from learning for its own sake (motivation often comes from “chasing the A,” rather than learning and growing)</li>
+<li>It can <strong>promote unhealthy student-instructor relationships</strong></li>
+</ul>
+<p>In EDS 240, students earned either a “Satisfactory” or “Not Yet” mark on each assignment based on whether or not they met all rubric specifications (which are provided alongside each assignment). Students could trade in tokens to revise / resubmit assignments based on instructor feedback, for assignment extensions, or to miss class. Students earned tokens (primarily) by attending discussion section each week. <strong>The Grade Tracker below, summarizes the different types of assignments, how students can earn and use tokens, and how to calculate your course grade based on the number of “Satisfactory” grades received:</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/grade-tracker-green.png" class="img-fluid figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="center-text small-text">
+<p><em>The EDS 240 Grade Tracker was inspired by and adapted from the syllabus for BIO SCI E106 Lec A (Processes in Ecology and Evolution, Winter 2022), by <a href="https://faculty.sites.uci.edu/cfaiola/people/">Dr.&nbsp;Celia Faiola</a> &amp; <a href="https://www.symonslab.com/people">Dr.&nbsp;Celia Symons</a></em></p>
+</div>
+<p>I would be lying if I said that I wasn’t <strong>incredibly nervous</strong> to try this out. While all the literature I had explored got me super jazzed about the idea of specs grading, it <em>is</em> quite different than what our students are used to…and <strong>change can feel disruptive</strong>. I spent a full hour of our first (3hr-long) lecture laying out this grading structure, the accompanying token system, and expectations (and of course, answering many questions).</p>
+<p>Some students were understandably uncertain about the specs grading + token system at the start, but <strong>I ultimately received overwhelmingly positive feedback</strong>. I’ll share just a few student quotes, pulled from their <a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments/SR2-midcourse.html">mid-course</a> and <a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments/SR3-endcourse.html">end-of-course</a> self-reflections:</p>
+<blockquote class="blockquote">
+<p><span class="small-text"><em>“I really appreciated the alternative grading style as it took a lot of pressure off of me, as I tend to be a bit of perfectionist. So without the number and letter grades on individual assignments, it allowed me to enjoy the work more and potentially create better visualizations in the process.”</em></span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="small-text"><em>“I can’t quite put my finger on it, but the tone of the course just really feels like it promotes easy learning. The expectations are certainly high, but are given in a way that allows room for growth at everyone’s particular pace. Even though I feel like I’m spending the same amount of time on this course as others, it doesn’t feel nearly as stressful. It might have to do with the grading. I really enjoy not having my performance pinned to a letter or number grade that can artificially inflate the stakes.”</em></span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="small-text"><em>“…As for the tokens and grading system, it was nice to be very clear on what was needed to succeed in the class and be able to decide where to spend tokens as needed at tough parts of the quarter.”</em></span></p>
+</blockquote>
+<!-- >[*"I was a bit intimidated by the token system but I did open up to it especially with extensions and resubmissions."*]{.small-text} -->
+<p>From my (an instructor’s) perspective, this grading system was really wonderful for a number of reasons:</p>
+<ul>
+<li><strong>I did not have to haggle over any points</strong> – not even once!! (because points don’t exist as they do in traditional grading systems)</li>
+<li><strong>Students respected the clear expectations</strong> set at the start of the course and in the assignment-specific rubrics – no one expressed frustrations (at least to me) when they needed to use tokens to submit an assignment past the deadline or to revise / resubmit an assignment after receiving a “Not Yet” score</li>
+<li><em>Many</em> students used tokens for <strong>no-questions-asked extensions</strong> throughout the quarter. I do think this generally <strong>resulted in better overall submissions</strong>, rather than rushed and incomplete work. It also meant that I didn’t need to worry about how many points / what percentage to deduct for late submissions.</li>
+<li><strong>Students demonstrated marked improvements when they chose to revise / resubmit</strong> assignments that received a “Not Yet” score</li>
+</ul>
+<div class="dark-green-bg center-text">
+<p><span class="large-text"><strong>Importantly, student success within this grading system relies on thorough instructor feedback.</strong></span></p>
+<p>While I did spend a lot of time providing detailed constructive feedback on assignments, I certainly saved myself time trying to assign / subtract points across assignments. Ultimately, concentrating my efforts on providing constructive criticism was <em>a lot</em> more fun for me and (I hope) much more helpful for students in their learning journeys.</p>
+</div>
+<p><br></p>
+<p>Maybe you’re thinking, “this seems like a lot to keep track of…” and to be fair, it sort of is. But <strong>a nicely organized Google Sheet helped tremendously in my efforts to keep track of attendance, tokens earned / used, and completed assignments</strong>. Students were required to fill out a <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOP32K7_A3zzENvYQvIBCnLveaLE-exnFlqDV1xBWz66rWoA/viewform">Google form</a> (also adapted from Drs. Fiola &amp; Symons’ BIO SCI E106 Lec A syllabus) when redeeming tokens, which acted as an “official record” (I did end up making lots of notes in my Google sheet when students used tokens, since this proved to be an easier place for me to reference).</p>
+<div class="dark-green-bg center-text large-text">
+<i class="fa-solid fa-file-excel" title="an excel file" aria-hidden="true"></i> Google Sheets to the rescue! I was able to keep grades and tokens organized with this <a href="https://docs.google.com/spreadsheets/d/1Avqldk7X_wPrcAgWBd0L9RHSaWmBwIejvj2ZcKrACNU/edit?usp=sharing" target="_blank">grade tracker (template)</a>.
+</div>
+</section>
+<section id="course-materials" class="level3">
+<h3 class="anchored" data-anchor-id="course-materials">3. Determine how to build &amp; organize course materials</h3>
+<p>I’m a total sucker for some good organization, so figuring out how I was going to package and present course materials to students was my favorite type of puzzle to solve. I ended up with a <a href="https://quarto.org/">Quarto</a> website that houses everything from lecture slides, to assignments, to resources and more.</p>
+<section id="website-layout" class="level4">
+<h4 class="anchored" data-anchor-id="website-layout">Website layout</h4>
+<p>My goal for the website was to <strong>keep things simple, predictable, and also aesthetically-pleasing</strong> (for my own happiness, if nothing else). A couple simple design choices that I made, which I felt worked well:</p>
+<ul>
+<li><strong>Materials were organized by week (with each week getting its own page)</strong> under the <em>course materials</em> drop-down menu</li>
+<li><strong>Weekly materials followed a predictable format</strong> with the same four sections: Pre-class Prep, Lecture Materials, Discussion Materials, and Assignment Reminders</li>
+<li><strong>Lectures were divided into multiple slide decks</strong>, which forced me to take breaks throughout class (I needed it, and students <em>definitely</em> needed it – 3 hours is long!).</li>
+</ul>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/eds240-week1.gif" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="center-text small-text">
+<p><em>Scrolling through week 1 materials on the EDS 240 course website</em></p>
+</div>
+</section>
+<section id="slide-deck-development" class="level4">
+<h4 class="anchored" data-anchor-id="slide-deck-development">Slide deck development</h4>
+<p>Lecture materials – both conceptual and technical – were packaged as individual slide decks. I debated for a while about how to create these, but ultimately opted to build them with Quarto. This was largely driven by the desire to embed the code used in live-coding exercises directly in the slides for easy reference.</p>
+<p>I tend to pack <em>a lot</em> of explanatory information and code in my teaching materials for a couple of reasons:</p>
+<ul>
+<li>it makes it easier for students to go back and <strong>review content after class, or catch up</strong> if they happen to miss a lecture</li>
+<li>they <strong>serve as my own teaching notes</strong> and make reviewing materials ahead of teaching a bit easier</li>
+<li><strong>I don’t typically show all slides while teaching</strong> – anytime we encounter a slide with code on it, we’ll instead pop over to RStudio for a live-coding exercise
+<ul>
+<li>the slides offer both <strong>textual explanations and the code “key,”</strong> should students need to refer to it at any point during lecture (e.g.&nbsp;if they fall behind during live-coding, or need to copy a code chunk to move forward because they can’t quite spot the typo)</li>
+</ul></li>
+</ul>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/slide-example.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="center-text small-text">
+<p><em>An example of a slide that I wouldn’t necessarily show on screen, but rather move to RStudio to live-code and talk through. The textual content serves as information for students to refer back to, and the embedded code makes copying / pasting easy should anyone fall behind (I always encourage learners to type as much as they can by hand during class).</em></p>
+</div>
+<p>Some potentially helpful tips:</p>
+<ul>
+<li><strong>create a <a href="https://github.com/samanthacsik/EDS-240-data-viz/blob/main/meds-slides-styles.scss">stylesheet</a></strong> to maintain a consistent look across all slide decks (it also facilitates faster slide development)</li>
+<li><strong>use an iPad or second device while teaching</strong> – I absolutely do not memorize all the code we cover during class and I need an easy way to reference it while live-coding. My laptop / RStudio will be visible on the screen for students to follow along with, while I reference the slides / code on my separate device</li>
+</ul>
+<div class="dark-green-bg center-text large-text">
+<i class="fa-solid fa-arrow-pointer" title="a computer mouse pointer" aria-hidden="true"></i> Click around the EDS 240 <a href="https://samanthacsik.github.io/EDS-240-data-viz/" target="_blank">course website</a> if you’re interested in exploring further!
+</div>
+</section>
+</section>
+<section id="assignments" class="level3">
+<h3 class="anchored" data-anchor-id="assignments">4. Create &amp; manage assignments + provide feedback</h3>
+<section id="creating-assignments" class="level4">
+<h4 class="anchored" data-anchor-id="creating-assignments">Creating assignments</h4>
+<p>This was honestly the part I dreaded the most. While I’ve taught my fair share of workshops, I’ve never had to actually come up with creative and effective ways to assess student learning – it was <strong>super intimidating</strong> and they took <em>wayyyy</em> longer to put together than I initially thought they would. Some things I considered for each assignment:</p>
+<ul>
+<li>which of the course <strong>learning objectives</strong> would each assignment address?</li>
+<li>how much is a <strong>reasonable amount of work</strong> to ask of students given the submission schedule (they had ~2 weeks per assignment)?</li>
+<li>how can we shift assessments to be more <strong>learner-centered</strong> and less susceptible to plagiarism in the age of generative AI tools (e.g.&nbsp;ChatGPT)?</li>
+</ul>
+<p>While I won’t go into specific tasks for each assignment (you can check them out on the <a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments.html">course website</a> though!), <strong>I really enjoyed asking students to both complete a coding task <em>and</em> describe in writing their considerations, workflow, design choices, etc. which (I hoped) would put a greater focus on the decision-making process.</strong> I definitely felt a bit of validation when a student responded to the question, <em>“How have your learning goals changed? Have they stayed the same?”</em> (from the <a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments/SR2-midcourse.html">mid-course self-reflection</a>):</p>
+<blockquote class="blockquote">
+<p><span class="small-text"><em>“I feel that this class has greatly allowed me to progress towards my learning goals, but in a different way than I originally thought. My initial goal in taking this class was to get better at <code>{ggplot2}</code> and other data viz packages. While I have definitely been doing this, I have much more so been progressing in my learning of how to approach data visualization and then using packages like <code>{ggplot2}</code> as a tool to execute this. My learning goals have sort of shifted for the better in a way that I wasn’t really anticipating.”</em></span></p>
+</blockquote>
+</section>
+<section id="managing-assignments" class="level4">
+<h4 class="anchored" data-anchor-id="managing-assignments">Managing assignments</h4>
+<p>All assignments were posted to the <a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments.html">course website</a>, and depending on the assignment / task, <strong>students were asked to submit completed work either <a href="#gh-classroom">(a) via GitHub Classroom</a> <em>or</em> <a href="#qmd-files">(b) by submitting rendered or published <code>.qmd</code> files</a>:</strong></p>
+<section id="gh-classroom" class="level5">
+<h5 class="anchored" data-anchor-id="gh-classroom">(a) GitHub Classroom</h5>
+<p>Self-reflections and parts of the first two homework assignments were distributed and managed using <strong><a href="https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/about-github-classroom">GitHub Classroom</a>, a service that allows educators to create and manage digital classrooms and distribute / track assignments</strong>. While there was a bit of a learning curve, I ultimately found it to be a fairly intuitive way to track assignment submissions. In a nutshell, <strong>GitHub Classroom allows you to easily distribute assignment repositories (containing template files, starter code, etc.) as forks to all rostered students</strong>. I got started by following these <a href="https://docs.google.com/document/d/1ul63iuNWcy49exHIf2Xw7oeodT503oC-ebAbdhpPr90/edit?usp=sharing">instructions</a> (though note the <a href="https://github.blog/changelog/2024-01-22-migrating-github-classroom-assignment-repository-creation-from-create-from-template-to-forks-public-beta/">upcoming changes</a> to assignment repos).</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/gh-classroom-ex-assignment.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="center-text small-text">
+<p><em>A view of the teacher dashboard, where I’m able to access each of my students repositories for a particular homework assignment.</em></p>
+</div>
+<p>For assignments submitted via GitHub Classroom, <strong>we provided feedback largely by copying and commenting on a submitted <code>.qmd</code> file</strong> following this workflow:</p>
+<ul>
+<li>make a copy of a submitted <code>.qmd</code> file in the repo</li>
+<li>add comments such as, <code># SC feedback: some feedback on code / approach here</code></li>
+<li>push the new file back to GitHub and prompt students to pull changes</li>
+<li>ask students to search for <code># SC feedback</code> to identify all comments</li>
+</ul>
+</section>
+</section>
+<section id="qmd-files" class="level4">
+<h4 class="anchored" data-anchor-id="qmd-files">(b) Submitting rendered or published <code>.qmd</code> files</h4>
+<p>The <a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments/HW4.html">final course assignment</a> asked students to create a series of visualizations using data of their choosing. This large task was broken down into smaller pieces and spread across all four homework assignments (so students were working on it throughout the entire quarter). <strong>For this course-long project, we asked students to create their own GitHub repositories (i.e.&nbsp;not using GitHub Classroom), where they would do all related work.</strong> Final projects were submitted either as published Quarto documents (using <a href="https://pages.github.com/">GitHub Pages</a>) or as published blog posts on student personal websites. Intermediate submissions (i.e.&nbsp;those that were a part of the first three homework assignments) were submitted as rendered HTML files, which we could open and assess via the web browser. <strong>We provided feedback for these submissions by opening <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues">issues</a> on student repos.</strong></p>
+</section>
+</section>
+<section id="TA" class="level3">
+<h3 class="anchored" data-anchor-id="TA">5. Plan TA responsibilities</h3>
+<p>I was <em>so</em> lucky to have an incredible teaching assistant (TA), <a href="https://www.linkedin.com/in/sevan-esaian-92b7794b/">Sevan Esaian</a>, to collaborate with throughout the quarter. His efforts in the following areas contributed largely to my own success while teaching <em>and</em> student success throughout the course:</p>
+<section id="lectures-student-support" class="level4">
+<h4 class="anchored" data-anchor-id="lectures-student-support">Lectures &amp; student support</h4>
+<p>A major challenge when teaching technical skills (e.g.&nbsp;coding) is assisting students who encounter error messages or other troubleshooting roadblocks while also delivering content at a fair pace. Sevan attended lectures and assisted students who needed an extra set of eyes on troublesome code. <strong>We found that it was minimally disruptive for students to meet Sevan, with their laptops, in the back of the classroom when they needed help.</strong></p>
+</section>
+<section id="discussion-sections" class="level4">
+<h4 class="anchored" data-anchor-id="discussion-sections">Discussion sections</h4>
+<p><strong>Sevan also taught weekly discussion sections and took lead on planning much of the content and activities.</strong> They went something like this:</p>
+<ul>
+<li><strong>Weeks 1-4:</strong> I had extra content that I ended up having to cut from lecture, but felt was important for students to think about / get some additional practice on (data wrangling and ggplot practice, writing alt text, intro to customizing ggplot themes). We shuttled this content to discussion section for Sevan to cover.</li>
+<li><strong>Weeks 5-9:</strong> These weeks were a mix of introducing additional chart types that hadn’t been covered in lecture, and importantly, having students share in-progress data viz (part of their final course assignment) to receive constructive feedback from peers.</li>
+<li><strong>Week 10:</strong> Students presented their final projects!</li>
+</ul>
+</section>
+<section id="grading" class="level4">
+<h4 class="anchored" data-anchor-id="grading">Grading</h4>
+<p><strong>Sevan and I split grading.</strong> I read and wrote responses to student self-reflections, while Sevan graded homework assignments 1-3 (along with any that were revised / resubmitted for a regrade), in accordance with the provided rubrics. I provided written feedback to all students on homework #3 (separate from their grades), since this assignment asked for the first complete draft of all data visualizations which would be submitted as part of their <a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments/HW4.html">final course assignment</a>. I also chose to grade these final assignments (along with any regrades), in part because I wanted to understand where tweaks could me made for next year, and also because I was super excited to dive into what students had created throughout the quarter.</p>
+</section>
+</section>
+</section>
+<section id="other-musings" class="level2">
+<h2 class="anchored" data-anchor-id="other-musings">Other musings</h2>
+<p>There’s so much more that I learned along the way, but that didn’t quite fit under the above sections. I’m listing a spattering of thoughts here for anyone interested in doing just a bit more reading <i class="fa-solid fa-face-smile-wink" title="a smiling winking face" aria-hidden="true"></i></p>
+<section id="a-few-more-tools-to-consider-using" class="level3">
+<h3 class="anchored" data-anchor-id="a-few-more-tools-to-consider-using">A few more tools to consider using</h3>
+<p>I already mentioned a fair number of tools that made teaching this course possible (R/RStudio, git/GitHub, GitHub Classrooms, Google Sheets &amp; Forms, Quarto), but there are a few more that are worth noting:</p>
+<ul>
+<li><p>The MEDS program uses <strong><a href="https://slack.com/">Slack</a></strong> for internal staff / instructor communications, and also for instructor / student communications. Each course has its own dedicated channel (e.g.&nbsp;<strong>#eds-240-data-viz</strong>) where instructors can share updates, resources, and answer student questions.</p></li>
+<li><p>UCSB recently made the switch to <strong><a href="https://www.instructure.com/canvas">Canvas LMS</a></strong> as their default online learning platform – some instructors use this to host course materials, share assignment grades, administer quizzes, etc. I thought I might use it to share grades with students throughout the quarter, but given the Satisfactory / Not Yet nature of assignment grades, it was easier just to communicate that information either via direct messages on Slack or as GitHub issues (on private repos).</p></li>
+<li><p>Instructors will eventually need to submit final grades – UCSB uses a web application called <strong>EGrades</strong>, though I imagine this will differ by institution. Making note of it here, because you’ll want to confirm that you both have access to whatever system your university uses and also understand how to use it (this was my first time, so I had a bit of learning to do!).</p></li>
+</ul>
+</section>
+<section id="some-things-that-worked-well" class="level3">
+<h3 class="anchored" data-anchor-id="some-things-that-worked-well">Some things that worked well</h3>
+<ul>
+<li><p><strong>Specs grading!</strong> – I would absolutely implement it again (for this course, and / or others). While it does require more work up from (e.g.&nbsp;building clear assignment rubrics, determining exactly what a student needs to do to earn a particular grade in the course), I really do think it allowed me to focus on the more fun (and important) parts of teaching (e.g.&nbsp;providing constructive feedback on assignments, soliciting and acting on student feedback throughout the course)</p></li>
+<li><p><strong>Randomly assigning new “learning partners” for each lecture</strong> – learning partners were a mix of accountability-buddies, people to help troubleshoot with, and group mates for any in-class activities. I was originally motivated to facilitate student mixing (folks tend to sit in the same seats with the same people throughout the year) and encourage students to help one another problem solve. These were super popular – students consistently requested more opportunities to engage with their learning partners throughout the course. I also received written feedback from non-MEDS students that it made meeting people and integrating with the MEDS cohort much easier.</p></li>
+<li><p><strong>Providing the dates that each homework would be assigned and due in the syllabus (and on day 1 of class),</strong> which helped everyone plan out their quarters. Students were juggling two other courses, plus work on their capstones (along with any other jobs, personal matters, life).</p></li>
+<li><p><strong><a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments/SR1-precourse.html">Pre-</a>, <a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments/SR2-midcourse.html">mid-</a>, and <a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments/SR3-endcourse.html">end-of-course</a> self reflections</strong> were such a great way for me to learn about students (on a professional and personal level) <em>and importantly</em>, encouraged them to both set their own learning goals and check in on their progress towards those goals throughout the quarter. Sending so much appreciation to <a href="https://an-bui.com/">An Bui</a>, who originally crafted these reflections for her <a href="https://an-bui.com/teaching/02_envs-193ds/">environmental stats course</a>.</p></li>
+<li><p><strong>Spreading out work for the <a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments/HW4.html">final assignment</a> across the entire quarter</strong> allowed for <em>lots</em> of feedback (from myself, Sevan, and peers). It also provided more time for students to think deeply about their data, pivot if necessary, and experiment with different graphic forms, design approaches, etc. A few student quotes in response to the question, <em>What is one thing that you really liked about this course, and why?</em> (from the <a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments/SR3-endcourse.html">end-of-course self reflection</a>):</p></li>
+</ul>
+<blockquote class="blockquote">
+<p><span class="small-text"><em>“I really liked how the project was scaled. It was super useful to start working on homework 4 in the first couple of weeks because by the time that we were ready to really turn something in we had become very familiar with it.”</em></span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="small-text"><em>“I really liked how often we showed off our visualizations to the class and the instructors and how the homework assignments built on each other. There were plenty of opportunities for feedback and implementation of that. In most courses, it feels like you submit an assignment, receive feedback, and then don’t touch it again.”</em></span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="small-text"><em>“I really enjoyed the way that discussion section was structured. In the first half of the quarter, when we were still learning the basics it was very helpful to learn new/go over concepts in the discussion format. And then, when we started sharing our own visualizations and giving feedback I found that super helpful to understand what did or did not work for an audience unfamiliar with my dataset. It really helped me refine my plots for HW 4”</em></span></p>
+</blockquote>
+<!-- >[*"I thoroughly enjoyed how much feedback we got on assignments. In other courses, feedback is very minimal but in this course, the feedback was more tangible. I feel like I greatly improved on my dataviz skills because of the feedback"*]{.small-text} -->
+<ul>
+<li><p><strong>Saving all the awesome resources</strong> that I came across while building lectures, and adding them to the <a href="https://samanthacsik.github.io/EDS-240-data-viz/resources.html">course website</a> – I was motivated by slightly selfish reasons (I didn’t want to lose track of the bazillion tabs I had open at any given time), but it was also a great place to point students to when they were looking for a place to start or resources on a particular topic.</p></li>
+<li><p><strong>Asking students to complete <a href="https://samanthacsik.github.io/EDS-240-data-viz/assignments.html#end-of-class-surveys">short surveys</a> at the end of each class</strong>, which were an easy way for me to quickly assess areas of confusion and seek feedback while things were fresh in everyone’s minds (completing these also counted towards their course grade). I tried my best to address recurring points of confusion by following up with further explanations and resources in the class Slack channel. Survey questions were as follows:</p>
+<ul>
+<li><span class="small-text">Pacing was ___ (multiple choice: too fast, too slow, just right)</span></li>
+<li><span class="small-text">Today, I felt ___ (multiple choice: engaged / focused / excited, disengaged / distracted / not very excited, neutral / somewhere in the middle)</span></li>
+<li><span class="small-text">One thing I feel that I have a good understanding of now is ___ (short answer)</span></li>
+<li><span class="small-text">One thing I need more practice with to feel comfortable is ___ (short answer)</span></li>
+<li><span class="small-text">Anything you want us (Sam &amp; TA) to know about your current learning situation? (optional; short answer)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="some-things-to-improve" class="level3">
+<h3 class="anchored" data-anchor-id="some-things-to-improve">Some things to improve</h3>
+<ul>
+<li><p><strong>Shorten lecture, or introduce more frequent or longer breaks.</strong> I received a number of comments from student in their self reflections that it was often difficult to maintain focus towards the end of our 3 hour-long weekly lecture. I’m a bit reluctant to switch to shorter lectures that meet twice weekly <em>just yet</em>, because from a teaching perspective, the single longer meeting time offers a couple important benefits: (a) it affords me the time to present conceptual content, then demonstrate how to apply it in our coding practice immediately afterwards, (b) as soon as I finished my weekly lecture, I could turn my attention to prepping for the following week (this was particularly helpful this first year, while I was in a constant state of curriculum development). I do see a path where I keep the 3hrs 1x/week schedule by adding in more breaks and streamlining lecture material (see below).</p></li>
+<li><p><strong>Streamline / cut lecture content.</strong> I <em>almost always</em> overestimate how much content I can fit into any given time period, especially when live-coding / technical instruction is involved – inevitably, there are lots of (great) questions and troubleshooting, and my overzealousness leads to more content than is reasonable. By carefully considering what content to trim and / or rearrange, I’m hopeful I can introduce more frequent or longer breaks.</p></li>
+<li><p><strong>Create template scripts / .qmd files for students to code along in.</strong> Each student <a href="https://samanthacsik.github.io/EDS-240-data-viz/course-materials/week1.html#create-your-eds-240-class-examples-repository">created their own GitHub repository</a> to house all the code we’d write together throughout the quarter. Overall, I loved this setup – it kept the collective EDS 240 materials organized in one place and was an opportunity to practice repository management and version control. Next time, I’d love to provide template .qmd files with YAMLs and section headers (and maybe even some starter code for particular exercises) already filled out – I think this would help a bit with time management (it takes a bit of time to set these up together) and also help us all stay organized as we move from exercise to exercise throughout class.</p></li>
+<li><p><strong>Move some data wrangling to pre-class prep.</strong> Year after year, students have requested more in-class data wrangling practice across all courses. I started the quarter off by live-coding my way through all data wrangling (ahead of our in-class data viz practice), but it ultimately took up a lot of really valuable time that I preferred to spend on data viz itself. One student eventually suggested that I provide the wrangling code ahead of time, require students to review it on their own as part of their pre-class prep activities, then reserve ~10min for answering any questions in class. This seemed to work quite well, and I’m excited to try it out a bit more next year. I’ll likely still plan to do a bit of in-class wrangling at the start of the quarter, or if there are particularly new methods that I’d like to introduce.</p></li>
+<li><p><strong>Allow myself more time to review materials ahead of each class.</strong> This one may seem a bit silly, but it’s an important reminder for my future self! I had built a lot of content before the course began, and I spent most “down time” throughout the quarter trying to prep ahead. This meant that I’d often only start reviewing lecture materials the Sunday evening before teaching on Monday…each Sunday, I’d tell myself that it was plenty of time, and each Sunday I’d realize that it most certainly was not. I stressed a lot about relearning the content, fixing code errors that I hadn’t caught when I first built the materials, and frantically looking for more resources to better understand things ahead of questions I thought might come up in class. I <em>am</em> totally hopeful that this will get easier each time I teach the course, but did want to note this as an important consideration for anyone who may be teaching something for the first time.</p></li>
+</ul>
+</section>
+<section id="some-final-thoughts-on-teaching-more-generally" class="level3">
+<h3 class="anchored" data-anchor-id="some-final-thoughts-on-teaching-more-generally">Some final thoughts on teaching, more generally</h3>
+<ul>
+<li><p><strong>Teaching <em>anything</em> requires sooo much learning, both on the subject matter side and <em>importantly</em> on the pedagogical side.</strong> I knew that I’d be spending a whole lot of time diving into the (overwhelmingly massive) field of data viz, but the sheer amount of time I spent figuring out exactly <em>how</em> I would lead this course caught me by surprise. I’m honestly really proud of how it all turned out, and I credit that largely to the initial pedagogical planning (please also find the names of those who helped me on this journey in the next section!).</p></li>
+<li><p><strong>Teaching is a really vulnerable act!</strong> No matter how much prep you do, you’ll get asked questions that you don’t know the answers to, be confronted with situations you don’t quite know how to navigate, and likely make (many) mistakes. I prepped <em>so</em> much, in part because I was scared of making any mistakes (which I of course made anyway). This quarter was a great reminder that transparency is key, and that more often than not, students are really understanding. Taking a bit time to respond to any outstanding questions in the class Slack channel, or explaining the reasoning behind policy decisions went a long way.</p></li>
+<li><p><strong>You’re going to get <em>a lot</em> of feedback.</strong> Some of it will certainly help to improve your course and teaching approaches. But it’s also okay to consider, then ignore feedback too. Ultimately, we are tasked with thinking <em>really</em> long and hard about what topics to teach, how to teach them, course policies, etc. and we make deliberate decisions in our planning. It’s okay to stand by those decisions. While not teaching-specific, I really appreciated Dorie Clark’s piece on <a href="https://hbr.org/2015/08/when-its-ok-to-ignore-feedback">When it’s OK to Ignore Feedback</a> (Harvard Business Review).</p></li>
+<li><p><strong>Burnout is real. Find ways to take care of yourself.</strong> There was a point around week 7 where I wanted to think about anything other than putting together my next lecture. The remaining topics really excited me, but I was <em>struggling mightily</em> to focus. I stressed for a while about it, but eventually found myself some grace. I spent a couple days working on a completely unrelated project, walked my dog in the middle of the work day, took slightly longer lunch breaks, and maintained my typical workout schedule. It was a much needed change of pace that helped me find my groove again.</p></li>
+</ul>
+</section>
+</section>
+<section id="it-takes-a-village" class="level2">
+<h2 class="anchored" data-anchor-id="it-takes-a-village">It takes a village</h2>
+<p>This may (definitely) be sappy, but I truly would not be where I am or doing what I’m doing without the support of incredible friends, colleagues, and the online data science community. You all make learning such a joy and I am truly grateful to have so many brilliant educators and thinkers to look up to. There are too many names to list here, but I do want to give shout outs to a few folks who made getting started on this class a bit less intimidating:</p>
+<p>Figuring out where to start is often the hardest part, and finding inspiration from educators who openly shared their materials online was a true blessing. Many many thanks to <strong><a href="https://meghan.rbind.io/">Meghan Hall</a></strong> and <strong><a href="https://www.andrewheiss.com/">Andrew Heiss</a></strong>, whose courses (<a href="https://cmu-36315.netlify.app/">CMU 36-315: Statistical Graphics &amp; Visualization</a> &amp; <a href="https://datavizs23.classes.andrewheiss.com/">PMAP 8101: Data Visualization with R</a>) provided some much needed inspiration and helped me find my feet. I reference a whole lot of work by <strong><a href="https://www.cedricscherer.com/">Cédric Scherer</a></strong>, but was especially grateful to come across his jam-packed 2-day workshop, <a href="https://rstudio-conf-2022.github.io/ggplot2-graphic-design/">Graphic Designs with ggplot2</a> from rstudio::conf(2022).</p>
+<p>Teaching is truly an art, and I’m lucky to be surrounded by folks who think really hard about how to do it well. Thank you to <strong><a href="http://nathanemery.com/">Nate Emery</a></strong>, who first introduced me to the concept of alternative grading and gave me the resources and encouragement to give it a try myself. To my colleague, dear friend, and biggest hype woman, <strong><a href="https://an-bui.com/">An Bui</a></strong>, who is both a brilliant data scientist and deeply intentional educator. Adopting her student self-reflection exercises was one of my favorite parts of this course. And of course, to <strong><a href="https://allisonhorst.github.io/">Allison Horst</a></strong>, who has a gift like no other – her approach to teaching has inspired me since my earliest days as a budding data scientist and educator. Find her <a href="https://allisonhorst.com/">artwork</a> adorning nearly every page of the course website.</p>
+<p>And finally, thank you to <strong><a href="https://jules32.github.io/">Julie Lowndes</a></strong>, for being one of my greatest role models in the open data science movement, and for encouraging me to share my experiences through writing.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{csik2024,
+  author = {Csik, Samantha},
+  title = {Building (and Teaching) a Graduate-Level Data Science Course},
+  date = {2024-04-02},
+  url = {https://samanthacsik.github.io/posts/2024-03-31-data-viz-course/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-csik2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Csik, Samantha. 2024. <span>“Building (and Teaching) a Graduate-Level
+Data Science Course.”</span> April 2, 2024. <a href="https://samanthacsik.github.io/posts/2024-03-31-data-viz-course/">https://samanthacsik.github.io/posts/2024-03-31-data-viz-course/</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Copyright 2021, Samantha Csik</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">This website is built with <i class="fa-solid fa-heart" title="a heart" aria-hidden="true"></i>, <a href="https://github.com/samanthacsik/samanthacsik.github.io" target="_blank"><i class="fa-brands fa-github" title="GitHub octocat logo" aria-hidden="true"></i></a>, <a href="https://www.r-project.org/about.html" target="_blank"><i class="fa-brands fa-r-project" title="R Project" aria-hidden="true"></i></a> and <a href="https://quarto.org/" target="_blank">Quarto</a></div>
+  </div>
+</footer>
+
+
+
+</body></html>

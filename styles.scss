@@ -48,9 +48,9 @@ h1, h2, h3, h4, h5, h6 {
   color: $gray;
 }
 
-h3 {
+/*h3 {
   font-size: 35px;
-}
+}*/
 
 body {
   font-family: $nunito;
@@ -129,8 +129,8 @@ blockquote {
   font-size: 17px;
 }
 
-// gray background
-.quote-text-bg {
+// gray background; was .quote-text-bg
+.dark-green-bg {
   background-color: rgba(152, 160, 141, 0.3); //rgba(166, 164, 161, 0.4);
   padding-top: 5px;
   padding-bottom: 5px;
