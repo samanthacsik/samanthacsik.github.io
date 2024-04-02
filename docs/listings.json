@@ -33,6 +33,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/2024-04-02-data-viz-course/index.html",
       "/posts/2023-08-01-openscapes-website/index.html",
       "/posts/2022-10-24-quarto-blogs/index.html",
       "/posts/2022-06-22-hello-quarto/index.html",
