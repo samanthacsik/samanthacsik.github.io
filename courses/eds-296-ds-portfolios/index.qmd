@@ -1,0 +1,60 @@
+---
+title: "EDS 296 - Data science tools for building professional online portfolios"
+description: |
+  a 2-unit course on using building, customizing, and maintaining professional online data science portfolios (currently under development!)
+categories: [UCSB, data-science-portfolio, Quarto, GitHub]
+image: quarto-github.png
+draft: false
+---
+
+[{{< fa window-maximize >}} course website](https://ucsb-meds.github.io/EDS-296-DS-portfolios/){.btn target=_blank} [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-296-1f){.btn target=_blank}
+
+<br>
+
+# Course description
+
+Having a polished online presence is essential for showcasing your skills, projects, expertise, and (importantly) your personality. Learners, collaborators, and future employers alike will look to your public online profiles to glean information about you and your work. As data scientists, this often means that they’ll head to one of two places: GitHub and / or your personal website. This course is designed to help you both lay the foundation for creating and maintaining these profiles in an organized, informative, and visually-appealing way. Over the next several weeks, you will:
+
+- build and deploy your personal website using popular data science tools and frameworks
+- create your first (of many!) data science blog posts
+- learn about how best to communicate your work to different audiences
+- understand where and how to document your projects and code
+- and more!
+
+<br>
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: "center"
+#| out-width: "50%"
+knitr::include_graphics("quarto.png")
+```
+:::
+
+::: {.g-col-12 .g-col-md-6}
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: "center"
+#| out-width: "95%"
+knitr::include_graphics("github.png")
+```
+:::
+
+::::
+
+<br>
+
+# When is this taught?
+
+I'm super excited to offer this new course starting Fall 2024 (so if you've stumbled across this here now, you'll find some very-much-in-progress materials). I've taught components of this as separate non-credit-bearing workshops since 2022: 
+
+- [Creating your personal website using Quarto](https://ucsb-meds.github.io/creating-quarto-websites/)
+- [Customizing Quarto websites](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide) 
+- [Adding a blog to your existing Quarto website](../../posts/2022-10-24-quarto-blogs/index.qmd)
+
+The full course will include these, with an additional focus on GitHub as a professional portfolio. 

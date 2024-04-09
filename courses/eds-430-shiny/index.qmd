@@ -1,9 +1,9 @@
 ---
 title: "EDS 430 - Intro to Shiny"
 description: |
-  materials for EDS 430, a 1-unit graduate-level course taught at the Bren School for Environmental Science & Management
+  a 1-unit course on building and deploying Shiny apps & dashboards
 categories: [UCSB, shiny, R]
-image: shiny-hex.png
+image: shiny-hex-small.png
 draft: false
 ---
 
@@ -11,7 +11,7 @@ draft: false
 
 <br>
 
-# Course Description
+# Course description
 
 These materials accompany the 1-unit, 2-day, hands-on coding workshop, [EDS 430 - Intro to Shiny](https://bren.ucsb.edu/courses/eds-430), offered through the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/), in partnership with the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/).
 

@@ -1,6 +1,6 @@
 ---
 title: "courses"
-subtitle: "credit-bearing courses developed & taught by yours truly (with a lot of inspiration and help from other educators)" 
+subtitle: "open source course materials developed & taught by yours truly (with a lot of inspiration and help from other educators)" 
 listing:
   contents: courses
   feed: true
