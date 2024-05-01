@@ -1,7 +1,7 @@
 ---
 title: "RStudio Tips & Tricks"
 description: |
-  a talk on RStudio IDE tips & tricks and other keyboard shortcuts
+  a schedule of RStudio IDE tips & tricks and other keyboard shortcuts
 author:
   - name: Samantha Csik
     url: https://samanthacsik.github.io/
@@ -15,7 +15,7 @@ categories: [MEDS, R]
 image: lightbulb.gif
 ---
 
-It became clear after two cohorts of students that delivering tons of shortcut all at once (in the form of an hour-long workshop; see slide deck, below) was not particularly helpful or effective (learners aren't given sufficient time to practice and build muscle memory). We're testing out a different approach, beginning summer 2023, and presenting a few "Keyboard Shortcuts of the Week" throughout the 6-week long MEDS summer session. You can read more about the format and shortcuts list on [this wiki](https://github.com/UCSB-MEDS/IDE-tips-and-tricks/wiki/Updated-Approach-for-Delivering-IDE-Tips-&-Tricks---Keyboard-Shortcuts).
+It became clear after two cohorts of students that delivering tons of shortcut all at once (in the form of an hour-long workshop; see slide deck, below) was not particularly helpful or effective (learners aren't given sufficient time to practice and build muscle memory). We tried out something new in summer 2023, and instead presented a few "Keyboard Shortcuts of the Week" throughout the 6-week long MEDS summer session. Overall, I think this was a much needed change to content delivery! You can read more about the format and shortcuts list on [this wiki](https://github.com/UCSB-MEDS/IDE-tips-and-tricks/wiki/Updated-Approach-for-Delivering-IDE-Tips-&-Tricks---Keyboard-Shortcuts).
 
 <br>
 
