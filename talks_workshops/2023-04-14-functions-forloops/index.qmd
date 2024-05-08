@@ -10,7 +10,7 @@ author:
     affiliation-url: https://ucsb-meds.github.io/
 date: 2023-04-14
 slug: csik2023functions
-categories: [MEDS, R, functions, for loops]
+categories: [MEDS, R, functions, for-loops]
 image: an_bui_planet.png
 ---
 

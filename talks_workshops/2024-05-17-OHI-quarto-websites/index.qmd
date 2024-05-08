@@ -11,7 +11,7 @@ author:
 date: 2024-05-17
 citation: 
   url: https://samanthacsik.github.io/talks/2024-05-17-OHI-quarto-websites/
-categories: [NCEAS, Ocean Health Index, R, Quarto]
+categories: [NCEAS, Ocean-Health-Index, R, Quarto]
 image: ohi-quarto.png
 ---
 

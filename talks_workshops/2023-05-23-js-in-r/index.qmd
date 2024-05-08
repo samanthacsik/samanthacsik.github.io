@@ -15,7 +15,7 @@ author:
     affiliation-url: https://www.eemb.ucsb.edu/
 date: 2023-05-23
 slug: csikbui2023js
-categories: [SORTEE, R, JavaScript, data visualization]
+categories: [SORTEE, R, JavaScript, data-visualization]
 image: js_pkgs.png
 ---
 
