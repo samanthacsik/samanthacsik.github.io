@@ -7,13 +7,13 @@ website:
   # repo-url: https://github.com/samanthacsik/samanthacsik.github.io
   # repo-actions: [edit, issue]
   site-url: https://samanthacsik.github.io/
-  favicon: images/chick.png
+  favicon: images/favicon/light-sage-chick.png
   google-analytics: 
     tracking-id: "G-LW03VL0YTS" #"UA-242992767-1"
     anonymize-ip: true
   navbar:
     title: false
-    logo: images/logos/logo-dark.png
+    logo: images/logos/logo-transparent-dark.png
     logo-alt: "The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon."
     right:
       - href: index.qmd
