@@ -10,29 +10,27 @@ $nunito: 'Nunito', sans-serif;
 $josefin: 'Josefin Sans', sans-serif; 
 
 // Colors
-$light-sage-green: #D1D9CE;
-$sage-green: #98A08D;
-$dark-sage-green: #757B6D;
+$light-green: #D1D9CE;
+$medium-green: #98A08D;
+$dark-green: #757B6D;
 $cream: #FDFBF7;
 $dark-gray: #5A5856;
-$gray: #64605f;
-$light-gray: #949799;
-$purple: #9158A2; //#AE8BD1;
-$black: #000000;
-$burnt-orange: #ad7237;
+$medium-gray: #64605f;
+$purple: #9158A2; 
+$orange: #ad7237;
 
 // Base document colors
 $navbar-bg: $cream;
-$navbar-fg: $sage-green; 
+$navbar-fg: $medium-green; 
 $navbar-hl: $purple; 
-$body-bg: $light-sage-green;
-$body-color: $gray;
+$body-bg: $light-green;
+$body-color: $medium-gray;
 $footer-bg: $cream; 
 $link-color: $purple;
 
 // Inline code
 $code-bg: $cream;
-$code-color: $burnt-orange; 
+$code-color: $orange; 
 
 // Code blocks
 $code-block-bg: $cream;
@@ -45,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $josefin; 
   letter-spacing: 1px;
   font-weight: 700;
-  color: $gray;
+  color: $medium-gray;
 }
 
 /*h3 {
@@ -76,7 +74,7 @@ blockquote {
 
 // figure caption text styling
 .figure-caption {
-  color: $gray;
+  color: $medium-gray;
   font-style: italic;
 }
 
@@ -124,7 +122,7 @@ blockquote {
 
 // gray-italic text (mostly used for captions)
 .gray-italic {
-  color: $gray;
+  color: $medium-gray;
   font-style: italic;
   font-size: 17px;
 }
@@ -156,7 +154,7 @@ blockquote {
 // image styling
 .img-styling {
   border-radius: 2%;
-  border: 2px solid $gray;
+  border: 2px solid $medium-gray;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -174,7 +172,7 @@ blockquote {
 
 // resize logo (top left corner) see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
 .navbar-brand img { 
-  max-height: 55px;
+  max-height: 50px;
   width: auto;
 }
 
@@ -195,7 +193,7 @@ blockquote {
 
 // dropdown navbar text color
 .dropdown-item{
-  color: $sage-green;
+  color: $medium-green;
   background-color: $cream;
 }
 
@@ -212,5 +210,5 @@ blockquote {
 
 // about page link button colors 
 div.quarto-about-jolla .about-link {
-  color: $dark-sage-green;
+  color: $dark-green;
 }
