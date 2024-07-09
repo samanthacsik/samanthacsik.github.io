@@ -19,8 +19,8 @@
   {
     "listing": "/courses.html",
     "items": [
-      "/courses/eds-430-shiny/index.html",
       "/courses/eds-240-data-viz/index.html",
+      "/courses/eds-296-shiny/index.html",
       "/courses/eds-296-ds-portfolios/index.html"
     ]
   },

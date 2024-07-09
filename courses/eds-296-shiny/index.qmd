@@ -1,19 +1,19 @@
 ---
-title: "EDS 430 - Intro to Shiny"
+title: "EDS 296-1W - Intro to Shiny"
 description: |
-  a 1-unit course on building and deploying Shiny apps & dashboards
+  a 2-unit course on building and deploying Shiny apps & dashboards
 categories: [UCSB, shiny, R]
 image: shiny-hex-small.png
 draft: false
 ---
 
-[{{< fa window-maximize >}} course website](https://ucsb-meds.github.io/EDS-430-Intro-to-Shiny/){.btn target=_blank} [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-430){.btn target=_blank}
+[{{< fa window-maximize >}} course website](https://ucsb-meds.github.io/EDS-296-Intro-to-Shiny/){.btn target=_blank} [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-296-1w){.btn target=_blank}
 
 <br>
 
 # Course description
 
-These materials accompany the 1-unit, 2-day, hands-on coding workshop, [EDS 430 - Intro to Shiny](https://bren.ucsb.edu/courses/eds-430), offered through the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/), in partnership with the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/).
+These materials accompany the 1-unit, 2-day, hands-on coding workshop, [EDS 296-1W - Intro to Shiny](https://bren.ucsb.edu/courses/eds-296-1w), offered through the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/), in partnership with the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/).
 
 In this workshop, students will learn how to build and deploy Shiny applications. The [`{shiny}` package](https://shiny.posit.co/) provides a framework that allows R users to build interactive web applications and dashboards, and has become a popular tool for sharing data analyses and data-derived outputs with broad audiences. In this two-part short course, students will learn the fundamentals of reactivity, how to customize an application user interface (UI), best practices and workflows for developing shiny apps, and how to deploy their apps online via RStudio’s hosting service, [shinyapps.io](https://www.shinyapps.io/).
 
