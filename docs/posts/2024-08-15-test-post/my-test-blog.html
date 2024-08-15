@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>posts</title>
+<title>Test</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/favicon/light-sage-chick.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/favicon/light-sage-chick.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LW03VL0YTS"></script>
 
 <script type="text/javascript">
@@ -110,35 +79,6 @@ gtag('js', new Date());
 gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -149,8 +89,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logos/logo-transparent-dark.png" alt="The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon." class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logos/logo-transparent-dark.png" alt="The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon." class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -160,27 +100,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks_workshops.html"> 
+    <a class="nav-link" href="../../talks_workshops.html"> 
 <span class="menu-text">talks &amp; workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./courses.html"> 
+    <a class="nav-link" href="../../courses.html"> 
 <span class="menu-text">courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">posts</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -220,14 +160,13 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">posts</h1>
-            <p class="subtitle lead">some workshop-related posts and other musings</p>
+    <div class="quarto-title column-page">
+      <h1 class="title">Test</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta column-page">
 
       
     
@@ -238,11 +177,11 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="MEDS">MEDS <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Openscapes">Openscapes <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(4)</span></div><div class="category" data-category="R-Ladies">R-Ladies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="curriculum-development">curriculum-development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data-visualization">data-visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="distill">distill <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pedagogy">pedagogy <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
@@ -251,240 +190,7 @@ window.Quarto = {
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1723763587802" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/2024-08-15-test-post/my-test-blog.html" class="no-external"></a></p><a href="./posts/2024-08-15-test-post/my-test-blog.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2024-08-15-test-post/my-test-blog.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-08-15-test-post/my-test-blog.html" class="no-external">Test</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-08-15-test-post/my-test-blog.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-08-15-test-post/my-test-blog.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/2024-08-15-test-post/my-test-blog.html" class="no-external"></a></p><a href="./posts/2024-08-15-test-post/my-test-blog.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="MEDS,R,data-visualization,pedagogy,curriculum-development" data-listing-date-sort="1712041200000" data-listing-file-modified-sort="1712255111499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="37" data-listing-word-count-sort="7400">
-<div class="thumbnail">
-<p><a href="./posts/2024-04-02-data-viz-course/index.html" class="no-external"></a></p><a href="./posts/2024-04-02-data-viz-course/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2024-04-02-data-viz-course/media/horst-eco-r4ds.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2024-04-02-data-viz-course/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-04-02-data-viz-course/index.html" class="no-external">Building (and teaching) a graduate-level data science course</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-04-02-data-viz-course/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
-MEDS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('data-visualization'); return false;">
-data-visualization
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('pedagogy'); return false;">
-pedagogy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('curriculum-development'); return false;">
-curriculum-development
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-04-02-data-viz-course/index.html" class="no-external">a brain-dump of the many thoughts, processes, and considerations that have been my focus for the past seven(!) months </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-04-02-data-viz-course/index.html" class="no-external">
-<div class="listing-date">
-Apr 2, 2024
-</div>
-<div class="listing-author">
-Samantha Csik
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Quarto,Openscapes" data-listing-date-sort="1690873200000" data-listing-file-modified-sort="1712083819330" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3052">
-<div class="thumbnail">
-<p><a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external"></a></p><a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2023-08-01-openscapes-website/media/new-site.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external">Porting the Openscapes website from blogdown to Quarto</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
-Quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Openscapes'); return false;">
-Openscapes
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external">reflections of a first-time freelancer </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external">
-<div class="listing-date">
-Aug 1, 2023
-</div>
-<div class="listing-author">
-Samantha Csik
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Quarto,R,MEDS" data-listing-date-sort="1666594800000" data-listing-file-modified-sort="1723763483316" data-listing-date-modified-sort="1723763483000" data-listing-reading-time-sort="18" data-listing-word-count-sort="3503">
-<div class="thumbnail">
-<p><a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external"></a></p><a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2022-10-24-quarto-blogs/penguins.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external">Adding a blog to your existing Quarto website</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
-Quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
-MEDS
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external">Got a Quarto website, but no blog? We can fix that! </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external">
-<div class="listing-date">
-Oct 24, 2022
-</div>
-<div class="listing-author">
-Samantha Csik
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="R-Ladies,Openscapes,R,Python,Quarto" data-listing-date-sort="1655881200000" data-listing-file-modified-sort="1689917997465" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1742">
-<div class="thumbnail">
-<p><a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external"></a></p><a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2022-06-22-hello-quarto/quarto.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external">Hello Quarto!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R-Ladies'); return false;">
-R-Ladies
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Openscapes'); return false;">
-Openscapes
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
-Python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
-Quarto
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external">a Quarto Chat with NASA Openscapes, co-hosted with R-Ladies Santa Barbara [orginally published on the Openscapes blog] </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external">
-<div class="listing-date">
-Jun 22, 2022
-</div>
-<div class="listing-author">
-Samantha Csik, Julie Lowndes, Amy Steiker, Catalina Oaida Taglialatela, Aaron Friesz, J.J. Allaire, Erin Robinson, Stefanie Butland
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="distill,R,MEDS" data-listing-date-sort="1632466800000" data-listing-file-modified-sort="1689917997463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2269">
-<div class="thumbnail">
-<p><a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external"></a></p><a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2021-09-21-distill-blogs/barney_blog.gif" class="thumbnail-image"></p>
-</a><p><a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external">Why create presentation slides about blogging when you can just blog about it instead?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('distill'); return false;">
-distill
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
-MEDS
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external">I started putting together some slides on the whys and hows of blogging using {distill} when I realized…maybe I’ve just found the content for my first blog post?? </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external">
-<div class="listing-date">
-Sep 24, 2021
-</div>
-<div class="listing-author">
-Samantha Csik
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

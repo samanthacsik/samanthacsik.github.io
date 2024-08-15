@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -25,7 +25,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -36,7 +36,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -61,6 +61,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -104,7 +105,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -113,6 +120,7 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -134,75 +142,75 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../images/logos/logo-transparent-dark.png" alt="The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon." class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">home</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
- <span class="menu-text">about</span></a>
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks_workshops.html" rel="" target="">
- <span class="menu-text">talks &amp; workshops</span></a>
+    <a class="nav-link" href="../../talks_workshops.html"> 
+<span class="menu-text">talks &amp; workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../courses.html" rel="" target="">
- <span class="menu-text">courses</span></a>
+    <a class="nav-link" href="../../courses.html"> 
+<span class="menu-text">courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects.html" rel="" target="">
- <span class="menu-text">projects</span></a>
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html" rel="" target="">
- <span class="menu-text">posts</span></a>
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">posts</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-get-in-touch" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-get-in-touch" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">get in touch!</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-get-in-touch">    
         <li>
-    <a class="dropdown-item" href="https://twitter.com/SamanthaCsik" rel="" target="_blank"><i class="bi bi-twitter" role="img">
+    <a class="dropdown-item" href="https://twitter.com/SamanthaCsik" target="_blank"><i class="bi bi-twitter" role="img">
 </i> 
  <span class="dropdown-text">Twitter</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.linkedin.com/in/samanthacsik/" rel="" target="_blank"><i class="bi bi-linkedin" role="img">
+    <a class="dropdown-item" href="https://www.linkedin.com/in/samanthacsik/" target="_blank"><i class="bi bi-linkedin" role="img">
 </i> 
  <span class="dropdown-text">LinkedIn</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="mailto:scsik@ucsb.edu" rel="" target=""><i class="bi bi-envelope" role="img">
+    <a class="dropdown-item" href="mailto:scsik@ucsb.edu"><i class="bi bi-envelope" role="img">
 </i> 
  <span class="dropdown-text">email</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/samanthacsik/samanthacsik.github.io" rel="" target="_blank"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/samanthacsik/samanthacsik.github.io" target="_blank"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -224,23 +232,23 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
                   </div>
   </div>
     
-  <div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-author column-body">
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-heading">Affiliation</div>
     
       <div class="quarto-title-meta-contents">
       <p class="author"><a href="https://samanthacsik.github.io/">Samantha Csik</a> <a href="https://orcid.org/0000-0002-5300-3075" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
     </div>
-      <div class="quarto-title-meta-contents">
+    <div class="quarto-title-meta-contents">
           <p class="affiliation">
               <a href="https://ucsb-meds.github.io/">
               Master of Environmental Data Science Program @ The Bren School (UCSB) &amp; The National Center for Ecological Analysis and Synthesis
               </a>
             </p>
         </div>
-      </div>
+    </div>
 
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-body">
 
         
       <div>
@@ -253,7 +261,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">October 25, 2023</p>
+        <p class="date-modified">August 15, 2024</p>
       </div>
     </div>
       
@@ -285,11 +293,12 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 
 
 
+
 <p>About a year ago, I wrote my first ever blog post ~ about blogging ~ and tbh I’m a <em>little</em> embarrassed that this is only my third post here (does it count that I have <em>ideas</em> for blog posts squirreled away at least?? <svg aria-label="Face Grin Beam Sweat" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Face Grin Beam Sweat</title><path d="M476.8 126.3C497.1 120.8 512 102.7 512 81c0-20-28.6-60.4-41.6-77.7c-3.2-4.4-9.6-4.4-12.8 0c-9.5 12.6-27.1 37.2-36 57.5c-.3 .7-.6 1.4-.9 2.1C417.8 69.7 416 76 416 81c0 26 21.5 47 48 47c4.4 0 8.7-.6 12.8-1.7zM395.4 41.2C355.3 15.2 307.4 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512s256-114.6 256-256c0-35.8-7.3-69.9-20.6-100.8c-8.6 3.1-17.8 4.8-27.4 4.8c-8.9 0-17.6-1.5-25.7-4.2C454.7 185.5 464 219.7 464 256c0 114.9-93.1 208-208 208S48 370.9 48 256S141.1 48 256 48c48.7 0 93.4 16.7 128.9 44.7c-.6-3.8-.9-7.7-.9-11.7c0-11.4 3.8-22.4 7.1-30.5c1.3-3.1 2.7-6.2 4.3-9.3zM375 336.5c10.4-16.1-6.8-32.5-25.5-28.1c-28.9 6.8-60.5 10.5-93.6 10.5s-64.7-3.7-93.6-10.5c-18.7-4.4-35.9 12-25.5 28.1c24.6 38.1 68.7 63.5 119.1 63.5s94.5-25.4 119.1-63.5zM217.6 228.8l0 0 0 0 0 0c2.1 2.8 5.7 3.9 8.9 2.8s5.5-4.1 5.5-7.6c0-17.9-6.7-35.6-16.6-48.8c-9.8-13-23.9-23.2-39.4-23.2s-29.6 10.2-39.4 23.2C126.7 188.4 120 206.1 120 224c0 3.4 2.2 6.5 5.5 7.6s6.9 0 8.9-2.8l0 0 0 0 0 0 .2-.2c.2-.2 .4-.5 .7-.9c.6-.8 1.6-2 2.8-3.4c2.5-2.8 6-6.6 10.2-10.3c8.8-7.8 18.8-14 27.7-14s18.9 6.2 27.7 14c4.2 3.7 7.7 7.5 10.2 10.3c1.2 1.4 2.2 2.6 2.8 3.4c.3 .4 .6 .7 .7 .9l.2 .2 0 0zm160 0l0 0 0 0c2.1 2.8 5.7 3.9 8.9 2.8s5.5-4.1 5.5-7.6c0-17.9-6.7-35.6-16.6-48.8c-9.8-13-23.9-23.2-39.4-23.2s-29.6 10.2-39.4 23.2C286.7 188.4 280 206.1 280 224c0 3.4 2.2 6.5 5.5 7.6s6.9 0 8.9-2.8l0 0 0 0 0 0 .2-.2c.2-.2 .4-.5 .7-.9c.6-.8 1.6-2 2.8-3.4c2.5-2.8 6-6.6 10.2-10.3c8.8-7.8 18.8-14 27.7-14s18.9 6.2 27.7 14c4.2 3.7 7.7 7.5 10.2 10.3c1.2 1.4 2.2 2.6 2.8 3.4c.3 .4 .6 .7 .7 .9l.2 .2 0 0 0 0z"></path></svg>). Regardless, you should trust me<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> when I say that blogging is a great exercise for you to practice as regularly as you can – it can help you to:</p>
 <ul>
 <li><p>build your online profile/portfolio</p>
 <ul>
-<li><em>“…sharing anything is almost always better than sharing nothing”</em> -<a href="https://twitter.com/drob"><code>@drob</code></a> in his post, <a href="http://varianceexplained.org/r/start-blog/">Advice to aspiring data scientists: start a blog</a></li>
+<li><em>“…sharing anything is almost always better than sharing nothing”</em> -<a href="https://twitter.com/drob" target="_blank"><code>@drob</code></a> in his post, <a href="http://varianceexplained.org/r/start-blog/" target="_blank">Advice to aspiring data scientists: start a blog</a></li>
 </ul></li>
 <li><p>practice your writing &amp; communication skills</p></li>
 <li><p>stay atop data science trends</p></li>
@@ -298,62 +307,76 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <li><p>learn something new and/or solidify your understanding</p></li>
 <li><p>combat imposter syndrome</p>
 <ul>
-<li><em>“Once you’ve shared some analyses and code, you’ll probably find that you were underrating yourself in some areas.”</em> -also <a href="https://twitter.com/drob"><code>@drob</code></a> in his post, <a href="http://varianceexplained.org/r/start-blog/">Advice to aspiring data scientists: start a blog</a></li>
+<li><em>“Once you’ve shared some analyses and code, you’ll probably find that you were underrating yourself in some areas.”</em> -also <a href="https://twitter.com/drob" target="_blank"><code>@drob</code></a> in his post, <a href="http://varianceexplained.org/r/start-blog/" target="_blank">Advice to aspiring data scientists: start a blog</a></li>
 </ul></li>
 </ul>
-<p>Rather than repeat more content here, take a peek at my <a href="https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/">first post</a>, which touches on more reasons why you should blog and provides some ideas on how to structure your blog posts. Before jumping into things, I’ll leave you with one last piece of advice from <a href="https://twitter.com/drob"><code>@drob</code></a>:</p>
+<p>Rather than repeat more content here, take a peek at my <a href="https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/" target="_blank">first post</a>, which touches on more reasons why you should blog and provides some ideas on how to structure your blog posts. Before jumping into things, I’ll leave you with one last piece of advice from <a href="https://twitter.com/drob" target="_blank"><code>@drob</code></a>:</p>
 <blockquote class="twitter-tweet blockquote">
 <p lang="en" dir="ltr">
 </p><p>When you’ve written the same code 3 times, write a function<br><br>When you’ve given the same in-person advice 3 times, write a blog post</p>
 <p></p>
-<p>— David Robinson (<span class="citation" data-cites="drob">(<a href="#ref-drob" role="doc-biblioref"><strong>drob?</strong></a>)</span>) <a href="https://twitter.com/drob/status/928447584712253440?ref_src=twsrc%5Etfw">November 9, 2017</a></p>
+<p>— David Robinson (<span class="citation" data-cites="drob">(<a href="#ref-drob" role="doc-biblioref"><strong>drob?</strong></a>)</span>) <a href="https://twitter.com/drob/status/928447584712253440?ref_src=twsrc%5Etfw" target="_blank">November 9, 2017</a></p>
 </blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <section id="i.-before-we-chat-about-blogs" class="level2">
 <h2 class="anchored" data-anchor-id="i.-before-we-chat-about-blogs">I. Before we chat about blogs…</h2>
-<p>Our <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Master of Environmental Data Science</a> (MEDS) students created the bones of their Quarto websites a couple months ago, and more recently took a little dive into website customization using Sass &amp; CSS. For anyone who’s looking to get started on their website-building journey, feel free to explore the following resources:</p>
-<p><i class="fa-solid fa-window-maximize" title="Web browser window" aria-hidden="true"></i> <a href="https://ucsb-meds.github.io/creating-quarto-websites/">Creating your personal website using Quarto</a></p>
-<p><i class="fa-solid fa-palette" title="Painters palette" aria-hidden="true"></i> <a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide">Customizing Quarto Websites: Make your website stand out using Sass &amp; CSS</a></p>
+<p>Our <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science" target="_blank">Master of Environmental Data Science</a> (MEDS) students created the bones of their Quarto websites a couple months ago, and more recently took a little dive into website customization using Sass &amp; CSS. For anyone who’s looking to get started on their website-building journey, feel free to explore the following resources:</p>
+<p><i class="fa-solid fa-window-maximize" title="Web browser window" aria-hidden="true"></i> <a href="https://ucsb-meds.github.io/creating-quarto-websites/" target="_blank">Creating your personal website using Quarto</a></p>
+<p><i class="fa-solid fa-palette" title="Painters palette" aria-hidden="true"></i> <a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" target="_blank">Customizing Quarto Websites: Make your website stand out using Sass &amp; CSS</a></p>
 </section>
 <section id="ii.-whats-the-difference-between-a-website-and-a-blog" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="ii.-whats-the-difference-between-a-website-and-a-blog">II. What’s the difference between a website and a blog?</h2>
-<p>If you’ve spent some time poking around the official <a href="https://quarto.org/">Quarto documentation</a>, you may have noticed instructions for creating either a <a href="https://quarto.org/docs/websites/"><strong>Website</strong></a> or a <a href="https://quarto.org/docs/websites/website-blog.html"><strong>Blog</strong></a> – but what’s the difference? Not much, aside from the initial structure:</p>
-<div class="cell column-page quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p>If you’ve spent some time poking around the official <a href="https://quarto.org/" target="_blank">Quarto documentation</a>, you may have noticed instructions for creating either a <a href="https://quarto.org/docs/websites/" target="_blank"><strong>Website</strong></a> or a <a href="https://quarto.org/docs/websites/website-blog.html" target="_blank"><strong>Blog</strong></a> – but what’s the difference? Not much, aside from the initial structure:</p>
+<div>
+
+</div>
+<div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/website.png" class="img-fluid figure-img" width="653"></p>
-<figcaption class="figure-caption">When you create a new Quarto website, it’ll look like this (it has a traditional landing (i.e.&nbsp;‘Home’) page and no incorporated blog)…</figcaption>
+<figcaption>When you create a new Quarto website, it’ll look like this (it has a traditional landing (i.e.&nbsp;‘Home’) page and no incorporated blog)…</figcaption>
 </figure>
 </div>
 </div>
-<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/blog.png" class="img-fluid figure-img" width="653"></p>
-<figcaption class="figure-caption">… while a new Quarto blog will look like this (with a listing page as your landing page)</figcaption>
+<figcaption>… while a new Quarto blog will look like this (with a listing page as your landing page)</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<p>A Quarto Blog is <em>a type</em> of Quarto Website – according to the Quarto documentation, you can create websites that consist of just a single blog (like the above right-hand example), websites that have multiple blogs, or you can add a blog to a website that contains other content (which is what we’ll be doing today).</p>
+<p><strong>A Quarto Blog is <em>a type</em> of Quarto Website</strong> – you can create websites that consist of just a single blog (like the above right-hand example), websites that have multiple blogs, or you can add a blog to a website that contains other content (which is what we’ll be doing today).</p>
 </section>
 <section id="iii.-adding-a-blog-to-your-personal-quarto-website" class="level2">
 <h2 class="anchored" data-anchor-id="iii.-adding-a-blog-to-your-personal-quarto-website">III. Adding a blog to your personal Quarto website</h2>
-<div class="quote-text-bg">
+<div class="dark-green-bg">
 <p><strong>TL;DR:</strong> A couple of steps are required for setting up your blog, but generally speaking, you’ll need:</p>
-<p><svg aria-label="Angle Right" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Angle Right</title><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg> <strong>a folder</strong> (i.e.&nbsp;subdirectory) to hold all of your individual blog posts – I called my folder <code>posts/</code> (though the name is up to you). I also (optionally) added a <code>_metadata.yml</code> file to this folder which includes some formatting and configuration options that will apply to <em>all</em> blog posts in this folder</p>
-<p><svg aria-label="Angle Right" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Angle Right</title><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg> <strong>a listing page</strong>, which lists all of your blog posts for viewers to browse and click through – this is a <code>.qmd</code> file that you’ll add to your website’s navbar by including it in <code>_quarto.yml</code></p>
-<p><svg aria-label="Angle Right" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605f;overflow:visible;position:relative;"><title>Angle Right</title><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg> <strong>blog posts!</strong> Your listing page will be blank until you actually add your first blog post</p>
+<ol type="1">
+<li><p><strong>a folder</strong> (i.e.&nbsp;subdirectory) to hold all of your individual blog posts – I called my folder <code>posts/</code> (though the name is up to you). I also (optionally) added a <code>_metadata.yml</code> file to this folder which includes some formatting and configuration options that will apply to <em>all</em> blog posts in this folder</p></li>
+<li><p><strong>a listing page</strong>, which lists all of your blog posts for viewers to browse and click through – this is a <code>.qmd</code> file that you’ll add to your website’s navbar by including it in <code>_quarto.yml</code></p></li>
+<li><p><strong>blog posts!</strong> Your listing page will be blank until you actually add your first blog post</p></li>
+</ol>
 </div>
 <p><br></p>
 <p>Let’s create those together now.</p>
 <ol type="1">
-<li><p><strong>Create a <code>/posts</code> folder:</strong> Open up your Quarto website project (I find it easiest to do this in RStudio) and make sure you’re in your root directory. Here, we’ll create a new subdirectory, called <code>posts</code> (you can call this whatever you want), where all of our blog posts will eventually live. To do so, you can either (a) click on the <strong>add folder</strong> button, <img src="media/add-folder.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;">, in the Files pane, or (b) in the RStudio Terminal, run <code>mkdir posts</code>.</p></li>
-<li><p><strong><em>Optional:</em></strong> <strong>Add a <code>_metadata.yml</code> file to <code>/posts</code>:</strong> While not required, a <code>_metadata.yml</code> file can make your life easier if you want certain options to apply to all blog posts that you create. Create this one of two ways: <strong>(a)</strong> In the RStudio Terminal, run <code>cd posts</code> to move into that directory, then <code>touch _metadata.yml</code> to create the file, or <strong>(b)</strong> click into the <code>posts/</code> folder in the Files pane, then click <em>Blank File</em> &gt; <em>Text File</em> &gt; type <code>_metadata.yml</code> &gt; click <em>OK</em>. Open your <code>_metadata.yml</code> in the Source pane to add options. I like these options<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, but it’s entirely up to you what you want to include (if anything at all):</p></li>
+<li><p><strong>Create a <code>/posts</code> folder:</strong> Open up your Quarto website project and make sure you’re in your root directory. Here, we’ll create a new subdirectory, called <code>posts</code> (you can call this whatever you want), where all of our blog posts will eventually live. To do so, you can either:</p>
+<ol type="a">
+<li>click on the <em>add folder</em> button, <img src="media/add-folder.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;">, in the Files pane, or</li>
+<li>in the RStudio Terminal, run <code>mkdir posts</code>.</li>
+</ol></li>
+<li><p><strong><em>Optional:</em></strong> <strong>Add a <code>_metadata.yml</code> file to <code>/posts</code>:</strong> While not required, a <code>_metadata.yml</code> file can make your life easier if you want certain options to apply to all blog posts that you create. Create this one of two ways:</p>
+<ol type="a">
+<li>Click into the <code>posts/</code> folder in the Files pane, then click <em>Blank File</em> &gt; <em>Text File</em> &gt; type <code>_metadata.yml</code> &gt; click <em>OK</em>, or</li>
+<li>In the RStudio Terminal, run <code>cd posts</code> to move into that directory, then <code>touch _metadata.yml</code> to create the file</li>
+</ol></li>
 </ol>
+<p>Open your <code>_metadata.yml</code> in the Source pane to add options. I like these options<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, but it’s entirely up to you what you want to include (if anything at all):</p>
 <div class="cell">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -361,31 +384,46 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 </div>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># options specified here will apply to all posts in this folder</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># prevents posts from re-rendering unless explicitly told to do so (for more, see https://quarto.org/docs/projects/code-execution.html#freeze)</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># re-render posts only when a change to the source file is made ----</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>freeze<span class="sc">:</span> auto</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># enable banner style title blocks (see https://quarto.org/docs/authoring/title-blocks.html)</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># enable banner style title blocks ----</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>title<span class="sc">-</span>block<span class="sc">-</span>banner<span class="sc">:</span> true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <ol start="3" type="1">
-<li><strong>Create a <a href="https://quarto.org/docs/websites/website-listings.html">listing page</a>:</strong> A listing page is a page with content that is automatically generated from a list of documents – in this case, that would be a list of blog posts – and looks something like this (or check out <a href="https://samanthacsik.github.io/posts.html">my blog’s listing page</a>):</li>
+<li><strong>Create a <a href="https://quarto.org/docs/websites/website-listings.html" target="_blank">listing page</a>:</strong> Add a <code>posts.qmd</code> file to your <em>root</em> directory (click on the R Project icon, <img src="media/rproj.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;">, in the Files pane to jump back to your project’s root directory). There are a bunch of ways to create a new <code>.qmd</code> file, but one easy way is to choose <em>File</em> &gt; <em>New File</em> &gt; <em>Quarto Document…</em>. I’ll give mine the title “My Blog” when prompted (this is the name that will appear as the title your listing page), then saved it as <code>posts.qmd</code> (but you can choose whatever title and / or file name you’d like).</li>
 </ol>
-<div class="cell">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>What is a listing page?</strong>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A listing page is a web page with content that is automatically generated from a list of documents – in this case, that would be a list of blog posts – and looks something like this (or check out <a href="https://samanthacsik.github.io/posts.html" target="_blank">my blog’s listing page</a>):</p>
+<div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="media/listing-page.png" class="img-fluid figure-img" width="1235"></p>
-<figcaption class="figure-caption">An example listing page from the <a href="https://ucsb-meds.github.io/blog.html">MEDS Community Blog</a> showing multiple blog posts. While the MEDS website/blog is created using <code>{distill}</code>, you can expect something super similar. Quarto has multiple listing page layout options (default – which looks similar to the MEDS blog, grid, table) for you to explore</figcaption>
+<p><img src="media/quarto-listing-page.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="680"></p>
 </figure>
 </div>
 </div>
 </div>
-<ul>
-<li>To create a listing page, add a <code>posts.qmd</code> file to your <em>root</em> directory. First, click on the R Project icon, <img src="media/rproj.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;">, in the Files pane to jump back to your project’s root directory. There are a bunch of ways to create a new <code>.qmd</code> file, but one easy way is to choose <em>File</em> &gt; <em>New File</em> &gt; <em>Quarto Document…</em>. Below, I give mine the title “My Blog” when prompted (this name appears at the top of your listing page), then saved it as <code>posts.qmd</code> (but you can choose whatever title and/or file name you’d like).</li>
-</ul>
+<div class="center-text small-text gray-italic">
+<p>An example listing page from the <a href="https://quarto.org/docs/blog/" target="_blank">Quarto Blog</a> showing multiple blog posts. Quarto has multiple <a href="https://quarto.org/docs/websites/website-listings.html#listing-types" target="_blank">listing page layout options</a> (<code>default</code> (shown above), <code>grid</code>, and <code>table</code>) for you to explore.</p>
+</div>
+</div>
+</div>
+</div>
 <ol start="4" type="1">
-<li><strong>Configure your listing page:</strong> Specify how you’d like your listing page to be arranged by updating the YAML section of <code>posts.qmd</code>. There are a variety of options that you can specify. Below are just a few, but be sure to check out <a href="https://quarto.org/docs/websites/website-listings.html">other options</a>:</li>
+<li><strong>Configure your listing page:</strong> Specify how you’d like your listing page to be arranged by updating the YAML section of <code>posts.qmd</code>. There are a variety of options that you can specify. Below are just a few, but be sure to check out <a href="https://quarto.org/docs/websites/website-listings.html" target="_blank">other options</a>:</li>
 </ol>
 <div class="cell">
 <div class="code-with-filename">
@@ -395,7 +433,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"My Blog"</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>listing<span class="sc">:</span> </span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  contents<span class="sc">:</span> posts <span class="co"># all Quarto docs in the `posts` directory will be included on your listing page</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  contents<span class="sc">:</span> posts <span class="co"># this name must match the name of the folder you created in step #1; here, all Quarto docs in the `posts` directory will be included on your listing page</span></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  type<span class="sc">:</span> grid <span class="co"># or `default` or `table`; each type has its own set of yaml options to include</span></span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  sort<span class="sc">:</span> <span class="st">"date desc"</span> <span class="co"># can also sort on more than one field</span></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  categories<span class="sc">:</span> true <span class="co"># allows you to sort posts by assigned categories </span></span>
@@ -423,13 +461,13 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 </div>
 </div>
 <ol start="6" type="1">
-<li><strong>Preview or Render your website:</strong> Make sure your listing page shows up by previewing (I typically run <code>quarto preview</code> in the Terminal) or rendering (click the <strong>Render</strong> button in the <strong>Build</strong> tab in RStudio) your website. You should have something that looks like this (we haven’t created any posts yet, so it’ll be empty for now):</li>
+<li><strong>Preview or Render your website:</strong> Make sure your listing page shows up by previewing (I typically run <code>quarto preview</code> in the Terminal) or rendering (click the <strong>Render</strong> button in the <strong>Build</strong> tab in RStudio, or run <code>quarto render</code> in the Terminal) your website. You should have something that looks like this (we haven’t created any posts yet, so it’ll be empty for now):</li>
 </ol>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="media/blog-added.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="media/blog-added.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="A listing page titled, 'My Blog,' appears in the navbar of our website. It's currently an empty listing page (i.e. no blog posts appear on the listing page) since we haven't created any blog posts yet."></p>
 </figure>
 </div>
 </div>
@@ -437,11 +475,28 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 </section>
 <section id="iv.-add-a-blog-post-to-your-blog" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="iv.-add-a-blog-post-to-your-blog">IV. Add a blog post to your blog</h2>
-<p>Now that you have your listing page set up, we can start populating it with blog posts. Repeat the following steps each time you want to add a new post.</p>
+<p>Now that you have your listing page set up, we can start populating it with blog posts. <em>Repeat the following steps each time you want to add a new post.</em></p>
 <ol type="1">
-<li><p><strong>Create a subdirectory <em>inside</em> your <code>posts/</code> directory:</strong> To stay organized, I usually name mine <code>YYYY-MM-DD-short-post-description</code>. This folder name will also become the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Slug">slug</a> for your published post.</p></li>
-<li><p><strong>Inside your new subdirectory, create an <code>index.qmd</code> file.</strong> The name here is important! It <em>must</em> be called <code>index.qmd</code>. Your file path should look something like this: <code>myWebsite/posts/2022-10-24-my-blog-post/index.qmd</code>. This file is your blog post. Write all your content here!</p></li>
-<li><p><strong>Configure your blog post:</strong> You can add a variety of different options to the YAML section of <code>index.qmd</code>. Here are my go-to options:</p></li>
+<li><p><strong>Create a subdirectory <em>inside</em> your <code>posts/</code> directory:</strong> To stay organized, I usually name mine <code>YYYY-MM-DD-short-post-description</code>. This folder name will also become the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Slug" target="_blank">slug</a> for your published post.</p></li>
+<li><p><strong>Inside your new subdirectory, create an <code>index.qmd</code> file.</strong> Your file path should look something like this: <code>myWebsite/posts/2022-10-24-my-blog-post/index.qmd</code>. This file is your blog post. Write all your content here!</p></li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>Why name your blog post file, <code>index.qmd</code>?</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is mostly important for maintaining short, clean URLs.</p>
+<p>Let’s take this very blog post for example. The content that you’re reading right now is written to the file, <code>samanthacsik.github.io/posts/2022-10-24-quarto-blogs/index.qmd</code> (you can check it out on <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd">GitHub</a>), and the resulting URL is <a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/" class="uri">https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/</a>.</p>
+<p>If I named my blog post file something like, <code>my-blog-post.qmd</code> (<em>rather than <code>index.qmd</code></em>), the resulting URL would instead look like, <a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/my-blog-post.html" class="uri">https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/my-blog-post.html</a>. This isn’t necessarily <em>wrong</em> or broken, but it does result in a lengthier URL – and short URLs tend to be easier to remember!</p>
+</div>
+</div>
+<ol start="3" type="1">
+<li><strong>Configure your blog post:</strong> You can add a variety of different options to the YAML section of <code>index.qmd</code>. Here are my go-to options:</li>
 </ol>
 <div class="cell">
 <div class="code-with-filename">
@@ -475,21 +530,24 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <li><p>Include an image (or gif) to add as a <strong>preview image</strong>, which will appear on your listing page alongside your post. Your image should live inside your post’s subdirectory (e.g.&nbsp;<code>mywebsite/posts/2022-10-24-my-blog-post/preview-image.png</code>).</p></li>
 <li><p>Set <strong><code>draft: true</code></strong> while you’re still working on your blog post to prevent it from showing up on your listing page, site map, or site search (it will still be available at a searchable URL). When you’re ready to publish, just remove <code>draft: true</code> from your YAML (or set to <code>false</code>), then render your post.</p></li>
 </ul>
-<div class="cell column-page quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div>
+
+</div>
+<div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/ex-listing-page.png" class="img-fluid figure-img" width="674"></p>
-<figcaption class="figure-caption">A grid-style listing page featuring one blog post with a preview image, title, three categories, description, author, and publishing date</figcaption>
+<figcaption>A grid-style listing page featuring one blog post with a preview image, title, three categories, description, author, and publishing date</figcaption>
 </figure>
 </div>
 </div>
-<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/my-first-post.png" class="img-fluid figure-img" width="674"></p>
-<figcaption class="figure-caption">An example blog post, with a banner-style title block</figcaption>
+<figcaption>An example blog post, with a banner-style title block</figcaption>
 </figure>
 </div>
 </div>
@@ -500,7 +558,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="media/repo-structure.png" class="img-fluid figure-img" width="1162"></p>
+<p><img src="media/repo-structure.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="1162"></p>
 </figure>
 </div>
 </div>
@@ -594,7 +652,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="media/citations.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="media/citations.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -636,7 +694,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-csik2021" class="csl-entry" role="listitem">
 Csik, Samantha. 2021. <span>“Why Create Presentation Slides about Blogging When You Can Just Blog about It Instead?”</span> September 24, 2021. <a href="https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/">https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/</a>.
 </div>
@@ -665,10 +723,10 @@ Scherer, Cédric. 2019. <span>“A Ggplot2 Tutorial for Beautiful Plotting in R.
 
 <ol>
 <li id="fn1"><p>Okay, you don’t <em>just</em> have to trust me. Lots of data scientists advocate for blogging as an important skill and communication tool. Check out this <a href="http://varianceexplained.org/r/start-blog/">blog post</a> by <a href="https://twitter.com/drob">David Robinson</a> to start.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p><strong>The <code>freeze</code> option:</strong> Setting this option to <code>auto</code> will <em>only</em> re-render posts when you make updates to the source files (as opposed to re-rendering them each time you <strong>Render Website</strong> – this can save time, particularly if you have computationally-heavy content in your blog posts). If you set this option to <code>true</code>, posts will <em>never</em> be re-rendered (even if you’ve made changes to the source files). If you use this option, you’ll need to <strong>Render</strong> individual posts whenever you make changes to their source files <em>before</em> you <strong>Render Website</strong>, otherwise your updates will not appear.</p>
-<p><strong>The <code>title-block-banner</code> option:</strong> Setting this option to <code>true</code> will enable a <a href="https://quarto.org/docs/authoring/title-blocks.html#title-banners">banner style title block</a> (where the title, subtitle, description, and categories are all positioned inside the banner) for all posts.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><strong>The <code>freeze</code> option:</strong> Setting this option to <code>auto</code> will <em>only</em> re-render posts when you make updates to the source files (as opposed to re-rendering them each time you <strong>Render Website</strong> – this can save time, particularly if you have computationally-heavy content in your blog posts). If you set this option to <code>true</code>, posts will <em>never</em> be re-rendered (even if you’ve made changes to the source files). If you use this option, you’ll need to <strong>Render</strong> individual posts whenever you make changes to their source files <em>before</em> you <strong>Render Website</strong>, otherwise your updates will not appear. Check out <a href="https://quarto.org/docs/projects/code-execution.html#freeze" target="_blank">the Quarto documentation</a> and <a href="https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/03-freeze/index.html" target="_blank">this great short blog post</a> for more information on <code>freeze</code>.</p>
+<p><strong>The <code>title-block-banner</code> option:</strong> Setting this option to <code>true</code> will enable a <a href="https://quarto.org/docs/authoring/title-blocks.html#title-banners" target="_blank">banner style title block</a> (where the title, subtitle, description, and categories are all positioned inside the banner) for all posts.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{csik2022,
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{csik2022,
   author = {Csik, Samantha},
   title = {Adding a Blog to Your Existing {Quarto} Website},
   date = {2022-10-24},
@@ -714,18 +772,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -757,11 +804,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/samanthacsik\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -771,8 +857,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -784,7 +879,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -828,6 +1046,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -853,6 +1072,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -915,13 +1160,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2021, Samantha Csik</div>   
+    <div class="nav-footer-left">
+<p>© Copyright 2021, Samantha Csik</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">This website is built with <i class="fa-solid fa-heart" title="a heart" aria-hidden="true"></i>, <a href="https://github.com/samanthacsik/samanthacsik.github.io" target="_blank"><i class="fa-brands fa-github" title="GitHub octocat logo" aria-hidden="true"></i></a>, <a href="https://www.r-project.org/about.html" target="_blank"><i class="fa-brands fa-r-project" title="R Project" aria-hidden="true"></i></a> and <a href="https://quarto.org/" target="_blank">Quarto</a></div>
+    <div class="nav-footer-right">
+<p>This website is built with <i class="fa-solid fa-heart" title="a heart" aria-hidden="true"></i>, <a href="https://github.com/samanthacsik/samanthacsik.github.io" target="_blank"><i class="fa-brands fa-github" title="GitHub octocat logo" aria-hidden="true"></i></a>, <a href="https://www.r-project.org/about.html" target="_blank"><i class="fa-brands fa-r-project" title="R Project" aria-hidden="true"></i></a> and <a href="https://quarto.org/" target="_blank">Quarto</a></p>
+</div>
   </div>
 </footer>
+
 
 
 
