@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -25,7 +25,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -36,7 +36,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -61,6 +61,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -104,7 +105,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -113,6 +120,7 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -134,75 +142,75 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../images/logos/logo-transparent-dark.png" alt="The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon." class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">home</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
- <span class="menu-text">about</span></a>
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks_workshops.html" rel="" target="">
- <span class="menu-text">talks &amp; workshops</span></a>
+    <a class="nav-link" href="../../talks_workshops.html"> 
+<span class="menu-text">talks &amp; workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../courses.html" rel="" target="">
- <span class="menu-text">courses</span></a>
+    <a class="nav-link" href="../../courses.html"> 
+<span class="menu-text">courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects.html" rel="" target="">
- <span class="menu-text">projects</span></a>
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html" rel="" target="">
- <span class="menu-text">posts</span></a>
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">posts</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-get-in-touch" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-get-in-touch" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">get in touch!</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-get-in-touch">    
         <li>
-    <a class="dropdown-item" href="https://twitter.com/SamanthaCsik" rel="" target="_blank"><i class="bi bi-twitter" role="img">
+    <a class="dropdown-item" href="https://twitter.com/SamanthaCsik" target="_blank"><i class="bi bi-twitter" role="img">
 </i> 
  <span class="dropdown-text">Twitter</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.linkedin.com/in/samanthacsik/" rel="" target="_blank"><i class="bi bi-linkedin" role="img">
+    <a class="dropdown-item" href="https://www.linkedin.com/in/samanthacsik/" target="_blank"><i class="bi bi-linkedin" role="img">
 </i> 
  <span class="dropdown-text">LinkedIn</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="mailto:scsik@ucsb.edu" rel="" target=""><i class="bi bi-envelope" role="img">
+    <a class="dropdown-item" href="mailto:scsik@ucsb.edu"><i class="bi bi-envelope" role="img">
 </i> 
  <span class="dropdown-text">email</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/samanthacsik/samanthacsik.github.io" rel="" target="_blank"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/samanthacsik/samanthacsik.github.io" target="_blank"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -224,23 +232,23 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
                   </div>
   </div>
     
-  <div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-author column-page-left">
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-heading">Affiliation</div>
     
       <div class="quarto-title-meta-contents">
       <p class="author"><a href="https://samanthacsik.github.io/">Samantha Csik</a> <a href="https://orcid.org/0000-0002-5300-3075" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
     </div>
-      <div class="quarto-title-meta-contents">
+    <div class="quarto-title-meta-contents">
           <p class="affiliation">
               <a href="https://ucsb-meds.github.io/">
               Master of Environmental Data Science Program @ The Bren School (UCSB) &amp; The National Center for Ecological Analysis &amp; Synthesis
               </a>
             </p>
         </div>
-      </div>
+    </div>
 
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
         
       <div>
@@ -293,6 +301,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 
 
 
+
 <p>I am a total blog newb.</p>
 <p><em>BUT</em> we all have to start somewhere. And my somewhere is leading a mini-workshop in T-6 days for our first Master of Environmental Data Science (MEDS) cohort (read more about this <em>awesome</em> new program <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">here</a>) on why blogging as data scientists is an important and valuable skill to practice, what a good blog post might look like, and some of the technical aspects of creating blog posts using the <code>{distill}</code> package.</p>
 <p>I originally set off on my self-education journey by digging into other data science-related blogs and throwing together some slides about what I found. I even practiced creating a fake blog post on my own (and very much still under development) <a href="samanthacsik.github.io">personal website</a> in case anyone asked me to walk them through the steps (I can’t look like I don’t know what I’m doing now, right??).</p>
@@ -316,10 +325,11 @@ When you’ve written the same code 3 times, write a function<br><br>When you’
 <p>There are <em>lots</em> of creative ways to blog (both for yourself and your target audience) about your data science journey. Here are just a few examples<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> that caught my eye.</p>
 <section id="i.-make-a-tutorial-for-yourself-and-others" class="level3">
 <h3 class="anchored" data-anchor-id="i.-make-a-tutorial-for-yourself-and-others">i. Make a tutorial for yourself (and others)</h3>
-<p><a href="https://www.allisonhorst.com/">Allison Horst</a> shares all the exciting ways you can customize tables using the <code>{gt}</code> package, including code snippets and resulting outputs in her post, <strong>Customizing tables is fun (seriously) with gt</strong> <span class="citation" data-cites="horst2021gt">(<a href="#ref-horst2021gt" role="doc-biblioref">Horst 2021</a>)</span>.</p>
+<p><a href="https://meghan.rbind.io/">Meghan Hall</a> shares an intro tutorial on using the <code>{cowplot}</code> package for arranging plots, including code snippets and resulting outputs in her post, <strong>An Introduction to Cowplot</strong> <span class="citation" data-cites="hall2021cowplot">(<a href="#ref-hall2021cowplot" role="doc-biblioref">Hall 2021</a>)</span>.</p>
+<!-- [Allison Horst](https://www.allisonhorst.com/) shares all the exciting ways you can customize tables using the `{gt}` package, including code snippets and resulting outputs in her post, **Customizing tables is fun (seriously) with gt** [@horst2021gt]. -->
+<!-- https://www.allisonhorst.com/post/2020-03-02-gt-tables-examples/ -->
 <div class="cell">
-
-<iframe src="https://www.allisonhorst.com/post/2020-03-02-gt-tables-examples/" width="100%" height="400px" data-external="1">
+<iframe src="https://meghan.rbind.io/blog/2021-08-21-an-introduction-to-cowplot/" width="100%" height="400px" data-external="1">
 </iframe>
 </div>
 </section>
@@ -343,7 +353,7 @@ When you’ve written the same code 3 times, write a function<br><br>When you’
 <h3 class="anchored" data-anchor-id="iv.-hold-yourself-accountable-to-a-coding-challenge-and-teach-others-along-the-way">iv. Hold yourself accountable to a coding challenge (and teach others along the way!)</h3>
 <p><a href="https://ellakaye.rbind.io/">Ella Kaye</a> documents her progress through the 2020 <a href="https://adventofcode.com/">Advent of Code</a>, a series of small coding challenges, released daily through December in her post <strong>Advent of Code, 2020</strong> <span class="citation" data-cites="kaye2020advent">(<a href="#ref-kaye2020advent" role="doc-biblioref">Kaye 2020</a>)</span>.</p>
 <div class="cell">
-<iframe src="https://ellakaye.rbind.io/posts/2020-12-09-advent-of-code-2020/" width="100%" height="400px" data-external="1">
+<iframe src="https://ellakaye.rbind.io/posts/2020-12-09_advent-of-code-2020/" width="100%" height="400px" data-external="1">
 </iframe>
 </div>
 </section>
@@ -378,7 +388,7 @@ When you’ve written the same code 3 times, write a function<br><br>When you’
 <iframe src="https://lapsedgeographer.london/2020-04/covid19-scraping/" width="100%" height="400px" data-external="1">
 </iframe>
 </div>
-<p>Now that we’re all feeling inspired to flex our creative data science muscles, let’s create and customize our own blog posts <svg aria-label="Blog" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#A58893;overflow:visible;position:relative;"><title>Blog</title><path d="M172.2 226.8c-14.6-2.9-28.2 8.9-28.2 23.8V301c0 10.2 7.1 18.4 16.7 22 18.2 6.8 31.3 24.4 31.3 45 0 26.5-21.5 48-48 48s-48-21.5-48-48V120c0-13.3-10.7-24-24-24H24c-13.3 0-24 10.7-24 24v248c0 89.5 82.1 160.2 175 140.7 54.4-11.4 98.3-55.4 109.7-109.7 17.4-82.9-37-157.2-112.5-172.2zM209 0c-9.2-.5-17 6.8-17 16v31.6c0 8.5 6.6 15.5 15 15.9 129.4 7 233.4 112 240.9 241.5.5 8.4 7.5 15 15.9 15h32.1c9.2 0 16.5-7.8 16-17C503.4 139.8 372.2 8.6 209 0zm.3 96c-9.3-.7-17.3 6.7-17.3 16.1v32.1c0 8.4 6.5 15.3 14.8 15.9 76.8 6.3 138 68.2 144.9 145.2.8 8.3 7.6 14.7 15.9 14.7h32.2c9.3 0 16.8-8 16.1-17.3-8.4-110.1-96.5-198.2-206.6-206.7z"></path></svg></p>
+<p>Now that we’re all feeling inspired to flex our creative data science muscles, let’s create and customize our own blog posts <svg aria-label="Blog" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#A58893;overflow:visible;position:relative;"><title>Blog</title><path d="M192 32c0 17.7 14.3 32 32 32c123.7 0 224 100.3 224 224c0 17.7 14.3 32 32 32s32-14.3 32-32C512 128.9 383.1 0 224 0c-17.7 0-32 14.3-32 32zm0 96c0 17.7 14.3 32 32 32c70.7 0 128 57.3 128 128c0 17.7 14.3 32 32 32s32-14.3 32-32c0-106-86-192-192-192c-17.7 0-32 14.3-32 32zM96 144c0-26.5-21.5-48-48-48S0 117.5 0 144V368c0 79.5 64.5 144 144 144s144-64.5 144-144s-64.5-144-144-144H128v96h16c26.5 0 48 21.5 48 48s-21.5 48-48 48s-48-21.5-48-48V144z"></path></svg></p>
 </section>
 </section>
 <section id="iii.-adding-a-distill-blog-to-your-personal-website" class="level2 page-columns page-full">
@@ -420,7 +430,11 @@ When you’ve written the same code 3 times, write a function<br><br>When you’
 <p>Preview images are those fun little thumbnails that appear alongside blog posts on your listing page:</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="media/preview_img.png" class="img-fluid" width="1163"></p>
+<div>
+<figure class="figure">
+<p><img src="media/preview_img.png" class="img-fluid figure-img" width="1163"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>Add your image to the folder where your blog post <code>.Rmd</code> lives (e.g.&nbsp;<code>_posts</code> -&gt; <code>YYYY-MM-DD-my-blog-post</code> -&gt; <code>my_preview_image.jpeg</code>). Then, add the <code>preview</code> field to the YAML header of your blog post <code>.Rmd</code> file and set the value to the name of your preview image:</p>
@@ -521,7 +535,7 @@ When you’ve written the same code 3 times, write a function<br><br>When you’
 <p><code>## Corrections {.appendix}</code></p>
 <p><code>If you see mistakes or want to suggest changes...</code></p>
 <p><br> <br></p>
-<p>I had a ton of fun playing around with some of these easy-to-implement features that the <code>{distill}</code> package provides for customizing blog posts. And I had even <em>more</em> fun checking out other data science blogs as I looked for inspiration. I hope they inspired you too! Happy blogging <svg aria-label="Beaming Face With Smiling Eyes" role="img" viewbox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#A58893;overflow:visible;position:relative;"><title>Beaming Face With Smiling Eyes</title><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM112 223.4c3.3-42.1 32.2-71.4 56-71.4s52.7 29.3 56 71.4c.7 8.6-10.8 11.9-14.9 4.5l-9.5-17c-7.7-13.7-19.2-21.6-31.5-21.6s-23.8 7.9-31.5 21.6l-9.5 17c-4.3 7.4-15.8 4-15.1-4.5zm250.8 122.8C334.3 380.4 292.5 400 248 400s-86.3-19.6-114.8-53.8c-13.5-16.3 11-36.7 24.6-20.5 22.4 26.9 55.2 42.2 90.2 42.2s67.8-15.4 90.2-42.2c13.6-16.2 38.1 4.3 24.6 20.5zm6.2-118.3l-9.5-17c-7.7-13.7-19.2-21.6-31.5-21.6s-23.8 7.9-31.5 21.6l-9.5 17c-4.1 7.3-15.6 4-14.9-4.5 3.3-42.1 32.2-71.4 56-71.4s52.7 29.3 56 71.4c.6 8.6-11 11.9-15.1 4.5z"></path></svg></p>
+<p>I had a ton of fun playing around with some of these easy-to-implement features that the <code>{distill}</code> package provides for customizing blog posts. And I had even <em>more</em> fun checking out other data science blogs as I looked for inspiration. I hope they inspired you too! Happy blogging <svg aria-label="Face Smile Beam" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#A58893;overflow:visible;position:relative;"><title>Face Smile Beam</title><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm177.6 62.1C192.8 334.5 218.8 352 256 352s63.2-17.5 78.4-33.9c9-9.7 24.2-10.4 33.9-1.4s10.4 24.2 1.4 33.9c-22 23.8-60 49.4-113.6 49.4s-91.7-25.5-113.6-49.4c-9-9.7-8.4-24.9 1.4-33.9s24.9-8.4 33.9 1.4zm40-89.3l0 0 0 0-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2 0 0 0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8l0 0 0 0zm160 0l0 0-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2 0 0 0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8l0 0 0 0 0 0z"></path></svg></p>
 
 
 
@@ -529,7 +543,7 @@ When you’ve written the same code 3 times, write a function<br><br>When you’
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-allaire2018distill" class="csl-entry" role="listitem">
 Allaire, JJ, Rich Iannone, Alison Presmanes Hill, and Yihui Xie. 2018. <span>“Distill for <span>R</span> Markdown.”</span> <a href="https://rstudio.github.io/distill">https://rstudio.github.io/distill</a>.
 </div>
@@ -551,14 +565,14 @@ Fisher, Harry. 2020. <span>“Data, Code &amp; Coffee: Penguins and <span class=
 <div id="ref-gahm2021" class="csl-entry" role="listitem">
 Gahm, Kaija. 2021. <span>“Kaija Gahm:”</span> <a href="https://kaijagahm.netlify.app/posts/2020-02-10-upping-your-pipe-game/">https://kaijagahm.netlify.app/posts/2020-02-10-upping-your-pipe-game/</a>.
 </div>
+<div id="ref-hall2021cowplot" class="csl-entry" role="listitem">
+Hall, Meghan. 2021. <span>“An Introduction to <span class="nocase">cowplot</span>.”</span> <a href="https://meghan.rbind.io/blog/2021-08-21-an-introduction-to-cowplot/">https://meghan.rbind.io/blog/2021-08-21-an-introduction-to-cowplot/</a>.
+</div>
 <div id="ref-apreshill2020postcards" class="csl-entry" role="listitem">
 Hill, Alison. 2020. <span>“<span>M-F-E-O</span>: <span class="nocase">postcards</span> + <span class="nocase">distill</span>.”</span> <a href="https://www.apreshill.com/blog/2020-12-postcards-distill/">https://www.apreshill.com/blog/2020-12-postcards-distill/</a>.
 </div>
-<div id="ref-horst2021gt" class="csl-entry" role="listitem">
-Horst, Allison. 2021. <span>“Customizing <span class="nocase">tables</span> <span class="nocase">is</span> <span class="nocase">fun</span> (<span class="nocase">seriously</span>) with <span class="nocase">gt</span>.”</span> <a href="https://www.allisonhorst.com/post/2020-03-02-gt-tables-examples/">https://www.allisonhorst.com/post/2020-03-02-gt-tables-examples/</a>.
-</div>
 <div id="ref-kaye2020advent" class="csl-entry" role="listitem">
-Kaye, Ella. 2020. <span>“ELLA KAYE: Advent of Code 2020.”</span> <a href="https://ellakaye.rbind.io/posts/2020-12-09-advent-of-code-2020/">https://ellakaye.rbind.io/posts/2020-12-09-advent-of-code-2020/</a>.
+Kaye, Ella. 2020. <span>“ELLA KAYE: Advent of Code 2020.”</span> <a href="https://ellakaye.rbind.io/posts/2020-12-09_advent-of-code-2020/">https://ellakaye.rbind.io/posts/2020-12-09_advent-of-code-2020/</a>.
 </div>
 <div id="ref-kerlogue2020automating" class="csl-entry" role="listitem">
 Kerlogue, Matt. 2020a. <span>“The Lapsed Geographer: Automating the COVID19 PDF Scraping.”</span> <a href="https://lapsedgeographer.london/2020-04/automating-pdf-scraping/">https://lapsedgeographer.london/2020-04/automating-pdf-scraping/</a>.
@@ -582,8 +596,8 @@ Xie, Yihui, Christophe Dervieux, and Emily Riederer. 2021. <span>“<span>R</spa
 <li id="fn2"><p>I might also add that having to look up something 3x <em>for yourself</em> might be a good reason to blog about it. Read David Robinson’s full post about starting a data science blog <a href="http://varianceexplained.org/r/start-blog/">here</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>Many of the following blogs can be found on the <a href="https://distillery.rbind.io/">distillery</a>, a blog about building distill websites and blogs. Check it out!<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{csik2021,
-  author = {Csik, Samantha},
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{csik2021,
+  author = {Csik, Samantha and Csik, Samantha},
   title = {Why Create Presentation Slides about Blogging When You Can
     Just Blog about It Instead?},
   date = {2021-09-24},
@@ -591,9 +605,9 @@ Xie, Yihui, Christophe Dervieux, and Emily Riederer. 2021. <span>“<span>R</spa
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-csik2021" class="csl-entry quarto-appendix-citeas" role="listitem">
-Csik, Samantha. 2021. <span>“Why Create Presentation Slides about
-Blogging When You Can Just Blog about It Instead?”</span> September 24,
-2021. <a href="https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/">https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/</a>.
+Csik, Samantha, and Samantha Csik. 2021. <span>“Why Create Presentation
+Slides about Blogging When You Can Just Blog about It Instead?”</span>
+September 24, 2021. <a href="https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/">https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -630,18 +644,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -673,11 +676,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/samanthacsik\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -687,8 +729,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -700,7 +751,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -744,6 +918,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -769,6 +944,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -831,13 +1032,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2021, Samantha Csik</div>   
+    <div class="nav-footer-left">
+<p>© Copyright 2021, Samantha Csik</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">This website is built with <i class="fa-solid fa-heart" title="a heart" aria-hidden="true"></i>, <a href="https://github.com/samanthacsik/samanthacsik.github.io" target="_blank"><i class="fa-brands fa-github" title="GitHub octocat logo" aria-hidden="true"></i></a>, <a href="https://www.r-project.org/about.html" target="_blank"><i class="fa-brands fa-r-project" title="R Project" aria-hidden="true"></i></a> and <a href="https://quarto.org/" target="_blank">Quarto</a></div>
+    <div class="nav-footer-right">
+<p>This website is built with <i class="fa-solid fa-heart" title="a heart" aria-hidden="true"></i>, <a href="https://github.com/samanthacsik/samanthacsik.github.io" target="_blank"><i class="fa-brands fa-github" title="GitHub octocat logo" aria-hidden="true"></i></a>, <a href="https://www.r-project.org/about.html" target="_blank"><i class="fa-brands fa-r-project" title="R Project" aria-hidden="true"></i></a> and <a href="https://quarto.org/" target="_blank">Quarto</a></p>
+</div>
   </div>
 </footer>
+
 
 
 

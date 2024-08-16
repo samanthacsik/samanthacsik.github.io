@@ -1,3 +1,6 @@
 ---
-title: "Test"
+title: "blog post title"
+description: "blog post description (appears underneath the title in smaller text) which is included on the listing"
+draft: true
+draft-mode: visible
 ---

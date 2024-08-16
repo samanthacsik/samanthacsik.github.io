@@ -34,7 +34,7 @@ About a year ago, I wrote my first ever blog post \~ about blogging \~ and tbh I
 
 -   network
 
--   learn something new and/or solidify your understanding
+-   learn something new and / or solidify your understanding
 
 -   combat imposter syndrome
 
@@ -99,12 +99,12 @@ knitr::include_graphics("media/blog.png")
 
 Let's create those together now.
 
-1.  **Create a `/posts` folder:** Open up your Quarto website project and make sure you're in your root directory. Here, we'll create a new subdirectory, called `posts` (you can call this whatever you want), where all of our blog posts will eventually live. To do so, you can either:
+1.  **Create a `/posts` folder:** Open up your Quarto website project and make sure you're in your root directory. Here, we'll create a new subdirectory, called `posts` (though you can call this whatever you want), where all of our blog posts will eventually live. To do so, you can either:
 
     a. click on the *add folder* button, <img src="media/add-folder.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;"/>, in the Files pane, or
     b. in the RStudio Terminal, run `mkdir posts`.
 
-2.  ***Optional:*** **Add a `_metadata.yml` file to `/posts`:** While not required, a `_metadata.yml` file can make your life easier if you want certain options to apply to all blog posts that you create. Create this one of two ways: 
+2.  ***Optional:*** **Add a `_metadata.yml` file to `/posts`:** While not required, a `_metadata.yml` file can make your life easier if you want certain options to apply to *all* blog posts that you create. Create this one of two ways: 
 
     a. Click into the `posts/` folder in the Files pane, then click *Blank File* \> *Text File* \> type `_metadata.yml` \> click *OK*, or
     b. In the RStudio Terminal, run `cd posts` to move into that directory, then `touch _metadata.yml` to create the file
@@ -128,7 +128,7 @@ title-block-banner: true
 
     **The `title-block-banner` option:** Setting this option to `true` will enable a [banner style title block](https://quarto.org/docs/authoring/title-blocks.html#title-banners){target="_blank"} (where the title, subtitle, description, and categories are all positioned inside the banner) for all posts.
     
-3.  **Create a [listing page](https://quarto.org/docs/websites/website-listings.html){target="_blank"}:** Add a `posts.qmd` file to your *root* directory (click on the R Project icon, <img src="media/rproj.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;"/>, in the Files pane to jump back to your project's root directory). There are a bunch of ways to create a new `.qmd` file, but one easy way is to choose *File* \> *New File* \> *Quarto Document...*. I'll give mine the title "My Blog" when prompted (this is the name that will appear as the title your listing page), then saved it as `posts.qmd` (but you can choose whatever title and / or file name you'd like).
+3.  **Create a [listing page](https://quarto.org/docs/websites/website-listings.html){target="_blank"}:** Add a `posts.qmd` file to your *root* directory (click on the R Project icon, <img src="media/rproj.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;"/>, in the Files pane to jump back to your project's root directory). There are a bunch of ways to create a new `.qmd` file, but one easy way is to choose *File* \> *New File* \> *Quarto Document...*. I'll give mine the title "My Blog" when prompted (this is the name that will appear as the title your listing page), then save it as `posts.qmd` (but you can choose whatever title and / or file name you'd like).
 
 ::: {.callout-note collapse=true}
 ## **What is a listing page?**
@@ -138,12 +138,13 @@ A listing page is a web page with content that is automatically generated from a
 #| eval: true
 #| echo: false
 #| fig-align: "center"
+#| fig-cap: "An example listing page from the [Quarto Blog](https://quarto.org/docs/blog/) showing multiple blog posts. Quarto has multiple [listing page layout options](https://quarto.org/docs/websites/website-listings.html#listing-types) (`default` (shown above), `grid`, and `table`) for you to explore."
 knitr::include_graphics("media/quarto-listing-page.png")
 ```
 
-::: {.center-text .small-text .gray-italic}
-An example listing page from the [Quarto Blog](https://quarto.org/docs/blog/){target="_blank"} showing multiple blog posts. Quarto has multiple [listing page layout options](https://quarto.org/docs/websites/website-listings.html#listing-types){target="_blank"} (`default` (shown above), `grid`, and `table`) for you to explore.
-:::
+<!-- ::: {.center-text .small-text .gray-italic} -->
+<!-- An example listing page from the [Quarto Blog](https://quarto.org/docs/blog/){target="_blank"} showing multiple blog posts. Quarto has multiple [listing page layout options](https://quarto.org/docs/websites/website-listings.html#listing-types){target="_blank"} (`default` (shown above), `grid`, and `table`) for you to explore. -->
+<!-- ::: -->
 :::
 
 4.  **Configure your listing page:** Specify how you'd like your listing page to be arranged by updating the YAML section of `posts.qmd`. There are a variety of options that you can specify. Below are just a few, but be sure to check out [other options](https://quarto.org/docs/websites/website-listings.html){target="_blank"}:
@@ -161,7 +162,7 @@ listing:
 ---
 ```
 
-5.  **Add your listing page to your website's navbar:** Update `_quarto.yml` with your new listing page to add it to your site's navbar:
+5.  **Add your listing page to your website's navbar (so visitors can easily find your blog!):** Update `_quarto.yml` with your new listing page to add it to your site's navbar:
 
 ```{r filename="_quarto.yml"}
 #| eval: false
@@ -175,7 +176,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - posts.qmd # add your posts.qmd file to your navbar!
+      - posts.qmd # add your listing page file to your navbar, just like you would any other new web page
+
 ```
 
 6.  **Preview or Render your website:** Make sure your listing page shows up by previewing (I typically run `quarto preview` in the Terminal) or rendering (click the **Render** button in the **Build** tab in RStudio, or run `quarto render` in the Terminal) your website. You should have something that looks like this (we haven't created any posts yet, so it'll be empty for now):
@@ -201,9 +203,9 @@ Now that you have your listing page set up, we can start populating it with blog
 ## **Why name your blog post file, `index.qmd`?**
 This is mostly important for maintaining short, clean URLs. 
 
-Let's take this very blog post for example. The content that you're reading right now is written to the file, `samanthacsik.github.io/posts/2022-10-24-quarto-blogs/index.qmd` (you can check it out on [GitHub](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd)), and the resulting URL is <https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/>.
+Let's take this very blog post for example. The content that you're reading right now is written to the file, `samanthacsik.github.io/posts/2022-10-24-quarto-blogs/index.qmd` (you can check it out on [GitHub](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd){target="_blank"}), and the resulting URL is <https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/>.
 
-If I named my blog post file something like, `my-blog-post.qmd` (*rather than `index.qmd`*), the resulting URL would instead look like, <https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/my-blog-post.html>. This isn't necessarily *wrong* or broken, but it does result in a lengthier URL -- and short URLs tend to be easier to remember! 
+If I named my blog post file something like, `my-blog-post.qmd` (*rather than `index.qmd`*), the resulting URL would instead look like, <https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/my-blog-post.html>. This isn't necessarily *wrong* or broken, but it does result in a lengthier URL -- and short URLs tend to be easier to remember. 
 :::
 
 3.  **Configure your blog post:** You can add a variety of different options to the YAML section of `index.qmd`. Here are my go-to options:
@@ -231,17 +233,26 @@ draft: false # setting this to `true` will prevent your post from appearing on y
 
 Some notes on the above options:
 
--   You should include a **title**, but don't necessarily need a **description** (although I think they're nice to have!). Both of these fields will appear on your listing page.
+-   You should include a **title**, but don't necessarily need a **description** (though I think these are nice to include!). These fields will appear on your listing page. You may also consider adding a **subtitle**.
 
--   You can include more than one **author** -- see [this post](https://samanthacsik.github.io/posts/2022-06-22-hello-quarto/) and [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-06-22-hello-quarto/index.qmd) as an example.
+-   You can include more than one **author** -- see [this post](https://samanthacsik.github.io/posts/2022-06-22-hello-quarto/){target="_blank"} and [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-06-22-hello-quarto/index.qmd){target="_blank"} as an example.
 
--   You may include as many self-defined **categories** as you'd like. Make sure that your spelling/capitalization/punctuation is consistent across blog posts should you apply the same categories to multiple posts.
+-   You may include as many self-defined **categories** as you'd like. Make sure that your spelling / capitalization / punctuation is consistent across blog posts should you apply the same categories to multiple posts.
 
--   Adding the **citation** option automatically generates both a [BibTeX citation](https://en.wikipedia.org/wiki/BibTeX) and reference for your blog post, and adds them to the bottom of your post.
+-   Adding the **citation** option automatically generates both a [BibTeX citation](https://en.wikipedia.org/wiki/BibTeX){target="_blank"} and reference for your blog post, and adds them to the bottom of your post.
 
 -   Include an image (or gif) to add as a **preview image**, which will appear on your listing page alongside your post. Your image should live inside your post's subdirectory (e.g. `mywebsite/posts/2022-10-24-my-blog-post/preview-image.png`).
 
 -   Set **`draft: true`** while you're still working on your blog post to prevent it from showing up on your listing page, site map, or site search (it will still be available at a searchable URL). When you're ready to publish, just remove `draft: true` from your YAML (or set to `false`), then render your post.
+    - Quarto v1.5.56 introduced draft banners, which will appear on any draft posts (see screenshot, below). You can also control how drafts are linked / rendered on your website using the [`draft-mode` option](https://quarto.org/docs/websites/website-drafts.html#appearance-of-drafts){target="_blank"}. By default, any page set as a draft will not be linked or searchable. If you want your draft to still be searchable at it's URL (helpful if you want to share a draft with someone, but don't want it showing up on your listing page just yet), consider setting `draft-mode` to either `unlinked` or `visible` -- check out the [documentation](https://quarto.org/docs/websites/website-drafts.html) for more information.
+
+::: {.callout-tip}
+## **Remember: You can also add options to `_metadata.yml` if you want them applied to *all* posts!**
+
+Do you want your own author / affiliation information applied to each blog post you write, by default? Add it instead to `_metadata.yml` and save yourself re-typing it each time you create a new post!
+
+Are you collaborating on a blog post with additional authors? You can override the defaults set in `_metadata.yml` by specifying the `author` option directly in any particular blog post file (`index.qmd`).
+:::
 
 ```{r}
 #| eval: true
@@ -250,7 +261,7 @@ Some notes on the above options:
 #| column: page
 #| fig-subcap: 
 #| - "A grid-style listing page featuring one blog post with a preview image, title, three categories, description, author, and publishing date"
-#| - "An example blog post, with a banner-style title block"
+#| - "An example draft blog post, with a banner-style title block."
 knitr::include_graphics("media/ex-listing-page.png")
 knitr::include_graphics("media/my-first-post.png")
 ```

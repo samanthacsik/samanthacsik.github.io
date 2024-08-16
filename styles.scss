@@ -68,9 +68,9 @@ blockquote {
   height: 350px;
 }
 
-// titles
-.title {
-  color: $dark-gray;
+// banner titles (these turned dark green after updating to Quarto v1.5.56, so forcing them to be gray again with this rule)
+.quarto-title-banner h1 {
+  color: $medium-gray;
 }
 
 // figure caption text styling
