@@ -46,10 +46,6 @@ h1, h2, h3, h4, h5, h6 {
   color: $medium-gray;
 }
 
-/*h3 {
-  font-size: 35px;
-}*/
-
 body {
   font-family: $nunito;
   line-height: 1.5; // min 1.5 suggested for assistive tech
@@ -70,6 +66,11 @@ blockquote {
 #map-size {
   width: 100%;
   height: 350px;
+}
+
+// banner titles (these turned dark green after updating to Quarto v1.5.56, so forcing them to be gray again with this rule)
+.quarto-title-banner h1 {
+  color: $medium-gray;
 }
 
 // figure caption text styling
@@ -201,6 +202,10 @@ blockquote {
 .card {
   background-color: $cream;
   //border-radius: 5.25em;
+}
+
+.callout.callout-style-default .callout-body {
+  background-color: $cream;
 }
 
 /*.quarto-category {

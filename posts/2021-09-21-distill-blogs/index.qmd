@@ -42,12 +42,16 @@ There are *lots* of creative ways to blog (both for yourself and your target aud
 
 ### i. Make a tutorial for yourself (and others)
 
-[Allison Horst](https://www.allisonhorst.com/) shares all the exciting ways you can customize tables using the `{gt}` package, including code snippets and resulting outputs in her post, **Customizing tables is fun (seriously) with gt** [@horst2021gt].
+[Meghan Hall](https://meghan.rbind.io/) shares an intro tutorial on using the `{cowplot}` package for arranging plots, including code snippets and resulting outputs in her post, **An Introduction to Cowplot** [@hall2021cowplot].
+
+<!-- [Allison Horst](https://www.allisonhorst.com/) shares all the exciting ways you can customize tables using the `{gt}` package, including code snippets and resulting outputs in her post, **Customizing tables is fun (seriously) with gt** [@horst2021gt]. -->
+
+<!-- https://www.allisonhorst.com/post/2020-03-02-gt-tables-examples/ -->
 
 ```{r}
 #| echo: false
 #| out-width: 100%
-knitr::include_url("https://www.allisonhorst.com/post/2020-03-02-gt-tables-examples/")
+knitr::include_url("https://meghan.rbind.io/blog/2021-08-21-an-introduction-to-cowplot/")
 ```
 
 ### ii. Compare popular tools to new alternatives
@@ -77,7 +81,7 @@ knitr::include_url("https://www.ericekholm.com/posts/improving-ggplots-with-text
 ```{r}
 #| echo: false
 #| out-width: 100%
-knitr::include_url("https://ellakaye.rbind.io/posts/2020-12-09-advent-of-code-2020/")
+knitr::include_url("https://ellakaye.rbind.io/posts/2020-12-09_advent-of-code-2020/")
 ```
 
 ### v. Share what you learned at a conference
