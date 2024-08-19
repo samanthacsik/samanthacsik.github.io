@@ -20,6 +20,8 @@ There are so many amazing things I could say about this process and experience, 
 
 <div class="dark-green-bg">**TL;DR** I rebuilt the [Openscapes website](https://openscapes.org/) using [Quarto](https://quarto.org/) and documented a lot of what I learned and how I did it in the website's [GitHub Wiki](https://github.com/Openscapes/website-new/wiki). This was not only a super helpful practice for me in my own open science learning journey, but also for the Openscapes team as they take over continued maintenance of the site. I reflect on some of the most memorable moments of my first freelancing adventure, including creating responsive web pages, learning regex, and how open communication, collaboration, and cheering each other on can make any daunting task more approachable.</div>
 
+<br>
+
 ## **Task:** Port the Openscapes website from blogdown to Quarto
 
 To start, what does **port** mean? While it may be obvious to some, I feel like this word is sort of jargon-y. I first learned of it when [Quarto](https://quarto.org/) was thrust into the spotlight and the R community at large began *"porting their websites from distill/blogdown/etc to Quarto"*. I came to understand that (at least in this context) "port" means "to convert or migrate" a website from one framework to another (or in other words, rebuild a website using different tools).
