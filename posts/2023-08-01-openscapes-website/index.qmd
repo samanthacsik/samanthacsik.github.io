@@ -26,7 +26,7 @@ There are so many amazing things I could say about this process and experience, 
 
 To start, what does **port** mean? While it may be obvious to some, I feel like this word is sort of jargon-y. I first learned of it when [Quarto](https://quarto.org/) was thrust into the spotlight and the R community at large began *"porting their websites from distill/blogdown/etc to Quarto"*. I came to understand that (at least in this context) "port" means "to convert or migrate" a website from one framework to another (or in other words, rebuild a website using different tools).
 
-So why the need to port the Openscapes website to Quarto? Julie originally built the site back in 2018 using [blogdown](https://bookdown.org/yihui/blogdown/) and the [Universal Theme for Hugo](https://github.com/Openscapes/website/tree/main/themes/hugo-universal-theme) (you can still check out the [GitHub repo](https://github.com/Openscapes/website))  -- and it was really beautiful! 
+So, why the need to port the Openscapes website to Quarto? Julie originally built the site back in 2018 using [blogdown](https://bookdown.org/yihui/blogdown/) and the [Universal Theme for Hugo](https://github.com/Openscapes/website/tree/main/themes/hugo-universal-theme) (you can still check out the [GitHub repo](https://github.com/Openscapes/website))  -- and it was really beautiful! 
 
 ```{r}
 #| eval: true
@@ -41,7 +41,8 @@ knitr::include_graphics("media/old_site.png")
 *A screenshot of the old Openscapes website's landing page, built using blogdown.*
 :::
 
-Unfortunately, upgrades to Hugo were beyond Julie's scope to maintain which meant the site could no longer build locally (i.e. you couldn't preview the site on a personal computer). This meant that the site needed to be redeployed in order to view any changes. Not only was this a rather slow process, but it also meant that there was no easy way to test out new additions/pages/features (or even check for typos) before sharing those updates with the rest of the online world. 
+Unfortunately, upgrades to Hugo were beyond Julie's scope to maintain and meant the site could no longer be built locally (i.e. you couldn't preview the site on a personal computer). In other words, the site needed to be redeployed in order to view any changes. Not only was this a rather slow process, but it also meant that there was no easy way to test out new additions/pages/features (or even check for typos) before sharing those updates with the rest of the online world. 
+
 Additionally, the Openscapes team has used Quarto since its earliest days (read more about that in their [quarto blog posts](https://openscapes.org/blog.html#category=quarto)) -- it seemed like a good time as any to begin using this same tool for building the Openscapes website as well.
 
 ## **Pause:** Why me?
@@ -71,7 +72,7 @@ knitr::include_graphics("media/new-site.png")
 *A screenshot of the new Openscapes website's landing page, built using Quarto! We were able to recreate the landing page so that it looked pretty darn similar to the blogdown site.*
 :::
 
-2. **Incorporate events:** Openscapes Events were historically announced through a separate [Events blog](https://openscapes.github.io/events/), which we decided to incorporate fully into the Openscapes website on its own [events listing](https://openscapes.org/events).
+2. **Incorporate events:** Openscapes Events were historically announced through a separate [Events blog](https://github.com/Openscapes/events), which we decided to incorporate fully into the Openscapes website on its own [events listing](https://openscapes.org/events).
 3. **Feedback & updates:** Stef and Julie did multiple deep dive reviews of the website and I made changes based off their suggestions/requests. Some of these were minor (e.g. "Can we add a bit more vertical space in underlined text", "this hyperlinked text is broken"), while others required a bit more thought (e.g. "let's rethink how we structure content on this page", figuring out CSS to style particular page elements). They *also* had the chance to share the website with a focus group, which provided invaluable feedback on content organization, language, etc. (e.g. "remove unnecessary text from the landing page", "replace the words *instructional materials* with *curriculum*")
 4. **More feedback & updates:** The hardest part and also the most fun part was the back-and-forth discussion on how to rethink, try out, and change the website. We fiddled a lot with content reorganization and CSS styling to better highlight different resources/elements. It was a super collaborative and iterative process to get things to where they are now!
 5. **Figure out responsive web pages:** I saved the most technically challenging part (at least for me) for last -- learning how to create responsive web pages (where content adjusts size and positioning based on viewport size) involved a lot of trial and error.
