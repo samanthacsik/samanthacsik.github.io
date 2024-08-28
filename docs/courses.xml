@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Sam Csik</title>
+<link>https://samanthacsik.github.io/courses.html</link>
+<atom:link href="https://samanthacsik.github.io/courses.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Wed, 28 Aug 2024 00:24:15 GMT</lastBuildDate>
+<item>
+  <title>EDS 240 - Data Visualization &amp; Communication</title>
+  <link>https://samanthacsik.github.io/courses/eds-240-data-viz/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://samanthacsik.github.io/EDS-240-data-viz/" class="btn" target="_blank"> course website</a> <a href="https://bren.ucsb.edu/courses/eds-240" class="btn" target="_blank"> course catalog</a></p>
+<p><br></p>
+<section id="course-description" class="level1">
+<h1>Course description</h1>
+<p>Effectively communicating your work in a responsible, accessible and visually-pleasing way is often (if not, always) a central part of data science. This course will focus on the basic principles for effective communication through data visualization and using technical tools and workflows for creating and sharing data visualizations with diverse audiences.</p>
+<p>By the end of this course, learners should be able to:</p>
+<ul>
+<li>Identify which types of visualizations are most appropriate for your data and your audience</li>
+<li>Prepare (e.g.&nbsp;clean, explore, wrangle) data so that it’s appropriately formatted for building data visualizations</li>
+<li>Build effective, responsible, accessible, and aesthetically-pleasing, visualizations using the R programming language, and specifically <code>{ggplot2}</code> + ggplot2 extension packages</li>
+<li>Write code from scratch and read and adapt code written by others</li>
+<li>Apply a DEI (Diversity, Equity &amp; Inclusion) lens to the process of designing data visualizations</li>
+<li>Assess, critique, and provide constructive feedback on data visualizations</li>
+</ul>
+<p><br></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/courses/eds-240-data-viz/horst-ggplot-masterpiece.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%" alt="A fuzzy monster in a beret and scarf, critiquing their own column graph on a canvas in front of them while other assistant monsters (also in berets) carry over boxes full of elements that can be used to customize a graph (like themes and geometric shapes). In the background is a wall with framed data visualizations. Stylized text reads 'ggplot2: build a data masterpiece.'"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="when-is-this-taught" class="level1">
+<h1>When is this taught?</h1>
+<p>EDS 240 is a <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds/meds-courses">core course</a> of the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds">Master of Environmental Data Science</a> (MEDS) program, taught in Winter quarter each year (since the inaugural cohort, Winter 2022). I had so much fun redesigning and teaching it for the first time in Winter 2024, and I reflect on my experiences in my blog post, <a href="https://samanthacsik.github.io/posts/2024-04-02-data-viz-course/">Buiding (and teaching) a graduate-level data science course</a>!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>UCSB</category>
+  <category>data-visualization</category>
+  <category>R</category>
+  <category>ggplot</category>
+  <guid>https://samanthacsik.github.io/courses/eds-240-data-viz/</guid>
+  <pubDate>Wed, 28 Aug 2024 00:24:15 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/courses/eds-240-data-viz/horst-eco-r4ds.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>EDS 296-1W - Intro to Shiny</title>
+  <link>https://samanthacsik.github.io/courses/eds-296-shiny/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://ucsb-meds.github.io/EDS-296-Intro-to-Shiny/" class="btn" target="_blank"> course website</a> <a href="https://bren.ucsb.edu/courses/eds-296-1w" class="btn" target="_blank"> course catalog</a></p>
+<p><br></p>
+<section id="course-description" class="level1">
+<h1>Course description</h1>
+<p>These materials accompany the 1-unit, 2-day, hands-on coding workshop, <a href="https://bren.ucsb.edu/courses/eds-296-1w">EDS 296-1W - Intro to Shiny</a>, offered through the <a href="https://bren.ucsb.edu/">Bren School of Environmental Science &amp; Management</a>, in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis &amp; Synthesis</a>.</p>
+<p>In this workshop, students will learn how to build and deploy Shiny applications. The <a href="https://shiny.posit.co/"><code>{shiny}</code> package</a> provides a framework that allows R users to build interactive web applications and dashboards, and has become a popular tool for sharing data analyses and data-derived outputs with broad audiences. In this two-part short course, students will learn the fundamentals of reactivity, how to customize an application user interface (UI), best practices and workflows for developing shiny apps, and how to deploy their apps online via RStudio’s hosting service, <a href="https://www.shinyapps.io/">shinyapps.io</a>.</p>
+<p><br></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/courses/eds-296-shiny/shiny-hex.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:25.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="when-is-this-taught" class="level1">
+<h1>When is this taught?</h1>
+<p>This course began as a humble, 2-hour long workshop in Winter 2022, when I was just beginning to learn Shiny myself. It was expanded into a credit-bearing 2-day long course in Winter 2023, and I’ve revamped / reorganized materials into their own course website for Winter 2024. You can expect that materials will be reviewed and updated at least once annually, around late fall - early winter.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>UCSB</category>
+  <category>shiny</category>
+  <category>R</category>
+  <guid>https://samanthacsik.github.io/courses/eds-296-shiny/</guid>
+  <pubDate>Wed, 28 Aug 2024 00:24:15 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/courses/eds-296-shiny/shiny-hex-small.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>EDS 296-1F - Data science tools for building professional online portfolios</title>
+  <link>https://samanthacsik.github.io/courses/eds-296-ds-portfolios/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://ucsb-meds.github.io/EDS-296-DS-portfolios/" class="btn" target="_blank"> course website</a> <a href="https://bren.ucsb.edu/courses/eds-296-1f" class="btn" target="_blank"> course catalog</a></p>
+<p><br></p>
+<section id="course-description" class="level1">
+<h1>Course description</h1>
+<p>Having a polished online presence is essential for showcasing your skills, projects, expertise, and (importantly) your personality. Learners, collaborators, and future employers alike will look to your public online profiles to glean information about you and your work. As data scientists, this often means that they’ll head to one of two places: GitHub and / or your personal website. This course is designed to help you both lay the foundation for creating and maintaining these profiles in an organized, informative, and visually-appealing way. Over the next several weeks, you will:</p>
+<ul>
+<li>build and deploy your personal website using popular data science tools and frameworks</li>
+<li>create your first (of many!) data science blog posts</li>
+<li>learn about how best to communicate your work to different audiences</li>
+<li>understand where and how to document your projects and code</li>
+<li>and more!</li>
+</ul>
+<p><br></p>
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/courses/eds-296-ds-portfolios/quarto.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/courses/eds-296-ds-portfolios/github.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:95.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p><br></p>
+</section>
+<section id="when-is-this-taught" class="level1">
+<h1>When is this taught?</h1>
+<p>I’m super excited to offer this new course starting Fall 2024 (so if you’ve stumbled across this here now, you’ll find some very-much-in-progress materials). I’ve taught components of this as separate non-credit-bearing workshops since 2022:</p>
+<ul>
+<li><a href="https://ucsb-meds.github.io/creating-quarto-websites/">Creating your personal website using Quarto</a></li>
+<li><a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide">Customizing Quarto websites</a></li>
+<li><a href="../../posts/2022-10-24-quarto-blogs/index.html">Adding a blog to your existing Quarto website</a></li>
+</ul>
+<p>The full course will include these, with an additional focus on GitHub as a professional portfolio.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>UCSB</category>
+  <category>data-science-portfolio</category>
+  <category>Quarto</category>
+  <category>GitHub</category>
+  <guid>https://samanthacsik.github.io/courses/eds-296-ds-portfolios/</guid>
+  <pubDate>Wed, 28 Aug 2024 00:24:15 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/courses/eds-296-ds-portfolios/quarto-github.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
+</channel>
+</rss>

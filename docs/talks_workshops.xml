@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Sam Csik</title>
+<link>https://samanthacsik.github.io/talks_workshops.html</link>
+<atom:link href="https://samanthacsik.github.io/talks_workshops.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Fri, 17 May 2024 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Quarto for documenting Ocean Health Index (OHI) methods</title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2024-05-17-OHI-quarto-websites/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/talks_workshops/2024-05-17-OHI-quarto-websites/ohi-quarto-green.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Two side-by-side hexagons. The leftmost hexagon is blue with the word, `quarto`, and the Quarto logo, which is a circle divided into equal quadrants. The rightmost hexagon is blue with the words, 'Ocean Health Index', and the OHI logo, which looks like the flower plots that are characteristic of OHI score reporting."></p>
+</figure>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://samanthacsik.github.io/OHI-quarto-websites/" class="btn" target="_blank"> materials</a> <a href="https://github.com/samanthacsik/OHI-quarto-websites" class="btn" target="_blank"> source code</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>This workshop is meant to introduce Quarto as a tool and framework for building websites. It has been tailored (from it’s <a href="https://ucsb-meds.github.io/creating-quarto-websites/">previous version</a>) to serve <a href="https://oceanhealthindex.org/">Ocean Health Index</a> (OHI) <a href="https://oceanhealthindex.org/about/ohifellows/">fellows</a> in building websites to organize, house, and better share OHI methodology. We walk through the steps of creating the essential building blocks of any Quarto website, configuring website navigation menus, deploying a website (for free) using GitHub Pages, using Sass to update website fonts and colors, and a few other helpful tips and tricks.</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>This workshop was delivered to the 2024 <a href="https://oceanhealthindex.org/about/ohifellows/">Ocean Health Index fellows</a>, a group of three early-career data scientists who work to calculate the latest OHI scores and improve workflows and methodology (among other exciting and innovative work). They are based at the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a> from May - September.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{csik2024,
+  author = {Csik, Samantha},
+  title = {Quarto for Documenting {Ocean} {Health} {Index} {(OHI)}
+    Methods},
+  date = {2024-05-17},
+  url = {https://samanthacsik.github.io/talks/2024-05-17-OHI-quarto-websites/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-csik2024" class="csl-entry quarto-appendix-citeas">
+Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
+(OHI) Methods.”</span> May 17, 2024. <a href="https://samanthacsik.github.io/talks/2024-05-17-OHI-quarto-websites/">https://samanthacsik.github.io/talks/2024-05-17-OHI-quarto-websites/</a>.
+</div></div></section></div> ]]></description>
+  <category>NCEAS</category>
+  <category>Ocean-Health-Index</category>
+  <category>R</category>
+  <category>Quarto</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2024-05-17-OHI-quarto-websites/</guid>
+  <pubDate>Fri, 17 May 2024 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2024-05-17-OHI-quarto-websites/ohi-quarto.png" medium="image" type="image/png" height="82" width="144"/>
+</item>
+<item>
+  <title>Just enough CSS (and Sass) for data scientists</title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2023-08-03-just-enough-css/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<center>
+<iframe src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" title="Just Enough CSS (and Sass) for data scientists" width="750px," height="550px">
+</iframe>
+</center>
+<div class="center-text">
+<p><a href="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" class="btn" target="_blank"> slides</a> <a href="https://github.com/samanthacsik/just-enough-css-sass" class="btn" target="_blank"> source code</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>While many of us in the broader data science community may not consider ourselves web developers, tools like Quarto and GitHub have made it more approachable than ever before to create, publish, and share HTML web pages. The default styling of these web pages is pretty sleek – but knowing even just a little bit of CSS can help you transform your reports, websites, blog posts, presentation slides, etc. into personalized and stand-out web products.</p>
+<p>In this workshop-style Roundtable, we’ll first introduce and interact with some HTML and CSS, the building blocks of all web pages. We’ll then learn about how Sass extends CSS features to help simplify our stylesheets. Finally, we’ll practice writing Sass and CSS to style a Quarto Markdown (<code>.qmd</code>) report.</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>This workshop was delivered to NCEAS residents and staff during the monthly <a href="https://www.nceas.ucsb.edu/roundtable">Roundtable</a> seminar. Roundtable is a series of informal presentations and discussions on a wide variety of topics related to current work happening at NCEAS. Sign up for the <a href="https://groups.google.com/a/nceas.ucsb.edu/g/roundtable">Google Group</a> to receive announcements of upcoming Roundtables.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>NCEAS</category>
+  <category>Quarto</category>
+  <category>CSS</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2023-08-03-just-enough-css/</guid>
+  <pubDate>Thu, 03 Aug 2023 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2023-08-03-just-enough-css/bob-ross.gif" medium="image" type="image/gif"/>
+</item>
+<item>
+  <title>Integrating JavaScript Libraries into R for Dynamic Visualizations</title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>An Bui</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2023-05-23-js-in-r/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/talks_workshops/2023-05-23-js-in-r/leaflet.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="An interactive map, created using the `{leaflet}` package in R, that is centered over coastal Santa Barbara. Lobster-shaped markers denote subtidal kelp forest research sites. THe user moves around the viewport, zooms in/out, toggles on map and marker layers, and clicks on the makrers to display additional site-level information."></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="gray-italic center-text">
+<p>An interactive map made with the <code>{leaflet}</code> R package.</p>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://samanthacsik.github.io/SORTEE-May2023/" class="btn" target="_blank"> materials</a> <a href="https://github.com/samanthacsik/SORTEE-May2023" class="btn" target="_blank"> source code</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>JavaScript, a programming language used to create dynamic web page content, is becoming an increasingly popular data science tool for building interactive data visualizations. However, learning an entirely new programming language can be time prohibitive and unrealistic for many researchers. Lucky for R users, there’s an app (well, R packages) for that!</p>
+<p>In this hands-on live-coding workshop, we’ll explore the {DT}, {plotly}, and {leaflet} packages, which make JavaScript libraries more accessible for R-users looking to infuse their static visualizations with interactivity. Together, we’ll build an interactive table, plot, and map, and demonstrate how these outputs can be shared using open data science communication tools, like RMarkdown and Quarto.</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>This workshop was developed for and taught during the <a href="https://www.sortee.org/other_events/">SORTEE Workshops and Webinar</a> series.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>SORTEE</category>
+  <category>R</category>
+  <category>JavaScript</category>
+  <category>data-visualization</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2023-05-23-js-in-r/</guid>
+  <pubDate>Tue, 23 May 2023 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2023-05-23-js-in-r/js_pkgs.png" medium="image" type="image/png" height="78" width="144"/>
+</item>
+<item>
+  <title>An iterative approach to streamlining analytical workflows using functions and for loops</title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2023-04-14-functions-forloops/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/talks_workshops/2023-04-14-functions-forloops/an_bui_function-structure.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%" alt="A hand-drawn function showcasing the basic expected structure. The function is named 'my.function' and takes an arguement called, 'arguments'. A 'new.object' is created by something that takes 'arguments' and retruns 'new.object' at the end. Hand-drawn stars and a smiling Saturn-shaped planet are in the background."></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="gray-italic center-text">
+<p>Art by <a href="https://an-bui.com/">An Bui</a></p>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://ucsb-meds.github.io/functions-workshop/" class="btn" target="_blank"> materials</a> <a href="https://github.com/UCSB-MEDS/functions-workshop" class="btn" target="_blank"> source code</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>As your data processing and analyses get longer and more complex, the chances that you’ll benefit from writing functions and/or for loops will also increase. However, whether you’re a new learner or seasoned programmer, it can sometimes feel overwhelming to know exactly where to start – especially when you have an end goal that builds additional complexity/flexibility into your functions and for loops. Taking an iterative approach to building out your code can help make this process clearer, less daunting, and more fun. In this workshop, we’ll use one case study to practice breaking down the function and for loop writing process into manageable, bite-sized steps.</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>This workshop was originally developed for the <a href="https://ucsb-meds.github.io/">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>MEDS</category>
+  <category>R</category>
+  <category>functions</category>
+  <category>for-loops</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2023-04-14-functions-forloops/</guid>
+  <pubDate>Fri, 14 Apr 2023 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2023-04-14-functions-forloops/an_bui_planet.png" medium="image" type="image/png" height="88" width="144"/>
+</item>
+<item>
+  <title>One workflow for building effective (and pretty) {ggplot2} data visualizations</title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2023-03-16-ggplot2/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/talks_workshops/2023-03-16-ggplot2/ahorst_ggplot2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%" alt="A fuzzy monster in a beret and scarf, critiquing their own column graph on a canvas in front of them while other assistant monsters (also in berets) carry over boxes full of elements that can be used to customize a graph (like themes and geometric shapes). In the background is a wall with framed data visualizations. Stylized text reads &quot;ggplot2: build a data masterpiece.&quot;"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="gray-italic center-text">
+<p>Art by <a href="https://allisonhorst.com/">Allison Horst</a></p>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://ucsb-meds.github.io/ggplot2-workflow/" class="btn" target="_blank"> materials</a> <a href="https://github.com/UCSB-MEDS/ggplot2-workflow/tree/main" class="btn" target="_blank"> source code</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p><code>{ggplot2}</code> has, in many ways, become the de facto tool for data visualization in R. And with the many extension packages available, there’s hardly a limit to what you can create. Building effective and visually-pleasing data visualizations is a skill that gets easier with practice, and following a somewhat structured workflow – at least at the start – can help you get there faster. This workshop covers one approach for doing so, though you’ll find what works best for you with time.</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>This workshop was originally developed for the <a href="https://ucsb-meds.github.io/">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>MEDS</category>
+  <category>R</category>
+  <category>ggplot2</category>
+  <category>data-visualization</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2023-03-16-ggplot2/</guid>
+  <pubDate>Thu, 16 Mar 2023 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2023-03-16-ggplot2/ahorst_ggplot2_small.png" medium="image" type="image/png" height="95" width="144"/>
+</item>
+<item>
+  <title>Adding a blog to your existing Quarto website</title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2022-10-24-quarto-blogs/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/talks_workshops/2022-10-24-quarto-blogs/penguins.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%" alt="Two excited penguins diving off of an iceberg into the ocean. A Quarto logo 'moon' in the sky is reflected in the water that they're diving into."></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="gray-italic center-text">
+<p>Art by <a href="https://allisonhorst.com/">Allison Horst</a></p>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/" class="btn" target="_blank"> blogpost</a> <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd" class="btn" target="_blank"> source code</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>Blogging about your data science adventures has <strong>a lot</strong> of benefits – it can help you to build your online profile/portfolio, practice your writing and communication skills, stay atop data science trends, solicit feedback from the community, network, learn new skills and/or solidify understanding, combat imposter syndrome, etc. In this workshop, we’ll learn how to add a blog to our Quarto website, customize posts, and (hopefully) get inspired to begin our blogging journeys!</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>This workshop was originally developed for the <a href="https://ucsb-meds.github.io/">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>MEDS</category>
+  <category>Quarto</category>
+  <category>blogging</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2022-10-24-quarto-blogs/</guid>
+  <pubDate>Mon, 24 Oct 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2022-10-24-quarto-blogs/penguins.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Customizing Quarto Websites</title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2022-10-10-customizing-quarto-websites/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<center>
+<iframe src="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" title="Customizing Quarto Websites" width="750px," height="550px">
+</iframe>
+</center>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" class="btn" target="_blank"> slides</a> <a href="https://github.com/UCSB-MEDS/customizing-quarto-websites" class="btn" target="_blank"> source code</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>Quarto provides a user-friendly framework for creating your personal website – but adding your own creative touch can help make yours stand out from the rest. In this workshop, we learn how to (a) add a template to our landing page and update the <code>_quarto.yml</code> file to quickly add fun features/update the overall layout of our website, (b) create a stylesheet and define Sass variables to start modifying the overall theme (colors, fonts, etc) of our site, and (c) define CSS rules to make fine-tuned adjustments to our site’s appearance.</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>This workshop was originally developed for the <a href="https://ucsb-meds.github.io/">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>MEDS</category>
+  <category>R</category>
+  <category>Quarto</category>
+  <category>CSS</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2022-10-10-customizing-quarto-websites/</guid>
+  <pubDate>Mon, 10 Oct 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2022-10-10-customizing-quarto-websites/sass_css.png" medium="image" type="image/png" height="91" width="144"/>
+</item>
+<item>
+  <title>Creating your personal website using Quarto</title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/penguins_telescope_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%" alt="One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo 'moon' in the night sky."></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="gray-italic center-text">
+<p>Art by <a href="https://allisonhorst.com/">Allison Horst</a></p>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://ucsb-meds.github.io/creating-quarto-websites/" class="btn" target="_blank"> materials</a> <a href="https://github.com/UCSB-MEDS/creating-quarto-websites" class="btn" target="_blank"> source code</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>A personal website is not only a great way to showcase your experiences and skills, but also gives people (potential employers included!) a better sense of who you are as a person. There are lots of great tools for building websites using R (e.g.&nbsp;<code>{distill}</code>, <code>{blogdown}</code>) – this year, we’ll be using <a href="https://quarto.org/">Quarto</a>, an exciting, new, and versatile publishing tool that supports R, Python, Julia, and ObservableJS. Want to get started on building your own website using Quarto? Check out this <a href="https://ucsb-meds.github.io/creating-quarto-websites/">tutorial</a>.</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>This workshop was originally developed for the <a href="https://ucsb-meds.github.io/">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{csik2022,
+  author = {Csik, Samantha},
+  title = {Creating Your Personal Website Using {Quarto}},
+  date = {2022-08-05},
+  url = {https://samanthacsik.github.io/talks/2022-08-05-creating-your-personal-website-using-quarto/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-csik2022" class="csl-entry quarto-appendix-citeas">
+Csik, Samantha. 2022. <span>“Creating Your Personal Website Using
+Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/2022-08-05-creating-your-personal-website-using-quarto/">https://samanthacsik.github.io/talks/2022-08-05-creating-your-personal-website-using-quarto/</a>.
+</div></div></section></div> ]]></description>
+  <category>MEDS</category>
+  <category>R</category>
+  <category>Quarto</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/</guid>
+  <pubDate>Fri, 05 Aug 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/quarto_share.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>An Intro to Cloud Computing</title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2022-04-18-intro-to-cloud-computing/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="https://ucsb-meds.github.io/cloud-computing/#1" width="400" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://ucsb-meds.github.io/cloud-computing/#1" class="btn" target="_blank"> slides</a> <a href="https://github.com/UCSB-MEDS/cloud-computing" class="btn" target="_blank"> source code</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>“The Cloud” is a buzzword we often hear, but maybe don’t quite understand. In this workshop, we’ll learn a bit about what cloud computing means and what it can look like, how to launch a virtual machine (i.e.&nbsp;an instance) using Amazon Web Services (AWS), and how we can leverage more powerful computers (e.g.&nbsp;the cloud) to run computationally-intensive processes in less time.</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>This workshop was originally developed for the <a href="https://ucsb-meds.github.io/">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>MEDS</category>
+  <category>AWS</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2022-04-18-intro-to-cloud-computing/</guid>
+  <pubDate>Mon, 18 Apr 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2022-04-18-intro-to-cloud-computing/clouds.gif" medium="image" type="image/gif"/>
+</item>
+<item>
+  <title>RStudio Tips &amp; Tricks</title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2021-11-15-ide-tips-tricks/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>It became clear after two cohorts of students that delivering tons of shortcut all at once (in the form of an hour-long workshop; see slide deck, below) was not particularly helpful or effective (learners aren’t given sufficient time to practice and build muscle memory). We tried out something new in summer 2023, and instead presented a few “Keyboard Shortcuts of the Week” throughout the 6-week long MEDS summer session. Overall, I think this was a much needed change to content delivery! You can read more about the format and shortcuts list on <a href="https://github.com/UCSB-MEDS/IDE-tips-and-tricks/wiki/Updated-Approach-for-Delivering-IDE-Tips-&amp;-Tricks---Keyboard-Shortcuts">this wiki</a>.</p>
+<p><br></p>
+<center>
+<iframe src="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" title="IDE Tips &amp; Tricks" width="750px," height="550px">
+</iframe>
+</center>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" class="btn" target="_blank"> slides</a> <a href="https://github.com/UCSB-MEDS/IDE-tips-and-tricks" class="btn" target="_blank"> source code</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>As environmental data scientists, we spend a lot of time in RStudio. Taking some time to learn how you can customize your RStudio IDE (<strong>I</strong>ntegrated <strong>D</strong>evelopment <strong>E</strong>nvironment) and the keyboard shortcuts used to navigate around that IDE can make you a more efficient (and happier) hacker!</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>These materials were originally developed for the <a href="https://ucsb-meds.github.io/">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>MEDS</category>
+  <category>R</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2021-11-15-ide-tips-tricks/</guid>
+  <pubDate>Mon, 15 Nov 2021 08:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2021-11-15-ide-tips-tricks/lightbulb.gif" medium="image" type="image/gif"/>
+</item>
+<item>
+  <title>Teach Me How to Google</title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2021-10-11-teach-me-how-to-google/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell">
+<div class="cell-output-display">
+<div class="shareagain" style="min-width:300px;margin:1em auto;" data-exeternal="1">
+<iframe src="https://ucsb-meds.github.io/teach-me-how-to-google/#1" width="400" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen=""></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://ucsb-meds.github.io/teach-me-how-to-google/#1" class="btn" target="_blank"> slides</a> <a href="https://github.com/UCSB-MEDS/teach-me-how-to-google" class="btn" target="_blank"> source code</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>Googling for code help is something that all data scientists (at all career stages) do. But figuring out how to get the information you need back can be incredibly challenging, particularly for new coders. In this workshop, we’ll discuss strategies for refining your queries to increase your chances of finding informative solutions.</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>This talk was originally developed for the <a href="https://ucsb-meds.github.io/">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
+<p>It’s since been adapted for a number of non-MEDS audiences, including students from UCSB’s <a href="https://tmp.ucsb.edu/academics/master-technology-management">Master of Technology Management Program</a> (Jan 2022), <a href="https://www.meetup.com/rladies-st-louis/?_cookie-check=tJVp_VfFF4axweCV">R-Ladies St.&nbsp;Louis</a> (Feb 2022), <a href="https://gwbweb.wustl.edu/News/Pages/Brown-School-StatLab-offers-statistics-support.aspx">The Brown School StatLab</a> at the University of Washington in St.&nbsp;Louis (Mar 2022), undergraduate students in <a href="https://samanthacsik.github.io/teach-me-how-to-google/slides/WaterData_2022-11-08.html#1">UCSB’s Environmental Studies Program</a> (Nov 2022 &amp; 2023), and UCSB’s <a href="https://samanthacsik.github.io/teach-me-how-to-google/slides/DAnC-2023-05-17.html#1">Data Analysis and Coding Club (DAnC)</a> (May 2023). Most times, the slides remain unchanged (aside from an updated title slide), but there are minor differences here and there depending on audience needs/experiences. Find all additional talk versions <a href="https://samanthacsik.github.io/teach-me-how-to-google/">here</a>!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>MEDS</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2021-10-11-teach-me-how-to-google/</guid>
+  <pubDate>Mon, 11 Oct 2021 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2021-10-11-teach-me-how-to-google/google.gif" medium="image" type="image/gif"/>
+</item>
+<item>
+  <title>Intro to the {tidyverse}</title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>An Bui</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2019-05-15-intro-to-the-tidyverse/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/talks_workshops/2019-05-15-intro-to-the-tidyverse/sam_an.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%" alt="Two women, Sam and An, stand smiling in front of a projector screen with a GitHub repository on display."></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="gray-italic center-text">
+<p>An Bui and I getting ready to teach our very first R workshop to R-Ladies SB, hosted at NCEAS</p>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse" class="btn" target="_blank"> materials</a> <a href="https://github.com/samanthacsik/Intro-to-the-Tidyverse" class="btn" target="_blank"> source code</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>In this live-coding workshop, we teach useful functions for data tidying, wrangling and visualization using tidyverse packages &amp; functions (e.g.&nbsp;<code>dplyr</code>, <code>tidyr</code>, <code>ggplot2</code>, <code>forcats</code>, etc.). This session is intended for R users at any level, whether it’s your first time exploring the tidyverse or if you’re refreshing your wrangling skills!</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>My <em>very first time</em> (co)leading an R-based live-coding workshop(!) and the experience that got me hooked on teaching R / data science 💜, given to <a href="https://www.meetup.com/rladies-santa-barbara/events/260710376/">R-Ladies Santa Barbara</a>. This workshop was special for a lot of reasons, but the one that stands out the most was learning to overcome the nerves (and general feelings of being too inexperienced), with my very best learning partner by my side. Despite being in separate labs and offices throughout grad school, An and I quickly became data science accountability-buddies, course crashers, and collaborators. I will forever credit my successful journey into the environmental data science / teaching space to this friendship.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>R-Ladies</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2019-05-15-intro-to-the-tidyverse/</guid>
+  <pubDate>Wed, 15 May 2019 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2019-05-15-intro-to-the-tidyverse/infinity.gif" medium="image" type="image/gif"/>
+</item>
+</channel>
+</rss>
