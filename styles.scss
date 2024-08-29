@@ -13,24 +13,34 @@ $josefin: 'Josefin Sans', sans-serif;
 $light-green: #D1D9CE;
 $medium-green: #98A08D;
 $dark-green: #757B6D;
+$hunter-green: #464B37;
 $cream: #FDFBF7;
 $dark-gray: #5A5856;
 $medium-gray: #64605f;
-$purple: #9158A2; 
-$orange: #ad7237;
+$violet: #846075;
+$orange: #c27e00;
+//$purple: #9158A2; 
+//$burnt-orange: #ad7237;
+//$blue-gray: #466060;
+//$wine: #6B2737;
+//$rose: #885053;
+//$lime: #bdba66;
+//$moss: #959252;
+//$dark-brown: #424024; 
+//$midnight-green: #0F5257;
 
 // Base document colors
 $navbar-bg: $cream;
 $navbar-fg: $medium-green; 
-$navbar-hl: $purple; 
+$navbar-hl: $orange;//$purple; 
 $body-bg: $light-green;
 $body-color: $medium-gray;
 $footer-bg: $cream; 
-$link-color: $purple;
+$link-color: $orange;//$purple;
 
 // Inline code
 $code-bg: $cream;
-$code-color: $orange; 
+$code-color: $violet;//$burnt-orange; 
 
 // Code blocks
 $code-block-bg: $cream;
@@ -50,7 +60,7 @@ body {
   font-family: $nunito;
   line-height: 1.5; // min 1.5 suggested for assistive tech
   font-size: 19.5px;
-  font-weight: 350;
+  font-weight: 375;//350;
 }
 
 // modify blockquote styling
