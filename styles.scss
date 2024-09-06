@@ -18,7 +18,9 @@ $cream: #FDFBF7;
 $dark-gray: #5A5856;
 $medium-gray: #64605f;
 $violet: #846075;
-$orange: #c27e00;
+$terracotta: #BD6E53; 
+//$orange: #c27e00;
+//$champagne: #E7CEBE;
 //$purple: #9158A2; 
 //$burnt-orange: #ad7237;
 //$blue-gray: #466060;
@@ -32,11 +34,11 @@ $orange: #c27e00;
 // Base document colors
 $navbar-bg: $cream;
 $navbar-fg: $medium-green; 
-$navbar-hl: $orange;//$purple; 
+$navbar-hl: $terracotta;//$orange;//$purple; 
 $body-bg: $light-green;
 $body-color: $medium-gray;
 $footer-bg: $cream; 
-$link-color: $orange;//$purple;
+$link-color: $terracotta;// $orange;//$purple;
 
 // Inline code
 $code-bg: $cream;
@@ -158,7 +160,7 @@ blockquote {
 // button hover styling
 .btn:hover {
   color: $cream;
-  background-color: $orange;//$purple;
+  background-color: $terracotta;//$orange;//$purple;
   border-color: $dark-gray;
 }
 
