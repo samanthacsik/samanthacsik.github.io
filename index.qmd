@@ -1,32 +1,36 @@
 ---
-title: ""
+#title: ""
 image: images/sam_cropped.jpg
 toc: false
 about: 
   template: jolla
   image-shape: round
-  image-width: 14em
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/samanthacsik/
-      target: _blank
-    # - icon: twitter
-    #   text: Twitter
-    #   href: https://twitter.com/SamanthaCsik
-    #   target: _blank
-    - icon: github
-      text: GitHub
-      href: https://github.com/samanthacsik
-      target: _blank
-    - icon: envelope
-      text: Email
-      href: mailto:scsik@ucsb.edu
+  image-width: 15em
+  # links:
+  #   - icon: linkedin
+  #     text: LinkedIn
+  #     href: https://www.linkedin.com/in/samanthacsik/
+  #     target: _blank
+  #   # - icon: twitter
+  #   #   text: Twitter
+  #   #   href: https://twitter.com/SamanthaCsik
+  #   #   target: _blank
+  #   - icon: github
+  #     text: GitHub
+  #     href: https://github.com/samanthacsik
+  #     target: _blank
+  #   - icon: envelope
+  #     text: Email
+  #     href: mailto:scsik@ucsb.edu
 ---
 
-<!-- ::: {.small-text} -->
-Hi there! I'm Sam (and my last name is pronounced "chick"). Professionally, I love teaching data science skills, learning and implementing inclusive pedagogical approaches, and the communities that support both of those things. Outside of work, I'm an avid hiker, novice (but passionate) meal-maker, and I really love the color green. Poke around my website to learn more!
-<!-- ::: -->
+::: {#bio}
+Hi there! I'm Sam (and my last name is pronounced "chick"). Professionally, I love **teaching data science skills**, learning and implementing **inclusive pedagogical approaches**, and the communities that support both of those things. Outside of work, I'm an **avid hiker**, novice (but passionate) meal-maker, and I really love the color green. Poke around to learn more [about me](about.qmd) and my work!
+
+::: {#landing-icons}
+[{{< fa brands linkedin title="linkedin" >}}](https://www.linkedin.com/in/samanthacsik/) &nbsp; [{{< fa brands github title="github" >}}](https://github.com/samanthacsik) &nbsp; [{{< fa envelope title="envelope" >}}](mailto:scsik@ucsb.edu)
+:::
+:::
 
 <!-- ### hi there!     -->
 

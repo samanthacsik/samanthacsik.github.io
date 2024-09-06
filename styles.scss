@@ -19,6 +19,7 @@ $dark-gray: #5A5856;
 $medium-gray: #64605f;
 $violet: #846075;
 $terracotta: #BD6E53; 
+$terracotta-dark: #a15e47;
 //$orange: #c27e00;
 //$champagne: #E7CEBE;
 //$purple: #9158A2; 
@@ -72,12 +73,27 @@ blockquote {
   border-left: 0.25rem solid $cream;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ID selectors */
 
 // responsive-ish iframes (width adjusts to viewport size; couldn't figure out how to expand viewport height, so set to this size for now)
 #map-size {
   width: 100%;
   height: 350px;
+}
+
+
+// landing page text
+#bio {
+  font-size: 1.1em;
+}
+
+// landing page icon size
+#landing-icons {
+  font-size: 1.4em;
 }
 
 // banner titles (these turned dark green after updating to Quarto v1.5.56, so forcing them to be gray again with this rule)
