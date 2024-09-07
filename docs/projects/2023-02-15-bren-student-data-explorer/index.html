@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-02-15">
 <meta name="description" content="refactoring &amp; maintaining Bren’s Shiny app for visualizing admissions and career outcome data of current students and recent graduates">
 
 <title>Bren Student Data Explorer – Sam Csik</title>
@@ -179,12 +178,6 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
   <div class="quarto-title-meta column-page">
 
       
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">February 15, 2023</p>
-      </div>
-    </div>
     
       
     </div>
@@ -203,23 +196,18 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 
 <p><a href="https://shinyapps.bren.ucsb.edu/student-data-explorer/" class="btn" target="_blank"><i class="fa-brands fa-r-project" aria-hidden="true"></i> shiny dashboard</a> <a href="https://github.com/UCSB-MEDS/shiny-dashboard" class="btn" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> source code</a></p>
 <p><br></p>
-<section id="whats-the-bren-student-data-explorer" class="level1">
-<h1>What’s the Bren Student Data Explorer?</h1>
+<!-- # What's the Bren Student Data Explorer? -->
 <p>In an effort to increase transparency surrounding student demographics and post-graduation career placement statistics, the <a href="https://bren.ucsb.edu/">Bren School</a> hired R Shiny Developer Fellow, <a href="https://github.com/hdolinh/">Halina Do-Linh</a> – she designed and built v1.0 of the public-facing <a href="https://shinyapps.bren.ucsb.edu/student-data-explorer/">dashboard</a> for exploring these data in summer 2022.</p>
+<!-- # My role -->
+<p>I (along with a number of other Bren staff) oversaw the development of Bren Student Data Explorer v1.0 (though to be clear, Halina led the design and technical development of the dashboard – it’s really her product to brag about!). Each year, the dashboard will be updated with new demographic data based on applications and admissions, provided by <a href="https://www.graddiv.ucsb.edu/">UCSB’s Graduate Division</a>, and post-grad career placement data from the <a href="https://bren.ucsb.edu/career-services">Bren’s Career Services Team</a>.</p>
+<p>The proverbial torch was passed to me for the next round of maintenance and updates in January 2023. This involved refactoring the code base, processing new data, and updating the dashboard. Some additional refactoring is likely to happen during the next big update in order to further simplify the code base and improve readability – I’ll be working with MEDS Program Coordinator, <a href="https://www.jamiecmontgomery.com/">Jamie Montgomery</a>, to continue this maintenance year-to-year.</p>
 <p><br></p>
 <p><img class="center-img" src="dashboard.jpeg" alt="A online dashboard with a banner image depicting the Bren School building with the ocean to the left. Atop the image reads in all capital letters, 'BREN STUDENT DATA EXPLORER'. Beneath the banner image are two side-by-side boxes with text. The top of the left-hand box reads, 'Learn about students at the Bren School', and the top of the right-hand box reads, 'About the data'. A left-hand sidebar indicates that we're viewing the Welcome page. Two other pages are listed below: Demographics and Career Outcomes." width="70%"></p>
 <div class="gray-italic center-text">
-<p>The landing page of the Bren Student Data Explorer, accessible at <a href="https://shinyapps.bren.ucsb.edu/student-data-explorer/" class="uri">https://shinyapps.bren.ucsb.edu/student-data-explorer/</a></p>
+<p>The welcome page of the Bren Student Data Explorer, accessible at <a href="https://shinyapps.bren.ucsb.edu/student-data-explorer/" class="uri">https://shinyapps.bren.ucsb.edu/student-data-explorer/</a></p>
 </div>
-<p><br></p>
-</section>
-<section id="my-role" class="level1">
-<h1>My role</h1>
-<p>I (along with a number of other Bren staff) oversaw the development of Bren Student Data Explorer v1.0 (though to be clear, Halina led the design and technical development of the dashboard – it’s really her product to brag about!). Each year, the dashboard will be updated with new demographic data based on applications and admissions, provided by <a href="https://www.graddiv.ucsb.edu/">UCSB’s Graduate Division</a>, and post-grad career placement data from the <a href="https://bren.ucsb.edu/career-services">Bren’s Career Services Team</a>.</p>
-<p>The proverbial torch was passed to me for the next round of maintenance and updates in January 2023. This involved refactoring the code base, processing new data, and updating the dashboard. Some additional refactoring is likely to happen during the next big update in order to further simplify the code base and improve readability – I’ll be working with MEDS Program Coordinator, <a href="https://www.jamiecmontgomery.com/">Jamie Montgomery</a>, to continue this maintenance year-to-year.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -646,7 +634,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Copyright 2021, Samantha Csik</p>
+<p>© 2021 Samantha Csik</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

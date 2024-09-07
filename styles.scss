@@ -1,8 +1,6 @@
 /*-- scss:defaults --*/
 
 // Import fonts (define mainfont in _quarto.yml)
-/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@300&family=Roboto+Mono:wght@300&display=swap');*/
-//@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Nunito:wght@300;800&family=Roboto+Mono:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 // fonts
@@ -13,13 +11,13 @@ $josefin: 'Josefin Sans', sans-serif;
 $light-green: #D1D9CE;
 $medium-green: #98A08D;
 $dark-green: #757B6D;
-$hunter-green: #464B37;
 $cream: #FDFBF7;
 $dark-gray: #5A5856;
 $medium-gray: #64605f;
 $violet: #846075;
 $terracotta: #BD6E53; 
-$terracotta-dark: #a15e47;
+//$hunter-green: #464B37;
+//$terracotta-dark: #a15e47;
 //$orange: #c27e00;
 //$champagne: #E7CEBE;
 //$purple: #9158A2; 
