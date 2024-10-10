@@ -251,3 +251,11 @@ div.quarto-about-jolla .about-link {
   color: $dark-green;
 }
 
+// animate logo (rises on hover; HT Briana Barajas :) https://github.com/briana-barajas/briana-barajas.github.io/blob/main/styles.scss )
+.navbar-logo{
+  transition: all 0.3s;
+}
+
+.navbar-logo:hover{
+  transform: translateY(-4px);
+}
