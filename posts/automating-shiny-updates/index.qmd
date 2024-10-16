@@ -1,0 +1,63 @@
+---
+title: "Using AWS + GitHub Actions to automate Shiny app updates and redeployments"
+description: |
+  the personal project that keeps on giving (new skills)
+author:
+  - name: Samantha Csik
+    url: https://samanthacsik.github.io/
+    orcid: 0000-0002-5300-3075
+date: 2024-10-16
+citation: 
+  url: https://samanthacsik.github.io/posts/automating-shiny-updates/
+categories: [Shiny, AWS-s3, GitHub-Actions, Strava]
+image: media/s3-GHA.png
+bibliography: references.bib
+draft: true
+draft-mode: linked
+---
+
+## A brief history of my Strava Dashboard journey
+
+- for learning shiny
+- helped refresh other skills e.g. leaflet, plotly, for loops
+- updating it is a minor pain, but a pain nonetheless
+- entering new territory
+- had literally no idea where to begin with this one, so I talked to Brendan who helped me outline some concrete steps to tackle
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "100%"
+#| fig-align: "center"
+knitr::include_graphics("media/issue-comment.png")
+```
+
+::: {.center-text .body-text-s}
+*The comment that set me on my path towards shiny app automation!*
+:::
+
+## Creating, writing to, and reading from an Amazon S3 Bucket 
+
+My initial thought was "yeah S3, no way..." That felt like way too big of a mountain to climb and also -- at the time -- felt tangential to my actual goal of grabbing my latest data from strava, then redeploying my app to shinyapps.io with said new data. But, one very quick Google search led me to one of my favorite bloggers and an excelled blog post: [Using Amazong S3 with R](https://blog.djnavarro.net/posts/2022-03-17_using-aws-s3-in-r/), by [Danielle Navarro] (https://djnavarro.net/). So we decided to climb the damn mountain (and spoiler, it was pretty darn easy!).
+
+I basically followed Danielle's amazing instructions to a T (see [this section](https://blog.djnavarro.net/posts/2022-03-17_using-aws-s3-in-r/#accounts-and-credentials))
+
+### 1. Get yourself an AWS account
+
+You *do* need to provide a credit card. Consider setting up [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) to monitor usage so that you don't accidentally incur unanticipated charges. (come back to this [reddit thread](https://www.reddit.com/r/aws/comments/gu1u9t/how_to_avoid_unexpected_charges_when_using_aws/))
+
+### 2. Allow R to interact with S3
+
+Follow [Danielle's instructions](https://blog.djnavarro.net/posts/2022-03-17_using-aws-s3-in-r/#creating-credentials)
+
+### 3. Store AWS credentials in R (and a password manager)
+
+Again, following [Danielle's instructions](https://blog.djnavarro.net/posts/2022-03-17_using-aws-s3-in-r/#storing-your-aws-credentials-in-r)
+
+- [How to Use GitHub Actions with R to Run Code Automatically](https://rfortherestofus.com/2023/05/github-actions), by [David Keyes](https://dgkeyes.com/)
+
+### 4. Manipulate your S3 storage from R
+
+#### Create a new bucket
+
+#### Write a data file to your bucket
