@@ -22,22 +22,14 @@ About a year ago, I wrote my first ever blog post \~ about blogging \~ and tbh I
 
 [^1]: Okay, you don't *just* have to trust me. Lots of data scientists advocate for blogging as an important skill and communication tool. Check out this [blog post](http://varianceexplained.org/r/start-blog/) by [David Robinson](https://twitter.com/drob) to start.
 
--   build your online profile/portfolio
-
+-   build your online profile / portfolio
     -   *"...sharing anything is almost always better than sharing nothing"* -[`@drob`](https://twitter.com/drob){target="_blank"} in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/){target="_blank"}
-
 -   practice your writing & communication skills
-
 -   stay atop data science trends
-
 -   solicit feedback from the community
-
 -   network
-
 -   learn something new and / or solidify your understanding
-
 -   combat imposter syndrome
-
     -   *"Once you've shared some analyses and code, you'll probably find that you were underrating yourself in some areas."* -also [`@drob`](https://twitter.com/drob){target="_blank"} in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/){target="_blank"}
 
 Rather than repeat more content here, take a peek at my [first post](https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/){target="_blank"}, which touches on more reasons why you should blog and provides some ideas on how to structure your blog posts. Before jumping into things, I'll leave you with one last piece of advice from [`@drob`](https://twitter.com/drob){target="_blank"}:
@@ -288,7 +280,7 @@ Blog posts are just Quarto documents, meaning you can combine prose, code, and e
 
 There are multiple ways to include footnotes throughout your blog posts:
 
-1.  Use the `[^#]` syntax to denote where you would like a note to be inserted. Write your note somewhere below following the `[^#]: your note here` syntax. For example:
+1.  **Use the `[^#]` syntax to denote where you would like a note to be inserted.** Write your note somewhere below following the `[^#]: your note here` syntax. For example:
 
 ```{markdown}
 I am going to insert a footnote here[^1].
@@ -296,13 +288,13 @@ I am going to insert a footnote here[^1].
 [^1]: Here is the associated footnote, which will appear at the bottom of my document in a "Footnotes" section.
 ```
 
-2.  Alternatively, you can write your notes inline to avoid having to use identifiers (e.g. `[^#]`). For example:
+2.  **Alternatively, you can write your notes inline** to avoid having to use identifiers (e.g. `[^#]`). For example:
 
 ```{markdown}
 I am going to insert an inline footnote here^[Here is my inline footnote].
 ```
 
-3.  You can also add footnotes that include multiple paragraphs. See the [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd){target="_blank"} for this blog post and take a peek at footnote #2 for an example on how to do so (or check out the [Quarto documentation](https://quarto.org/docs/authoring/footnotes-and-citations.html#footnotes){target="_blank"}).
+3.  **You can also add footnotes that include multiple paragraphs.** See the [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd){target="_blank"} for this blog post and take a peek at footnote #2 for an example on how to do so (or check out the [Quarto documentation](https://quarto.org/docs/authoring/footnotes-and-citations.html#footnotes){target="_blank"}).
 
 All footnotes will appear in a "Footnotes" section that is automatically generated for you.
 
@@ -310,9 +302,9 @@ All footnotes will appear in a "Footnotes" section that is automatically generat
 
 Quarto supports the use of bibliography files for citing works throughout your blog post. There are a number of ways to do this, but so far, I've found creating a BibLaTex database to be relatively straightforward. This database takes the form of a plain-text `.bib` file where we can store all of our bibliographic information. That information needs to be encoded in a particular way (more on that below). Follow these steps to cite works in your blog posts:
 
-1.  First, create a `.bib` file in the folder containing your blog post (e.g. `myWebsite/posts/YYYY-MM-DD-my-blog-post/references.bib`) using the `touch` command in your RStudio Terminal or using the *Blank File* \> *Text File* button in the Files pane. I called mine `references.bib`, but the name is up to you.
+1.  **First, create a `.bib` file in the folder containing your blog post** (e.g. `myWebsite/posts/YYYY-MM-DD-my-blog-post/references.bib`) using the `touch` command in your RStudio Terminal or using the *Blank File* \> *Text File* button in the Files pane. I called mine `references.bib`, but the name is up to you.
 
-2.  Add the `bibliography` option to your blog post's YAML and provide it the name of your `.bib` file:
+2.  **Add the `bibliography` option to your blog post's YAML** and provide it the name of your `.bib` file:
 
 ```{r}
 #| eval: false
@@ -325,7 +317,7 @@ bibliography: references.bib
 ---
 ```
 
-3.  Next, we'll want to add some references. These take a particular format that generally looks like this (the number / types of fields included may vary):
+3.  **Next, we'll want to add some references.** These take a particular format that generally looks like this (the number / types of fields included may vary):
 
 ```{r filename="references.bib"}
 #| eval: false
@@ -343,9 +335,9 @@ where `type` can be `manual`, `book`, `article`, `misc`, etc. (all case-insensit
 
 -   There may be instances where you want to cite a resource that already has a BibTex citation available for you to copy over to your `references.bib` file (e.g. this blog post). For most resources, however, you'll need to construct your own. You can do this manually, or with the help of a BibTeX reference generator (Googling will yield plenty of options, but [zoterobib](https://zbib.org/){target="_blank"} is a great place to start. Note that you may have to make some manual adjustments). Check out my [`references.bib` file](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/references.bib){target="_blank"} for this post as an example.
 
-4.  Now that you have BibTex references in your `.bib` file, you can start adding in-text citations. These generally take the form `[@key]` (but read more about [Quarto citation syntax](https://quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations){target="_blank"}). When you add an in-text citation, Quarto will automatically add the reference to the bottom of your blog post under the "References" section.
+4.  **Now that you have BibTex references in your `.bib` file, you can start adding in-text citations.** These generally take the form `[@key]` (but read more about [Quarto citation syntax](https://quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations){target="_blank"}). When you add an in-text citation, Quarto will automatically add the reference to the bottom of your blog post under the "References" section.
 
--   To give one final concrete example, let's say I want to cite my first (ever) blog post from 2021. I can copy the [BibTeX citation from the bottom of the post](http://localhost:6702/posts/2022-10-24-quarto-blogs/#citation){target="_blank"} and paste it into my `references.bib` file:
+-   To give a concrete example, let's say I want to cite my first (ever) blog post from 2021. I can copy the [BibTeX citation from the bottom of the post](../2022-10-24-quarto-blogs/#citation){target="_blank"} and paste it into my `references.bib` file:
 
 ```{r}
 #| eval: false
@@ -360,7 +352,21 @@ where `type` can be `manual`, `book`, `article`, `misc`, etc. (all case-insensit
 }
 ```
 
--   I can now add an in-text citation using the `[@csik2021]` syntax, which will render it like this {{< fa arrow-right title="an arrow pointing to the right" >}} [@csik2021]. Once cited, the full reference will appear in my [References section at the bottom of this post](http://localhost:6702/posts/2022-10-24-quarto-blogs/#references).
+-   I can now add an in-text citation using the `[@csik2021]` syntax, which will render it like this {{< fa arrow-right title="an arrow pointing to the right" >}} [@csik2021]. Once cited, the full reference will appear in my [References section at the bottom of this post](#references).
+
+5. **Optionally, you can update your preferred citation style** (the default is set to [Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html)). Search for and download your preferred citation style (in the form of a `.csl` ([Citation Style Language](https://citationstyles.org/)) file) from either [CSL Project](https://github.com/citation-style-language/styles) or [Zotereo's style repository](https://www.zotero.org/styles), and add it to your blog post's folder. Update your blog post's YAML using the `csl` option to apply the new styling. For example, I can apply [PLOS Computational Biology styling](https://www.zotero.org/styles?q=plos%20computational%20biology):
+
+```{r}
+#| eval: false
+#| echo: true
+#| code-line-numbers: false
+---
+title: "blog post title"
+# ~ additional YAML options omitted for brevity ~
+csl: plos-computational-biology.csl
+---
+```
+
 
 That wasn't so bad, right?? What if I told you there was an even *easier* way to add citations....Start by popping over to RStudio's Visual editor, if you're not already there (you should see buttons for working in either the **Source** or **Visual** editor in the top left corner of your source pane), and follow the steps below:
 

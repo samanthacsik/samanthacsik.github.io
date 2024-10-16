@@ -40,11 +40,138 @@ My right-hand hiking gal, Tallie (aka Bean aka TunaB aka SweetCheeks).
 
 I started recording my hikes (and eventually some other activities) on [Strava](https://www.strava.com/) in late 2020 and finally got around to retrieving my activity data using the [`{rStrava}`](https://github.com/fawda123/rStrava) package. Below is a heatmap of all my recorded activities made using [`{leaflet}`](https://rstudio.github.io/leaflet/). It's challenging to see individual markers at my most frequented trailheads / starting points (toggle markers on using the layer controls in the top right corner), so I've recently began building out my own Strava Dashboard (using [`{shinydashboard}`](https://rstudio.github.io/shinydashboard/)) to make it a bit more interactive and filterable -- it's a work in progress, but a fun side project that I'm excited to continue iterating upon. Huge shout out to [Daniel Cullen](https://www.dancullen.me/) for his awesome [blog post](https://www.dancullen.me/articles/creating-a-heatmap-in-r-with-google-polylines) that got me started with my own map.
 
-<iframe id="map-size" src = "images/leaflet_2024-09-05.html"></iframe>
+```{r}
+#| eval: true
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-align: "center"
+#| out-width: "100%"
+#..........................load packages.........................
+library(rStrava) 
+library(tidyverse)
+library(leaflet)
+library(googleway)
+library(htmlwidgets)
+library(htmltools)
+library(aws.s3)
 
-::: {.gray-italic .center-text}
-Map last updated: September 2024
-:::
+#......................read in data from S3......................
+acts <- s3readRDS(object = "wrangled_activities.rds",
+                  bucket = "sams-strava-dashboard-data")
+
+#...................create subsets by activity...................
+hike_data <- acts %>% filter(sport_type == "Hike")
+ride_data <- acts %>% filter(sport_type %in% c("Ride", "GravelRide"))
+walk_data <- acts %>% filter(sport_type == "Walk")
+
+#........................make custom icons.......................
+hiker_icon_custom <- makeIcon(
+  iconUrl = "images/hiker.png",
+  iconWidth = 20, iconHeight = 20
+)
+
+bike_icon_custom <- makeIcon(
+  iconUrl = "images/bike.png",
+  iconWidth = 22, iconHeight = 25
+)
+
+walk_icon_custom <- makeIcon(
+  iconUrl = "images/walker.png",
+  iconWidth = 13, iconHeight = 18
+)
+
+#........................create base map.........................
+map <- leaflet() %>% 
+  
+  # add tiles ----
+  addProviderTiles(providers$Esri.WorldTerrain, group = "ESRI Terrain",
+                   options = providerTileOptions(maxZoom = 100)) |> 
+  
+  # add miniMap (corner) ----
+  addMiniMap(toggleDisplay = TRUE) |>
+  
+  # set view over Santa Barbara ----
+  setView(lng = -119.753042, lat = 34.484782, zoom = 10) |> 
+  
+  # add clickable hiker markers with info about each hike ----
+  addMarkers(data = hike_data, icon = hiker_icon_custom, 
+             group = "Display Hike Icons", 
+             lng = ~jitter(lng, factor = 0.01), lat = ~jitter(lat, factor = 0.01),
+             popup = paste("Hike Title:", hike_data$name, "<br>",
+                           "Distance (miles):", hike_data$total_miles, "<br>",
+                           "Elevation gain (ft):", hike_data$elevation_gain_ft)) |>
+
+  # add clickable bike markers with info about each ride ---- 
+  addMarkers(data = ride_data, icon = bike_icon_custom, 
+             group = "Display Bike Ride Icons",
+             lng = ~jitter(lng, factor = 0.01), lat = ~jitter(lat, factor = 0.01),
+             popup = paste("Ride Title:", ride_data$name, "<br>",
+                           "Distance (miles):", ride_data$total_miles, "<br>",
+                           "Elevation gain (ft):", ride_data$elevation_gain_ft)) |>
+
+  # add clickable walker markers with info about each walk ----
+  addMarkers(data = walk_data, icon = walk_icon_custom, 
+             group = "Display Walk Icons",
+             lng = ~jitter(lng, factor = 0.01), lat = ~jitter(lat, factor = 0.01),
+             popup = paste("Walk Title:", walk_data$name, "<br>",
+                           "Distance (miles):", walk_data$total_miles, "<br>",
+                           "Elevation gain (ft):", walk_data$elevation_gain_ft)) |>
+
+  # allow for toggling makers on/off ----
+  addLayersControl(
+    overlayGroups = c("Display Hike Icons", "Display Bike Ride Icons", "Display Walk Icons"),
+    options = layersControlOptions(collapsed = TRUE)
+  ) |>
+  
+  # hide all three groups icons by default ----
+  hideGroup(c("Display Hike Icons", "Display Bike Ride Icons", "Display Walk Icons")) |> 
+  
+  # add heatmap legend ----
+  addLegend(colors = c("#b35702", "#744082", "#366643"),
+            labels = c("Hike", "Ride", "Walk"), 
+            position = "bottomleft") |> 
+  
+  # add reset map button ----
+  leaflet.extras::addResetMapButton()
+
+#....................get unique activity ids.....................
+unique_acts_ids <- unique(acts$id)
+
+#.............iterate over activities and add to map.............
+for (i in unique_acts_ids) {
+  
+  # 1) get activity
+  activity <- filter(acts, id == i)
+  
+  # 2) decode polyline
+  coords <- googleway::decode_pl(activity$map.summary_polyline)
+  
+  #3) plot activity trace on basemap; color-code according to activity type
+  if (activity$sport_type %in% c("Ride", "GravelRide")) {
+    map <- addPolylines(map, lng = coords$lon, lat = coords$lat,
+                      color = "#744082", opacity = 2/4, weight = 2) #070A8D (tried cb-friendly; not great on map though #3D0C02)
+  } else if (activity$sport_type == "Hike") { 
+    map <- addPolylines(map, lng = coords$lon, lat = coords$lat,
+                      color = "#b35702", opacity = 2/4, weight = 2) #DF0101 #b35702
+  } else if (activity$sport_type == "Walk") {
+   map  <- addPolylines(map, lng = coords$lon, lat = coords$lat,
+                      color = "#366643", opacity = 2/4, weight = 2) #0F9020  (tried cb-friendly; not graet on map though #114C54)
+  }
+   
+}
+
+#............................print map...........................
+map
+```
+
+<br>
+
+<!-- <iframe id="map-size" src = "images/leaflet_2024-09-05.html"></iframe> -->
+
+<!-- ::: {.gray-italic .center-text} -->
+<!-- Map last updated: September 2024 -->
+<!-- ::: -->
 
 <p class="large-text dark-green-bg center-text">{{< fa arrow-pointer >}} For a more interactive experience, click around my [Strava dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/) <br> {{< fa brands github >}} Source code available on [GitHub](https://github.com/samanthacsik/strava-dashboard)</p>
 

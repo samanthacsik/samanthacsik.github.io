@@ -121,7 +121,7 @@ a {
 }
 
 // smallest text
-.extra-small-text{
+.extra-small-text {
   font-size: 14px;  
 }
 
@@ -138,12 +138,12 @@ a {
 }
 
 // right-align text
-.right-align-text{
+.right-align-text {
   text-align: right;
 }
 
 // dark gray text
-.dark-gray-text{
+.dark-gray-text {
   color: $dark-gray;
 }
 
@@ -219,7 +219,7 @@ a {
 }
 
 // dropdown navbar text color
-.dropdown-item{
+.dropdown-item {
   color: $medium-green;
   background-color: $cream;
 }
@@ -252,10 +252,10 @@ div.quarto-about-jolla .about-link {
 }
 
 // animate logo (rises on hover; HT Briana Barajas :) https://github.com/briana-barajas/briana-barajas.github.io/blob/main/styles.scss )
-.navbar-logo{
+.navbar-logo {
   transition: all 0.3s;
 }
 
-.navbar-logo:hover{
+.navbar-logo:hover {
   transform: translateY(-4px);
 }
