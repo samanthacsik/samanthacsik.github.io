@@ -1,7 +1,7 @@
 ---
 title: "EDS 296-1F - Data science tools for building professional online portfolios"
 description: |
-  a 2-unit course on building, customizing, and maintaining professional online data science portfolios (currently under development!)
+  a 2-unit course on building, customizing, and maintaining professional online data science portfolios
 categories: [UCSB, data-science-portfolio, Quarto, GitHub]
 image: quarto-github.png
 draft: false
@@ -51,7 +51,7 @@ knitr::include_graphics("github.png")
 
 # When is this taught?
 
-I'm super excited to offer this new course starting Fall 2024 (so if you've stumbled across this here now, you'll find some very-much-in-progress materials). I've taught components of this as separate non-credit-bearing workshops since 2022: 
+This course is new as of Fall 2024, though I've taught components of this as separate non-credit-bearing workshops since 2022: 
 
 - [Creating your personal website using Quarto](https://ucsb-meds.github.io/creating-quarto-websites/)
 - [Customizing Quarto websites](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide) 

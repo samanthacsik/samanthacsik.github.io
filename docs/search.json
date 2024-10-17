@@ -88,7 +88,7 @@
     "href": "projects/2023-02-15-bren-student-data-explorer/index.html",
     "title": "Bren Student Data Explorer",
     "section": "",
-    "text": "shiny dashboard  source code\n\n\nIn an effort to increase transparency surrounding student demographics and post-graduation career placement statistics, the Bren School hired R Shiny Developer Fellow, Halina Do-Linh – she designed and built v1.0 of the public-facing dashboard for exploring these data in summer 2022.\n\nI (along with a number of other Bren staff) oversaw the development of Bren Student Data Explorer v1.0 (though to be clear, Halina led the design and technical development of the dashboard – it’s really her product to brag about!). Each year, the dashboard will be updated with new demographic data based on applications and admissions, provided by UCSB’s Graduate Division, and post-grad career placement data from the Bren’s Career Services Team.\nThe proverbial torch was passed to me for the next round of maintenance and updates in January 2023. This involved refactoring the code base, processing new data, and updating the dashboard. Some additional refactoring is likely to happen during the next big update in order to further simplify the code base and improve readability – I’ll be working with MEDS Program Coordinator, Jamie Montgomery, to continue this maintenance year-to-year.\n\n\n\nThe welcome page of the Bren Student Data Explorer, accessible at https://shinyapps.bren.ucsb.edu/student-data-explorer/"
+    "text": "shiny dashboard  source code\n\nIn an effort to increase transparency surrounding student demographics and post-graduation career placement statistics, The Bren School hired R Shiny Developer Fellow, Halina Do-Linh in summer 2022. Halina designed and built v1.0 of the public-facing dashboard for exploring these data.\nSince then, the proverbial torch was passed to me for continued maintenance and updates. I collaborate with the Bren Admissions and Career Services Teams, as well as MEDS Program Coordinator, Jamie Montgomery, to update data, modify visuals, and refactor the code, as needed, each year.\n\n\n\nThe welcome page of the Bren Student Data Explorer, accessible at https://shinyapps.bren.ucsb.edu/student-data-explorer/"
   },
   {
     "objectID": "talks_workshops/2022-04-18-intro-to-cloud-computing/index.html",
@@ -228,7 +228,7 @@
     "href": "courses.html",
     "title": "courses",
     "section": "",
-    "text": "EDS 240 - Data Visualization & Communication\n\n\n\nUCSB\n\n\ndata-visualization\n\n\nR\n\n\nggplot\n\n\n\na 4-unit core course covering the basic principles for effective communication through data viz + lots of {ggplot2}!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEDS 296-1W - Intro to Shiny\n\n\n\nUCSB\n\n\nshiny\n\n\nR\n\n\n\na 2-unit course on building and deploying Shiny apps & dashboards\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEDS 296-1F - Data science tools for building professional online portfolios\n\n\n\nUCSB\n\n\ndata-science-portfolio\n\n\nQuarto\n\n\nGitHub\n\n\n\na 2-unit course on building, customizing, and maintaining professional online data science portfolios (currently under development!)\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "EDS 240 - Data Visualization & Communication\n\n\n\nUCSB\n\n\ndata-visualization\n\n\nR\n\n\nggplot\n\n\n\na 4-unit core course covering the basic principles for effective communication through data viz + lots of {ggplot2}!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEDS 296-1W - Intro to Shiny\n\n\n\nUCSB\n\n\nshiny\n\n\nR\n\n\n\na 2-unit course on building and deploying Shiny apps & dashboards\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEDS 296-1F - Data science tools for building professional online portfolios\n\n\n\nUCSB\n\n\ndata-science-portfolio\n\n\nQuarto\n\n\nGitHub\n\n\n\na 2-unit course on building, customizing, and maintaining professional online data science portfolios\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-08-01-openscapes-website/index.html",
@@ -424,7 +424,7 @@
     "href": "projects.html",
     "title": "projects",
     "section": "",
-    "text": "Shiny Strava Dashboard\n\n\na personal (and ongoing) side-project to explore my Strava data and learn more about building Shiny apps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBren Student Data Explorer\n\n\nrefactoring & maintaining Bren’s Shiny app for visualizing admissions and career outcome data of current students and recent graduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpenscapes Website\n\n\nporting and redesigning the Openscapes website\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Shiny Strava Dashboard\n\n\na personal (and ongoing) side-project to explore my Strava data and learn more about building Shiny apps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBren Student Data Explorer\n\n\nrefactoring, redesigning & maintaining Bren’s Shiny dashboard for visualizing admissions and career outcome data of current students and recent graduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpenscapes Website\n\n\nporting and redesigning the Openscapes website\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

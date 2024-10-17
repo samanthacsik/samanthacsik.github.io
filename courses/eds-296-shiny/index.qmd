@@ -13,9 +13,9 @@ draft: false
 
 # Course description
 
-These materials accompany the 1-unit, 2-day, hands-on coding workshop, [EDS 296-1W - Intro to Shiny](https://bren.ucsb.edu/courses/eds-296-1w), offered through the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/), in partnership with the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/).
+These materials accompany the 2-unit, 2-day, hands-on coding course, [EDS 296-1W - Intro to Shiny](https://bren.ucsb.edu/courses/eds-296-1w), offered through the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/), in partnership with the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/).
 
-In this workshop, students will learn how to build and deploy Shiny applications. The [`{shiny}` package](https://shiny.posit.co/) provides a framework that allows R users to build interactive web applications and dashboards, and has become a popular tool for sharing data analyses and data-derived outputs with broad audiences. In this two-part short course, students will learn the fundamentals of reactivity, how to customize an application user interface (UI), best practices and workflows for developing shiny apps, and how to deploy their apps online via RStudio’s hosting service, [shinyapps.io](https://www.shinyapps.io/).
+In this workshop, students learn how to build and deploy Shiny applications. The [`{shiny}` package](https://shiny.posit.co/) provides a framework that allows R users to build interactive web applications and dashboards, and has become a popular tool for sharing data analyses and data-derived outputs with broad audiences. We cover the fundamentals of reactivity, how to customize an application user interface (UI), best practices and workflows for developing shiny apps, and how to deploy apps online via Posit’s hosting service, [shinyapps.io](https://www.shinyapps.io/).
 
 <br>
 
