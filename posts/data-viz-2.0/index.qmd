@@ -1,0 +1,19 @@
+---
+title: "Data Viz 2.0"
+description: |
+  changes to EDS 240 in our second year
+author:
+  - name: Samantha Csik
+    url: https://samanthacsik.github.io/
+    orcid: 0000-0002-5300-3075
+date: 2024-10-16
+citation: 
+  url: https://samanthacsik.github.io/posts/data-viz-2.0/
+categories: [MEDS, R, data-visualization, pedagogy, curriculum-development]
+# image: media/tbd
+draft: true
+draft-mode: unlinked
+---
+
+- moved website and all materials into a dedicated GitHub organization (HT: Ruth Oliver)
+- changes to website structure (mainly daily materials)
