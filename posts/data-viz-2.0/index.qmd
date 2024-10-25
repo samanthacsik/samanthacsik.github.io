@@ -17,3 +17,4 @@ draft-mode: unlinked
 
 - moved website and all materials into a dedicated GitHub organization (HT: Ruth Oliver)
 - changes to website structure (mainly daily materials)
+- HW4 option to propose your own project (HT: Max Czapanskiy)
