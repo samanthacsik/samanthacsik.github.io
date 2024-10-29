@@ -7,7 +7,7 @@ image: horst-eco-r4ds.png
 draft: false
 ---
 
-[{{< fa window-maximize >}} course website](https://samanthacsik.github.io/EDS-240-data-viz/){.btn target=_blank} [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-240){.btn target=_blank}
+[{{< fa window-maximize >}} course website](https://eds-240-data-viz.github.io/){.btn target=_blank} [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-240){.btn target=_blank}
 
 <br>
 
