@@ -29,10 +29,10 @@ website:
       - posts.qmd
       - text: get in touch!
         menu:
-          - icon: twitter
-            text: Twitter
-            href: https://twitter.com/SamanthaCsik
-            target: _blank
+          # - icon: bluesky
+          #   text: Bluesky
+          #   href: https://bsky.app/profile/samcsik.bsky.social
+          #  target: _blank
           - icon: linkedin
             text: LinkedIn
             href: https://www.linkedin.com/in/samanthacsik/

@@ -16,5 +16,10 @@ draft-mode: unlinked
 ---
 
 - moved website and all materials into a dedicated GitHub organization (HT: Ruth Oliver)
-- changes to website structure (mainly daily materials)
+- changes to website structure -- daily materials organized by:
+  - pre-class prep
+  - lecture materials with templates and keys that pair with slides (organized in table)
+  - pre-discussion prep
+  - discussion materials (organized in table)
 - HW4 option to propose your own project (HT: Max Czapanskiy)
+- started wiki
