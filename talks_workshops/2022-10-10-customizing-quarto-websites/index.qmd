@@ -14,7 +14,7 @@ categories: [MEDS, R, Quarto, CSS]
 image: sass_css.png
 ---
 
-<center><iframe src="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" title="Customizing Quarto Websites" width=750px, height=550px></iframe></center>
+<center><iframe class="slide-deck" src="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" title="Customizing Quarto Websites" width=750px, height=550px></iframe></center>
 
 <br>
 

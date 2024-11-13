@@ -75,8 +75,11 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 
 
 
+<!-- ```{=html} -->
+<!-- <iframe class="slide-deck center-text" src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" height="420" width="747" style="border: 1px solid #2e3846;"></iframe> -->
+<!-- ``` -->
 <center>
-<iframe src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" title="Just Enough CSS (and Sass) for data scientists" width="750px," height="550px">
+<iframe class="slide-deck" src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" title="Just Enough CSS (and Sass) for data scientists" width="750px," height="550px">
 </iframe>
 </center>
 <div class="center-text">
@@ -298,7 +301,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 
 
 <center>
-<iframe src="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" title="Customizing Quarto Websites" width="750px," height="550px">
+<iframe class="slide-deck" src="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" title="Customizing Quarto Websites" width="750px," height="550px">
 </iframe>
 </center>
 <p><br></p>
@@ -433,7 +436,7 @@ Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/
 <p>It became clear after two cohorts of students that delivering tons of shortcut all at once (in the form of an hour-long workshop; see slide deck, below) was not particularly helpful or effective (learners aren’t given sufficient time to practice and build muscle memory). We tried out something new in summer 2023, and instead presented a few “Keyboard Shortcuts of the Week” throughout the 6-week long MEDS summer session. Overall, I think this was a much needed change to content delivery! You can read more about the format and shortcuts list on <a href="https://github.com/UCSB-MEDS/IDE-tips-and-tricks/wiki/Updated-Approach-for-Delivering-IDE-Tips-&amp;-Tricks---Keyboard-Shortcuts">this wiki</a>.</p>
 <p><br></p>
 <center>
-<iframe src="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" title="IDE Tips &amp; Tricks" width="750px," height="550px">
+<iframe class="slide-deck" src="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" title="IDE Tips &amp; Tricks" width="750px," height="550px">
 </iframe>
 </center>
 <p><br></p>

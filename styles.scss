@@ -252,3 +252,27 @@ div.quarto-about-jolla .about-link {
 .navbar-logo:hover {
   transform: translateY(-4px);
 }
+
+// responisve embedded slides (thanks Casey O'Hara; see https://github.com/nceas-learning-hub/coreR_test/blob/main/lh-style.css)
+.slide-deck{
+  border: 3px solid #dee2e6;
+    border-top-color: rgb(222, 226, 230);
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-right-color: rgb(222, 226, 230);
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-bottom-color: rgb(222, 226, 230);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-color: rgb(222, 226, 230);
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+  width: 70%;
+  height: 475px;
+}

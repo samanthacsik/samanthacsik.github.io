@@ -19,7 +19,7 @@ It became clear after two cohorts of students that delivering tons of shortcut a
 
 <br>
 
-<center><iframe src="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" title="IDE Tips & Tricks" width=750px, height=550px></iframe></center>
+<center><iframe class="slide-deck" src="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" title="IDE Tips & Tricks" width=750px, height=550px></iframe></center>
 
 <br>
 

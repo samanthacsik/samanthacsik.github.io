@@ -15,7 +15,11 @@ image: bob-ross.gif
 draft: false
 ---
 
-<center><iframe src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" title="Just Enough CSS (and Sass) for data scientists" width="750px," height="550px"></iframe></center>
+<!-- ```{=html} -->
+<!-- <iframe class="slide-deck center-text" src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" height="420" width="747" style="border: 1px solid #2e3846;"></iframe> -->
+<!-- ``` -->
+
+<center><iframe class="slide-deck" src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" title="Just Enough CSS (and Sass) for data scientists" width="750px," height="550px"></iframe></center>
 
 ::: {.center-text}
 [{{< fa tv title="A television screen" >}} slides](https://samanthacsik.github.io/just-enough-css-sass/#/title-slide){.btn role="button" target="_blank"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/just-enough-css-sass){.btn role="button" target="_blank"}
