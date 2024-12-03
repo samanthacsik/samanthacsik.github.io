@@ -10,7 +10,7 @@
 <atom:link href="https://samanthacsik.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Tue, 12 Nov 2024 22:51:14 GMT</lastBuildDate>
+<lastBuildDate>Tue, 03 Dec 2024 00:43:37 GMT</lastBuildDate>
 <item>
   <title>Shiny Strava Dashboard</title>
   <link>https://samanthacsik.github.io/projects/2022-11-23-strava-dashboard/</link>
@@ -20,7 +20,7 @@
 
 
 
-<p><a href="https://samanthacsik.shinyapps.io/strava_dashboard/" class="btn" target="_blank"> shiny dashboard</a> <a href="https://github.com/samanthacsik/strava-dashboard" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://samanthacsik.shinyapps.io/strava_dashboard/" class="btn" target="_blank"><i class="fa-brands fa-r-project" aria-label="r-project"></i> shiny dashboard</a> <a href="https://github.com/samanthacsik/strava-dashboard" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> source code</a></p>
 <p><br></p>
 <!-- # Motivation -->
 <p>It doesn’t get much better than playing around with data that mean a lot to you. For me, that’s my Strava data (yes, I do recognize that that might sound a bit silly) – I’m fortunate enough to have near-immediate access to some of the greatest hiking trails around (yes, I also recognize that I’m totally biased), and spending my free time romping around our local mountains has been so important for my mental health. <em>So,</em> when I was ready to do my first real deep-dive into learning how to build Shiny apps and dashboards, I knew these were the data I needed to use.</p>
@@ -38,7 +38,7 @@
  ]]></description>
   <category>Shiny</category>
   <guid>https://samanthacsik.github.io/projects/2022-11-23-strava-dashboard/</guid>
-  <pubDate>Tue, 12 Nov 2024 22:51:14 GMT</pubDate>
+  <pubDate>Tue, 03 Dec 2024 00:43:37 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/projects/2022-11-23-strava-dashboard/strava-logo-white-bg.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -50,7 +50,7 @@
 
 
 
-<p><a href="https://shinyapps.bren.ucsb.edu/student-data-explorer/" class="btn" target="_blank"> shiny dashboard</a> <a href="https://github.com/UCSB-MEDS/shiny-dashboard" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://shinyapps.bren.ucsb.edu/student-data-explorer/" class="btn" target="_blank"><i class="fa-brands fa-r-project" aria-label="r-project"></i> shiny dashboard</a> <a href="https://github.com/UCSB-MEDS/shiny-dashboard" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> source code</a></p>
 <p><br></p>
 <p>In an effort to increase transparency surrounding student demographics and post-graduation career placement statistics, <a href="https://bren.ucsb.edu/">The Bren School</a> hired R Shiny Developer Fellow, <a href="https://github.com/hdolinh/">Halina Do-Linh</a> in summer 2022. Halina designed and built v1.0 of the public-facing <a href="https://shinyapps.bren.ucsb.edu/student-data-explorer/">dashboard</a> for exploring these data.</p>
 <p>Since then, the proverbial torch was passed to me for continued maintenance and updates. I collaborate with the Bren Admissions and <a href="https://bren.ucsb.edu/career-services">Career Services</a> Teams, as well as MEDS Program Coordinator, <a href="https://www.jamiecmontgomery.com/">Jamie Montgomery</a>, to update data, modify visuals, and refactor the code, as needed, each year.</p>
@@ -65,7 +65,7 @@
  ]]></description>
   <category>Shiny</category>
   <guid>https://samanthacsik.github.io/projects/2023-02-15-bren-student-data-explorer/</guid>
-  <pubDate>Tue, 12 Nov 2024 22:51:14 GMT</pubDate>
+  <pubDate>Tue, 03 Dec 2024 00:43:37 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/projects/2023-02-15-bren-student-data-explorer/bren-hex-white-bg.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -77,7 +77,7 @@
 
 
 
-<p><a href="https://openscapes.org/" class="btn" target="_blank"> Openscapes website</a> <a href="https://github.com/Openscapes/website-new" class="btn" target="_blank"> source code</a> <a href="../../posts/2023-08-01-openscapes-website/index.html" class="btn" target="_blank"> blogpost</a></p>
+<p><a href="https://openscapes.org/" class="btn" target="_blank"><i class="fa-solid fa-laptop" aria-label="laptop"></i> Openscapes website</a> <a href="https://github.com/Openscapes/website-new" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> source code</a> <a href="../../posts/2023-08-01-openscapes-website/index.html" class="btn" target="_blank"><i class="fa-solid fa-blog" aria-label="blog"></i> blogpost</a></p>
 <p><br></p>
 <!-- # Project overview -->
 <p>My first freelancing adventure(!) was spent porting the <a href="https://openscapes.org/">Openscapes website</a> from <a href="https://bookdown.org/yihui/blogdown/"><code>{blogdown}</code></a> to <a href="https://quarto.org/">Quarto</a> and redesigning aspects of the website’s layout, styling, and overall functionality. I worked closely with <a href="https://jules32.github.io/">Julie Lowndes</a> (founding director of Openscapes) and <a href="https://stefaniebutland.netlify.app/">Stefanie Butland</a> (core Openscapes team member) to bring their vision to life and it was <em>seriously</em> such a fun project. I wrote a <a href="../../posts/2023-08-01-openscapes-website/index.html">blog post</a> about my experience / some of the highlights. Check it out!</p>
@@ -92,7 +92,7 @@
  ]]></description>
   <category>Quarto website</category>
   <guid>https://samanthacsik.github.io/projects/2023-06-22-openscapes-website-dev/</guid>
-  <pubDate>Tue, 12 Nov 2024 22:51:14 GMT</pubDate>
+  <pubDate>Tue, 03 Dec 2024 00:43:37 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/projects/2023-06-22-openscapes-website-dev/openscapes-hex-white-bg.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>

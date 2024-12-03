@@ -25,10 +25,10 @@ about:
 ---
 
 ::: {#bio}
-Hi there! I'm Sam (and my last name is pronounced "chick"). Professionally, I love **teaching data science skills**, learning and implementing **inclusive pedagogical approaches**, and the communities that support both of those things. Outside of work, I'm an **avid hiker**, novice (but passionate) meal-maker, and I really love the color green. Poke around to learn more [about me](about.qmd) and my work!
+Hi there! I'm Sam Shanny-Csik (pronounced "shan-knee chick"). Professionally, I love **teaching data science skills**, learning and implementing **inclusive pedagogical approaches**, and the communities that support both of those things. Outside of work, I'm an **avid hiker**, novice (but passionate) meal-maker, and I really love the color green. Poke around to learn more [about me](about.qmd) and my work!
 
 ::: {#landing-icons}
-[{{< fa brands linkedin title="linkedin" >}}](https://www.linkedin.com/in/samanthacsik/) &nbsp; [{{< fa brands github title="github" >}}](https://github.com/samanthacsik) &nbsp; [{{< fa envelope title="envelope" >}}](mailto:scsik@ucsb.edu)
+[{{< fa brands linkedin title="linkedin" >}}](https://www.linkedin.com/in/samanthacsik/){target="_blank"} &nbsp; [{{< fa brands github title="github" >}}](https://github.com/samanthacsik){target="_blank"} &nbsp; [{{< fa brands bluesky title="bluesky" >}}](https://bsky.app/profile/samcsik.bsky.social){target="_blank"} &nbsp; [{{< fa envelope title="envelope" >}}](mailto:scsik@ucsb.edu)
 :::
 :::
 

@@ -32,7 +32,7 @@
 </div>
 <p><br></p>
 <div class="center-text">
-<p><a href="https://samanthacsik.github.io/OHI-quarto-websites/" class="btn" target="_blank"> materials</a> <a href="https://github.com/samanthacsik/OHI-quarto-websites" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://samanthacsik.github.io/OHI-quarto-websites/" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/samanthacsik/OHI-quarto-websites" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
@@ -83,7 +83,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </iframe>
 </center>
 <div class="center-text">
-<p><a href="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" class="btn" target="_blank"> slides</a> <a href="https://github.com/samanthacsik/just-enough-css-sass" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a> <a href="https://github.com/samanthacsik/just-enough-css-sass" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
@@ -130,7 +130,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </div>
 <p><br></p>
 <div class="center-text">
-<p><a href="https://samanthacsik.github.io/SORTEE-May2023/" class="btn" target="_blank"> materials</a> <a href="https://github.com/samanthacsik/SORTEE-May2023" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://samanthacsik.github.io/SORTEE-May2023/" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/samanthacsik/SORTEE-May2023" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
@@ -177,7 +177,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </div>
 <p><br></p>
 <div class="center-text">
-<p><a href="https://ucsb-meds.github.io/functions-workshop/" class="btn" target="_blank"> materials</a> <a href="https://github.com/UCSB-MEDS/functions-workshop" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://ucsb-meds.github.io/functions-workshop/" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/UCSB-MEDS/functions-workshop" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
@@ -223,7 +223,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </div>
 <p><br></p>
 <div class="center-text">
-<p><a href="https://ucsb-meds.github.io/ggplot2-workflow/" class="btn" target="_blank"> materials</a> <a href="https://github.com/UCSB-MEDS/ggplot2-workflow/tree/main" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://ucsb-meds.github.io/ggplot2-workflow/" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/UCSB-MEDS/ggplot2-workflow/tree/main" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
@@ -269,7 +269,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </div>
 <p><br></p>
 <div class="center-text">
-<p><a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/" class="btn" target="_blank"> blogpost</a> <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/" class="btn" target="_blank"><i class="fa-solid fa-blog" title="The blog symbol" aria-label="blog"></i> blogpost</a> <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
@@ -306,7 +306,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </center>
 <p><br></p>
 <div class="center-text">
-<p><a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" class="btn" target="_blank"> slides</a> <a href="https://github.com/UCSB-MEDS/customizing-quarto-websites" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a> <a href="https://github.com/UCSB-MEDS/customizing-quarto-websites" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
@@ -352,7 +352,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </div>
 <p><br></p>
 <div class="center-text">
-<p><a href="https://ucsb-meds.github.io/creating-quarto-websites/" class="btn" target="_blank"> materials</a> <a href="https://github.com/UCSB-MEDS/creating-quarto-websites" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://ucsb-meds.github.io/creating-quarto-websites/" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/UCSB-MEDS/creating-quarto-websites" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
@@ -403,7 +403,7 @@ Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/
 </div>
 <p><br></p>
 <div class="center-text">
-<p><a href="https://ucsb-meds.github.io/cloud-computing/#1" class="btn" target="_blank"> slides</a> <a href="https://github.com/UCSB-MEDS/cloud-computing" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://ucsb-meds.github.io/cloud-computing/#1" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a> <a href="https://github.com/UCSB-MEDS/cloud-computing" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
@@ -441,7 +441,7 @@ Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/
 </center>
 <p><br></p>
 <div class="center-text">
-<p><a href="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" class="btn" target="_blank"> slides</a> <a href="https://github.com/UCSB-MEDS/IDE-tips-and-tricks" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a> <a href="https://github.com/UCSB-MEDS/IDE-tips-and-tricks" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
@@ -481,7 +481,7 @@ Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/
 </div>
 <p><br></p>
 <div class="center-text">
-<p><a href="https://ucsb-meds.github.io/teach-me-how-to-google/#1" class="btn" target="_blank"> slides</a> <a href="https://github.com/UCSB-MEDS/teach-me-how-to-google" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://ucsb-meds.github.io/teach-me-how-to-google/#1" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a> <a href="https://github.com/UCSB-MEDS/teach-me-how-to-google" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
@@ -526,7 +526,7 @@ Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/
 </div>
 <p><br></p>
 <div class="center-text">
-<p><a href="https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse" class="btn" target="_blank"> materials</a> <a href="https://github.com/samanthacsik/Intro-to-the-Tidyverse" class="btn" target="_blank"> source code</a></p>
+<p><a href="https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/samanthacsik/Intro-to-the-Tidyverse" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>

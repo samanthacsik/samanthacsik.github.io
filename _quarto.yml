@@ -14,8 +14,8 @@ website:
     anonymize-ip: true
   navbar:
     title: false
-    logo: images/logos/logo-transparent-dark.png
-    logo-alt: "The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon."
+    logo: images/logos/shanny-csik-logo-transparent-dark.png
+    logo-alt: "The name 'sam shanny-csik' written in green text. Above 'csik' is a green horizontal line, above which sits a green chick icon."
     right:
       - href: index.qmd
         text: home
@@ -32,7 +32,7 @@ website:
           # - icon: bluesky
           #   text: Bluesky
           #   href: https://bsky.app/profile/samcsik.bsky.social
-          #  target: _blank
+          #   target: _blank
           - icon: linkedin
             text: LinkedIn
             href: https://www.linkedin.com/in/samanthacsik/
@@ -45,7 +45,7 @@ website:
         target: _blank
   page-footer: 
     background: light
-    left: © 2021 Samantha Csik
+    left: © 2021 Samantha Shanny-Csik
     right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/samanthacsik/samanthacsik.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
 format:

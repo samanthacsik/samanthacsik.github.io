@@ -179,6 +179,8 @@ map
 
 ## {{< fa egg title="An egg" >}} the logo
 
+**Update 2024-12-02:** My logo just got a little bit longer! I got married (a little while ago actually! April 22, 2023) and my husband, Brendan, and I decided to hyphenate our names. We're officially the Shanny-Csik's and are both excited to join our family names {{< fa heart title="heart" >}}.
+
 I'm a proud Csik (pronounced "chick" -- Hungarian, for the curious), though I spent many of my younger years embarrassed when people (understandably) got it wrong (variations include "sea-sick," "sick," "ca-sick," to name a few) -- and many of us know how brutal little kid peers can be when there's a funny way to mispronounce a name. At some point, I learned to embrace the weird and it became very much a part of my everyday identity. My track coaches and teammates would shout "LET'S GO CSIK" during my events at meets, I signed year books as "Sam [drawing of a chick]" and every handmade card received my "The Csik Press" identifying mark on the back. As I've grown older, I've taken more care to help colleagues, peers, and strangers learn the correct pronunciation -- because if I'm being totally honest, I think my name is pretty darn cool `r fontawesome::fa("smile-wink", fill = "#64605F", a11y = "sem")`. So my first ever *real* logo is an homage to my earliest attempts at claiming my Csik identity. It may evolve a bit, but for now, it makes me pretty happy. Made using the (free!) [Adobe Express logo maker](https://www.adobe.com/express/create/logo).
 
 :::{.column-margin}
@@ -197,6 +199,6 @@ The back of a handmade birthday card by yours truly (aka 'The Csik Press'). Than
 #| fig-align: center
 #| fig-width: 5
 #| fig-height: 3
-#| fig-alt: "The name, 'sam csik' in white lettering. Above 'csik' sits a horizontal dark green bar. Above the green bar is a white chick."
-knitr::include_graphics("images/logos/logo-light.png")
+#| fig-alt: "The name, 'sam shanny-csik' in white lettering. Above 'csik' sits a horizontal dark green bar. Above the green bar is a white chick."
+knitr::include_graphics("images/logos/shanny-csik-logo-transparent-light.png")
 ```
