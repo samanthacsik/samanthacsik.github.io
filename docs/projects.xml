@@ -5,12 +5,12 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Sam Csik</title>
+<title>Sam Shanny-Csik</title>
 <link>https://samanthacsik.github.io/projects.html</link>
 <atom:link href="https://samanthacsik.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Tue, 03 Dec 2024 00:43:37 GMT</lastBuildDate>
+<lastBuildDate>Tue, 03 Dec 2024 00:52:44 GMT</lastBuildDate>
 <item>
   <title>Shiny Strava Dashboard</title>
   <link>https://samanthacsik.github.io/projects/2022-11-23-strava-dashboard/</link>
@@ -38,7 +38,7 @@
  ]]></description>
   <category>Shiny</category>
   <guid>https://samanthacsik.github.io/projects/2022-11-23-strava-dashboard/</guid>
-  <pubDate>Tue, 03 Dec 2024 00:43:37 GMT</pubDate>
+  <pubDate>Tue, 03 Dec 2024 00:52:44 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/projects/2022-11-23-strava-dashboard/strava-logo-white-bg.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -65,7 +65,7 @@
  ]]></description>
   <category>Shiny</category>
   <guid>https://samanthacsik.github.io/projects/2023-02-15-bren-student-data-explorer/</guid>
-  <pubDate>Tue, 03 Dec 2024 00:43:37 GMT</pubDate>
+  <pubDate>Tue, 03 Dec 2024 00:52:44 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/projects/2023-02-15-bren-student-data-explorer/bren-hex-white-bg.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -92,7 +92,7 @@
  ]]></description>
   <category>Quarto website</category>
   <guid>https://samanthacsik.github.io/projects/2023-06-22-openscapes-website-dev/</guid>
-  <pubDate>Tue, 03 Dec 2024 00:43:37 GMT</pubDate>
+  <pubDate>Tue, 03 Dec 2024 00:52:44 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/projects/2023-06-22-openscapes-website-dev/openscapes-hex-white-bg.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
