@@ -1,0 +1,20 @@
+---
+pagetitle: "404"
+---
+
+<br>
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "40%"
+#| fig-align: "center"
+#| fig-alt: "The characters '404' but the '0' is in the shape of a chick, which matches Sam's website logo."
+knitr::include_graphics("images/404.png")
+```
+
+::: {.center-text .large-text .josefin-font}
+Oops, the page you are looking for is missing or may have moved! 
+
+Consider searching for some key words {{< fa magnifying-glass title="magnifying glass" >}} or [reach out](mailto:scsik@ucsb.edu) {{< fa envelope title="envelope" >}}
+:::
