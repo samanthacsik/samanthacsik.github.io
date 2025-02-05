@@ -10,7 +10,7 @@
 <atom:link href="https://samanthacsik.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Thu, 23 Jan 2025 23:44:35 GMT</lastBuildDate>
+<lastBuildDate>Wed, 05 Feb 2025 04:39:32 GMT</lastBuildDate>
 <item>
   <title>Shiny Strava Dashboard</title>
   <link>https://samanthacsik.github.io/projects/2022-11-23-strava-dashboard/</link>
@@ -38,7 +38,7 @@
  ]]></description>
   <category>Shiny</category>
   <guid>https://samanthacsik.github.io/projects/2022-11-23-strava-dashboard/</guid>
-  <pubDate>Thu, 23 Jan 2025 23:44:35 GMT</pubDate>
+  <pubDate>Wed, 05 Feb 2025 04:39:32 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/projects/2022-11-23-strava-dashboard/strava-logo-white-bg.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -65,7 +65,7 @@
  ]]></description>
   <category>Shiny</category>
   <guid>https://samanthacsik.github.io/projects/2023-02-15-bren-student-data-explorer/</guid>
-  <pubDate>Thu, 23 Jan 2025 23:44:35 GMT</pubDate>
+  <pubDate>Wed, 05 Feb 2025 04:39:32 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/projects/2023-02-15-bren-student-data-explorer/bren-hex-white-bg.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -92,7 +92,7 @@
  ]]></description>
   <category>Quarto website</category>
   <guid>https://samanthacsik.github.io/projects/2023-06-22-openscapes-website-dev/</guid>
-  <pubDate>Thu, 23 Jan 2025 23:44:35 GMT</pubDate>
+  <pubDate>Wed, 05 Feb 2025 04:39:32 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/projects/2023-06-22-openscapes-website-dev/openscapes-hex-white-bg.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
