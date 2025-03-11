@@ -78,6 +78,18 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 <!-- ```{=html} -->
 <!-- <iframe class="slide-deck center-text" src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" height="420" width="747" style="border: 1px solid #2e3846;"></iframe> -->
 <!-- ``` -->
+<!-- <style> -->
+<!-- .slide-deck { -->
+<!--     border: 3px solid #dee2e6; -->
+<!--     width: 100%; -->
+<!--     height: 475px; -->
+<!-- } -->
+<!-- </style> -->
+<!-- <div> -->
+<!-- ```{=html} -->
+<!-- <iframe class="slide-deck" src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide"></iframe> -->
+<!-- ``` -->
+<!-- </div> -->
 <center>
 <iframe class="slide-deck" src="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" title="Just Enough CSS (and Sass) for data scientists" width="750px," height="550px">
 </iframe>
