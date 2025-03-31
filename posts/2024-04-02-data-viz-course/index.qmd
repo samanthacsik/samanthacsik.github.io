@@ -2,10 +2,10 @@
 title: "Building (and teaching) a graduate-level data science course"
 description: |
   a brain-dump of the many thoughts, processes, and considerations that have been my focus for the past seven(!) months
-author:
-  - name: Samantha Csik
-    url: https://samanthacsik.github.io/
-    orcid: 0000-0002-5300-3075
+# author:
+#   - name: Samantha Csik
+#     url: https://samanthacsik.github.io/
+#     orcid: 0000-0002-5300-3075
 date: 2024-04-02
 citation: 
   url: https://samanthacsik.github.io/posts/2024-03-31-data-viz-course/

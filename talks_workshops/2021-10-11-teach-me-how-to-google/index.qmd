@@ -3,7 +3,7 @@ title: "Teach Me How to Google"
 description: |
   a talk on how to troubleshoot code and Google for helpful answers
 author:
-  - name: Samantha Csik
+  - name: Samantha Shanny-Csik
     url: https://samanthacsik.github.io/
     orcid: 0000-0002-5300-3075
     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis

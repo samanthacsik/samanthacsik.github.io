@@ -3,7 +3,7 @@ title: "Just enough CSS (and Sass) for data scientists"
 description: |
   a hands-on workshop for data scientists looking to add a little pizzazz to their web pages
 author:
-  - name: Samantha Csik
+  - name: Samantha Shanny-Csik
     url: https://samanthacsik.github.io/
     orcid: 0000-0002-5300-3075
     affiliation: The National Center for Ecological Analysis and Synthesis

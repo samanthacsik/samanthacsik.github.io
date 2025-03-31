@@ -3,7 +3,7 @@ title: "Intro to the {tidyverse}"
 description: |
   a code-along workshop to learn data wrangling and visualization techniques using {tidyverse} functions
 author:
-  - name: Samantha Csik
+  - name: Samantha Shanny-Csik
     url: https://samanthacsik.github.io/
     orcid: 0000-0002-5300-3075
     affiliation: R-Ladies Santa Barbara

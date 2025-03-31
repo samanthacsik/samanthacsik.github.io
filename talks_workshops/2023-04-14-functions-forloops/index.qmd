@@ -3,7 +3,7 @@ title: "An iterative approach to streamlining analytical workflows using functio
 description: |
   a workshop with the goal of making function and for loop writing less daunting
 author:
-  - name: Samantha Csik
+  - name: Samantha Shanny-Csik
     url: https://samanthacsik.github.io/
     orcid: 0000-0002-5300-3075
     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis

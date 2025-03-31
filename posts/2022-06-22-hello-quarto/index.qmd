@@ -3,7 +3,7 @@ title: "Hello Quarto!"
 description: |
   a Quarto Chat with NASA Openscapes, co-hosted with R-Ladies Santa Barbara [orginally published on the Openscapes blog]
 author:
-  - name: Samantha Csik
+  - name: Samantha Shanny-Csik
     url: https://samanthacsik.github.io/
     orcid: 0000-0002-5300-3075
     affiliation: R-Ladies Santa Barbara

@@ -3,7 +3,7 @@ title: "Integrating JavaScript Libraries into R for Dynamic Visualizations"
 description: |
   a live-coding workshop on building interactive data visualizations, given as part of the SORTEE webinar series
 author:
-  - name: Samantha Csik
+  - name: Samantha Shanny-Csik
     url: https://samanthacsik.github.io/
     orcid: 0000-0002-5300-3075
     affiliation: The National Center for Ecological Analysis and Synthesis

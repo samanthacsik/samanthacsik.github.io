@@ -10,7 +10,7 @@
 <atom:link href="https://samanthacsik.github.io/courses.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Mon, 31 Mar 2025 18:52:32 GMT</lastBuildDate>
+<lastBuildDate>Mon, 31 Mar 2025 19:31:02 GMT</lastBuildDate>
 <item>
   <title>EDS 240 - Data Visualization &amp; Communication</title>
   <link>https://samanthacsik.github.io/courses/eds-240-data-viz/</link>
@@ -58,7 +58,7 @@
   <category>R</category>
   <category>ggplot</category>
   <guid>https://samanthacsik.github.io/courses/eds-240-data-viz/</guid>
-  <pubDate>Mon, 31 Mar 2025 18:52:32 GMT</pubDate>
+  <pubDate>Mon, 31 Mar 2025 19:31:02 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-240-data-viz/EDS240-hex-small.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -99,7 +99,7 @@
   <category>shiny</category>
   <category>R</category>
   <guid>https://samanthacsik.github.io/courses/eds-296-shiny/</guid>
-  <pubDate>Mon, 31 Mar 2025 18:52:32 GMT</pubDate>
+  <pubDate>Mon, 31 Mar 2025 19:31:02 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-296-shiny/shiny-hex-small.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -169,7 +169,7 @@
   <category>Quarto</category>
   <category>GitHub</category>
   <guid>https://samanthacsik.github.io/courses/eds-296-ds-portfolios/</guid>
-  <pubDate>Mon, 31 Mar 2025 18:52:32 GMT</pubDate>
+  <pubDate>Mon, 31 Mar 2025 19:31:02 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-296-ds-portfolios/quarto-github.png" medium="image" type="image/png" height="80" width="144"/>
 </item>
 </channel>

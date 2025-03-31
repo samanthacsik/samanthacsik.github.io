@@ -3,7 +3,7 @@ title: "Quarto for documenting Ocean Health Index (OHI) methods"
 description: |
   step-by-step instructions for building, deploying, and customizing a Quarto website to organize, house, and better share OHI methodology
 author:
-  - name: Samantha Csik
+  - name: Samantha Shanny-Csik
     orcid: 0000-0002-5300-3075 
     url: https://samanthacsik.github.io/
     affiliation: The National Center for Ecological Analysis and Synthesis

@@ -3,7 +3,7 @@ title: "Creating your personal website using Quarto"
 description: |
   step-by-step instructions for building & deploying a Quarto website
 author:
-  - name: Samantha Csik
+  - name: Samantha Shanny-Csik
     orcid: 0000-0002-5300-3075 
     url: https://samanthacsik.github.io/
     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis

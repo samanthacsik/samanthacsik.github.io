@@ -3,7 +3,7 @@ title: "It's ALL about semantics"
 description: |
   a lightening talk on how semantic tools can make finding data easier and impactful synthesis science faster
 author:
-  - name: Samantha Csik
+  - name: Samantha Shanny-Csik
     url: https://samanthacsik.github.io/
     orcid_id: 0000-0002-5300-3075
     affiliation: The National Center for Ecological Analysis and Synthesis

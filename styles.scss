@@ -16,6 +16,7 @@ $dark-gray: #5A5856;
 $medium-gray: #64605f;
 $violet: #846075;
 $terracotta: #BD6E53; 
+$terracotta-dark: #a2604a;
 //$hunter-green: #464B37;
 //$terracotta-dark: #a15e47;
 //$orange: #c27e00;
@@ -254,6 +255,33 @@ div.quarto-about-jolla .about-link {
 
 .navbar-logo:hover {
   transform: translateY(-4px);
+}
+
+/* blog post category color
+.quarto-title .quarto-categories .quarto-category {
+  color: $terracotta; 
+}*/
+
+// blog post category hover color
+.quarto-title .quarto-categories .quarto-category:hover {
+  color: $terracotta-dark;
+}
+
+// listing page item category color
+/*.quarto-grid-item .listing-categories .listing-category  {
+  color: $terracotta;
+  border-color: $terracotta;
+}*/
+
+// listing page item category hover color
+.quarto-grid-item .listing-categories .listing-category:hover  {
+  color: $terracotta-dark;
+  border-color: $terracotta-dark;
+}
+
+// listing page "Categories" selction color
+.quarto-listing-category .category.active {
+  color: $terracotta;
 }
 
 // responisve embedded slides (thanks Casey O'Hara; see https://github.com/nceas-learning-hub/coreR_test/blob/main/lh-style.css)

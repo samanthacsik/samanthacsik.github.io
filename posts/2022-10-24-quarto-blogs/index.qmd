@@ -2,12 +2,12 @@
 title: "Adding a blog to your existing Quarto website"
 description: |
   Got a Quarto website, but no blog? We can fix that!
-author:
-  - name: Samantha Csik
-    url: https://samanthacsik.github.io/
-    orcid: 0000-0002-5300-3075
-    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
-    affiliation-url: https://ucsb-meds.github.io/ 
+# author:
+#   - name: Samantha Csik
+#     url: https://samanthacsik.github.io/
+#     orcid: 0000-0002-5300-3075
+#     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
+#     affiliation-url: https://ucsb-meds.github.io/ 
 date: 2022-10-24
 date-modified: last-modified
 bibliography: references.bib

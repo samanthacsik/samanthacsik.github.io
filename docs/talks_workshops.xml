@@ -13,7 +13,7 @@
 <lastBuildDate>Fri, 17 May 2024 07:00:00 GMT</lastBuildDate>
 <item>
   <title>Quarto for documenting Ocean Health Index (OHI) methods</title>
-  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2024-05-17-OHI-quarto-websites/</link>
   <description><![CDATA[ 
 
@@ -45,17 +45,17 @@
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{csik2024,
-  author = {Csik, Samantha},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{shanny-csik2024,
+  author = {Shanny-Csik, Samantha},
   title = {Quarto for Documenting {Ocean} {Health} {Index} {(OHI)}
     Methods},
   date = {2024-05-17},
   url = {https://samanthacsik.github.io/talks/2024-05-17-OHI-quarto-websites/},
   langid = {en}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-csik2024" class="csl-entry quarto-appendix-citeas">
-Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
-(OHI) Methods.”</span> May 17, 2024. <a href="https://samanthacsik.github.io/talks/2024-05-17-OHI-quarto-websites/">https://samanthacsik.github.io/talks/2024-05-17-OHI-quarto-websites/</a>.
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-shanny-csik2024" class="csl-entry quarto-appendix-citeas">
+Shanny-Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health
+Index (OHI) Methods.”</span> May 17, 2024. <a href="https://samanthacsik.github.io/talks/2024-05-17-OHI-quarto-websites/">https://samanthacsik.github.io/talks/2024-05-17-OHI-quarto-websites/</a>.
 </div></div></section></div> ]]></description>
   <category>NCEAS</category>
   <category>Ocean-Health-Index</category>
@@ -67,7 +67,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </item>
 <item>
   <title>Just enough CSS (and Sass) for data scientists</title>
-  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2023-08-03-just-enough-css/</link>
   <description><![CDATA[ 
 
@@ -119,7 +119,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </item>
 <item>
   <title>Integrating JavaScript Libraries into R for Dynamic Visualizations</title>
-  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
   <dc:creator>An Bui</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2023-05-23-js-in-r/</link>
   <description><![CDATA[ 
@@ -167,7 +167,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </item>
 <item>
   <title>An iterative approach to streamlining analytical workflows using functions and for loops</title>
-  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2023-04-14-functions-forloops/</link>
   <description><![CDATA[ 
 
@@ -213,7 +213,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </item>
 <item>
   <title>One workflow for building effective (and pretty) {ggplot2} data visualizations</title>
-  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2023-03-16-ggplot2/</link>
   <description><![CDATA[ 
 
@@ -259,7 +259,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </item>
 <item>
   <title>Adding a blog to your existing Quarto website</title>
-  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2022-10-24-quarto-blogs/</link>
   <description><![CDATA[ 
 
@@ -304,7 +304,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </item>
 <item>
   <title>Customizing Quarto Websites</title>
-  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2022-10-10-customizing-quarto-websites/</link>
   <description><![CDATA[ 
 
@@ -342,7 +342,7 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 </item>
 <item>
   <title>Creating your personal website using Quarto</title>
-  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/</link>
   <description><![CDATA[ 
 
@@ -377,15 +377,15 @@ Csik, Samantha. 2024. <span>“Quarto for Documenting Ocean Health Index
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{csik2022,
-  author = {Csik, Samantha},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{shanny-csik2022,
+  author = {Shanny-Csik, Samantha},
   title = {Creating Your Personal Website Using {Quarto}},
   date = {2022-08-05},
   url = {https://samanthacsik.github.io/talks/2022-08-05-creating-your-personal-website-using-quarto/},
   langid = {en}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-csik2022" class="csl-entry quarto-appendix-citeas">
-Csik, Samantha. 2022. <span>“Creating Your Personal Website Using
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-shanny-csik2022" class="csl-entry quarto-appendix-citeas">
+Shanny-Csik, Samantha. 2022. <span>“Creating Your Personal Website Using
 Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/2022-08-05-creating-your-personal-website-using-quarto/">https://samanthacsik.github.io/talks/2022-08-05-creating-your-personal-website-using-quarto/</a>.
 </div></div></section></div> ]]></description>
   <category>MEDS</category>
@@ -397,7 +397,7 @@ Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/
 </item>
 <item>
   <title>An Intro to Cloud Computing</title>
-  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2022-04-18-intro-to-cloud-computing/</link>
   <description><![CDATA[ 
 
@@ -437,7 +437,7 @@ Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/
 </item>
 <item>
   <title>RStudio Tips &amp; Tricks</title>
-  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2021-11-15-ide-tips-tricks/</link>
   <description><![CDATA[ 
 
@@ -475,7 +475,7 @@ Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/
 </item>
 <item>
   <title>Teach Me How to Google</title>
-  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2021-10-11-teach-me-how-to-google/</link>
   <description><![CDATA[ 
 
@@ -515,7 +515,7 @@ Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/
 </item>
 <item>
   <title>Intro to the {tidyverse}</title>
-  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
   <dc:creator>An Bui</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2019-05-15-intro-to-the-tidyverse/</link>
   <description><![CDATA[ 

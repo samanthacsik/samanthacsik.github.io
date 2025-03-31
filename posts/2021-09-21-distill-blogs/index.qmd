@@ -2,12 +2,10 @@
 title: "Why create presentation slides about blogging when you can just blog about it instead?"
 description: |
   I started putting together some slides on the whys and hows of blogging using {distill} when I realized...maybe I've just found the content for my first blog post??
-author:
-  - name: Samantha Csik 
-    orcid: 0000-0002-5300-3075
-    url: https://samanthacsik.github.io/
-    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
-    affiliation-url: https://ucsb-meds.github.io/ 
+# author:
+  # - name: Samantha Shanny-Csik 
+  #   affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
+  #   affiliation-url: https://ucsb-meds.github.io/ 
 date: 2021-09-24
 citation: 
   url: https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/

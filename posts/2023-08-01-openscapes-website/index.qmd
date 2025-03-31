@@ -3,7 +3,7 @@ title: "Porting the Openscapes website from blogdown to Quarto"
 description: |
   reflections of a first-time freelancer
 author:
-  - name: Samantha Csik
+  - name: Samantha Shanny-Csik
     url: https://samanthacsik.github.io/
     orcid: 0000-0002-5300-3075
 date: 2023-08-01

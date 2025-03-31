@@ -3,7 +3,7 @@ title: "Data Viz with {ggplot2}"
 description: |
   a live-coding workshop on making data visualizations with {ggplot2}
 author:
-  - name: Samantha Csik
+  - name: Samantha Shanny-Csik
     url: https://samanthacsik.github.io/
     orcid: 0000-0002-5300-3075
     affiliation: R-Ladies Santa Barbara
