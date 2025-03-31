@@ -3,7 +3,7 @@ title: "EDS 240 - Data Visualization & Communication"
 description: |
   a 4-unit core course covering the basic principles for effective communication through data viz + lots of `{ggplot2}`!
 categories: [UCSB, data-visualization, R, ggplot]
-image: horst-eco-r4ds.png
+image: EDS240-hex-small.png
 draft: false
 ---
 
