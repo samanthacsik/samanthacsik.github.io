@@ -258,6 +258,18 @@ Index (OHI) Methods.”</span> May 17, 2024. <a href="https://samanthacsik.githu
   <media:content url="https://samanthacsik.github.io/talks_workshops/2023-03-16-ggplot2/ahorst_ggplot2_small.png" medium="image" type="image/png" height="95" width="144"/>
 </item>
 <item>
+  <title></title>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2023-01-20-eds430-intro-to-shiny/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>MEDS</category>
+  <category>R</category>
+  <category>shiny</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2023-01-20-eds430-intro-to-shiny/</guid>
+  <pubDate>Fri, 20 Jan 2023 08:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2023-01-20-eds430-intro-to-shiny/shiny_hex.png" medium="image" type="image/png" height="167" width="144"/>
+</item>
+<item>
   <title>Adding a blog to your existing Quarto website</title>
   <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2022-10-24-quarto-blogs/</link>
@@ -436,6 +448,33 @@ Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/
   <media:content url="https://samanthacsik.github.io/talks_workshops/2022-04-18-intro-to-cloud-computing/clouds.gif" medium="image" type="image/gif"/>
 </item>
 <item>
+  <title></title>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2022-02-18-intro-to-shiny/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>MEDS</category>
+  <category>R</category>
+  <category>shiny</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2022-02-18-intro-to-shiny/</guid>
+  <pubDate>Fri, 18 Feb 2022 08:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2022-02-18-intro-to-shiny/shiny_hex.png" medium="image" type="image/png" height="167" width="144"/>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Samantha Csik</dc:creator>
+  <dc:creator>An Bui</dc:creator>
+  <dc:creator>Sean Helvey</dc:creator>
+  <dc:creator>Lars Mininni</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2021-12-15-data-science-with-r-python/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>R-Ladies</category>
+  <category>R</category>
+  <category>Python</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2021-12-15-data-science-with-r-python/</guid>
+  <pubDate>Wed, 15 Dec 2021 08:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2021-12-15-data-science-with-r-python/r_python.png" medium="image" type="image/png" height="102" width="144"/>
+</item>
+<item>
   <title>RStudio Tips &amp; Tricks</title>
   <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2021-11-15-ide-tips-tricks/</link>
@@ -512,6 +551,41 @@ Quarto.”</span> August 5, 2022. <a href="https://samanthacsik.github.io/talks/
   <guid>https://samanthacsik.github.io/talks_workshops/2021-10-11-teach-me-how-to-google/</guid>
   <pubDate>Mon, 11 Oct 2021 07:00:00 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/talks_workshops/2021-10-11-teach-me-how-to-google/google.gif" medium="image" type="image/gif"/>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2021-08-31-customizing-your-personal-website-with-css/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>MEDS</category>
+  <category>distill</category>
+  <category>CSS</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2021-08-31-customizing-your-personal-website-with-css/</guid>
+  <pubDate>Tue, 31 Aug 2021 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2021-08-31-customizing-your-personal-website-with-css/hacker.gif" medium="image" type="image/gif"/>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
+  <dc:creator>An Bui</dc:creator>
+  <dc:creator>Juliette Verstaen</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2020-08-19-data-viz-with-ggplot2/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>R-Ladies</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2020-08-19-data-viz-with-ggplot2/</guid>
+  <pubDate>Wed, 03 Mar 2021 08:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2020-08-19-data-viz-with-ggplot2/ggplot2.png" medium="image" type="image/png" height="167" width="144"/>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2021-03-03-its-all-semantics/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>SB Women in STEM</category>
+  <category>semantics</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2021-03-03-its-all-semantics/</guid>
+  <pubDate>Wed, 03 Mar 2021 08:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2021-03-03-its-all-semantics/wahwah.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Intro to the {tidyverse}</title>

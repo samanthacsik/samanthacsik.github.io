@@ -10,7 +10,7 @@
 <atom:link href="https://samanthacsik.github.io/courses.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Wed, 11 Jun 2025 22:43:25 GMT</lastBuildDate>
+<lastBuildDate>Mon, 30 Jun 2025 19:17:20 GMT</lastBuildDate>
 <item>
   <title>EDS 240 - Data Visualization &amp; Communication</title>
   <link>https://samanthacsik.github.io/courses/eds-240-data-viz/</link>
@@ -58,7 +58,7 @@
   <category>R</category>
   <category>ggplot</category>
   <guid>https://samanthacsik.github.io/courses/eds-240-data-viz/</guid>
-  <pubDate>Wed, 11 Jun 2025 22:43:25 GMT</pubDate>
+  <pubDate>Mon, 30 Jun 2025 19:17:20 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-240-data-viz/EDS240-hex-small.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -99,11 +99,11 @@
   <category>shiny</category>
   <category>R</category>
   <guid>https://samanthacsik.github.io/courses/eds-296-shiny/</guid>
-  <pubDate>Wed, 11 Jun 2025 22:43:25 GMT</pubDate>
+  <pubDate>Mon, 30 Jun 2025 19:17:20 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-296-shiny/shiny-hex-small.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
-  <title>EDS 296-1F - Data science tools for building professional online portfolios</title>
+  <title>EDS 296 - Data science tools for building professional online portfolios</title>
   <link>https://samanthacsik.github.io/courses/eds-296-ds-portfolios/</link>
   <description><![CDATA[ 
 
@@ -111,8 +111,10 @@
 
 
 
-<p><a href="https://ucsb-meds.github.io/EDS-296-DS-portfolios/" class="btn" target="_blank"><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> course website</a> <a href="https://bren.ucsb.edu/courses/eds-296-1f" class="btn" target="_blank"><i class="fa-solid fa-school" aria-label="school"></i> course catalog</a></p>
+<p><a href="https://ucsb-meds.github.io/EDS-296-DS-portfolios/" class="btn" target="_blank"><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> course website (no longer maintained)</a></p>
+<!-- [ course catalog](https://bren.ucsb.edu/courses/eds-296-1f){.btn target=_blank} -->
 <p><br></p>
+<p><strong><em>NOTE: Beginning Fall 2025, course content will be delivered as part of the newly-structured MEDS Career &amp; Professional Development Workshop series, in collaboration with Bren’s Career Services Team.</em> </strong></p>
 <section id="course-description" class="level1">
 <h1>Course description</h1>
 <p>Having a polished online presence is essential for showcasing your skills, projects, expertise, and (importantly) your personality. Learners, collaborators, and future employers alike will look to your public online profiles to glean information about you and your work. As data scientists, this often means that they’ll head to one of two places: GitHub and / or your personal website. This course is designed to help you both lay the foundation for creating and maintaining these profiles in an organized, informative, and visually-appealing way. Over the next several weeks, you will:</p>
@@ -152,13 +154,14 @@
 </section>
 <section id="when-is-this-taught" class="level1">
 <h1>When is this taught?</h1>
-<p>I’m super excited to offer this new course starting Fall 2024 (so if you’ve stumbled across this here now, you’ll find some very-much-in-progress materials). I’ve taught components of this as separate non-credit-bearing workshops since 2022:</p>
+<p>This content has taken a variety of forms since MEDS begain in 2021 – we initially taught website development using the <a href="https://rstudio.github.io/distill/" target="_blank"><code>{distill}</code> package</a> in R (see our original <a href="https://docs.google.com/document/d/1c0SZiVvp32UTJ9sK_yVjI8ou6pVdFRXsY2236tiTA1c/edit?tab=t.0" target="_blank">website develoment</a> &amp; <a href="../../posts/2021-09-21-distill-blogs/index.html" target="_blank">blog</a> workshops).</p>
+<p>When <a href="https://quarto.org/" target="_blank">Quarto</a> burst onto the scene in 2022, we revamped this content and delivered lessons as separate, non-credit-bearing workshops:</p>
 <ul>
-<li><a href="https://ucsb-meds.github.io/creating-quarto-websites/">Creating your personal website using Quarto</a></li>
-<li><a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide">Customizing Quarto websites</a></li>
-<li><a href="../../posts/2022-10-24-quarto-blogs/index.html">Adding a blog to your existing Quarto website</a></li>
+<li><a href="https://ucsb-meds.github.io/creating-quarto-websites/" target="_blank">Creating your personal website using Quarto</a></li>
+<li><a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" target="_blank">Customizing Quarto websites</a></li>
+<li><a href="../../posts/2022-10-24-quarto-blogs/index.html" target="_blank">Adding a blog to your existing Quarto website</a></li>
 </ul>
-<p>The full course will include these, with an additional focus on GitHub as a professional portfolio.</p>
+<p>In Fall 2024, we combined these workshops into a full 2-unit course, with an additional focus on GitHub as a professional portfolio. While this course was a lot of fun and seemed to work pretty well, conversations with Bren’s <a href="https://bren.ucsb.edu/career-services" target="_blank">Career Services Team</a> highlighted potential benefits of more consistent messaging and collaboration across all of the MEDS career and professional development teaching efforts. We’ll be offering this content as part of our new MEDS Career &amp; Professional Develoment weekly workshop series beginning in Fall 2025.</p>
 
 
 </section>
@@ -169,7 +172,7 @@
   <category>Quarto</category>
   <category>GitHub</category>
   <guid>https://samanthacsik.github.io/courses/eds-296-ds-portfolios/</guid>
-  <pubDate>Wed, 11 Jun 2025 22:43:25 GMT</pubDate>
+  <pubDate>Mon, 30 Jun 2025 19:17:20 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-296-ds-portfolios/quarto-github.png" medium="image" type="image/png" height="80" width="144"/>
 </item>
 </channel>

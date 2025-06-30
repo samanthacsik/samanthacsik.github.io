@@ -1,15 +1,19 @@
 ---
-title: "EDS 296-1F - Data science tools for building professional online portfolios"
+title: "EDS 296 - Data science tools for building professional online portfolios"
 description: |
-  a 2-unit course on building, customizing, and maintaining professional online data science portfolios
+  *[No longer taught as a course, beginning Fall 2025]* a 2-unit course on building, customizing, and maintaining professional online data science portfolios
 categories: [UCSB, data-science-portfolio, Quarto, GitHub]
 image: quarto-github.png
 draft: false
 ---
 
-[{{< fa window-maximize >}} course website](https://ucsb-meds.github.io/EDS-296-DS-portfolios/){.btn target=_blank} [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-296-1f){.btn target=_blank}
+[{{< fa window-maximize >}} course website (no longer maintained)](https://ucsb-meds.github.io/EDS-296-DS-portfolios/){.btn target=_blank}
+
+<!-- [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-296-1f){.btn target=_blank} -->
 
 <br>
+
+***NOTE: Beginning Fall 2025, course content will be delivered as part of the newly-structured MEDS Career & Professional Development Workshop series, in collaboration with Bren's Career Services Team.* **
 
 # Course description
 
@@ -51,10 +55,14 @@ knitr::include_graphics("github.png")
 
 # When is this taught?
 
-This course is new as of Fall 2024, though I've taught components of this as separate non-credit-bearing workshops since 2022: 
+This content has taken a variety of forms since MEDS begain in 2021 -- we initially taught website development using the [`{distill}` package](https://rstudio.github.io/distill/){target="_blank"} in R (see our original [website develoment](https://docs.google.com/document/d/1c0SZiVvp32UTJ9sK_yVjI8ou6pVdFRXsY2236tiTA1c/edit?tab=t.0){target="_blank"} & [blog](../../posts/2021-09-21-distill-blogs/index.qmd){target="_blank"} workshops).
 
-- [Creating your personal website using Quarto](https://ucsb-meds.github.io/creating-quarto-websites/)
-- [Customizing Quarto websites](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide) 
-- [Adding a blog to your existing Quarto website](../../posts/2022-10-24-quarto-blogs/index.qmd)
+When [Quarto](https://quarto.org/){target="_blank"} burst onto the scene in 2022, we revamped this content and delivered lessons as separate, non-credit-bearing workshops: 
 
-The full course will include these, with an additional focus on GitHub as a professional portfolio. 
+- [Creating your personal website using Quarto](https://ucsb-meds.github.io/creating-quarto-websites/){target="_blank"}
+- [Customizing Quarto websites](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide){target="_blank"} 
+- [Adding a blog to your existing Quarto website](../../posts/2022-10-24-quarto-blogs/index.qmd){target="_blank"}
+
+In Fall 2024, we combined these workshops into a full 2-unit course, with an additional focus on GitHub as a professional portfolio. While this course was a lot of fun and seemed to work pretty well, conversations with Bren's [Career Services Team](https://bren.ucsb.edu/career-services){target="_blank"} highlighted potential benefits of more consistent messaging and collaboration across all of the MEDS career and professional development teaching efforts. We'll be offering this content as part of our new MEDS Career & Professional Develoment weekly workshop series beginning in Fall 2025. 
+
+

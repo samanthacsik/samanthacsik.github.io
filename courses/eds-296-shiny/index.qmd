@@ -1,5 +1,5 @@
 ---
-title: "EDS 296-1W - Intro to Shiny"
+title: "EDS 296- Intro to Shiny"
 description: |
   a 2-unit course on building and deploying Shiny apps & dashboards
 categories: [UCSB, shiny, R]
