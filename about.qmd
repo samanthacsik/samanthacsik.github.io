@@ -6,13 +6,19 @@ title-block-banner: true
 
 ## {{< fa chalkboard-teacher title="A teacher at a chalkboard" >}} the profession
 
-I develop and teach data science training curricula for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target="_blank"} (MEDS) program at the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/){target="_blank"}, located at UC Santa Barbara. I am also a co-organizer of [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/){target="_blank"}, a local data science group which works to promote gender diversity in the R community.
+I develop and teach data science training curricula, as well as coordinate group Capstone projects for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target="_blank"} (MEDS) program at the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/){target="_blank"}, located at UC Santa Barbara. I am also a co-organizer of [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/){target="_blank"}, a local data science group which works to promote gender diversity in the R community.
 
 <!-- I'm the Data Training Coordinator at the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/) (NCEAS) and a lecturer at the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/), both located at UC Santa Barbara, where I'm working to develop and teach data science training curricula for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) (MEDS) program and other data science initiatives across NCEAS and UCSB. I am also a co-organizer of [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/), a local data science group which works to promote gender diversity in the R community. -->
 
 My background is in marine ecology / ecophysiology -- I had opportunities to study coral disease in Panama and the Florida Keys as an undergrad, then temperature effects on spiny lobster metabolism and foraging behavior in Santa Barbara for my Masters degree. Since the beginning of my time in STEM, I was totally terrified of all things data / coding / data science, but thanks to a super supportive community and some really rad colleagues / instructors, I found my new path in data science education and I absolutely *love* it.
 
-:::{.column-margin}
+<img class="img-styling" src="images/teaching.jpeg" alt="A classroom full of students face forward towards the instructor, who stands at a podium at the front of the room. Students have their laptops open on their desks. Three large TV screens are illuminated at the front of the classroom, displaying workshop materials." width="70%">
+
+::: {.center-text .small-text .dark-gray-text}
+*Teaching MEDS students how to build their own personal websites using Quarto! This was especially fun for me, since Quarto was still such a new tool when I first gave this workshop -- it meant a lot of discovery and learning on-the-fly alongside our students.*
+:::
+
+<!-- :::{.column-margin}
 ```{r}
 #| echo: false
 #| fig-alt: "A classroom full of students face forward towards the instructor, who stands at a podium at the front of the room. Students have their laptops open on their desks. Three large TV screens are illuminated at the front of the classroom, displaying workshop materials."
@@ -21,7 +27,7 @@ knitr::include_graphics("images/teaching.jpeg")
 ::: {.center-text .extra-small-text .dark-gray-text .topbr}
 Teaching MEDS students how to build their own personal websites using Quarto! This was especially fun for me, since Quarto was still such a new tool when I first gave this workshop -- it meant a lot of discovery and learning on-the-fly alongside our students.
 :::
-:::
+::: -->
 
 I'm afforded a lot of flexibility in how I teach and what I teach. My focus is on developing and delivering workshop-style classes that supplement the [MEDS core curriculum](https://ucsb-meds.github.io/courses.html){target="_blank"}, though I'm now (as of Winter 2024) also teaching one of those core courses, [EDS 240: Data Visualization & Communication](https://eds-240-data-viz.github.io/){target="_blank"} (I reflect on building and teaching EDS 240 in [this blog post](posts/2024-04-02-data-viz-course/index.qmd){target="_blank"}). I teach primarily via live-coding (where my computer is hooked up to a screen for participants to see and hear me talk through code in real time as they follow along on their own computers) -- this teaching style was invaluable in my own development as a data scientist, and I really believe that, when done well, live-coding can be a game-changing experience for early-career programmers. I am always looking for new ways to make my teaching style and materials more approachable and inclusive for all learners -- I try to build my content to be stand-alone resources, both for participants to refer back to and also for those learning on their own time. Feel free to check out / reuse / recycle any of my [workshop](talks_workshops.qmd){target="_blank"} and [course](courses.qmd){target="_blank"} materials.
 
@@ -29,16 +35,22 @@ I'm afforded a lot of flexibility in how I teach and what I teach. My focus is o
 
 I feel very fortunate to be doing so many of things that I love *a lot* right now. That includes my job, but also spending lots of time outdoors. Living in Santa Barbara is a massive privilege and being here means that we have access to both the mountains and the sea, each a few minutes in either direction. It was the ocean that brought me here originally, but most of my free time is now spent on the trails.
 
-:::{.column-margin}
+<img class="img-styling" src="images/tallie2.jpeg" alt="A smiling woman wearing a green hat crouches down next to a brown dog for a selfie. The dog is looking towards the camera with it's tongue out." width="70%">
+
+::: {.center-text .small-text .dark-gray-text}
+*My right-hand hiking gal, Tallie (aka Bean aka TunaB aka SweetCheeks).*
+:::
+
+<!-- :::{.column-margin}
 ```{r}
 #| echo: false
 #| fig-alt: "A smiling woman with braiding pigtails, a blue bandana tied around her neck, and a blue hiking backback takes a selfie with a brown dog. The dog is looking towards the camera with it's tongue out. There are mountains in the background."
-knitr::include_graphics("images/tallie.jpeg")
+knitr::include_graphics("images/tallie2.jpeg")
 ```
 ::: {.center-text .extra-small-text .dark-gray-text .topbr}
 My right-hand hiking gal, Tallie (aka Bean aka TunaB aka SweetCheeks).
 :::
-:::
+::: -->
 
 I started recording my hikes (and eventually some other activities) on [Strava](https://www.strava.com/){target="_blank"} in late 2020 and finally got around to retrieving my activity data using the [`{rStrava}`](https://github.com/fawda123/rStrava){target="_blank"} package. Below is a heatmap of all my recorded activities made using [`{leaflet}`](https://rstudio.github.io/leaflet/){target="_blank"}. It's challenging to see individual markers at my most frequented trailheads / starting points (toggle markers on using the layer controls in the top right corner), so I've recently began building out my own Strava Dashboard (using [`{shinydashboard}`](https://rstudio.github.io/shinydashboard/){target="_blank"}) to make it a bit more interactive and filterable -- it's a work in progress, but a fun side project that I'm excited to continue iterating upon. Huge shout out to [Daniel Cullen](https://www.dancullen.me/){target="_blank"} for his awesome [blog post](https://www.dancullen.me/articles/creating-a-heatmap-in-r-with-google-polylines){target="_blank"} that got me started with my own map.
 
@@ -169,11 +181,6 @@ map
 
 <br>
 
-<!-- <iframe id="map-size" src = "images/leaflet_2024-09-05.html"></iframe> -->
-
-<!-- ::: {.gray-italic .center-text} -->
-<!-- Map last updated: September 2024 -->
-<!-- ::: -->
 
 <p class="large-text dark-green-bg center-text">{{< fa arrow-pointer >}} For a more interactive experience, click around my [Strava dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){target="_blank"} <br> {{< fa brands github >}} Source code available on [GitHub](https://github.com/samanthacsik/strava-dashboard){target="_blank"}</p>
 
@@ -183,7 +190,7 @@ map
 
 **Update 2024-12-02:** My logo just got a little bit longer! I got married (a little while ago actually! April 22, 2023) and my husband, Brendan, and I decided to hyphenate our names. We're officially the Shanny-Csik's and are both excited to join our family names {{< fa heart title="heart" >}}.
 
-I'm a proud Csik (pronounced "chick" -- Hungarian, for the curious), though I spent many of my younger years embarrassed when people (understandably) got it wrong (variations include "sea-sick," "sick," "ca-sick," to name a few) -- and many of us know how brutal little kid peers can be when there's a funny way to mispronounce a name. At some point, I learned to embrace the weird and it became very much a part of my everyday identity. My track coaches and teammates would shout "LET'S GO CSIK" during my events at meets, I signed year books as "Sam [drawing of a chick]" and every handmade card received my "The Csik Press" identifying mark on the back. As I've grown older, I've taken more care to help colleagues, peers, and strangers learn the correct pronunciation -- because if I'm being totally honest, I think my name is pretty darn cool `r fontawesome::fa("smile-wink", fill = "#64605F", a11y = "sem")`. So my first ever *real* logo is an homage to my earliest attempts at claiming my Csik identity. It may evolve a bit, but for now, it makes me pretty happy. Made using the (free!) [Adobe Express logo maker](https://www.adobe.com/express/create/logo){target="_blank"}.
+I'm a proud Csik (pronounced "chick" -- Hungarian<sup>1</sup>, for the curious), though I spent many of my younger years embarrassed when people (understandably) got it wrong (variations include "sea-sick," "sick," "ca-sick," to name a few) -- and many of us know how brutal little kid peers can be when there's a funny way to mispronounce a name. At some point, I learned to embrace the weird and it became very much a part of my everyday identity. My track coaches and teammates would shout "LET'S GO CSIK" during my events at meets, I signed year books as "Sam [drawing of a chick]" and every handmade card received my "The Csik Press" identifying mark on the back. As I've grown older, I've taken more care to help colleagues, peers, and strangers learn the correct pronunciation -- because if I'm being totally honest, I think my name is pretty darn cool `r fontawesome::fa("smile-wink", fill = "#64605F", a11y = "sem")`. So my first ever *real* logo is an homage to my earliest attempts at claiming my Csik identity. It may evolve a bit, but for now, it makes me pretty happy. Made using the (free!) [Adobe Express logo maker](https://www.adobe.com/express/create/logo){target="_blank"}.
 
 :::{.column-margin}
 ```{r}
@@ -192,7 +199,7 @@ I'm a proud Csik (pronounced "chick" -- Hungarian, for the curious), though I sp
 knitr::include_graphics("images/the_csik_press.jpeg")
 ```
 ::: {.center-text .extra-small-text .dark-gray-text .topbr}
-The back of a handmade birthday card by yours truly (aka 'The Csik Press'). Thanks, Mom, for sending me pics of these decade+ old treasures whenever you come across them. Artist: Sam Csik. Medium: construction paper, Elmer's glue. Date: 2010 (apparently).
+*The back of a handmade birthday card by yours truly (aka 'The Csik Press'). Thanks, Mom, for sending me pics of these decade+ old treasures whenever you come across them. Artist: Sam Csik. Medium: construction paper, Elmer's glue. Date: 2010 (apparently).*
 :::
 :::
 
@@ -204,3 +211,33 @@ The back of a handmade birthday card by yours truly (aka 'The Csik Press'). Than
 #| fig-alt: "The name, 'sam shanny-csik' in white lettering. Above 'csik' sits a horizontal dark green bar. Above the green bar is a white chick."
 knitr::include_graphics("images/logos/shanny-csik-logo-transparent-light.png")
 ```
+
+<div class="dark-green-bg"><sup>1</sup>**[Chicken paprikash](https://en.wikipedia.org/wiki/Chicken_paprikash){target="_blank"}** is a popular Hungarian dish, my ultimate comfort food, and the meal my mom would make during each of my trips home throughout college. Our recipe, which necessitates a fresh batch of spätzle on the side:
+
+**Chicken Paprikash**:
+
+- Onion (1, chopped)
+- Shortening (4 tbsp)
+- Paprika (1 tbsp)
+- Black pepper (1 tsp)
+- Salt (1 tbsp)
+- Chicken (2-3 lbs chicken thighs, cubed)
+- Water (1.5 cups)
+- Sour cream (1.5 cups)
+- Heavy cream (1 cup)
+
+Brown onion in shortening. Add seasonings and chicken and brown for 10 minutes. Add water, then cover and let simmer slowly until tender. Remove chicken. Add sour cream and heavy cream to pan drippings / onion and mix well. Add chicken back in and simmer until ready to serve. 
+
+**Ingredients (Spätzle)** (usually tripled):
+
+- All-purpose flour (1 cup)
+- Ground nutmeg (1/2 tsp)
+- Salt (1/2 tsp)
+- Ground white pepper (1 pinch)
+- Eggs (2)
+- Milk (1/4 cup)
+- Butter (for pan frying)
+- Shallot (1-2 diced, for pan frying)
+
+Begin boiling a large pot of water while you mix all ingredients (except butter and shallot) in a large bowl. Once the water is boiling, use a spätzle maker (or in a pinch, the large-holed side of a box grater and the back of a wooden spoon) to drop the batter into the boiling water in the shape of little dumplings. Spätzle is done when the dumplings are floating at the surface (they'll be cooked through by the time you're done with the spätzle maker). Pan fry the spätzle with some shallot in small batches. Serve with chicken paprikash!
+</div>
