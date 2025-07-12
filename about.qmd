@@ -228,7 +228,7 @@ knitr::include_graphics("images/logos/shanny-csik-logo-transparent-light.png")
 
 Brown onion in shortening. Add seasonings and chicken and brown for 10 minutes. Add water, then cover and let simmer slowly until tender. Remove chicken. Add sour cream and heavy cream to pan drippings / onion and mix well. Add chicken back in and simmer until ready to serve. 
 
-**Ingredients (Spätzle)** (usually tripled):
+**Spätzle** (usually tripled):
 
 - All-purpose flour (1 cup)
 - Ground nutmeg (1/2 tsp)
