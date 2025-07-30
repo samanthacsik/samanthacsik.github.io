@@ -256,7 +256,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">March 31, 2025</p>
+        <p class="date-modified">July 29, 2025</p>
       </div>
     </div>
       
@@ -296,20 +296,28 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 
 <p>About a year ago, I wrote my first ever blog post ~ about blogging ~ and tbh I’m a <em>little</em> embarrassed that this is only my third post here (does it count that I have <em>ideas</em> for blog posts squirreled away at least?? <i class="fa-solid fa-face-grin-beam-sweat" title="a grinning face with a bead of sweat dripping from its brow" aria-label="face-grin-beam-sweat"></i>). Regardless, you should trust me<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> when I say that blogging is a great exercise for you to practice as regularly as you can – it can help you to:</p>
 <ul>
-<li>build your online profile / portfolio
+<li>build your online profile / portfolio</li>
+</ul>
+<blockquote class="blockquote">
+<p><em>“…sharing anything is almost always better than sharing nothing”</em></p>
+</blockquote>
+<div class="right-align-text dark-gray-text small-text">
+<p>-<a href="https://twitter.com/drob" target="_blank"><code>@drob</code></a> in his post, <a href="http://varianceexplained.org/r/start-blog/" target="_blank">Advice to aspiring data scientists: start a blog</a></p>
+</div>
 <ul>
-<li><em>“…sharing anything is almost always better than sharing nothing”</em> -<a href="https://twitter.com/drob" target="_blank"><code>@drob</code></a> in his post, <a href="http://varianceexplained.org/r/start-blog/" target="_blank">Advice to aspiring data scientists: start a blog</a></li>
-</ul></li>
 <li>practice your writing &amp; communication skills</li>
 <li>stay atop data science trends</li>
 <li>solicit feedback from the community</li>
 <li>network</li>
 <li>learn something new and / or solidify your understanding</li>
-<li>combat imposter syndrome
-<ul>
-<li><em>“Once you’ve shared some analyses and code, you’ll probably find that you were underrating yourself in some areas.”</em> -also <a href="https://twitter.com/drob" target="_blank"><code>@drob</code></a> in his post, <a href="http://varianceexplained.org/r/start-blog/" target="_blank">Advice to aspiring data scientists: start a blog</a></li>
-</ul></li>
+<li>combat imposter syndrome</li>
 </ul>
+<blockquote class="blockquote">
+<p><em>“Once you’ve shared some analyses and code, you’ll probably find that you were underrating yourself in some areas.”</em></p>
+</blockquote>
+<div class="right-align-text dark-gray-text small-text">
+<p>-also <a href="https://twitter.com/drob" target="_blank"><code>@drob</code></a> in his post, <a href="http://varianceexplained.org/r/start-blog/" target="_blank">Advice to aspiring data scientists: start a blog</a></p>
+</div>
 <p>Rather than repeat more content here, take a peek at my <a href="https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/" target="_blank">first post</a>, which touches on more reasons why you should blog and provides some ideas on how to structure your blog posts. Before jumping into things, I’ll leave you with one last piece of advice from <a href="https://twitter.com/drob" target="_blank"><code>@drob</code></a>:</p>
 <blockquote class="twitter-tweet blockquote">
 <p lang="en" dir="ltr">
@@ -364,19 +372,92 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 </div>
 <p><br></p>
 <p>Let’s create those together now.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+NEW! Choose your own adventure instructions
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I’ve spent a lot of July 2025 playing around with Posit’s newest IDE, <a href="https://positron.posit.co/">Positron</a>, and I’m really enjoying it! I’ve updated the instructions below to include guidance for working in Positron, alongside RStudio and the Terminal. It’s been helpful as I learn to translate the location of RStudio’s GUI buttons to the Positron environment. Feel free to use whichever environment you prefer and follow the corresponding instructions as you go.</p>
+</div>
+</div>
 <ol type="1">
-<li><p><strong>Create a <code>/posts</code> folder:</strong> Open up your Quarto website project and make sure you’re in your root directory. Here, we’ll create a new subdirectory, called <code>posts</code> (though you can call this whatever you want), where all of our blog posts will eventually live. To do so, you can either:</p>
-<ol type="a">
-<li>click on the <em>add folder</em> button, <img src="media/add-folder.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;">, in the Files pane, or</li>
-<li>in the RStudio Terminal, run <code>mkdir posts</code>.</li>
-</ol></li>
-<li><p><strong><em>Optional:</em></strong> <strong>Add a <code>_metadata.yml</code> file to <code>/posts</code>:</strong> While not required, a <code>_metadata.yml</code> file can make your life easier if you want certain options to apply to <em>all</em> blog posts that you create. Create this one of two ways:</p>
-<ol type="a">
-<li>Click into the <code>posts/</code> folder in the Files pane, then click <em>Blank File</em> &gt; <em>Text File</em> &gt; type <code>_metadata.yml</code> &gt; click <em>OK</em>, or</li>
-<li>In the RStudio Terminal, run <code>cd posts</code> to move into that directory, then <code>touch _metadata.yml</code> to create the file</li>
-</ol></li>
+<li><strong>Create a <code>posts/</code> folder:</strong> Open up your Quarto website project and make sure you’re in your root directory. Here, we’ll create a new subdirectory, called <code>posts</code> (though you can call this whatever you want), where all of our blog posts will eventually live.</li>
 </ol>
-<p>Open your <code>_metadata.yml</code> in the Source pane to add options. I like these options<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, but it’s entirely up to you what you want to include (if anything at all):</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true"><i class="fa-brands fa-r-project" title="R programming language icon" aria-label="r-project"></i> RStudio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false"><i class="fa-solid fa-plus" title="plus symbol" aria-label="plus"></i> Positron</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false"><i class="fa-solid fa-terminal" title="terminal symbol, |>" aria-label="terminal"></i> Terminal</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<ol type="i">
+<li>Click on the <strong>Create a new folder</strong> button in the Files pane:</li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/new-folder-rstudio.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<ol start="2" type="i">
+<li>Type <code>posts</code>, the click <strong>OK</strong></li>
+</ol>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<ol type="i">
+<li>Click on the <strong>New Folder…</strong> button, which appears when you hover over your repository name in the Explorer menu:</li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/new-folder-positron.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<ol start="2" type="i">
+<li>Type <code>posts</code>, then click <strong>Enter / Return</strong></li>
+</ol>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<ol type="i">
+<li>Make sure you’re in your root directory by typing, <code>pwd</code> (you should see it return something like, <code>file/path/to/your-repo</code>)</li>
+<li>If you’re <em>not</em> in your root directory, use the <code>cd</code> command to move yourself there</li>
+<li>Run <code>mkdir posts</code> to create your <code>posts/</code> folder</li>
+</ol>
+</div>
+</div>
+</div>
+<ol start="2" type="1">
+<li><strong><em>Optional:</em></strong> <strong>Add a <code>_metadata.yml</code> file to <code>posts/</code>:</strong> While not required, a <code>_metadata.yml</code> file can make your life easier if you want certain options to apply to <em>all</em> blog posts that you create.</li>
+</ol>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true"><i class="fa-brands fa-r-project" title="R programming language icon" aria-label="r-project"></i> RStudio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false"><i class="fa-solid fa-plus" title="plus symbol" aria-label="plus"></i> Positron</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false"><i class="fa-solid fa-terminal" title="terminal symbol, |>" aria-label="terminal"></i> Terminal</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<ol type="i">
+<li>Click into the <code>posts/</code> folder in the Files pane, then click <strong>Blank File</strong> &gt; <strong>Text File</strong> &gt; type <code>_metadata.yml</code></li>
+<li>Click <strong>OK</strong></li>
+</ol>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<ol type="i">
+<li>Run <code>cd posts</code> to move into your <code>posts/</code> directory (from your repository’s root directory)</li>
+<li>Run <code>touch _metadata.yml</code> to create your file</li>
+</ol>
+</div>
+</div>
+</div>
+<p>Open your <code>_metadata.yml</code> in the Source pane to add options. I like these options<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> for getting started, but it’s entirely up to you what you want to include (if anything at all):</p>
 <div class="cell">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -394,8 +475,22 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <ol start="3" type="1">
 <li><strong>Create a <a href="https://quarto.org/docs/websites/website-listings.html" target="_blank">listing page</a>:</strong> Add a <code>posts.qmd</code> file to your <em>root</em> directory (click on the R Project icon, <img src="media/rproj.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;">, in the Files pane to jump back to your project’s root directory). There are a bunch of ways to create a new <code>.qmd</code> file, but one easy way is to choose <em>File</em> &gt; <em>New File</em> &gt; <em>Quarto Document…</em>. I’ll give mine the title “My Blog” when prompted (this is the name that will appear as the title your listing page), then save it as <code>posts.qmd</code> (but you can choose whatever title and / or file name you’d like).</li>
 </ol>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true"><i class="fa-brands fa-r-project" title="R programming language icon" aria-label="r-project"></i> RStudio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false"><i class="fa-solid fa-plus" title="plus symbol" aria-label="plus"></i> Positron</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false"><i class="fa-solid fa-terminal" title="terminal symbol, |>" aria-label="terminal"></i> Terminal</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+
+</div>
+<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
+
+</div>
+</div>
+</div>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -404,7 +499,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>A listing page is a web page with content that is automatically generated from a list of documents – in this case, that would be a list of blog posts – and looks something like this (or check out <a href="https://samanthacsik.github.io/posts.html" target="_blank">my blog’s listing page</a>):</p>
 <div class="cell" data-layout-align="center">

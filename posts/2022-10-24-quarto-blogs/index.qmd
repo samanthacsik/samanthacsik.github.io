@@ -23,14 +23,25 @@ About a year ago, I wrote my first ever blog post \~ about blogging \~ and tbh I
 [^1]: Okay, you don't *just* have to trust me. Lots of data scientists advocate for blogging as an important skill and communication tool. Check out this [blog post](http://varianceexplained.org/r/start-blog/) by [David Robinson](https://twitter.com/drob) to start.
 
 -   build your online profile / portfolio
-    -   *"...sharing anything is almost always better than sharing nothing"* -[`@drob`](https://twitter.com/drob){target="_blank"} in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/){target="_blank"}
+
+> *"...sharing anything is almost always better than sharing nothing"* 
+
+::: {.right-align-text .dark-gray-text .small-text}
+-[`@drob`](https://twitter.com/drob){target="_blank"} in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/){target="_blank"}
+:::
+
 -   practice your writing & communication skills
 -   stay atop data science trends
 -   solicit feedback from the community
 -   network
 -   learn something new and / or solidify your understanding
 -   combat imposter syndrome
-    -   *"Once you've shared some analyses and code, you'll probably find that you were underrating yourself in some areas."* -also [`@drob`](https://twitter.com/drob){target="_blank"} in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/){target="_blank"}
+
+>*"Once you've shared some analyses and code, you'll probably find that you were underrating yourself in some areas."* 
+
+::: {.right-align-text .dark-gray-text .small-text}
+-also [`@drob`](https://twitter.com/drob){target="_blank"} in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/){target="_blank"}
+:::
 
 Rather than repeat more content here, take a peek at my [first post](https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/){target="_blank"}, which touches on more reasons why you should blog and provides some ideas on how to structure your blog posts. Before jumping into things, I'll leave you with one last piece of advice from [`@drob`](https://twitter.com/drob){target="_blank"}:
 
@@ -49,6 +60,7 @@ When you've written the same code 3 times, write a function<br><br>When you've g
 ```{=html}
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
+
 ## I. Before we chat about blogs... {#I-MEDS}
 
 Our [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target="_blank"} (MEDS) students created the bones of their Quarto websites a couple months ago, and more recently took a little dive into website customization using Sass & CSS. For anyone who's looking to get started on their website-building journey, feel free to explore the following resources:
@@ -91,17 +103,60 @@ knitr::include_graphics("media/blog.png")
 
 Let's create those together now.
 
-1.  **Create a `/posts` folder:** Open up your Quarto website project and make sure you're in your root directory. Here, we'll create a new subdirectory, called `posts` (though you can call this whatever you want), where all of our blog posts will eventually live. To do so, you can either:
+::: {.callout-tip}
+## NEW! Choose your own adventure instructions
+I've spent a lot of July 2025 playing around with Posit's newest IDE, [Positron](https://positron.posit.co/), and I'm really enjoying it! I’ve updated the instructions below to include guidance for working in Positron, alongside RStudio and the Terminal. It's been helpful as I learn to translate the location of RStudio's GUI buttons to the Positron environment. Feel free to use whichever environment you prefer and follow the corresponding instructions as you go.
+:::
 
-    a.  click on the *add folder* button, <img src="media/add-folder.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;"/>, in the Files pane, or
-    b.  in the RStudio Terminal, run `mkdir posts`.
+1.  **Create a `posts/` folder:** Open up your Quarto website project and make sure you're in your root directory. Here, we'll create a new subdirectory, called `posts` (though you can call this whatever you want), where all of our blog posts will eventually live.
 
-2.  ***Optional:*** **Add a `_metadata.yml` file to `/posts`:** While not required, a `_metadata.yml` file can make your life easier if you want certain options to apply to *all* blog posts that you create. Create this one of two ways:
+::: {.panel-tabset}
+## {{< fa brands r-project title="R programming language icon" >}} RStudio
+i. Click on the **Create a new folder** button in the Files pane:
 
-    a.  Click into the `posts/` folder in the Files pane, then click *Blank File* \> *Text File* \> type `_metadata.yml` \> click *OK*, or
-    b.  In the RStudio Terminal, run `cd posts` to move into that directory, then `touch _metadata.yml` to create the file
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "80%"
+#| fig-align: "center"
+knitr::include_graphics("media/new-folder-rstudio.png")
+```
 
-Open your `_metadata.yml` in the Source pane to add options. I like these options[^2], but it's entirely up to you what you want to include (if anything at all):
+ii. Type `posts`, the click **OK**
+
+## {{< fa plus title="plus symbol" >}} Positron
+i. Click on the **New Folder...** button, which appears when you hover over your repository name in the Explorer menu:
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "80%"
+#| fig-align: "center"
+knitr::include_graphics("media/new-folder-positron.png")
+```
+
+ii. Type `posts`, then click **Enter / Return**
+
+## {{< fa terminal title="terminal symbol, |>" >}} Terminal
+i. Make sure you're in your root directory by typing, `pwd` (you should see it return something like, `file/path/to/your-repo`) 
+ii. If you're *not* in your root directory, use the `cd` command to move yourself there
+iii. Run `mkdir posts` to create your `posts/` folder
+:::
+
+2.  ***Optional:*** **Add a `_metadata.yml` file to `posts/`:** While not required, a `_metadata.yml` file can make your life easier if you want certain options to apply to *all* blog posts that you create. 
+
+::: {.panel-tabset}
+## {{< fa brands r-project title="R programming language icon" >}} RStudio
+i. Click into the `posts/` folder in the Files pane, then click **Blank File** > **Text File** > type `_metadata.yml` 
+ii. Click **OK**
+
+## {{< fa plus title="plus symbol" >}} Positron
+## {{< fa terminal title="terminal symbol, |>" >}} Terminal
+i. Run `cd posts` to move into your `posts/` directory (from your repository's root directory)
+ii. Run `touch _metadata.yml` to create your file
+:::
+
+Open your `_metadata.yml` in the Source pane to add options. I like these options[^2] for getting started, but it's entirely up to you what you want to include (if anything at all):
 
 [^2]: **The `freeze` option:** Setting this option to `auto` will *only* re-render posts when you make updates to the source files (as opposed to re-rendering them each time you **Render Website** -- this can save time, particularly if you have computationally-heavy content in your blog posts). If you set this option to `true`, posts will *never* be re-rendered (even if you've made changes to the source files). If you use this option, you'll need to **Render** individual posts whenever you make changes to their source files *before* you **Render Website**, otherwise your updates will not appear. Check out [the Quarto documentation](https://quarto.org/docs/projects/code-execution.html#freeze){target="_blank"} and [this great short blog post](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/03-freeze/index.html){target="_blank"} for more information on `freeze`.
 
@@ -121,6 +176,12 @@ title-block-banner: true
 ```
 
 3.  **Create a [listing page](https://quarto.org/docs/websites/website-listings.html){target="_blank"}:** Add a `posts.qmd` file to your *root* directory (click on the R Project icon, <img src="media/rproj.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;"/>, in the Files pane to jump back to your project's root directory). There are a bunch of ways to create a new `.qmd` file, but one easy way is to choose *File* \> *New File* \> *Quarto Document...*. I'll give mine the title "My Blog" when prompted (this is the name that will appear as the title your listing page), then save it as `posts.qmd` (but you can choose whatever title and / or file name you'd like).
+
+::: {.panel-tabset}
+## {{< fa brands r-project title="R programming language icon" >}} RStudio
+## {{< fa plus title="plus symbol" >}} Positron
+## {{< fa terminal title="terminal symbol, |>" >}} Terminal
+:::
 
 ::: {.callout-note collapse="true"}
 ## **What is a listing page?**

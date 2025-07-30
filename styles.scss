@@ -284,6 +284,34 @@ div.quarto-about-jolla .about-link {
   color: $terracotta;
 }
 
+// Color in panel-tabset tabs (non-selected tab)
+.panel-tabset .nav-tabs .nav-link {
+  background-color: $cream;
+  //color: black; /* Optional: improves text readability */
+}
+
+// Color in panel-tabset tab (selected tab) 
+.panel-tabset .nav-tabs .nav-link.active {
+  background-color: $terracotta;
+  color: white;
+}
+
+// Color panel-tabset content area cream
+.panel-tabset .tab-content {
+  background-color: $cream;
+  padding: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
 // responisve embedded slides (thanks Casey O'Hara; see https://github.com/nceas-learning-hub/coreR_test/blob/main/lh-style.css)
 /*.slide-deck{
   border: 3px solid #dee2e6;
