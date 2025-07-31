@@ -256,7 +256,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">July 29, 2025</p>
+        <p class="date-modified">July 30, 2025</p>
       </div>
     </div>
       
@@ -273,17 +273,32 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
   <ul>
   <li><a href="#I-MEDS" id="toc-I-MEDS" class="nav-link active" data-scroll-target="#I-MEDS">I. Before we chat about blogs…</a></li>
   <li><a href="#II-blog-vs-website" id="toc-II-blog-vs-website" class="nav-link" data-scroll-target="#II-blog-vs-website">II. What’s the difference between a website and a blog?</a></li>
-  <li><a href="#III-add-blog" id="toc-III-add-blog" class="nav-link" data-scroll-target="#III-add-blog">III. Adding a blog to your personal Quarto website</a></li>
-  <li><a href="#IV-add-post" id="toc-IV-add-post" class="nav-link" data-scroll-target="#IV-add-post">IV. Add a blog post to your blog</a></li>
-  <li><a href="#V-additional-features" id="toc-V-additional-features" class="nav-link" data-scroll-target="#V-additional-features">V. Some additional authoring features to explore</a>
+  <li><a href="#III-add-blog" id="toc-III-add-blog" class="nav-link" data-scroll-target="#III-add-blog">III. Adding a blog to your personal Quarto website</a>
+  <ul class="collapse">
+  <li><a href="#create-a-posts-folder" id="toc-create-a-posts-folder" class="nav-link" data-scroll-target="#create-a-posts-folder">1. Create a <code>posts/</code> folder</a></li>
+  <li><a href="#optional-add-a-_metadata.yml-file-to-posts" id="toc-optional-add-a-_metadata.yml-file-to-posts" class="nav-link" data-scroll-target="#optional-add-a-_metadata.yml-file-to-posts">2. <em>Optional:</em> Add a <code>_metadata.yml</code> file to <code>posts/</code></a></li>
+  <li><a href="#create-a-listing-page" id="toc-create-a-listing-page" class="nav-link" data-scroll-target="#create-a-listing-page">3. Create a listing page</a></li>
+  <li><a href="#configure-your-listing-page" id="toc-configure-your-listing-page" class="nav-link" data-scroll-target="#configure-your-listing-page">4. Configure your listing page</a></li>
+  <li><a href="#add-your-listing-page-to-your-websites-navbar" id="toc-add-your-listing-page-to-your-websites-navbar" class="nav-link" data-scroll-target="#add-your-listing-page-to-your-websites-navbar">5. Add your listing page to your website’s navbar</a></li>
+  <li><a href="#preview-your-website" id="toc-preview-your-website" class="nav-link" data-scroll-target="#preview-your-website">6. Preview your website</a></li>
+  </ul></li>
+  <li><a href="#IV-add-post" id="toc-IV-add-post" class="nav-link" data-scroll-target="#IV-add-post">IV. Add a blog post to your blog</a>
+  <ul class="collapse">
+  <li><a href="#create-a-subdirectory-inside-your-posts-directory" id="toc-create-a-subdirectory-inside-your-posts-directory" class="nav-link" data-scroll-target="#create-a-subdirectory-inside-your-posts-directory">1. Create a subdirectory <em>inside</em> your <code>posts/</code> directory:</a></li>
+  <li><a href="#create-an-index.qmd-file-inside-your-new-subdirectory" id="toc-create-an-index.qmd-file-inside-your-new-subdirectory" class="nav-link" data-scroll-target="#create-an-index.qmd-file-inside-your-new-subdirectory">2. Create an <code>index.qmd</code> file <em>inside</em> your new subdirectory</a></li>
+  <li><a href="#configure-your-blog-post" id="toc-configure-your-blog-post" class="nav-link" data-scroll-target="#configure-your-blog-post">3. Configure your blog post</a></li>
+  <li><a href="#consider-moving-yaml-options-to-_metadata.yml-as-appropriate" id="toc-consider-moving-yaml-options-to-_metadata.yml-as-appropriate" class="nav-link" data-scroll-target="#consider-moving-yaml-options-to-_metadata.yml-as-appropriate">4. Consider moving YAML options to <code>_metadata.yml</code>, as appropriate</a></li>
+  </ul></li>
+  <li><a href="#V-troubleshooting" id="toc-V-troubleshooting" class="nav-link" data-scroll-target="#V-troubleshooting">V. Troubleshooting</a></li>
+  <li><a href="#VI-additional-features" id="toc-VI-additional-features" class="nav-link" data-scroll-target="#VI-additional-features">VI. Some additional authoring features to explore</a>
   <ul class="collapse">
   <li><a href="#adding-footnotes" id="toc-adding-footnotes" class="nav-link" data-scroll-target="#adding-footnotes">Adding footnotes</a></li>
   <li><a href="#creating-a-bibliography-and-adding-citations" id="toc-creating-a-bibliography-and-adding-citations" class="nav-link" data-scroll-target="#creating-a-bibliography-and-adding-citations">Creating a bibliography and adding citations</a></li>
   <li><a href="#article-layout" id="toc-article-layout" class="nav-link" data-scroll-target="#article-layout">Article layout</a></li>
   </ul></li>
-  <li><a href="#VI-more-blogs" id="toc-VI-more-blogs" class="nav-link" data-scroll-target="#VI-more-blogs">VI. A note on adding an additional blog (or more) to your site</a></li>
-  <li><a href="#VII-follow" id="toc-VII-follow" class="nav-link" data-scroll-target="#VII-follow">VII. Blogs to follow (+ one post from each that I’ve particularly enjoyed)</a></li>
-  <li><a href="#VIII-resources" id="toc-VIII-resources" class="nav-link" data-scroll-target="#VIII-resources">VIII. Additional Resources</a></li>
+  <li><a href="#VII-more-blogs" id="toc-VII-more-blogs" class="nav-link" data-scroll-target="#VII-more-blogs">VII. A note on adding an additional blog (or more) to your site</a></li>
+  <li><a href="#VIII-follow" id="toc-VIII-follow" class="nav-link" data-scroll-target="#VIII-follow">VIII. Blogs to follow (+ one post from each that I’ve particularly enjoyed)</a></li>
+  <li><a href="#IX-resources" id="toc-IX-resources" class="nav-link" data-scroll-target="#IX-resources">IX. Additional Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -294,7 +309,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 
 
 
-<p>About a year ago, I wrote my first ever blog post ~ about blogging ~ and tbh I’m a <em>little</em> embarrassed that this is only my third post here (does it count that I have <em>ideas</em> for blog posts squirreled away at least?? <i class="fa-solid fa-face-grin-beam-sweat" title="a grinning face with a bead of sweat dripping from its brow" aria-label="face-grin-beam-sweat"></i>). Regardless, you should trust me<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> when I say that blogging is a great exercise for you to practice as regularly as you can – it can help you to:</p>
+<p>About a year ago (2021), I wrote my first ever blog post ~ about blogging ~ and tbh I’m a <em>little</em> embarrassed that this is only my third post here (does it count that I have <em>ideas</em> for blog posts squirreled away at least?? <i class="fa-solid fa-face-grin-beam-sweat" title="a grinning face with a bead of sweat dripping from its brow" aria-label="face-grin-beam-sweat"></i>). Regardless, you should trust me<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> when I say that blogging is a great exercise for you to practice as regularly as you can – it can help you to:</p>
 <ul>
 <li>build your online profile / portfolio</li>
 </ul>
@@ -302,7 +317,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <p><em>“…sharing anything is almost always better than sharing nothing”</em></p>
 </blockquote>
 <div class="right-align-text dark-gray-text small-text">
-<p>-<a href="https://twitter.com/drob" target="_blank"><code>@drob</code></a> in his post, <a href="http://varianceexplained.org/r/start-blog/" target="_blank">Advice to aspiring data scientists: start a blog</a></p>
+<p>-<a href="https://twitter.com/drob" target="_blank">David Robinson</a> in his post, <a href="http://varianceexplained.org/r/start-blog/" target="_blank">Advice to aspiring data scientists: start a blog</a></p>
 </div>
 <ul>
 <li>practice your writing &amp; communication skills</li>
@@ -316,9 +331,9 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <p><em>“Once you’ve shared some analyses and code, you’ll probably find that you were underrating yourself in some areas.”</em></p>
 </blockquote>
 <div class="right-align-text dark-gray-text small-text">
-<p>-also <a href="https://twitter.com/drob" target="_blank"><code>@drob</code></a> in his post, <a href="http://varianceexplained.org/r/start-blog/" target="_blank">Advice to aspiring data scientists: start a blog</a></p>
+<p>-also <a href="https://twitter.com/drob" target="_blank">David Robinson</a> in his post, <a href="http://varianceexplained.org/r/start-blog/" target="_blank">Advice to aspiring data scientists: start a blog</a></p>
 </div>
-<p>Rather than repeat more content here, take a peek at my <a href="https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/" target="_blank">first post</a>, which touches on more reasons why you should blog and provides some ideas on how to structure your blog posts. Before jumping into things, I’ll leave you with one last piece of advice from <a href="https://twitter.com/drob" target="_blank"><code>@drob</code></a>:</p>
+<p>Rather than repeat more content here, take a peek at my <a href="https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/" target="_blank">first post</a>, which touches on more reasons why you should blog and provides some ideas on how to structure your blog posts. Before jumping into things, I’ll leave you with one last piece of advice from <a href="https://twitter.com/drob" target="_blank">David Robinson</a>:</p>
 <blockquote class="twitter-tweet blockquote">
 <p lang="en" dir="ltr">
 </p><p>When you’ve written the same code 3 times, write a function<br><br>When you’ve given the same in-person advice 3 times, write a blog post</p>
@@ -364,7 +379,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="III-add-blog">III. Adding a blog to your personal Quarto website</h2>
 <div class="dark-green-bg">
 <p><strong>TL;DR:</strong> A couple of steps are required for setting up your blog, but generally speaking, you’ll need:</p>
-<ol type="1">
+<ol type="A">
 <li><p><strong>a folder</strong> (i.e.&nbsp;subdirectory) to hold all of your individual blog posts – I called my folder <code>posts/</code> (though the name is up to you). I also (optionally) added a <code>_metadata.yml</code> file to this folder which includes some formatting and configuration options that will apply to <em>all</em> blog posts in this folder</p></li>
 <li><p><strong>a listing page</strong>, which lists all of your blog posts for viewers to browse and click through – this is a <code>.qmd</code> file that you’ll add to your website’s navbar by including it in <code>_quarto.yml</code></p></li>
 <li><p><strong>blog posts!</strong> Your listing page will be blank until you actually add your first blog post</p></li>
@@ -382,12 +397,14 @@ NEW! Choose your own adventure instructions
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>I’ve spent a lot of July 2025 playing around with Posit’s newest IDE, <a href="https://positron.posit.co/">Positron</a>, and I’m really enjoying it! I’ve updated the instructions below to include guidance for working in Positron, alongside RStudio and the Terminal. It’s been helpful as I learn to translate the location of RStudio’s GUI buttons to the Positron environment. Feel free to use whichever environment you prefer and follow the corresponding instructions as you go.</p>
+<p>I’ve spent a lot of July 2025 playing around with Posit’s newest IDE, <a href="https://positron.posit.co/">Positron</a>, and I’m really enjoying it! It’s been helpful for me to translate the location of RStudio’s GUI buttons to the Positron environment, so I’ve updated the instructions below to include guidance for working in Positron, alongside RStudio and the Terminal. Feel free to use whichever environment you prefer and follow the corresponding instructions as you go.</p>
 </div>
 </div>
-<ol type="1">
-<li><strong>Create a <code>posts/</code> folder:</strong> Open up your Quarto website project and make sure you’re in your root directory. Here, we’ll create a new subdirectory, called <code>posts</code> (though you can call this whatever you want), where all of our blog posts will eventually live.</li>
-</ol>
+<section id="create-a-posts-folder" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-posts-folder">1. Create a <code>posts/</code> folder</h3>
+<ul>
+<li>Open up your Quarto website project and make sure you’re in your root directory. Here, we’ll create a new subdirectory, called <code>posts</code> (though you can call this whatever you want), where all of our blog posts will eventually live.</li>
+</ul>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true"><i class="fa-brands fa-r-project" title="R programming language icon" aria-label="r-project"></i> RStudio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false"><i class="fa-solid fa-plus" title="plus symbol" aria-label="plus"></i> Positron</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false"><i class="fa-solid fa-terminal" title="terminal symbol, |>" aria-label="terminal"></i> Terminal</a></li></ul>
 <div class="tab-content">
@@ -434,9 +451,12 @@ NEW! Choose your own adventure instructions
 </div>
 </div>
 </div>
-<ol start="2" type="1">
-<li><strong><em>Optional:</em></strong> <strong>Add a <code>_metadata.yml</code> file to <code>posts/</code>:</strong> While not required, a <code>_metadata.yml</code> file can make your life easier if you want certain options to apply to <em>all</em> blog posts that you create.</li>
-</ol>
+</section>
+<section id="optional-add-a-_metadata.yml-file-to-posts" class="level3">
+<h3 class="anchored" data-anchor-id="optional-add-a-_metadata.yml-file-to-posts">2. <em>Optional:</em> Add a <code>_metadata.yml</code> file to <code>posts/</code></h3>
+<ul>
+<li>While not required, a <code>_metadata.yml</code> file can make your life easier if you want certain configurations to apply to <em>all</em> blog posts that you create.</li>
+</ul>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true"><i class="fa-brands fa-r-project" title="R programming language icon" aria-label="r-project"></i> RStudio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false"><i class="fa-solid fa-plus" title="plus symbol" aria-label="plus"></i> Positron</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false"><i class="fa-solid fa-terminal" title="terminal symbol, |>" aria-label="terminal"></i> Terminal</a></li></ul>
 <div class="tab-content">
@@ -447,17 +467,22 @@ NEW! Choose your own adventure instructions
 </ol>
 </div>
 <div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-
+<ol type="i">
+<li>Right click on your <code>posts/</code> folder in the Explorer menu, then choose <strong>New File…</strong></li>
+<li>Type <code>_metadata.yml</code>, then click <strong>Enter / Return </strong></li>
+</ol>
 </div>
 <div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
 <ol type="i">
-<li>Run <code>cd posts</code> to move into your <code>posts/</code> directory (from your repository’s root directory)</li>
+<li>Run <code>cd posts</code> to move from your repository’s root directory into your <code>posts/</code> directory</li>
 <li>Run <code>touch _metadata.yml</code> to create your file</li>
 </ol>
 </div>
 </div>
 </div>
-<p>Open your <code>_metadata.yml</code> in the Source pane to add options. I like these options<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> for getting started, but it’s entirely up to you what you want to include (if anything at all):</p>
+<ul>
+<li>Open your <code>_metadata.yml</code> file to add options. I like these options<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> for getting started, but it’s entirely up to you what you want to include (if anything at all):</li>
+</ul>
 <div class="cell">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -472,23 +497,12 @@ NEW! Choose your own adventure instructions
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>title<span class="sc">-</span>block<span class="sc">-</span>banner<span class="sc">:</span> true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-<ol start="3" type="1">
-<li><strong>Create a <a href="https://quarto.org/docs/websites/website-listings.html" target="_blank">listing page</a>:</strong> Add a <code>posts.qmd</code> file to your <em>root</em> directory (click on the R Project icon, <img src="media/rproj.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;">, in the Files pane to jump back to your project’s root directory). There are a bunch of ways to create a new <code>.qmd</code> file, but one easy way is to choose <em>File</em> &gt; <em>New File</em> &gt; <em>Quarto Document…</em>. I’ll give mine the title “My Blog” when prompted (this is the name that will appear as the title your listing page), then save it as <code>posts.qmd</code> (but you can choose whatever title and / or file name you’d like).</li>
-</ol>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true"><i class="fa-brands fa-r-project" title="R programming language icon" aria-label="r-project"></i> RStudio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false"><i class="fa-solid fa-plus" title="plus symbol" aria-label="plus"></i> Positron</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false"><i class="fa-solid fa-terminal" title="terminal symbol, |>" aria-label="terminal"></i> Terminal</a></li></ul>
-<div class="tab-content">
-<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
-
-</div>
-<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
-
-</div>
-<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
-
-</div>
-</div>
-</div>
+<ul>
+<li>We’ll return to the <code>_metadata.yml</code> file a little later on to see how adding more YAML options can help to streamline authoring blog posts.</li>
+</ul>
+</section>
+<section id="create-a-listing-page" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-listing-page">3. Create a <a href="https://quarto.org/docs/websites/website-listings.html" target="_blank">listing page</a></h3>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -507,58 +521,131 @@ NEW! Choose your own adventure instructions
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/quarto-listing-page.png" class="img-fluid figure-img" width="680"></p>
-<figcaption>An example listing page from the <a href="https://quarto.org/docs/blog/">Quarto Blog</a> showing multiple blog posts. Quarto has multiple <a href="https://quarto.org/docs/websites/website-listings.html#listing-types">listing page layout options</a> (<code>default</code> (shown above), <code>grid</code>, and <code>table</code>) for you to explore.</figcaption>
+<figcaption>An example listing page from the <a href="https://quarto.org/docs/blog/">Quarto Blog</a> showing multiple blog posts. Quarto has multiple <a href="https://quarto.org/docs/websites/website-listings.html#listing-types">listing page layout options</a> (<code>default</code> (shown above), <code>grid</code>, and <code>table</code>) for you to try out.</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<!-- ::: {.center-text .small-text .gray-italic} -->
-<!-- An example listing page from the [Quarto Blog](https://quarto.org/docs/blog/){target="_blank"} showing multiple blog posts. Quarto has multiple [listing page layout options](https://quarto.org/docs/websites/website-listings.html#listing-types){target="_blank"} (`default` (shown above), `grid`, and `table`) for you to explore. -->
-<!-- ::: -->
 </div>
 </div>
 </div>
-<ol start="4" type="1">
-<li><strong>Configure your listing page:</strong> Specify how you’d like your listing page to be arranged by updating the YAML section of <code>posts.qmd</code>. There are a variety of options that you can specify. Below are just a few, but be sure to check out <a href="https://quarto.org/docs/websites/website-listings.html" target="_blank">other options</a>:</li>
+<ul>
+<li>Your listing page takes the form of a <code>.qmd</code> file that lives in your repository’s <em>root</em> directory (I’ll be calling mine <code>posts.qmd</code> and giving it the title “My Blog” for demonstration purposes, though you can choose whatever file name and title you’d like). <em><strong>Note:</strong> There are lots of different ways to create a new <code>.qmd</code> file. I outline just one approach for each environment, below:</em></li>
+</ul>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true"><i class="fa-brands fa-r-project" title="R programming language icon" aria-label="r-project"></i> RStudio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false"><i class="fa-solid fa-plus" title="plus symbol" aria-label="plus"></i> Positron</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false"><i class="fa-solid fa-terminal" title="terminal symbol, |>" aria-label="terminal"></i> Terminal</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<p><em><strong>Tip:</strong> Click on the R Project icon, <img src="media/rproj.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;">, in the Files pane to jump back to your project’s root directory</em></p>
+<ol type="i">
+<li>From the menu bar, click <strong>File</strong> &gt; <strong>New File</strong> &gt; <strong>Quarto Document…</strong></li>
+<li>When the dialog box opens, give it a <strong>Title</strong> (e.g.&nbsp;“My Blog”) – this is the name that will appear as the title of your listing page (you’ll be able to change this later by editing the YAML)</li>
+<li>Click <strong>Create</strong> (this will open the file in the Editor)</li>
+<li>Save (keyboard shortcut: <code>Cmd</code>/<code>Ctrl</code> + <code>S</code>) your new file as <code>posts.qmd</code></li>
+</ol>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<ol type="i">
+<li>Open the Command Palette using the keyboard shortcut, <code>Cmd/Ctrl</code> + <code>Shift</code> + <code>P</code></li>
+<li>Search <strong>Quarto: New Document</strong>, then click <strong>Enter / Return</strong> (this will open your file in the Editor)</li>
+<li>Update the <code>title</code> YAML option with your preferred title (e.g.&nbsp;“My Blog”)</li>
+<li>Save (keyboard shortcut: <code>Cmd</code>/<code>Ctrl</code> + <code>S</code>) your new file to your repository’s root directory as <code>posts.qmd</code> (choose your root directory from the <strong>Where:</strong> dropdown menu if it’s not already selected by default)</li>
+</ol>
+</div>
+<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
+<ol type="i">
+<li>Make sure you’re in your root directory by typing, <code>pwd</code></li>
+<li>If you’re not in your root directory, use the <code>cd</code> command to move yourself there</li>
+<li>Run <code>touch posts.qmd</code> to create your file</li>
+</ol>
+<p><em>At this point I <strong>highly recommend</strong> opening and editing your <code>posts.qmd</code> file using an IDE like RStudio or Positron. However, if you’re really excited to practice editing files from the Terminal, you can try out the following steps:</em></p>
+<ol start="4" type="i">
+<li>Open <code>posts.qmd</code> with a Terminal-based text editor (e.g <a href="https://www.nano-editor.org/" target="_blank">Nano</a>, <a href="https://www.vim.org/" target="_blank">Vim</a>; you may need to install your preferred text editor first, depending on your operating system) – I like nano, so I’ll run <code>nano posts.qmd</code> to open <code>posts.qmd</code> using that editor.</li>
+<li>Add the YAML gates and <code>title</code> option with your preferred title (e.g.&nbsp;“My Blog”):</li>
 </ol>
 <div class="cell">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>posts.qmd</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"My Blog"</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>listing<span class="sc">:</span> </span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  contents<span class="sc">:</span> posts <span class="co"># this name must match the name of the folder you created in step #1; here, all Quarto docs in the `posts` directory will be included on your listing page</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  type<span class="sc">:</span> grid <span class="co"># or `default` or `table`; each type has its own set of yaml options to include</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  sort<span class="sc">:</span> <span class="st">"date desc"</span> <span class="co"># can also sort on more than one field</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  categories<span class="sc">:</span> true <span class="co"># allows you to sort posts by assigned categories </span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "My Blog"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-<ol start="5" type="1">
-<li><strong>Add your listing page to your website’s navbar (so visitors can easily find your blog!):</strong> Update <code>_quarto.yml</code> with your new listing page to add it to your site’s navbar:</li>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/nano.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="center-text small-text gray-italic">
+<p>Editing <code>posts.qmd</code> using nano in a Terminal window (as it appears on my Mac)</p>
+</div>
+<ol start="6" type="i">
+<li>Click <code>Ctrl</code> + <code>X</code> to exit, then type <code>Y</code> when it asks you if you’d like to save your work. Click <strong>Enter / Return</strong> to exit nano.</li>
 </ol>
+</div>
+</div>
+</div>
+<!-- ::: {.panel-tabset}
+##  RStudio
+##  Positron
+##  Terminal
+::: -->
+</section>
+<section id="configure-your-listing-page" class="level3">
+<h3 class="anchored" data-anchor-id="configure-your-listing-page">4. Configure your listing page</h3>
+<ul>
+<li>Specify how you’d like your listing page to be arranged by updating the YAML section of <code>posts.qmd</code>. There are a variety of options that you can specify. Below are just a few, so be sure to check out <a href="https://quarto.org/docs/websites/website-listings.html" target="_blank">other options</a>:</li>
+</ul>
+<div class="cell">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>posts.qmd</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"My Blog"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>listing<span class="sc">:</span> </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  contents<span class="sc">:</span> posts <span class="co"># this name must match the name of the folder you created in step #1; here, all Quarto docs in the `posts` directory will be included on your listing page</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  type<span class="sc">:</span> grid <span class="co"># or `default` or `table`; each type has its own set of yaml options to include</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  sort<span class="sc">:</span> <span class="st">"date desc"</span> <span class="co"># can also sort on more than one field</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  categories<span class="sc">:</span> true <span class="co"># allows you to sort posts by assigned categories </span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</section>
+<section id="add-your-listing-page-to-your-websites-navbar" class="level3">
+<h3 class="anchored" data-anchor-id="add-your-listing-page-to-your-websites-navbar">5. Add your listing page to your website’s navbar</h3>
+<ul>
+<li>Visitors will have a difficult time finding your listing page if it’s not linked somewhere obvious. Update <code>_quarto.yml</code> with your new listing page to add it to your site’s navbar:</li>
+</ul>
 <div class="cell">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>_quarto.yml</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ~ parts of `_quarto.yml` omitted for brevity ~</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>website<span class="sc">:</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  navbar<span class="sc">:</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    title<span class="sc">:</span> myWebsiteTitle</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    right<span class="sc">:</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>      <span class="sc">-</span> href<span class="sc">:</span> index.qmd</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>        text<span class="sc">:</span> Home</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>      <span class="sc">-</span> about.qmd</span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>      <span class="sc">-</span> posts.qmd <span class="co"># add your listing page file to your navbar, just like you would any other new web page</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ~ parts of `_quarto.yml` omitted for brevity ~</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>website<span class="sc">:</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  navbar<span class="sc">:</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    title<span class="sc">:</span> myWebsiteTitle</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    right<span class="sc">:</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>      <span class="sc">-</span> href<span class="sc">:</span> index.qmd</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>        text<span class="sc">:</span> Home</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>      <span class="sc">-</span> about.qmd</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>      <span class="sc">-</span> posts.qmd <span class="co"># add your listing page file to your navbar, just like you would any other new web page</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-<ol start="6" type="1">
-<li><strong>Preview or Render your website:</strong> Make sure your listing page shows up by previewing (I typically run <code>quarto preview</code> in the Terminal) or rendering (click the <strong>Render</strong> button in the <strong>Build</strong> tab in RStudio, or run <code>quarto render</code> in the Terminal) your website. You should have something that looks like this (we haven’t created any posts yet, so it’ll be empty for now):</li>
-</ol>
+</section>
+<section id="preview-your-website" class="level3">
+<h3 class="anchored" data-anchor-id="preview-your-website">6. Preview your website</h3>
+<ul>
+<li>Make sure your listing page shows up by previewing your website. Run <code>quarto preview</code> in your Terminal (this can be your RStudio or Positron Terminal, or in a separate Terminal window) to open up a live preview in a browser window. You should see something that looks like this (we haven’t created any posts yet, so it’ll be empty for now):</li>
+</ul>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -569,13 +656,21 @@ NEW! Choose your own adventure instructions
 </div>
 </div>
 </section>
+</section>
 <section id="IV-add-post" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="IV-add-post">IV. Add a blog post to your blog</h2>
-<p>Now that you have your listing page set up, we can start populating it with blog posts. <em>Repeat the following steps each time you want to add a new post.</em></p>
-<ol type="1">
-<li><p><strong>Create a subdirectory <em>inside</em> your <code>posts/</code> directory:</strong> To stay organized, I usually name mine <code>YYYY-MM-DD-short-post-description</code>. This folder name will also become the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Slug" target="_blank">slug</a> for your published post.</p></li>
-<li><p><strong>Inside your new subdirectory, create an <code>index.qmd</code> file.</strong> Your file path should look something like this: <code>myWebsite/posts/2022-10-24-my-blog-post/index.qmd</code>. This file is your blog post. Write all your content here!</p></li>
-</ol>
+<p>Now that you have your listing page set up, we can start populating it with blog posts. <strong><em>Repeat the following steps each time you want to add a new post.</em></strong></p>
+<section id="create-a-subdirectory-inside-your-posts-directory" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-subdirectory-inside-your-posts-directory">1. Create a subdirectory <em>inside</em> your <code>posts/</code> directory:</h3>
+<ul>
+<li>To stay organized, I usually name mine <code>YYYY-MM-DD-short-post-description</code>. This folder name will also become the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Slug" target="_blank">slug</a> for your published post.</li>
+</ul>
+</section>
+<section id="create-an-index.qmd-file-inside-your-new-subdirectory" class="level3">
+<h3 class="anchored" data-anchor-id="create-an-index.qmd-file-inside-your-new-subdirectory">2. Create an <code>index.qmd</code> file <em>inside</em> your new subdirectory</h3>
+<ul>
+<li>Your file path should look something like this: <code>myWebsite/posts/2022-10-24-my-blog-post/index.qmd</code>. This file is your blog post. Write all your content here!</li>
+</ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -591,56 +686,63 @@ NEW! Choose your own adventure instructions
 <p>If I named my blog post file something like, <code>my-blog-post.qmd</code> (<em>rather than <code>index.qmd</code></em>), the resulting URL would instead look like, <a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/my-blog-post.html" class="uri">https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/my-blog-post.html</a>. This isn’t necessarily <em>wrong</em> or broken, but it does result in a lengthier URL – and short URLs tend to be easier to remember.</p>
 </div>
 </div>
-<ol start="3" type="1">
-<li><strong>Configure your blog post:</strong> You can add a variety of different options to the YAML section of <code>index.qmd</code>. Here are my go-to options:</li>
-</ol>
+</section>
+<section id="configure-your-blog-post" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="configure-your-blog-post">3. Configure your blog post</h3>
+<ul>
+<li>You can add a variety of different options to the YAML section of <code>index.qmd</code>. Here are my go-to options:</li>
+</ul>
 <div class="cell">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>posts/2022-10-24-my-blog-post/index.qmd</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"blog post title"</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>description<span class="sc">:</span> <span class="st">"blog post description (appears underneath the title in smaller text) which is included on the listing page"</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="sc">-</span> name<span class="sc">:</span> Samantha Csik</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    url<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>samanthacsik.github.io<span class="sc">/</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    orcid<span class="sc">:</span> <span class="dv">0000-0002-5300-3075</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    affiliation<span class="sc">:</span> Master of Environmental Data Science Program <span class="sc">@</span> The Bren <span class="fu">School</span> (UCSB) <span class="sc">&amp;</span> The National Center <span class="cf">for</span> Ecological Analysis <span class="sc">&amp;</span> Synthesis</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    affiliation<span class="sc">-</span>url<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>ucsb<span class="sc">-</span>meds.github.io<span class="sc">/</span> </span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="dv">10-24-2022</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>categories<span class="sc">:</span> [Quarto, R, MEDS] <span class="co"># self-defined categories</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>citation<span class="sc">:</span> </span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  url<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>samanthacsik.github.io<span class="sc">/</span>posts<span class="sc">/</span><span class="dv">2022-10-24</span><span class="sc">-</span>my<span class="sc">-</span>blog<span class="sc">-</span>post<span class="sc">/</span> </span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> preview<span class="sc">-</span>image.png</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>draft<span class="sc">:</span> false <span class="co"># setting this to `true` will prevent your post from appearing on your listing page until you're ready!</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="annotated-cell-4"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-4-1"><a href="#annotated-cell-4-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-4-2" class="code-annotation-target"><a href="#annotated-cell-4-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"blog post title"</span></span>
+<span id="annotated-cell-4-3"><a href="#annotated-cell-4-3" aria-hidden="true" tabindex="-1"></a>description<span class="sc">:</span> <span class="st">"blog post description (appears underneath the title in smaller text) which is included on the listing page"</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-4-4" class="code-annotation-target"><a href="#annotated-cell-4-4" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span></span>
+<span id="annotated-cell-4-5"><a href="#annotated-cell-4-5" aria-hidden="true" tabindex="-1"></a>  <span class="sc">-</span> name<span class="sc">:</span> Samantha Csik</span>
+<span id="annotated-cell-4-6"><a href="#annotated-cell-4-6" aria-hidden="true" tabindex="-1"></a>    url<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>samanthacsik.github.io<span class="sc">/</span></span>
+<span id="annotated-cell-4-7"><a href="#annotated-cell-4-7" aria-hidden="true" tabindex="-1"></a>    orcid<span class="sc">:</span> <span class="dv">0000-0002-5300-3075</span></span>
+<span id="annotated-cell-4-8"><a href="#annotated-cell-4-8" aria-hidden="true" tabindex="-1"></a>    affiliation<span class="sc">:</span> Master of Environmental Data Science Program <span class="sc">@</span> The Bren <span class="fu">School</span> (UCSB) <span class="sc">&amp;</span> The National Center <span class="cf">for</span> Ecological Analysis <span class="sc">&amp;</span> Synthesis</span>
+<span id="annotated-cell-4-9"><a href="#annotated-cell-4-9" aria-hidden="true" tabindex="-1"></a>    affiliation<span class="sc">-</span>url<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>ucsb<span class="sc">-</span>meds.github.io<span class="sc">/</span></span>
+<span id="annotated-cell-4-10"><a href="#annotated-cell-4-10" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="dv">10-24-2022</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-4-11" class="code-annotation-target"><a href="#annotated-cell-4-11" aria-hidden="true" tabindex="-1"></a>categories<span class="sc">:</span> [Quarto, R, MEDS]</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="4" onclick="event.preventDefault();">4</a><span id="annotated-cell-4-12" class="code-annotation-target"><a href="#annotated-cell-4-12" aria-hidden="true" tabindex="-1"></a>citation<span class="sc">:</span></span>
+<span id="annotated-cell-4-13"><a href="#annotated-cell-4-13" aria-hidden="true" tabindex="-1"></a>  url<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>samanthacsik.github.io<span class="sc">/</span>posts<span class="sc">/</span><span class="dv">2022-10-24</span><span class="sc">-</span>my<span class="sc">-</span>blog<span class="sc">-</span>post<span class="sc">/</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="5" onclick="event.preventDefault();">5</a><span id="annotated-cell-4-14" class="code-annotation-target"><a href="#annotated-cell-4-14" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> preview<span class="sc">-</span>image.png</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="6" onclick="event.preventDefault();">6</a><span id="annotated-cell-4-15" class="code-annotation-target"><a href="#annotated-cell-4-15" aria-hidden="true" tabindex="-1"></a>draft<span class="sc">:</span> false</span>
+<span id="annotated-cell-4-16"><a href="#annotated-cell-4-16" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="annotated-cell-4-17"><a href="#annotated-cell-4-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-4-18"><a href="#annotated-cell-4-18" aria-hidden="true" tabindex="-1"></a>Here is where I will start writng my actual blog post content...</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</div>
-<p>Some notes on the above options:</p>
-<ul>
-<li><p>You should include a <strong>title</strong>, but don’t necessarily need a <strong>description</strong> (though I think these are nice to include!). These fields will appear on your listing page. You may also consider adding a <strong>subtitle</strong>.</p></li>
-<li><p>You can include more than one <strong>author</strong> – see <a href="https://samanthacsik.github.io/posts/2022-06-22-hello-quarto/" target="_blank">this post</a> and <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-06-22-hello-quarto/index.qmd" target="_blank">source code</a> as an example.</p></li>
-<li><p>You may include as many self-defined <strong>categories</strong> as you’d like. Make sure that your spelling / capitalization / punctuation is consistent across blog posts should you apply the same categories to multiple posts.</p></li>
-<li><p>Adding the <strong>citation</strong> option automatically generates both a <a href="https://en.wikipedia.org/wiki/BibTeX" target="_blank">BibTeX citation</a> and reference for your blog post, and adds them to the bottom of your post.</p></li>
-<li><p>Include an image (or gif) to add as a <strong>preview image</strong>, which will appear on your listing page alongside your post. Your image should live inside your post’s subdirectory (e.g.&nbsp;<code>mywebsite/posts/2022-10-24-my-blog-post/preview-image.png</code>).</p></li>
-<li><p>Set <strong><code>draft: true</code></strong> while you’re still working on your blog post to prevent it from showing up on your listing page, site map, or site search (it will still be available at a searchable URL). When you’re ready to publish, just remove <code>draft: true</code> from your YAML (or set to <code>false</code>), then render your post.</p>
-<ul>
-<li>Quarto v1.5.56 introduced draft banners, which will appear on any draft posts (see screenshot, below). You can also control how drafts are linked / rendered on your website using the <a href="https://quarto.org/docs/websites/website-drafts.html#appearance-of-drafts" target="_blank"><code>draft-mode</code> option</a>. By default, any page set as a draft will not be linked or searchable. If you want your draft to still be searchable at it’s URL (helpful if you want to share a draft with someone, but don’t want it showing up on your listing page just yet), consider setting <code>draft-mode</code> to either <code>unlinked</code> or <code>visible</code> – check out the <a href="https://quarto.org/docs/websites/website-drafts.html">documentation</a> for more information.</li>
-</ul></li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<strong>Remember: You can also add options to <code>_metadata.yml</code> if you want them applied to <em>all</em> posts!</strong>
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Do you want your own author / affiliation information applied to each blog post you write, by default? Add it instead to <code>_metadata.yml</code> and save yourself re-typing it each time you create a new post!</p>
-<p>Are you collaborating on a blog post with additional authors? You can override the defaults set in <code>_metadata.yml</code> by specifying the <code>author</code> option directly in any particular blog post file (<code>index.qmd</code>).</p>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-4" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-4" data-code-lines="2" data-code-annotation="1">You should include a <strong>title</strong>, but don’t necessarily need a <strong>description</strong> (though I think these are nice to include!). These fields will appear on your listing page. You may also consider adding a <strong>subtitle</strong>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-4" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-4" data-code-lines="4,5,6,7,8,9" data-code-annotation="2">You can include more than one <strong>author</strong> – see <a href="https://samanthacsik.github.io/posts/2022-06-22-hello-quarto/" target="_blank">this post</a> and <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-06-22-hello-quarto/index.qmd" target="_blank">source code</a> as an example.</span>
+</dd>
+<dt data-target-cell="annotated-cell-4" data-target-annotation="3">3</dt>
+<dd>
+<span data-code-cell="annotated-cell-4" data-code-lines="11" data-code-annotation="3">You may include as many self-defined <strong>categories</strong> as you’d like. Make sure that your spelling / capitalization / punctuation is consistent across blog posts should you apply the same categories to multiple posts.</span>
+</dd>
+<dt data-target-cell="annotated-cell-4" data-target-annotation="4">4</dt>
+<dd>
+<span data-code-cell="annotated-cell-4" data-code-lines="12,13" data-code-annotation="4">Adding the <strong>citation</strong> option automatically generates both a <a href="https://en.wikipedia.org/wiki/BibTeX" target="_blank">BibTeX citation</a> and reference for your blog post, and adds them to the bottom of your post.</span>
+</dd>
+<dt data-target-cell="annotated-cell-4" data-target-annotation="5">5</dt>
+<dd>
+<span data-code-cell="annotated-cell-4" data-code-lines="14" data-code-annotation="5">Include an image to add as a <strong>preview image</strong>, which will appear on your listing page alongside your post. Your image should live inside your post’s subdirectory (e.g.&nbsp;<code>mywebsite/posts/2022-10-24-my-blog-post/preview-image.png</code>).</span>
+</dd>
+<dt data-target-cell="annotated-cell-4" data-target-annotation="6">6</dt>
+<dd>
+<span data-code-cell="annotated-cell-4" data-code-lines="15" data-code-annotation="6">Set <strong><code>draft: true</code></strong> while you’re still working on your blog post to prevent it from showing up on your listing page, site map, or site search (it will still be available at a searchable URL). When you’re ready to publish, just remove <code>draft: true</code> from your YAML (or set to <code>false</code>), then render your post. Quarto v1.5.56 introduced draft banners, which will appear on any draft posts. You can also control how drafts are linked / rendered on your website using the <a href="https://quarto.org/docs/websites/website-drafts.html#appearance-of-drafts" target="_blank"><code>draft-mode</code> option</a>. By default, any page set as a draft will not be linked or searchable. If you want your draft to still be searchable at it’s URL (helpful if you want to share a draft with someone, but don’t want it showing up on your listing page just yet), consider setting <code>draft-mode</code> to either <code>unlinked</code> or <code>visible</code> – check out the <a href="https://quarto.org/docs/websites/website-drafts.html">documentation</a> for more information.</span>
+</dd>
+</dl>
 </div>
 </div>
 <div>
@@ -666,7 +768,70 @@ NEW! Choose your own adventure instructions
 </div>
 </div>
 </div>
-<p>If things aren’t working as expected, double check your repository structure – it should be organized similar to this:</p>
+</section>
+<section id="consider-moving-yaml-options-to-_metadata.yml-as-appropriate" class="level3">
+<h3 class="anchored" data-anchor-id="consider-moving-yaml-options-to-_metadata.yml-as-appropriate">4. Consider moving YAML options to <code>_metadata.yml</code>, as appropriate</h3>
+<ul>
+<li>For example, do you want your own author / affiliation information applied to each blog post you write, by default? Add it instead to <code>_metadata.yml</code> and save yourself re-typing it each time you create a new post! For example, I could modify my <code>_metadata.yml</code> and <code>posts/2022-10-24-my-blog-post/index.qmd</code> files as follows:</li>
+</ul>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">_metadata.yml</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Blog post YAML</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<div class="cell">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>_metadata.yml</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># options specified here will apply to all posts in this folder</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu"># re-render posts only when a change to the source file is made ----</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>freeze: auto</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="fu"># enable banner style title blocks ----</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>title-block-banner: true</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="fu"># my author info ----</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>author:</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>name: Samantha Shanny-Csik</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    url: https://samanthacsik.github.io/</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    orcid: 0000-0002-5300-3075</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) </span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    affiliation-url: https://ucsb-meds.github.io/ </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<div class="cell">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>posts/2022-10-24-my-blog-post/index.qmd</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"blog post title"</span> </span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>description<span class="sc">:</span> <span class="st">"blog post description (appears underneath the title in smaller text) which is included on the listing page"</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="dv">10-24-2022</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>categories<span class="sc">:</span> [Quarto, R, MEDS] </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>citation<span class="sc">:</span> </span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  url<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>samanthacsik.github.io<span class="sc">/</span>posts<span class="sc">/</span><span class="dv">2022-10-24</span><span class="sc">-</span>my<span class="sc">-</span>blog<span class="sc">-</span>post<span class="sc">/</span> </span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> preview<span class="sc">-</span>image.png </span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>draft<span class="sc">:</span> false </span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>Here is where I will start writng my actual blog post content...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<ul>
+<li>Are you collaborating on a blog post with additional authors? You can override the defaults set in <code>_metadata.yml</code> by specifying the <code>author</code> option directly in any particular blog post file’s YAML.</li>
+</ul>
+</section>
+</section>
+<section id="V-troubleshooting" class="level2">
+<h2 class="anchored" data-anchor-id="V-troubleshooting">V. Troubleshooting</h2>
+<p><strong>If things aren’t working as expected, double check your repository structure</strong> – it should be organized similar to this:</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -677,8 +842,8 @@ NEW! Choose your own adventure instructions
 </div>
 </div>
 </section>
-<section id="V-additional-features" class="level2">
-<h2 class="anchored" data-anchor-id="V-additional-features">V. Some additional authoring features to explore</h2>
+<section id="VI-additional-features" class="level2">
+<h2 class="anchored" data-anchor-id="VI-additional-features">VI. Some additional authoring features to explore</h2>
 <p>Blog posts are just Quarto documents, meaning you can combine prose, code, and embedded outputs all in one place, just like you would in any other <code>.qmd</code> file (which makes your blog the <em>perfect</em> place to create data science / programming tutorials both for yourself and others <i class="fa-solid fa-smile-wink" title="a smiling winking face" aria-label="smile-wink"></i>). If you’re looking for additional ways to enhance your posts, read on below:</p>
 <section id="adding-footnotes" class="level3">
 <h3 class="anchored" data-anchor-id="adding-footnotes">Adding footnotes</h3>
@@ -686,17 +851,13 @@ NEW! Choose your own adventure instructions
 <ol type="1">
 <li><strong>Use the <code>[^#]</code> syntax to denote where you would like a note to be inserted.</strong> Write your note somewhere below following the <code>[^#]: your note here</code> syntax. For example:</li>
 </ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>I am going to insert a footnote here<span class="ot">[^1]</span>.</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ot">[^1]: </span>Here is the associated footnote, which will appear at the bottom of my document in a "Footnotes" section.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>I am going to insert a footnote here<span class="ot">[^1]</span>.</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="ot">[^1]: </span>Here is the associated footnote, which will appear at the bottom of my document in a "Footnotes" section.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ol start="2" type="1">
 <li><strong>Alternatively, you can write your notes inline</strong> to avoid having to use identifiers (e.g.&nbsp;<code>[^#]</code>). For example:</li>
 </ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>I am going to insert an inline footnote here^<span class="co">[</span><span class="ot">Here is my inline footnote</span><span class="co">]</span>.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>I am going to insert an inline footnote here^<span class="co">[</span><span class="ot">Here is my inline footnote</span><span class="co">]</span>.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ol start="3" type="1">
 <li><strong>You can also add footnotes that include multiple paragraphs.</strong> See the <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd" target="_blank">source code</a> for this blog post and take a peek at footnote #2 for an example on how to do so (or check out the <a href="https://quarto.org/docs/authoring/footnotes-and-citations.html#footnotes" target="_blank">Quarto documentation</a>).</li>
 </ol>
@@ -710,11 +871,11 @@ NEW! Choose your own adventure instructions
 <li><p><strong>Add the <code>bibliography</code> option to your blog post’s YAML</strong> and provide it the name of your <code>.bib</code> file:</p></li>
 </ol>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"blog post title"</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># ~ additional YAML options omitted for brevity ~</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>bibliography<span class="sc">:</span> references.bib</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"blog post title"</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co"># ~ additional YAML options omitted for brevity ~</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>bibliography<span class="sc">:</span> references.bib</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ol start="3" type="1">
 <li><strong>Next, we’ll want to add some references.</strong> These take a particular format that generally looks like this (the number / types of fields included may vary):</li>
@@ -724,13 +885,13 @@ NEW! Choose your own adventure instructions
 <div class="code-with-filename-file">
 <pre><strong>references.bib</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>type{key,</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  author <span class="ot">=</span> {LastName, FirstName},</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  title <span class="ot">=</span> {Title of work},</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  date <span class="ot">=</span> {YYYY}</span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  url <span class="ot">=</span> {https<span class="sc">:</span><span class="er">//</span>url.com},</span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  langid <span class="ot">=</span> {en}</span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>type{key,</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  author <span class="ot">=</span> {LastName, FirstName},</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  title <span class="ot">=</span> {Title of work},</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  date <span class="ot">=</span> {YYYY}</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  url <span class="ot">=</span> {https<span class="sc">:</span><span class="er">//</span>url.com},</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  langid <span class="ot">=</span> {en}</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <p>where <code>type</code> can be <code>manual</code>, <code>book</code>, <code>article</code>, <code>misc</code>, etc. (all case-insensitive) and <code>key</code> is the citation identifier used for inserting in-text citations (we’ll get there soon).</p>
@@ -744,14 +905,14 @@ NEW! Choose your own adventure instructions
 <li>To give a concrete example, let’s say I want to cite my first (ever) blog post from 2021. I can copy the <a href="../2022-10-24-quarto-blogs/#citation" target="_blank">BibTeX citation from the bottom of the post</a> and paste it into my <code>references.bib</code> file:</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>online{csik2021,</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  author <span class="ot">=</span> {Samantha Csik},</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  title <span class="ot">=</span> {Why Create Presentation Slides about Blogging When You Can</span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    Just Blog about It Instead?},</span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  date <span class="ot">=</span> {<span class="dv">2021-09-24</span>},</span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  url <span class="ot">=</span> {https<span class="sc">:</span><span class="er">//</span>samanthacsik.github.io<span class="sc">/</span>posts<span class="sc">/</span><span class="dv">2021-09-21</span><span class="sc">-</span>distill<span class="sc">-</span>blogs<span class="sc">/</span>},</span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  langid <span class="ot">=</span> {en}</span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>online{csik2021,</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  author <span class="ot">=</span> {Samantha Csik},</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  title <span class="ot">=</span> {Why Create Presentation Slides about Blogging When You Can</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    Just Blog about It Instead?},</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  date <span class="ot">=</span> {<span class="dv">2021-09-24</span>},</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  url <span class="ot">=</span> {https<span class="sc">:</span><span class="er">//</span>samanthacsik.github.io<span class="sc">/</span>posts<span class="sc">/</span><span class="dv">2021-09-21</span><span class="sc">-</span>distill<span class="sc">-</span>blogs<span class="sc">/</span>},</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  langid <span class="ot">=</span> {en}</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>I can now add an in-text citation using the <code>[@csik2021]</code> syntax, which will render it like this <i class="fa-solid fa-arrow-right" title="an arrow pointing to the right" aria-label="arrow-right"></i> <span class="citation" data-cites="csik2021">(<a href="#ref-csik2021" role="doc-biblioref">Csik 2021</a>)</span>. Once cited, the full reference will appear in my <a href="#references">References section at the bottom of this post</a>.</li>
@@ -760,11 +921,11 @@ NEW! Choose your own adventure instructions
 <li><strong>Optionally, you can update your preferred citation style</strong> (the default is set to <a href="https://www.chicagomanualofstyle.org/home.html">Chicago Manual of Style</a>). Search for and download your preferred citation style (in the form of a <code>.csl</code> (<a href="https://citationstyles.org/">Citation Style Language</a>) file) from either <a href="https://github.com/citation-style-language/styles">CSL Project</a> or <a href="https://www.zotero.org/styles">Zotereo’s style repository</a>, and add it to your blog post’s folder. Update your blog post’s YAML using the <code>csl</code> option to apply the new styling. For example, I can apply <a href="https://www.zotero.org/styles?q=plos%20computational%20biology">PLOS Computational Biology styling</a>:</li>
 </ol>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"blog post title"</span></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co"># ~ additional YAML options omitted for brevity ~</span></span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> plos<span class="sc">-</span>computational<span class="sc">-</span>biology.csl</span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"blog post title"</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co"># ~ additional YAML options omitted for brevity ~</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> plos<span class="sc">-</span>computational<span class="sc">-</span>biology.csl</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>That wasn’t so bad, right?? What if I told you there was an even <em>easier</em> way to add citations….Start by popping over to RStudio’s Visual editor, if you’re not already there (you should see buttons for working in either the <strong>Source</strong> or <strong>Visual</strong> editor in the top left corner of your source pane), and follow the steps below:</p>
 <ol type="1">
@@ -784,15 +945,15 @@ NEW! Choose your own adventure instructions
 </section>
 <section id="article-layout" class="level3">
 <h3 class="anchored" data-anchor-id="article-layout">Article layout</h3>
-<p>Quarto also supports a number of different <a href="https://quarto.org/docs/authoring/article-layout.html" target="_blank">page layout options</a> to further customize the appearance of your posts. Explore different ways to position elements on your page, including embedding outputs, captions, references in your <a href="https://quarto.org/docs/authoring/article-layout.html#margin-content" target="_blank">page margin</a> (one of my personal faves…despite the fact that I don’t have any here in this post).</p>
+<p>Quarto also supports a number of different <a href="https://quarto.org/docs/authoring/article-layout.html" target="_blank">page layout options</a> to further customize the appearance of your posts. Explore different ways to position elements on your page, including embedding outputs, captions, references in your <a href="https://quarto.org/docs/authoring/article-layout.html#margin-content" target="_blank">page margin</a>.</p>
 </section>
 </section>
-<section id="VI-more-blogs" class="level2">
-<h2 class="anchored" data-anchor-id="VI-more-blogs">VI. A note on adding an additional blog (or more) to your site</h2>
+<section id="VII-more-blogs" class="level2">
+<h2 class="anchored" data-anchor-id="VII-more-blogs">VII. A note on adding an additional blog (or more) to your site</h2>
 <p>You aren’t limited to just one blog / listing page! Repeat <a href="#III-add-blog" target="_blank">Part III</a> to add a second listing page + content to your website. My personal website contains <em>four</em> listing pages – one called <a href="../../posts.html" target="_blank">posts</a> (aka my actual blog), one called <a href="../../talks_workshops.html" target="_blank">talks &amp; workshops</a>, once called <a href="../../courses.html" target="_blank">courses</a>, and one called <a href="../../projects.html" target="_blank">projects</a>. Explore the <a href="https://github.com/samanthacsik/samanthacsik.github.io" target="_blank">GitHub repo</a> to take a peek at the file structure and source code.</p>
 </section>
-<section id="VII-follow" class="level2">
-<h2 class="anchored" data-anchor-id="VII-follow">VII. Blogs to follow (+ one post from each that I’ve particularly enjoyed)</h2>
+<section id="VIII-follow" class="level2">
+<h2 class="anchored" data-anchor-id="VIII-follow">VIII. Blogs to follow (+ one post from each that I’ve particularly enjoyed)</h2>
 <p>There are <em>tons</em> of awesome data science bloggers out there – here are just a few that I’ve enjoyed, but get out there and start exploring others for yourself!</p>
 <p><em>Also note: I’ve included one blog post from each creator and added citations (with the year only format). Check out the <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd">source code for this post</a> to see how it’s done.</em></p>
 <ul>
@@ -805,8 +966,8 @@ NEW! Choose your own adventure instructions
 <li><p><a href="https://www.cedricscherer.com/" target="_blank">Cédric Scherer</a>, and his post <a href="https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/" target="_blank">A ggplot2 Tutorial for Beautiful Plotting in R</a> <span class="citation" data-cites="scherer2019">(<a href="#ref-scherer2019" role="doc-biblioref">2019</a>)</span></p></li>
 </ul>
 </section>
-<section id="VIII-resources" class="level2">
-<h2 class="anchored" data-anchor-id="VIII-resources">VIII. Additional Resources</h2>
+<section id="IX-resources" class="level2">
+<h2 class="anchored" data-anchor-id="IX-resources">IX. Additional Resources</h2>
 <ul>
 <li><p><a href="https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html" target="_blank">The ultimate guide to starting a Quarto blog</a>, by <a href="https://albert-rapp.de/" target="_blank">Albert Rapp</a> is incredibly thorough and explores even more ways to customize your blog. Check it out!</p></li>
 <li><p><a href="https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/" target="_blank">Creating a blog with Quarto in 10 steps</a>, by <a href="https://beamilz.com/about.html" target="_blank">Beatriz Milz</a> walks through the steps of setting up a new Quarto Blog project. She also details how to set up <a href="https://giscus.app/" target="_blank">giscus</a> to enable comments on your blog posts.</p></li>

@@ -18,7 +18,7 @@ image: penguins.png
 draft: false
 ---
 
-About a year ago, I wrote my first ever blog post \~ about blogging \~ and tbh I'm a *little* embarrassed that this is only my third post here (does it count that I have *ideas* for blog posts squirreled away at least?? {{< fa face-grin-beam-sweat title="a grinning face with a bead of sweat dripping from its brow" >}}). Regardless, you should trust me[^1] when I say that blogging is a great exercise for you to practice as regularly as you can -- it can help you to:
+About a year ago (2021), I wrote my first ever blog post \~ about blogging \~ and tbh I'm a *little* embarrassed that this is only my third post here (does it count that I have *ideas* for blog posts squirreled away at least?? {{< fa face-grin-beam-sweat title="a grinning face with a bead of sweat dripping from its brow" >}}). Regardless, you should trust me[^1] when I say that blogging is a great exercise for you to practice as regularly as you can -- it can help you to:
 
 [^1]: Okay, you don't *just* have to trust me. Lots of data scientists advocate for blogging as an important skill and communication tool. Check out this [blog post](http://varianceexplained.org/r/start-blog/) by [David Robinson](https://twitter.com/drob) to start.
 
@@ -27,7 +27,7 @@ About a year ago, I wrote my first ever blog post \~ about blogging \~ and tbh I
 > *"...sharing anything is almost always better than sharing nothing"* 
 
 ::: {.right-align-text .dark-gray-text .small-text}
--[`@drob`](https://twitter.com/drob){target="_blank"} in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/){target="_blank"}
+-[David Robinson](https://twitter.com/drob){target="_blank"} in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/){target="_blank"}
 :::
 
 -   practice your writing & communication skills
@@ -40,10 +40,10 @@ About a year ago, I wrote my first ever blog post \~ about blogging \~ and tbh I
 >*"Once you've shared some analyses and code, you'll probably find that you were underrating yourself in some areas."* 
 
 ::: {.right-align-text .dark-gray-text .small-text}
--also [`@drob`](https://twitter.com/drob){target="_blank"} in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/){target="_blank"}
+-also [David Robinson](https://twitter.com/drob){target="_blank"} in his post, [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/){target="_blank"}
 :::
 
-Rather than repeat more content here, take a peek at my [first post](https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/){target="_blank"}, which touches on more reasons why you should blog and provides some ideas on how to structure your blog posts. Before jumping into things, I'll leave you with one last piece of advice from [`@drob`](https://twitter.com/drob){target="_blank"}:
+Rather than repeat more content here, take a peek at my [first post](https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/){target="_blank"}, which touches on more reasons why you should blog and provides some ideas on how to structure your blog posts. Before jumping into things, I'll leave you with one last piece of advice from [David Robinson](https://twitter.com/drob){target="_blank"}:
 
 <blockquote class="twitter-tweet">
 
@@ -92,11 +92,11 @@ knitr::include_graphics("media/blog.png")
 ::: dark-green-bg
 **TL;DR:** A couple of steps are required for setting up your blog, but generally speaking, you'll need:
 
-1.  **a folder** (i.e. subdirectory) to hold all of your individual blog posts -- I called my folder `posts/` (though the name is up to you). I also (optionally) added a `_metadata.yml` file to this folder which includes some formatting and configuration options that will apply to *all* blog posts in this folder
+A.  **a folder** (i.e. subdirectory) to hold all of your individual blog posts -- I called my folder `posts/` (though the name is up to you). I also (optionally) added a `_metadata.yml` file to this folder which includes some formatting and configuration options that will apply to *all* blog posts in this folder
 
-2.  **a listing page**, which lists all of your blog posts for viewers to browse and click through -- this is a `.qmd` file that you'll add to your website's navbar by including it in `_quarto.yml`
+B.  **a listing page**, which lists all of your blog posts for viewers to browse and click through -- this is a `.qmd` file that you'll add to your website's navbar by including it in `_quarto.yml`
 
-3.  **blog posts!** Your listing page will be blank until you actually add your first blog post
+C.  **blog posts!** Your listing page will be blank until you actually add your first blog post
 :::
 
 <br>
@@ -105,10 +105,12 @@ Let's create those together now.
 
 ::: {.callout-tip}
 ## NEW! Choose your own adventure instructions
-I've spent a lot of July 2025 playing around with Posit's newest IDE, [Positron](https://positron.posit.co/), and I'm really enjoying it! I’ve updated the instructions below to include guidance for working in Positron, alongside RStudio and the Terminal. It's been helpful as I learn to translate the location of RStudio's GUI buttons to the Positron environment. Feel free to use whichever environment you prefer and follow the corresponding instructions as you go.
+I've spent a lot of July 2025 playing around with Posit's newest IDE, [Positron](https://positron.posit.co/), and I'm really enjoying it! It's been helpful for me to translate the location of RStudio's GUI buttons to the Positron environment, so I’ve updated the instructions below to include guidance for working in Positron, alongside RStudio and the Terminal.  Feel free to use whichever environment you prefer and follow the corresponding instructions as you go.
 :::
 
-1.  **Create a `posts/` folder:** Open up your Quarto website project and make sure you're in your root directory. Here, we'll create a new subdirectory, called `posts` (though you can call this whatever you want), where all of our blog posts will eventually live.
+### 1. Create a `posts/` folder
+
+- Open up your Quarto website project and make sure you're in your root directory. Here, we'll create a new subdirectory, called `posts` (though you can call this whatever you want), where all of our blog posts will eventually live.
 
 ::: {.panel-tabset}
 ## {{< fa brands r-project title="R programming language icon" >}} RStudio
@@ -143,7 +145,9 @@ ii. If you're *not* in your root directory, use the `cd` command to move yoursel
 iii. Run `mkdir posts` to create your `posts/` folder
 :::
 
-2.  ***Optional:*** **Add a `_metadata.yml` file to `posts/`:** While not required, a `_metadata.yml` file can make your life easier if you want certain options to apply to *all* blog posts that you create. 
+### 2. *Optional:* Add a `_metadata.yml` file to `posts/`
+
+- While not required, a `_metadata.yml` file can make your life easier if you want certain configurations to apply to *all* blog posts that you create. 
 
 ::: {.panel-tabset}
 ## {{< fa brands r-project title="R programming language icon" >}} RStudio
@@ -151,12 +155,15 @@ i. Click into the `posts/` folder in the Files pane, then click **Blank File** >
 ii. Click **OK**
 
 ## {{< fa plus title="plus symbol" >}} Positron
+i. Right click on your `posts/` folder in the Explorer menu, then choose **New File...**
+ii. Type `_metadata.yml`, then click **Enter / Return **
+
 ## {{< fa terminal title="terminal symbol, |>" >}} Terminal
-i. Run `cd posts` to move into your `posts/` directory (from your repository's root directory)
+i. Run `cd posts` to move from your repository's root directory into your `posts/` directory
 ii. Run `touch _metadata.yml` to create your file
 :::
 
-Open your `_metadata.yml` in the Source pane to add options. I like these options[^2] for getting started, but it's entirely up to you what you want to include (if anything at all):
+- Open your `_metadata.yml` file to add options. I like these options[^2] for getting started, but it's entirely up to you what you want to include (if anything at all):
 
 [^2]: **The `freeze` option:** Setting this option to `auto` will *only* re-render posts when you make updates to the source files (as opposed to re-rendering them each time you **Render Website** -- this can save time, particularly if you have computationally-heavy content in your blog posts). If you set this option to `true`, posts will *never* be re-rendered (even if you've made changes to the source files). If you use this option, you'll need to **Render** individual posts whenever you make changes to their source files *before* you **Render Website**, otherwise your updates will not appear. Check out [the Quarto documentation](https://quarto.org/docs/projects/code-execution.html#freeze){target="_blank"} and [this great short blog post](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/03-freeze/index.html){target="_blank"} for more information on `freeze`.
 
@@ -175,13 +182,9 @@ freeze: auto
 title-block-banner: true
 ```
 
-3.  **Create a [listing page](https://quarto.org/docs/websites/website-listings.html){target="_blank"}:** Add a `posts.qmd` file to your *root* directory (click on the R Project icon, <img src="media/rproj.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;"/>, in the Files pane to jump back to your project's root directory). There are a bunch of ways to create a new `.qmd` file, but one easy way is to choose *File* \> *New File* \> *Quarto Document...*. I'll give mine the title "My Blog" when prompted (this is the name that will appear as the title your listing page), then save it as `posts.qmd` (but you can choose whatever title and / or file name you'd like).
+- We'll return to the `_metadata.yml` file a little later on to see how adding more YAML options can help to streamline authoring blog posts.
 
-::: {.panel-tabset}
-## {{< fa brands r-project title="R programming language icon" >}} RStudio
-## {{< fa plus title="plus symbol" >}} Positron
-## {{< fa terminal title="terminal symbol, |>" >}} Terminal
-:::
+### 3. Create a [listing page](https://quarto.org/docs/websites/website-listings.html){target="_blank"} 
 
 ::: {.callout-note collapse="true"}
 ## **What is a listing page?**
@@ -192,18 +195,69 @@ A listing page is a web page with content that is automatically generated from a
 #| eval: true
 #| echo: false
 #| fig-align: "center"
-#| fig-cap: "An example listing page from the [Quarto Blog](https://quarto.org/docs/blog/) showing multiple blog posts. Quarto has multiple [listing page layout options](https://quarto.org/docs/websites/website-listings.html#listing-types) (`default` (shown above), `grid`, and `table`) for you to explore."
+#| fig-cap: "An example listing page from the [Quarto Blog](https://quarto.org/docs/blog/) showing multiple blog posts. Quarto has multiple [listing page layout options](https://quarto.org/docs/websites/website-listings.html#listing-types) (`default` (shown above), `grid`, and `table`) for you to try out."
 knitr::include_graphics("media/quarto-listing-page.png")
 ```
 
-<!-- ::: {.center-text .small-text .gray-italic} -->
-
-<!-- An example listing page from the [Quarto Blog](https://quarto.org/docs/blog/){target="_blank"} showing multiple blog posts. Quarto has multiple [listing page layout options](https://quarto.org/docs/websites/website-listings.html#listing-types){target="_blank"} (`default` (shown above), `grid`, and `table`) for you to explore. -->
-
-<!-- ::: -->
 :::
 
-4.  **Configure your listing page:** Specify how you'd like your listing page to be arranged by updating the YAML section of `posts.qmd`. There are a variety of options that you can specify. Below are just a few, but be sure to check out [other options](https://quarto.org/docs/websites/website-listings.html){target="_blank"}:
+- Your listing page takes the form of a `.qmd` file that lives in your repository's *root* directory (I'll be calling mine `posts.qmd` and giving it the title "My Blog" for demonstration purposes, though you can choose whatever file name and title you'd like). ***Note:** There are lots of different ways to create a new `.qmd` file. I outline just one approach for each environment, below:*
+
+::: {.panel-tabset}
+## {{< fa brands r-project title="R programming language icon" >}} RStudio
+***Tip:** Click on the R Project icon, <img src="media/rproj.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;"/>, in the Files pane to jump back to your project's root directory*
+
+i. From the menu bar, click **File** > **New File** > **Quarto Document...**
+ii. When the dialog box opens, give it a **Title** (e.g. "My Blog") -- this is the name that will appear as the title of your listing page (you'll be able to change this later by editing the YAML)
+iii. Click **Create** (this will open the file in the Editor)
+iv. Save (keyboard shortcut: `Cmd`/`Ctrl` + `S`) your new file as `posts.qmd` 
+
+## {{< fa plus title="plus symbol" >}} Positron
+i. Open the Command Palette using the keyboard shortcut, `Cmd/Ctrl` + `Shift` + `P` 
+ii. Search **Quarto: New Document**, then click **Enter / Return** (this will open your file in the Editor)
+iii. Update the `title` YAML option with your preferred title (e.g. "My Blog")
+iv. Save (keyboard shortcut: `Cmd`/`Ctrl` + `S`) your new file to your repository's root directory as `posts.qmd` (choose your root directory from the **Where:** dropdown menu if it's not already selected by default)
+
+## {{< fa terminal title="terminal symbol, |>" >}} Terminal
+i. Make sure you’re in your root directory by typing, `pwd`
+ii. If you’re not in your root directory, use the `cd` command to move yourself there
+iii. Run `touch posts.qmd` to create your file
+
+*At this point I **highly recommend** opening and editing your `posts.qmd` file using an IDE like RStudio or Positron. However, if you're really excited to practice editing files from the Terminal, you can try out the following steps:*
+
+iv. Open `posts.qmd` with a Terminal-based text editor (e.g [Nano](https://www.nano-editor.org/){target="_blank"}, [Vim](https://www.vim.org/){target="_blank"}; you may need to install your preferred text editor first, depending on your operating system) -- I like nano, so I'll run `nano posts.qmd` to open `posts.qmd` using that editor.
+v. Add the YAML gates and `title` option with your preferred title (e.g. "My Blog"):
+
+```{markdown filename="posts.qmd"}
+---
+title: "My Blog"
+---
+```
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "80%"
+#| fig-align: "center"
+knitr::include_graphics("media/nano.png")
+```
+
+::: {.center-text .small-text .gray-italic}
+Editing `posts.qmd` using nano in a Terminal window (as it appears on my Mac)
+:::
+
+vi. Click `Ctrl` + `X` to exit, then type `Y` when it asks you if you'd like to save your work. Click **Enter / Return** to exit nano. 
+:::
+
+<!-- ::: {.panel-tabset}
+## {{< fa brands r-project title="R programming language icon" >}} RStudio
+## {{< fa plus title="plus symbol" >}} Positron
+## {{< fa terminal title="terminal symbol, |>" >}} Terminal
+::: -->
+
+### 4. Configure your listing page 
+
+- Specify how you'd like your listing page to be arranged by updating the YAML section of `posts.qmd`. There are a variety of options that you can specify. Below are just a few, so be sure to check out [other options](https://quarto.org/docs/websites/website-listings.html){target="_blank"}:
 
 ```{r filename="posts.qmd"}
 #| eval: false
@@ -218,7 +272,9 @@ listing:
 ---
 ```
 
-5.  **Add your listing page to your website's navbar (so visitors can easily find your blog!):** Update `_quarto.yml` with your new listing page to add it to your site's navbar:
+### 5. Add your listing page to your website's navbar
+
+- Visitors will have a difficult time finding your listing page if it's not linked somewhere obvious. Update `_quarto.yml` with your new listing page to add it to your site's navbar:
 
 ```{r filename="_quarto.yml"}
 #| eval: false
@@ -236,7 +292,9 @@ website:
 
 ```
 
-6.  **Preview or Render your website:** Make sure your listing page shows up by previewing (I typically run `quarto preview` in the Terminal) or rendering (click the **Render** button in the **Build** tab in RStudio, or run `quarto render` in the Terminal) your website. You should have something that looks like this (we haven't created any posts yet, so it'll be empty for now):
+### 6. Preview your website
+
+- Make sure your listing page shows up by previewing your website. Run `quarto preview` in your Terminal (this can be your RStudio or Positron Terminal, or in a separate Terminal window) to open up a live preview in a browser window. You should see something that looks like this (we haven't created any posts yet, so it'll be empty for now):
 
 ```{r}
 #| eval: true
@@ -249,11 +307,15 @@ knitr::include_graphics("media/blog-added.png")
 
 ## IV. Add a blog post to your blog {#IV-add-post}
 
-Now that you have your listing page set up, we can start populating it with blog posts. *Repeat the following steps each time you want to add a new post.*
+Now that you have your listing page set up, we can start populating it with blog posts. ***Repeat the following steps each time you want to add a new post.***
 
-1.  **Create a subdirectory *inside* your `posts/` directory:** To stay organized, I usually name mine `YYYY-MM-DD-short-post-description`. This folder name will also become the [slug](https://developer.mozilla.org/en-US/docs/Glossary/Slug){target="_blank"} for your published post.
+### 1. Create a subdirectory *inside* your `posts/` directory:
 
-2.  **Inside your new subdirectory, create an `index.qmd` file.** Your file path should look something like this: `myWebsite/posts/2022-10-24-my-blog-post/index.qmd`. This file is your blog post. Write all your content here!
+- To stay organized, I usually name mine `YYYY-MM-DD-short-post-description`. This folder name will also become the [slug](https://developer.mozilla.org/en-US/docs/Glossary/Slug){target="_blank"} for your published post.
+
+### 2. Create an `index.qmd` file *inside* your new subdirectory
+
+- Your file path should look something like this: `myWebsite/posts/2022-10-24-my-blog-post/index.qmd`. This file is your blog post. Write all your content here!
 
 ::: callout-note
 ## **Why name your blog post file, `index.qmd`?**
@@ -265,52 +327,38 @@ Let's take this very blog post for example. The content that you're reading righ
 If I named my blog post file something like, `my-blog-post.qmd` (*rather than `index.qmd`*), the resulting URL would instead look like, <https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/my-blog-post.html>. This isn't necessarily *wrong* or broken, but it does result in a lengthier URL -- and short URLs tend to be easier to remember.
 :::
 
-3.  **Configure your blog post:** You can add a variety of different options to the YAML section of `index.qmd`. Here are my go-to options:
+### 3. Configure your blog post
+
+- You can add a variety of different options to the YAML section of `index.qmd`. Here are my go-to options:
 
 ```{r filename="posts/2022-10-24-my-blog-post/index.qmd"}
 #| eval: false
 #| echo: true
 ---
-title: "blog post title"
+title: "blog post title" # <1>
 description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
-author:
-  - name: Samantha Csik
-    url: https://samanthacsik.github.io/
-    orcid: 0000-0002-5300-3075
-    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
-    affiliation-url: https://ucsb-meds.github.io/ 
+author: # <2>
+  - name: Samantha Csik # <2>
+    url: https://samanthacsik.github.io/ # <2>
+    orcid: 0000-0002-5300-3075 # <2>
+    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis # <2>
+    affiliation-url: https://ucsb-meds.github.io/ # <2>
 date: 10-24-2022
-categories: [Quarto, R, MEDS] # self-defined categories
-citation: 
-  url: https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/ 
-image: preview-image.png
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+categories: [Quarto, R, MEDS] # <3>
+citation: # <4>
+  url: https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/ # <4>
+image: preview-image.png # <5>
+draft: false # <6>
 ---
+
+Here is where I will start writng my actual blog post content...
 ```
-
-Some notes on the above options:
-
--   You should include a **title**, but don't necessarily need a **description** (though I think these are nice to include!). These fields will appear on your listing page. You may also consider adding a **subtitle**.
-
--   You can include more than one **author** -- see [this post](https://samanthacsik.github.io/posts/2022-06-22-hello-quarto/){target="_blank"} and [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-06-22-hello-quarto/index.qmd){target="_blank"} as an example.
-
--   You may include as many self-defined **categories** as you'd like. Make sure that your spelling / capitalization / punctuation is consistent across blog posts should you apply the same categories to multiple posts.
-
--   Adding the **citation** option automatically generates both a [BibTeX citation](https://en.wikipedia.org/wiki/BibTeX){target="_blank"} and reference for your blog post, and adds them to the bottom of your post.
-
--   Include an image (or gif) to add as a **preview image**, which will appear on your listing page alongside your post. Your image should live inside your post's subdirectory (e.g. `mywebsite/posts/2022-10-24-my-blog-post/preview-image.png`).
-
--   Set **`draft: true`** while you're still working on your blog post to prevent it from showing up on your listing page, site map, or site search (it will still be available at a searchable URL). When you're ready to publish, just remove `draft: true` from your YAML (or set to `false`), then render your post.
-
-    -   Quarto v1.5.56 introduced draft banners, which will appear on any draft posts (see screenshot, below). You can also control how drafts are linked / rendered on your website using the [`draft-mode` option](https://quarto.org/docs/websites/website-drafts.html#appearance-of-drafts){target="_blank"}. By default, any page set as a draft will not be linked or searchable. If you want your draft to still be searchable at it's URL (helpful if you want to share a draft with someone, but don't want it showing up on your listing page just yet), consider setting `draft-mode` to either `unlinked` or `visible` -- check out the [documentation](https://quarto.org/docs/websites/website-drafts.html) for more information.
-
-::: callout-tip
-## **Remember: You can also add options to `_metadata.yml` if you want them applied to *all* posts!**
-
-Do you want your own author / affiliation information applied to each blog post you write, by default? Add it instead to `_metadata.yml` and save yourself re-typing it each time you create a new post!
-
-Are you collaborating on a blog post with additional authors? You can override the defaults set in `_metadata.yml` by specifying the `author` option directly in any particular blog post file (`index.qmd`).
-:::
+1. You should include a **title**, but don't necessarily need a **description** (though I think these are nice to include!). These fields will appear on your listing page. You may also consider adding a **subtitle**.
+2. You can include more than one **author** -- see [this post](https://samanthacsik.github.io/posts/2022-06-22-hello-quarto/){target="_blank"} and [source code](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-06-22-hello-quarto/index.qmd){target="_blank"} as an example.
+3. You may include as many self-defined **categories** as you'd like. Make sure that your spelling / capitalization / punctuation is consistent across blog posts should you apply the same categories to multiple posts.
+4. Adding the **citation** option automatically generates both a [BibTeX citation](https://en.wikipedia.org/wiki/BibTeX){target="_blank"} and reference for your blog post, and adds them to the bottom of your post.
+5. Include an image to add as a **preview image**, which will appear on your listing page alongside your post. Your image should live inside your post's subdirectory (e.g. `mywebsite/posts/2022-10-24-my-blog-post/preview-image.png`).
+6. Set **`draft: true`** while you're still working on your blog post to prevent it from showing up on your listing page, site map, or site search (it will still be available at a searchable URL). When you're ready to publish, just remove `draft: true` from your YAML (or set to `false`), then render your post. Quarto v1.5.56 introduced draft banners, which will appear on any draft posts. You can also control how drafts are linked / rendered on your website using the [`draft-mode` option](https://quarto.org/docs/websites/website-drafts.html#appearance-of-drafts){target="_blank"}. By default, any page set as a draft will not be linked or searchable. If you want your draft to still be searchable at it's URL (helpful if you want to share a draft with someone, but don't want it showing up on your listing page just yet), consider setting `draft-mode` to either `unlinked` or `visible` -- check out the [documentation](https://quarto.org/docs/websites/website-drafts.html) for more information.
 
 ```{r}
 #| eval: true
@@ -324,7 +372,56 @@ knitr::include_graphics("media/ex-listing-page.png")
 knitr::include_graphics("media/my-first-post.png")
 ```
 
-If things aren't working as expected, double check your repository structure -- it should be organized similar to this:
+### 4. Consider moving YAML options to `_metadata.yml`, as appropriate
+
+- For example, do you want your own author / affiliation information applied to each blog post you write, by default? Add it instead to `_metadata.yml` and save yourself re-typing it each time you create a new post! For example, I could modify my `_metadata.yml` and `posts/2022-10-24-my-blog-post/index.qmd` files as follows:
+
+::: {.panel-tabset}
+## _metadata.yml
+
+```{markdown filename="_metadata.yml"}
+# options specified here will apply to all posts in this folder
+
+# re-render posts only when a change to the source file is made ----
+freeze: auto
+
+# enable banner style title blocks ----
+title-block-banner: true
+
+# my author info ----
+author:
+  - name: Samantha Shanny-Csik
+    url: https://samanthacsik.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) 
+    affiliation-url: https://ucsb-meds.github.io/ 
+```
+
+## Blog post YAML
+
+```{r filename="posts/2022-10-24-my-blog-post/index.qmd"}
+#| eval: false
+#| echo: true
+---
+title: "blog post title" 
+description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+date: 10-24-2022
+categories: [Quarto, R, MEDS] 
+citation: 
+  url: https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/ 
+image: preview-image.png 
+draft: false 
+---
+
+Here is where I will start writng my actual blog post content...
+```
+:::
+
+- Are you collaborating on a blog post with additional authors? You can override the defaults set in `_metadata.yml` by specifying the `author` option directly in any particular blog post file's YAML.
+
+## V. Troubleshooting {#V-troubleshooting}
+
+**If things aren't working as expected, double check your repository structure** -- it should be organized similar to this:
 
 ```{r}
 #| eval: true
@@ -333,7 +430,7 @@ If things aren't working as expected, double check your repository structure -- 
 knitr::include_graphics("media/repo-structure.png")
 ```
 
-## V. Some additional authoring features to explore {#V-additional-features}
+## VI. Some additional authoring features to explore {#VI-additional-features}
 
 Blog posts are just Quarto documents, meaning you can combine prose, code, and embedded outputs all in one place, just like you would in any other `.qmd` file (which makes your blog the *perfect* place to create data science / programming tutorials both for yourself and others {{< fa smile-wink title="a smiling winking face" >}}). If you're looking for additional ways to enhance your posts, read on below:
 
@@ -343,7 +440,7 @@ There are multiple ways to include footnotes throughout your blog posts:
 
 1.  **Use the `[^#]` syntax to denote where you would like a note to be inserted.** Write your note somewhere below following the `[^#]: your note here` syntax. For example:
 
-```{markdown}
+```markdown
 I am going to insert a footnote here[^1].
 
 [^1]: Here is the associated footnote, which will appear at the bottom of my document in a "Footnotes" section.
@@ -351,7 +448,7 @@ I am going to insert a footnote here[^1].
 
 2.  **Alternatively, you can write your notes inline** to avoid having to use identifiers (e.g. `[^#]`). For example:
 
-```{markdown}
+```markdown
 I am going to insert an inline footnote here^[Here is my inline footnote].
 ```
 
@@ -447,13 +544,13 @@ Okay, back to being chill...
 
 ### Article layout
 
-Quarto also supports a number of different [page layout options](https://quarto.org/docs/authoring/article-layout.html){target="_blank"} to further customize the appearance of your posts. Explore different ways to position elements on your page, including embedding outputs, captions, references in your [page margin](https://quarto.org/docs/authoring/article-layout.html#margin-content){target="_blank"} (one of my personal faves...despite the fact that I don't have any here in this post).
+Quarto also supports a number of different [page layout options](https://quarto.org/docs/authoring/article-layout.html){target="_blank"} to further customize the appearance of your posts. Explore different ways to position elements on your page, including embedding outputs, captions, references in your [page margin](https://quarto.org/docs/authoring/article-layout.html#margin-content){target="_blank"}.
 
-## VI. A note on adding an additional blog (or more) to your site {#VI-more-blogs}
+## VII. A note on adding an additional blog (or more) to your site {#VII-more-blogs}
 
 You aren't limited to just one blog / listing page! Repeat [Part III](#III-add-blog){target="_blank"} to add a second listing page + content to your website. My personal website contains *four* listing pages -- one called [posts](../../posts.qmd){target="_blank"} (aka my actual blog), one called [talks & workshops](../../talks_workshops.qmd){target="_blank"}, once called [courses](../../courses.qmd){target="_blank"}, and one called [projects](../../projects.qmd){target="_blank"}. Explore the [GitHub repo](https://github.com/samanthacsik/samanthacsik.github.io){target="_blank"} to take a peek at the file structure and source code.
 
-## VII. Blogs to follow (+ one post from each that I've particularly enjoyed) {#VII-follow}
+## VIII. Blogs to follow (+ one post from each that I've particularly enjoyed) {#VIII-follow}
 
 There are *tons* of awesome data science bloggers out there -- here are just a few that I've enjoyed, but get out there and start exploring others for yourself!
 
@@ -473,7 +570,7 @@ There are *tons* of awesome data science bloggers out there -- here are just a f
 
 -   [Cédric Scherer](https://www.cedricscherer.com/){target="_blank"}, and his post [A ggplot2 Tutorial for Beautiful Plotting in R](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/){target="_blank"} [-@scherer2019]
 
-## VIII. Additional Resources {#VIII-resources}
+## IX. Additional Resources {#IX-resources}
 
 -   [The ultimate guide to starting a Quarto blog](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html){target="_blank"}, by [Albert Rapp](https://albert-rapp.de/){target="_blank"} is incredibly thorough and explores even more ways to customize your blog. Check it out!
 

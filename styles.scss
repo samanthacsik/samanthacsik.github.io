@@ -8,6 +8,7 @@ $nunito: 'Nunito', sans-serif;
 $josefin: 'Josefin Sans', sans-serif; 
 
 // Colors
+$gray-green: #E5E8E3; //#e5ebe2;
 $light-green: #D1D9CE;
 $medium-green: #98A08D;
 $dark-green: #757B6D;
@@ -284,10 +285,15 @@ div.quarto-about-jolla .about-link {
   color: $terracotta;
 }
 
+// Color panel-tabset content area cream
+.panel-tabset .tab-content {
+  background-color: $gray-green;
+  padding: 0.5em;
+}
+
 // Color in panel-tabset tabs (non-selected tab)
 .panel-tabset .nav-tabs .nav-link {
-  background-color: $cream;
-  //color: black; /* Optional: improves text readability */
+  background-color: $gray-green;
 }
 
 // Color in panel-tabset tab (selected tab) 
@@ -295,43 +301,3 @@ div.quarto-about-jolla .about-link {
   background-color: $terracotta;
   color: white;
 }
-
-// Color panel-tabset content area cream
-.panel-tabset .tab-content {
-  background-color: $cream;
-  padding: 0.5em;
-}
-
-
-
-
-
-
-
-
-
-
-
-// responisve embedded slides (thanks Casey O'Hara; see https://github.com/nceas-learning-hub/coreR_test/blob/main/lh-style.css)
-/*.slide-deck{
-  border: 3px solid #dee2e6;
-    border-top-color: rgb(222, 226, 230);
-    border-top-style: solid;
-    border-top-width: 3px;
-    border-right-color: rgb(222, 226, 230);
-    border-right-style: solid;
-    border-right-width: 3px;
-    border-bottom-color: rgb(222, 226, 230);
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-left-color: rgb(222, 226, 230);
-    border-left-style: solid;
-    border-left-width: 3px;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-  width: 70%;
-  height: 475px;
-}*/
