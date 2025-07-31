@@ -256,7 +256,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">July 30, 2025</p>
+        <p class="date-modified">July 31, 2025</p>
       </div>
     </div>
       
@@ -469,7 +469,7 @@ NEW! Choose your own adventure instructions
 <div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
 <ol type="i">
 <li>Right click on your <code>posts/</code> folder in the Explorer menu, then choose <strong>New File…</strong></li>
-<li>Type <code>_metadata.yml</code>, then click <strong>Enter / Return </strong></li>
+<li>Type <code>_metadata.yml</code>, then click <strong>Enter / Return</strong></li>
 </ol>
 </div>
 <div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
@@ -488,13 +488,15 @@ NEW! Choose your own adventure instructions
 <div class="code-with-filename-file">
 <pre><strong>_metadata.yml</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># options specified here will apply to all posts in this folder</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># re-render posts only when a change to the source file is made ----</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>freeze<span class="sc">:</span> auto</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># enable banner style title blocks ----</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>title<span class="sc">-</span>block<span class="sc">-</span>banner<span class="sc">:</span> true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="do">##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="do">##        options specified here will apply to all posts in this folder     ----</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># re-render posts only when a change to the source file is made ----</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>freeze<span class="sc">:</span> auto</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># enable banner style title blocks ----</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>title<span class="sc">-</span>block<span class="sc">-</span>banner<span class="sc">:</span> true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <ul>
@@ -714,7 +716,7 @@ NEW! Choose your own adventure instructions
 <a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="6" onclick="event.preventDefault();">6</a><span id="annotated-cell-4-15" class="code-annotation-target"><a href="#annotated-cell-4-15" aria-hidden="true" tabindex="-1"></a>draft<span class="sc">:</span> false</span>
 <span id="annotated-cell-4-16"><a href="#annotated-cell-4-16" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
 <span id="annotated-cell-4-17"><a href="#annotated-cell-4-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="annotated-cell-4-18"><a href="#annotated-cell-4-18" aria-hidden="true" tabindex="-1"></a>Here is where I will start writng my actual blog post content...</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="annotated-cell-4-18"><a href="#annotated-cell-4-18" aria-hidden="true" tabindex="-1"></a>Here is where I will start writing my actual blog post content...</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell-annotation">
 <dl class="code-annotation-container-grid">
@@ -772,7 +774,7 @@ NEW! Choose your own adventure instructions
 <section id="consider-moving-yaml-options-to-_metadata.yml-as-appropriate" class="level3">
 <h3 class="anchored" data-anchor-id="consider-moving-yaml-options-to-_metadata.yml-as-appropriate">4. Consider moving YAML options to <code>_metadata.yml</code>, as appropriate</h3>
 <ul>
-<li>For example, do you want your own author / affiliation information applied to each blog post you write, by default? Add it instead to <code>_metadata.yml</code> and save yourself re-typing it each time you create a new post! For example, I could modify my <code>_metadata.yml</code> and <code>posts/2022-10-24-my-blog-post/index.qmd</code> files as follows:</li>
+<li>For example, do you want your own author / affiliation information applied to each blog post you write, by default? Add it instead to <code>_metadata.yml</code> and save yourself re-typing it each time you create a new post! Here, I modify my <code>_metadata.yml</code> and <code>posts/2022-10-24-my-blog-post/index.qmd</code> files:</li>
 </ul>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">_metadata.yml</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Blog post YAML</a></li></ul>
@@ -783,21 +785,23 @@ NEW! Choose your own adventure instructions
 <div class="code-with-filename-file">
 <pre><strong>_metadata.yml</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># options specified here will apply to all posts in this folder</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu"># re-render posts only when a change to the source file is made ----</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>freeze: auto</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="fu"># enable banner style title blocks ----</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>title-block-banner: true</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="fu"># my author info ----</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>author:</span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>name: Samantha Shanny-Csik</span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    url: https://samanthacsik.github.io/</span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    orcid: 0000-0002-5300-3075</span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) </span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    affiliation-url: https://ucsb-meds.github.io/ </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">##        options specified here will apply to all posts in this folder     ----</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># re-render posts only when a change to the source file is made ----</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>freeze: auto</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="fu"># enable banner style title blocks ----</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>title-block-banner: true</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="fu"># my author info ----</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>author:</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>name: Samantha Shanny-Csik</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    url: https://samanthacsik.github.io/</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    orcid: 0000-0002-5300-3075</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) </span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    affiliation-url: https://ucsb-meds.github.io/ </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -836,7 +840,7 @@ NEW! Choose your own adventure instructions
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="media/repo-structure.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="1077"></p>
+<p><img src="media/repo-structure.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="1072"></p>
 </figure>
 </div>
 </div>
@@ -867,15 +871,46 @@ NEW! Choose your own adventure instructions
 <h3 class="anchored" data-anchor-id="creating-a-bibliography-and-adding-citations">Creating a bibliography and adding citations</h3>
 <p>Quarto supports the use of bibliography files for citing works throughout your blog post. There are a number of ways to do this, but so far, I’ve found creating a BibLaTex database to be relatively straightforward. This database takes the form of a plain-text <code>.bib</code> file where we can store all of our bibliographic information. That information needs to be encoded in a particular way (more on that below). Follow these steps to cite works in your blog posts:</p>
 <ol type="1">
-<li><p><strong>First, create a <code>.bib</code> file in the folder containing your blog post</strong> (e.g.&nbsp;<code>myWebsite/posts/YYYY-MM-DD-my-blog-post/references.bib</code>) using the <code>touch</code> command in your RStudio Terminal or using the <em>Blank File</em> &gt; <em>Text File</em> button in the Files pane. I called mine <code>references.bib</code>, but the name is up to you.</p></li>
-<li><p><strong>Add the <code>bibliography</code> option to your blog post’s YAML</strong> and provide it the name of your <code>.bib</code> file:</p></li>
+<li><strong>First, create a <code>.bib</code> file in the folder containing your blog post.</strong> I called mine <code>references.bib</code>, but the name is up to you.</li>
+</ol>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true"><i class="fa-brands fa-r-project" title="R programming language icon" aria-label="r-project"></i> RStudio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false"><i class="fa-solid fa-plus" title="plus symbol" aria-label="plus"></i> Positron</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-3" role="tab" aria-controls="tabset-5-3" aria-selected="false"><i class="fa-solid fa-terminal" title="terminal symbol, |>" aria-label="terminal"></i> Terminal</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<ol type="1">
+<li>Ensure that you’re in your blog post directory (e.g.&nbsp;<code>myWebsite/posts/YYYY-MM-DD-my-blog-post/</code>) in the Files pane</li>
+<li>Click on the new <strong>File</strong> button, then select the <strong>Text File</strong> option (this allows you to define any file type)</li>
+<li>Type <code>references.bib</code> in the name field, then press <strong>OK</strong></li>
+</ol>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<ol type="1">
+<li>From the Explorer menu, click on your blog post directory (e.g.&nbsp;<code>myWebsite/posts/YYYY-MM-DD-my-blog-post/</code>) to highlight it</li>
+<li>Click the <strong>New File…</strong> button (which appears when you hover your mouse over your repository name), type the name, <code>references.bib</code>, then click <strong>Enter / Return</strong></li>
+</ol>
+</div>
+<div id="tabset-5-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-3-tab">
+<ol type="1">
+<li>Ensure that you’re in your blog post directory (e.g.&nbsp;<code>myWebsite/posts/YYYY-MM-DD-my-blog-post/</code>) using <code>pwd</code> and <code>cd</code> to navigate there, as necessary</li>
+<li>Run <code>touch references.bib</code> to create your file</li>
+</ol>
+</div>
+</div>
+</div>
+<ol start="2" type="1">
+<li><strong>Add the <code>bibliography</code> option to your blog post’s YAML</strong> and provide it the name of your <code>.bib</code> file:</li>
 </ol>
 <div class="cell">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>myWebsite/posts/YYYY-MM-DD-my-blog-post/index.qmd</strong></pre>
+</div>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"blog post title"</span></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co"># ~ additional YAML options omitted for brevity ~</span></span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>bibliography<span class="sc">:</span> references.bib</span>
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </div>
 <ol start="3" type="1">
 <li><strong>Next, we’ll want to add some references.</strong> These take a particular format that generally looks like this (the number / types of fields included may vary):</li>
@@ -896,13 +931,13 @@ NEW! Choose your own adventure instructions
 </div>
 <p>where <code>type</code> can be <code>manual</code>, <code>book</code>, <code>article</code>, <code>misc</code>, etc. (all case-insensitive) and <code>key</code> is the citation identifier used for inserting in-text citations (we’ll get there soon).</p>
 <ul>
-<li>There may be instances where you want to cite a resource that already has a BibTex citation available for you to copy over to your <code>references.bib</code> file (e.g.&nbsp;this blog post). For most resources, however, you’ll need to construct your own. You can do this manually, or with the help of a BibTeX reference generator (Googling will yield plenty of options, but <a href="https://zbib.org/" target="_blank">zoterobib</a> is a great place to start. Note that you may have to make some manual adjustments). Check out my <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/references.bib" target="_blank"><code>references.bib</code> file</a> for this post as an example.</li>
+<li>There may be instances where you want to cite a resource that already has a BibTex citation available for you to copy over to your <code>references.bib</code> file (e.g.&nbsp;this blog post has one available at the bottom). For most resources, however, you’ll need to construct your own. You can do this manually, or with the help of a BibTeX reference generator (Googling will yield plenty of options, but <a href="https://zbib.org/" target="_blank">zoterobib</a> is a great place to start. Note that you may have to make some manual adjustments). Check out my <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/references.bib" target="_blank"><code>references.bib</code> file</a> for this post as an example.</li>
 </ul>
 <ol start="4" type="1">
 <li><strong>Now that you have BibTex references in your <code>.bib</code> file, you can start adding in-text citations.</strong> These generally take the form <code>[@key]</code> (but read more about <a href="https://quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations" target="_blank">Quarto citation syntax</a>). When you add an in-text citation, Quarto will automatically add the reference to the bottom of your blog post under the “References” section.</li>
 </ol>
 <ul>
-<li>To give a concrete example, let’s say I want to cite my first (ever) blog post from 2021. I can copy the <a href="../2022-10-24-quarto-blogs/#citation" target="_blank">BibTeX citation from the bottom of the post</a> and paste it into my <code>references.bib</code> file:</li>
+<li>To give a concrete example, let’s say I want to cite <a href="../../posts/2021-09-21-distill-blogs/index.html" target="_blank">my first (ever) blog post</a> from 2021. I can copy the <a href="../2022-10-24-quarto-blogs/#citation" target="_blank">BibTeX citation from the bottom of the post</a> and paste it into my <code>references.bib</code> file:</li>
 </ul>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>online{csik2021,</span>
@@ -918,7 +953,7 @@ NEW! Choose your own adventure instructions
 <li>I can now add an in-text citation using the <code>[@csik2021]</code> syntax, which will render it like this <i class="fa-solid fa-arrow-right" title="an arrow pointing to the right" aria-label="arrow-right"></i> <span class="citation" data-cites="csik2021">(<a href="#ref-csik2021" role="doc-biblioref">Csik 2021</a>)</span>. Once cited, the full reference will appear in my <a href="#references">References section at the bottom of this post</a>.</li>
 </ul>
 <ol start="5" type="1">
-<li><strong>Optionally, you can update your preferred citation style</strong> (the default is set to <a href="https://www.chicagomanualofstyle.org/home.html">Chicago Manual of Style</a>). Search for and download your preferred citation style (in the form of a <code>.csl</code> (<a href="https://citationstyles.org/">Citation Style Language</a>) file) from either <a href="https://github.com/citation-style-language/styles">CSL Project</a> or <a href="https://www.zotero.org/styles">Zotereo’s style repository</a>, and add it to your blog post’s folder. Update your blog post’s YAML using the <code>csl</code> option to apply the new styling. For example, I can apply <a href="https://www.zotero.org/styles?q=plos%20computational%20biology">PLOS Computational Biology styling</a>:</li>
+<li><strong>Optionally, you can update your preferred citation style</strong> (the default is set to <a href="https://www.chicagomanualofstyle.org/home.html" target="_blank">Chicago Manual of Style</a>). Search for and download your preferred citation style (in the form of a <code>.csl</code> (<a href="https://citationstyles.org/">Citation Style Language</a>) file) from either <a href="https://github.com/citation-style-language/styles" target="_blank">CSL Project</a> or <a href="https://www.zotero.org/styles" target="_blank">Zotereo’s style repository</a>, and add it to your blog post’s folder. Update your blog post’s YAML using the <code>csl</code> option to apply the new styling. For example, I can apply <a href="https://www.zotero.org/styles?q=plos%20computational%20biology" target="_blank">PLOS Computational Biology styling</a>:</li>
 </ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
@@ -927,16 +962,18 @@ NEW! Choose your own adventure instructions
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> plos<span class="sc">-</span>computational<span class="sc">-</span>biology.csl</span>
 <span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>That wasn’t so bad, right?? What if I told you there was an even <em>easier</em> way to add citations….Start by popping over to RStudio’s Visual editor, if you’re not already there (you should see buttons for working in either the <strong>Source</strong> or <strong>Visual</strong> editor in the top left corner of your source pane), and follow the steps below:</p>
+<p>That wasn’t so bad, right?? <strong>What if I told you there was an even <em>easier</em> way to add citations….</strong></p>
 <ol type="1">
-<li><p>Place your cursor where you’d like to insert a citation, then from the <strong>Insert</strong> drop down menu, select <strong>Citation</strong>.</p></li>
+<li><p>Start by popping over to <strong>Visual editor</strong> in either RStudio <em>or</em> Positron (yes, this works in both IDEs!). Locate the <strong>Source</strong> and <strong>Visual</strong> editor buttons at the top left corner of your blog post file (<code>index.qmd</code>). Click on <strong>Visual</strong> editor button (if you’re working in Positron, there are actually a <a href="https://quarto.org/docs/tools/positron/visual-editor.html" target="_blank">number of different ways</a> to switch to the Visual editor). Once in Visual editor mode, you should see a tool bar appear at the top of your file.</p></li>
+<li><p>Place your cursor where you’d like to insert a citation, then from the <strong>Insert</strong> drop down menu (see tool bar), select <strong>Citation</strong>.</p></li>
 <li><p>A new window will pop open with a number of different options for inserting citations. If you’ve already created a <code>references.bib</code> file, it will appear under the <strong>My Sources</strong> and <strong>Bibliography</strong> sections. You can choose to insert citations using any of your existing references, <em>or</em> choose another option, like inserting a citation based on a DOI. Give it a try using <a href="https://doi.org/10.1371/journal.pcbi.1010567" target="_blank">this DOI</a> from Gaynor et al.&nbsp;2022 – you’ll notice that when an in-text citation is added using a DOI, your <code>references.bib</code> file will automatically be updated with the BibTeX reference. If you don’t yet have a <code>.bib</code> file, one will be automatically generated for you. LIKE SERIOUSLY?? Where was this when I was in grad school?? SO FREAKIN COOL.</p></li>
 </ol>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="media/citations.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+<p><img src="media/citations.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Inserting a citation from the Visual editor in RStudio. You should see a near-identical window when using Positron.</figcaption>
 </figure>
 </div>
 </div>
@@ -945,26 +982,36 @@ NEW! Choose your own adventure instructions
 </section>
 <section id="article-layout" class="level3">
 <h3 class="anchored" data-anchor-id="article-layout">Article layout</h3>
-<p>Quarto also supports a number of different <a href="https://quarto.org/docs/authoring/article-layout.html" target="_blank">page layout options</a> to further customize the appearance of your posts. Explore different ways to position elements on your page, including embedding outputs, captions, references in your <a href="https://quarto.org/docs/authoring/article-layout.html#margin-content" target="_blank">page margin</a>.</p>
+<p>Quarto also supports a number of different <a href="https://quarto.org/docs/authoring/article-layout.html" target="_blank">page layout options</a> to further customize the appearance of your posts (or any page on your website, for that matter). <!-- Explore different ways to position elements on your page. or include embedded outputs, captions, references, etc. in your [page margin](https://quarto.org/docs/authoring/article-layout.html#margin-content){target="_blank"}. --></p>
 </section>
 </section>
 <section id="VII-more-blogs" class="level2">
 <h2 class="anchored" data-anchor-id="VII-more-blogs">VII. A note on adding an additional blog (or more) to your site</h2>
-<p>You aren’t limited to just one blog / listing page! Repeat <a href="#III-add-blog" target="_blank">Part III</a> to add a second listing page + content to your website. My personal website contains <em>four</em> listing pages – one called <a href="../../posts.html" target="_blank">posts</a> (aka my actual blog), one called <a href="../../talks_workshops.html" target="_blank">talks &amp; workshops</a>, once called <a href="../../courses.html" target="_blank">courses</a>, and one called <a href="../../projects.html" target="_blank">projects</a>. Explore the <a href="https://github.com/samanthacsik/samanthacsik.github.io" target="_blank">GitHub repo</a> to take a peek at the file structure and source code.</p>
+<p>You aren’t limited to just one blog / listing page! Repeat <a href="#III-add-blog" target="_blank">Part III</a> to add a second listing page plus content to your website. My personal website contains <em>four</em> listing pages – one called <a href="../../posts.html" target="_blank">posts</a> (aka my actual blog), one called <a href="../../talks_workshops.html" target="_blank">talks &amp; workshops</a>, once called <a href="../../courses.html" target="_blank">courses</a>, and one called <a href="../../projects.html" target="_blank">projects</a>. Explore the <a href="https://github.com/samanthacsik/samanthacsik.github.io" target="_blank">GitHub repo</a> to take a peek at the file structure and source code.</p>
 </section>
 <section id="VIII-follow" class="level2">
 <h2 class="anchored" data-anchor-id="VIII-follow">VIII. Blogs to follow (+ one post from each that I’ve particularly enjoyed)</h2>
 <p>There are <em>tons</em> of awesome data science bloggers out there – here are just a few that I’ve enjoyed, but get out there and start exploring others for yourself!</p>
-<p><em>Also note: I’ve included one blog post from each creator and added citations (with the year only format). Check out the <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd">source code for this post</a> to see how it’s done.</em></p>
+<p><em><strong>Also note:</strong> I’ve included one blog post from each creator and added citations (with the year only format). Check out the <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd">source code for this post</a> to see how it’s done.</em></p>
 <ul>
-<li><p><a href="https://www.pipinghotdata.com/blog.html" target="_blank">Piping Hot Data</a>, by Shannon Pileggi, and her post, <a href="https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/" target="_blank">Curating for <code>@WeAreRLadies</code> on Twitter</a> <span class="citation" data-cites="pileggi2021curating">(<a href="#ref-pileggi2021curating" role="doc-biblioref">2021</a>)</span></p></li>
-<li><p><a href="https://meghan.rbind.io/blog/" target="_blank">Meghan Hall’s Blog</a>, and her post, <a href="https://meghan.rbind.io/blog/plot-robustness/" target="_blank">Increasing the Flexibility and Robustness of Plots in ggplot2</a> <span class="citation" data-cites="hall2022">(<a href="#ref-hall2022" role="doc-biblioref">2022</a>)</span></p></li>
-<li><p><a href="https://cosimameyer.com/#post" target="_blank">Cosima Meyer’s Blog</a>, and her post, <a href="https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/" target="_blank">Understanding the Basics of Package Writing in R</a> <span class="citation" data-cites="meyer2022">(<a href="#ref-meyer2022" role="doc-biblioref">2022</a>)</span></p></li>
-<li><p><a href="https://blog.djnavarro.net/" target="_blank">Notes from a Data Witch</a> by Danielle Navarro, and her post, <a href="https://blog.djnavarro.net/posts/2021-11-19_starting-apache-arrow-in-r/" target="_blank">Getting started with Apache Arrow</a> <span class="citation" data-cites="navarro2021">(<a href="#ref-navarro2021" role="doc-biblioref">2021</a>)</span></p></li>
-<li><p><a href="https://beamilz.com/posts/" target="_blank">Beatriz Milz’s Blog</a>, and her post <a href="https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/" target="_blank">Introduction to GitHub Actions for R users</a> <span class="citation" data-cites="milz2022">(<a href="#ref-milz2022" role="doc-biblioref">2022</a>)</span></p></li>
-<li><p><a href="https://albert-rapp.de/blog.html" target="_blank">Albert Rapp’s Blog</a>, and his post <a href="https://albert-rapp.de/posts/ggplot2-tips/10_recreating_swd_look/10_recreating_swd_look" target="_blank">Recreating the Storytelling with Data look with ggplot</a> <span class="citation" data-cites="rapp2022">(<a href="#ref-rapp2022" role="doc-biblioref">2022</a>)</span></p></li>
-<li><p><a href="https://www.cedricscherer.com/" target="_blank">Cédric Scherer</a>, and his post <a href="https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/" target="_blank">A ggplot2 Tutorial for Beautiful Plotting in R</a> <span class="citation" data-cites="scherer2019">(<a href="#ref-scherer2019" role="doc-biblioref">2019</a>)</span></p></li>
+<li><a href="https://albert-rapp.de/" target="_blank">Albert Rapp</a>, and his post <a href="https://albert-rapp.de/posts/31_pipes_compared/31_pipes_compared" target="_blank">Comparing pipes: Base-R <code>|&gt;</code> vs <code>{magrittr}</code> <code>%&gt;%</code></a> <span class="citation" data-cites="rapp2025">(<a href="#ref-rapp2025" role="doc-biblioref">2025</a>)</span></li>
+<li><a href="https://rebeccabarter.com/" target="_blank">Rebecca Barter</a>, and her post <a href="https://rebeccabarter.com/blog/2023-09-11-from_r_to_python" target="_blank">An introduction to Python for R Users</a> <span class="citation" data-cites="barter2023">(<a href="#ref-barter2023" role="doc-biblioref">2023</a>)</span></li>
+<li><a href="https://maya.rbind.io/" target="_blank">Maya Gans</a>, and her post <a href="https://maya.rbind.io/posts/live-coding-interview/" target="_blank">My first live coding interview</a> <span class="citation" data-cites="gans2019">(<a href="#ref-gans2019" role="doc-biblioref">2019</a>)</span></li>
+<li><a href="https://jadeyryan.com/" target="_blank">Jadey Ryan</a>, and her post <a href="https://jadeyryan.com/blog/2024-01-22_package-review/" target="_blank">Notes from live code review of <code>{soils}</code></a> <span class="citation" data-cites="ryan2024">(<a href="#ref-ryan2024" role="doc-biblioref">2024</a>)</span></li>
+<li><a href="https://nrennie.rbind.io/" target="_blank">Nicola Rennie</a>, and her post <a href="https://nrennie.rbind.io/blog/creating-typewriter-maps-r/" target="_blank">Creating typewriter-styled maps in <code>{ggplot2}</code></a> <span class="citation" data-cites="rennie2023">(<a href="#ref-rennie2023" role="doc-biblioref">2023</a>)</span></li>
+<li><a href="https://djnavarro.net/" target="_blank">Danielle Navarro</a>, and her post <a href="https://blog.djnavarro.net/posts/2022-03-17_using-aws-s3-in-r/" target="_blank">Using Amazon S3 with R</a> <span class="citation" data-cites="navarro2022">(<a href="#ref-navarro2022" role="doc-biblioref">2022</a>)</span></li>
+<li><a href="https://www.pipinghotdata.com/" target="_blank">Shannon Pileggi</a>, and her post, <a href="https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/" target="_blank">Curating for <code>@WeAreRLadies</code> on Twitter</a> <span class="citation" data-cites="pileggi2021curating">(<a href="#ref-pileggi2021curating" role="doc-biblioref">2021</a>)</span></li>
 </ul>
+<!-- -   [Meghan Hall's Blog](https://meghan.rbind.io/blog/){target="_blank"}, and her post, [Increasing the Flexibility and Robustness of Plots in ggplot2](https://meghan.rbind.io/blog/plot-robustness/){target="_blank"} [-@hall2022]
+
+-   [Cosima Meyer's Blog](https://cosimameyer.com/#post){target="_blank"}, and her post, [Understanding the Basics of Package Writing in R](https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/){target="_blank"} [-@meyer2022]
+
+-   [Notes from a Data Witch](https://blog.djnavarro.net/){target="_blank"} by Danielle Navarro, and her post, [Getting started with Apache Arrow](https://blog.djnavarro.net/posts/2021-11-19_starting-apache-arrow-in-r/){target="_blank"} [-@navarro2021]
+
+-   [Beatriz Milz's Blog](https://beamilz.com/posts/){target="_blank"}, and her post [Introduction to GitHub Actions for R users](https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/){target="_blank"} [-@milz2022] -->
+<!-- -   [Albert Rapp's Blog](https://albert-rapp.de/blog.html){target="_blank"}, and his post [Recreating the Storytelling with Data look with ggplot](https://albert-rapp.de/posts/ggplot2-tips/10_recreating_swd_look/10_recreating_swd_look){target="_blank"} [-@rapp2022]
+
+-   [Cédric Scherer](https://www.cedricscherer.com/){target="_blank"}, and his post [A ggplot2 Tutorial for Beautiful Plotting in R](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/){target="_blank"} [-@scherer2019] -->
 </section>
 <section id="IX-resources" class="level2">
 <h2 class="anchored" data-anchor-id="IX-resources">IX. Additional Resources</h2>
@@ -979,29 +1026,29 @@ NEW! Choose your own adventure instructions
 
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-barter2023" class="csl-entry" role="listitem">
+Bartner, Rebecca. 2023. <span>“An Introduction to Python for r Users.”</span> September 12, 2023. <a href="https://rebeccabarter.com/blog/2023-09-11-from_r_to_python">https://rebeccabarter.com/blog/2023-09-11-from_r_to_python</a>.
+</div>
 <div id="ref-csik2021" class="csl-entry" role="listitem">
 Csik, Samantha. 2021. <span>“Why Create Presentation Slides about Blogging When You Can Just Blog about It Instead?”</span> September 24, 2021. <a href="https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/">https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/</a>.
 </div>
-<div id="ref-hall2022" class="csl-entry" role="listitem">
-Hall, Meghan. 2022. <span>“Increasing the Flexibility and Robustness of Plots in Ggplot2.”</span> <a href="https://meghan.rbind.io/blog/plot-robustness/">https://meghan.rbind.io/blog/plot-robustness/</a>.
+<div id="ref-gans2019" class="csl-entry" role="listitem">
+Gans, Maya. 2019. <span>“My First Live Coding Interview.”</span> August 27, 2019. <a href="https://maya.rbind.io/posts/live-coding-interview/">https://maya.rbind.io/posts/live-coding-interview/</a>.
 </div>
-<div id="ref-meyer2022" class="csl-entry" role="listitem">
-Meyer, Cosima. 2022. <span>“Understanding the Basics of Package Writing in R.”</span> <a href="https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/">https://cosimameyer.com/post/understanding-the-basics-of-package-writing-in-r/</a>.
-</div>
-<div id="ref-milz2022" class="csl-entry" role="listitem">
-Milz, Beatriz. 2022. <span>“Introcution to GitHub Actions to R Users.”</span> June 30, 2022. <a href="https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/">https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/</a>.
-</div>
-<div id="ref-navarro2021" class="csl-entry" role="listitem">
-Navarro, Danielle. 2021. <span>“Getting Started with <span>Apache</span> <span>Arrow</span>.”</span> November 19, 2021. <a href="https://blog.djnavarro.net/starting-apache-arrow-in-r">https://blog.djnavarro.net/starting-apache-arrow-in-r</a>.
+<div id="ref-navarro2022" class="csl-entry" role="listitem">
+Navarro, Danielle. 2022. <span>“Using <span>Amazon</span> <span>S3</span> with <span>R</span>.”</span> March 17, 2022. <a href="https://blog.djnavarro.net/using-aws-s3-in-r">https://blog.djnavarro.net/using-aws-s3-in-r</a>.
 </div>
 <div id="ref-pileggi2021curating" class="csl-entry" role="listitem">
-Pileggi, Shannon. 2021. <span>“PIPING HOT DATA: Curating for @WeAreRLadies on Twitter.”</span> <a href="https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/">https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/</a>.
+Pileggi, Shannon. 2021. <span>“Curating for @WeAreRLadies on Twitter.”</span> <a href="https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/">https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/</a>.
 </div>
-<div id="ref-rapp2022" class="csl-entry" role="listitem">
-Rapp, Albert. 2022. <span>“Recreating the Storytelling with Data Look with Ggplot.”</span> March 29, 2022. <a href="https://albert-rapp.de/posts/ggplot2-tips/10_recreating_swd_look/10_recreating_swd_look">https://albert-rapp.de/posts/ggplot2-tips/10_recreating_swd_look/10_recreating_swd_look</a>.
+<div id="ref-rapp2025" class="csl-entry" role="listitem">
+Rapp, Albert. 2025. <span>“Comparing Pipes: Base-R |&gt; Vs <span>Magrittr</span>.”</span> January 12, 2025. <a href="https://albert-rapp.de/posts/31_pipes_compared/31_pipes_compared">https://albert-rapp.de/posts/31_pipes_compared/31_pipes_compared</a>.
 </div>
-<div id="ref-scherer2019" class="csl-entry" role="listitem">
-Scherer, Cédric. 2019. <span>“A Ggplot2 Tutorial for Beautiful Plotting in R.”</span> August 5, 2019. <a href="https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/">https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/</a>.
+<div id="ref-rennie2023" class="csl-entry" role="listitem">
+Rennie, Nicola. 2023. <span>“Creating Typewriter-Styled Maps in <span class="nocase">ggplot2</span>.”</span> September 30, 2023. <a href="https://nrennie.rbind.io/blog/creating-typewriter-maps-r/">https://nrennie.rbind.io/blog/creating-typewriter-maps-r/</a>.
+</div>
+<div id="ref-ryan2024" class="csl-entry" role="listitem">
+Ryan, Jadey. 2024. <span>“Notes from Live Code Review of {Soils}.”</span> January 22, 2024. <a href="https://jadeyryan.com/blog/2024-01-22_package-review">https://jadeyryan.com/blog/2024-01-22_package-review</a>.
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
