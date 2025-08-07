@@ -2,12 +2,14 @@
 title: "EDS 240 - Data Visualization & Communication"
 description: |
   a 4-unit core course covering the basic principles for effective communication through data viz + lots of `{ggplot2}`!
-categories: [UCSB, data-visualization, R, ggplot]
-image: EDS240-hex-small.png
+categories: [MEDS, active] #[UCSB, data-visualization, R, ggplot]
+image: EDS240-hex-smaller.png
 draft: false
 ---
 
-[{{< fa window-maximize >}} course website](https://eds-240-data-viz.github.io/){.btn target=_blank} [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-240){.btn target=_blank}
+[{{< fa window-maximize >}} course website](https://eds-240-data-viz.github.io/){.btn target=_blank} 
+
+<!-- [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-240){.btn target=_blank} -->
 
 <br>
 

@@ -10,7 +10,7 @@
 <atom:link href="https://samanthacsik.github.io/courses.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Thu, 07 Aug 2025 04:09:38 GMT</lastBuildDate>
+<lastBuildDate>Thu, 07 Aug 2025 18:59:05 GMT</lastBuildDate>
 <item>
   <title>EDS 240 - Data Visualization &amp; Communication</title>
   <link>https://samanthacsik.github.io/courses/eds-240-data-viz/</link>
@@ -20,7 +20,8 @@
 
 
 
-<p><a href="https://eds-240-data-viz.github.io/" class="btn" target="_blank"><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> course website</a> <a href="https://bren.ucsb.edu/courses/eds-240" class="btn" target="_blank"><i class="fa-solid fa-school" aria-label="school"></i> course catalog</a></p>
+<p><a href="https://eds-240-data-viz.github.io/" class="btn" target="_blank"><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> course website</a></p>
+<!-- [ course catalog](https://bren.ucsb.edu/courses/eds-240){.btn target=_blank} -->
 <p><br></p>
 <section id="course-description" class="level1">
 <h1>Course description</h1>
@@ -53,16 +54,14 @@
 </section>
 
  ]]></description>
-  <category>UCSB</category>
-  <category>data-visualization</category>
-  <category>R</category>
-  <category>ggplot</category>
+  <category>MEDS</category>
+  <category>active</category>
   <guid>https://samanthacsik.github.io/courses/eds-240-data-viz/</guid>
-  <pubDate>Thu, 07 Aug 2025 04:09:38 GMT</pubDate>
-  <media:content url="https://samanthacsik.github.io/courses/eds-240-data-viz/EDS240-hex-small.png" medium="image" type="image/png" height="81" width="144"/>
+  <pubDate>Thu, 07 Aug 2025 18:59:05 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/courses/eds-240-data-viz/EDS240-hex-smaller.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
-  <title>EDS 296-1W - Intro to Shiny</title>
+  <title>EDS 296 - Intro to Shiny</title>
   <link>https://samanthacsik.github.io/courses/eds-296-shiny/</link>
   <description><![CDATA[ 
 
@@ -70,12 +69,13 @@
 
 
 
-<p><a href="https://ucsb-meds.github.io/EDS-296-Intro-to-Shiny/" class="btn" target="_blank"><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> course website</a> <a href="https://bren.ucsb.edu/courses/eds-296-1w" class="btn" target="_blank"><i class="fa-solid fa-school" aria-label="school"></i> course catalog</a></p>
+<p><a href="https://ucsb-meds.github.io/EDS-296-Intro-to-Shiny/" class="btn" target="_blank"><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> course website</a></p>
+<!-- [ course catalog](https://bren.ucsb.edu/courses/eds-296-1w){.btn target=_blank} -->
 <p><br></p>
 <section id="course-description" class="level1">
 <h1>Course description</h1>
-<p>These materials accompany the 1-unit, 2-day, hands-on coding workshop, <a href="https://bren.ucsb.edu/courses/eds-296-1w">EDS 296-1W - Intro to Shiny</a>, offered through the <a href="https://bren.ucsb.edu/">Bren School of Environmental Science &amp; Management</a>, in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis &amp; Synthesis</a>.</p>
-<p>In this workshop, students will learn how to build and deploy Shiny applications. The <a href="https://shiny.posit.co/"><code>{shiny}</code> package</a> provides a framework that allows R users to build interactive web applications and dashboards, and has become a popular tool for sharing data analyses and data-derived outputs with broad audiences. In this two-part short course, students will learn the fundamentals of reactivity, how to customize an application user interface (UI), best practices and workflows for developing shiny apps, and how to deploy their apps online via RStudio’s hosting service, <a href="https://www.shinyapps.io/">shinyapps.io</a>.</p>
+<p>These materials accompany the 2-unit, 2-day, hands-on coding course, <a href="https://bren.ucsb.edu/courses/eds-296-1w">EDS 296-1W - Intro to Shiny</a>, offered through the <a href="https://bren.ucsb.edu/">Bren School of Environmental Science &amp; Management</a>, in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis &amp; Synthesis</a>.</p>
+<p>In this course, students learn how to build and deploy Shiny applications. The <a href="https://shiny.posit.co/"><code>{shiny}</code> package</a> provides a framework that allows R users to build interactive web applications and dashboards, and has become a popular tool for sharing data analyses and data-derived outputs with broad audiences. We cover the fundamentals of reactivity, how to customize an application user interface (UI), best practices and workflows for developing shiny apps, and how to deploy apps online via Posit’s hosting service, <a href="https://www.shinyapps.io/">shinyapps.io</a>.</p>
 <p><br></p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -95,11 +95,10 @@
 </section>
 
  ]]></description>
-  <category>UCSB</category>
-  <category>shiny</category>
-  <category>R</category>
+  <category>MEDS</category>
+  <category>active</category>
   <guid>https://samanthacsik.github.io/courses/eds-296-shiny/</guid>
-  <pubDate>Thu, 07 Aug 2025 04:09:38 GMT</pubDate>
+  <pubDate>Thu, 07 Aug 2025 18:59:05 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-296-shiny/shiny-hex-small.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -114,7 +113,7 @@
 <p><a href="https://ucsb-meds.github.io/EDS-296-DS-portfolios/" class="btn" target="_blank"><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> course website (no longer maintained)</a></p>
 <!-- [ course catalog](https://bren.ucsb.edu/courses/eds-296-1f){.btn target=_blank} -->
 <p><br></p>
-<p><strong><em>NOTE: Beginning Fall 2025, course content will be delivered as part of the newly-structured MEDS Career &amp; Professional Development Workshop series, in collaboration with Bren’s Career Services Team.</em> </strong></p>
+<p><strong><em>NOTE: Beginning Fall 2025, course content will be delivered as part of the newly-structured <a href="../../courses/career-dev/index.html">MEDS Career &amp; Professional Development Workshop Series</a>, in collaboration with Bren’s Career Services Team.</em> </strong></p>
 <section id="course-description" class="level1">
 <h1>Course description</h1>
 <p>Having a polished online presence is essential for showcasing your skills, projects, expertise, and (importantly) your personality. Learners, collaborators, and future employers alike will look to your public online profiles to glean information about you and your work. As data scientists, this often means that they’ll head to one of two places: GitHub and / or your personal website. This course is designed to help you both lay the foundation for creating and maintaining these profiles in an organized, informative, and visually-appealing way. Over the next several weeks, you will:</p>
@@ -167,13 +166,32 @@
 </section>
 
  ]]></description>
-  <category>UCSB</category>
-  <category>data-science-portfolio</category>
-  <category>Quarto</category>
-  <category>GitHub</category>
+  <category>MEDS</category>
+  <category>inactive</category>
   <guid>https://samanthacsik.github.io/courses/eds-296-ds-portfolios/</guid>
-  <pubDate>Thu, 07 Aug 2025 04:09:38 GMT</pubDate>
+  <pubDate>Thu, 07 Aug 2025 18:59:05 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-296-ds-portfolios/quarto-github.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
+<item>
+  <title>MEDS Career &amp; Professional Development Workshop Series</title>
+  <link>https://samanthacsik.github.io/courses/career-dev/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://ucsb-meds.github.io/career-professional-dev/" class="btn" target="_blank"><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> workshop website</a></p>
+<p><em>details coming soon!</em></p>
+
+
+
+ ]]></description>
+  <category>MEDS</category>
+  <category>active</category>
+  <guid>https://samanthacsik.github.io/courses/career-dev/</guid>
+  <pubDate>Thu, 07 Aug 2025 18:59:05 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/courses/career-dev/horst-bren-small.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>

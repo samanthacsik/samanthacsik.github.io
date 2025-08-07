@@ -4,7 +4,7 @@ subtitle: "open source course materials developed & taught by yours truly (with 
 listing:
   contents: courses
   feed: true
-  sort: "date desc"
+  sort: date-modified
   type: grid
   grid-item-border: true
   grid-item-align: left

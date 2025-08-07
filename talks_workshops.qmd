@@ -4,7 +4,7 @@ subtitle: "a selection of my favorite talks & workshops and associated materials
 listing:
   contents: talks_workshops
   feed: true
-  sort: "date desc"
+  sort: "date desc" #date-modified
   type: grid
   grid-item-border: true
   grid-item-align: left

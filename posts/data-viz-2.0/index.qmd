@@ -15,6 +15,7 @@ draft: true
 draft-mode: unlinked
 ---
 
+- Deb Perrone: everyone thinks that year 2 will be easy, but really it takes 3 years. Can confirm that this is true 
 - moved website and all materials into a dedicated GitHub organization (HT: Ruth Oliver)
 - changes to website structure -- daily materials organized by:
   - pre-class prep

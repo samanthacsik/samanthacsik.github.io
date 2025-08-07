@@ -1,0 +1,13 @@
+---
+title: "MEDS Career & Professional Development Workshop Series"
+description: |
+  *[UNDER DEVELOPMENT]* A program-long weekly workshop series, built and taught in collaboration with the Bren Career Team, focusing on career prep and portfolio-building
+categories: [MEDS, active] #[UCSB, MEDS, data-science-portfolio, Quarto, GitHub, career-development, personal-brand]
+image: horst-bren-small.png
+draft: false
+---
+
+[{{< fa window-maximize >}} workshop website](https://ucsb-meds.github.io/career-professional-dev/){.btn target=_blank} 
+
+*details coming soon!*
+
