@@ -34,10 +34,10 @@ xaringanExtra::embed_xaringan(
 
 # Overview
 
-This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/){target="_blank"}, administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target="_blank"} in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/){target="_blank"}.
 
 # Abstract
 
-Ever take a look at that beautiful data visualization you've worked so hard on and think, "How awesome would it be if my audience could interact with my data??" If so, building a shiny app might be just what you're looking for. `{shiny}` allows you to build interactive web pages and dashboards from R. In this workshop, we'll learn how to transform your data into reactive outputs that you can share via a web browser. Together, we'll be build a shiny app that looks something like [this](https://github.com/samanthacsik/practice-shiny).
+Ever take a look at that beautiful data visualization you've worked so hard on and think, "How awesome would it be if my audience could interact with my data??" If so, building a shiny app might be just what you're looking for. `{shiny}` allows you to build interactive web pages and dashboards from R. In this workshop, we'll learn how to transform your data into reactive outputs that you can share via a web browser. Together, we'll be build a shiny app that looks something like [this](https://github.com/samanthacsik/practice-shiny){target="_blank"}.
 
 

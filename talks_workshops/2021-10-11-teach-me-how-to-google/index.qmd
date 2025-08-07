@@ -16,26 +16,28 @@ image: google.gif
 
 ```{r}
 #| echo: false
-#| out-width: "30%"
+#| out-width: "20%"
 xaringanExtra::embed_xaringan(
-  url = "https://ucsb-meds.github.io/teach-me-how-to-google/#1",
-  ratio = "4:3"
+  url = "https://ucsb-meds.github.io/teach-me-how-to-google/#/title-slide",
+  ratio = "4:3",
+  max_width = "60%"
 )
 ```
 
 <br>
 
 ::: {.center-text}
-[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/teach-me-how-to-google/#1){.btn role="button" target=_blank} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/teach-me-how-to-google){.btn role="button" target=_blank}
+[{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/teach-me-how-to-google/#/title-slide){.btn role="button" target=_blank} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/teach-me-how-to-google){.btn role="button" target=_blank}
 :::
 
 # Abstract
 
-Googling for code help is something that all data scientists (at all career stages) do. But figuring out how to get the information you need back can be incredibly challenging, particularly for new coders. In this workshop, we’ll discuss strategies for refining your queries to increase your chances of finding informative solutions.
+Googling for code help is something that all data scientists (at all career stages) do. And for new learners in the age of AI, developing strong troubleshooting skills and search strategies is essential for building independence and critical thinking. But learning how to ask the right questions and get useful answers can be tricky, particularly for new programmers. In this presentation, we'll explore practical techniques for refining your searches, diagnosing erors, and increasing your chances at fining helpful, relevant solutions.
 
 # Audience
 
-This talk was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+This talk was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/){target="_blank"}, administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target="_blank"} in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/){target="_blank"}. Previous adapatations for various non-MEDS audiences can be found in a [separate repository](https://samanthacsik.github.io/teach-me-how-to-google/){target="_blank"}.
 
-It's since been adapted for a number of non-MEDS audiences, including students from UCSB's [Master of Technology Management Program](https://tmp.ucsb.edu/academics/master-technology-management) (Jan 2022), [R-Ladies St. Louis](https://www.meetup.com/rladies-st-louis/?_cookie-check=tJVp_VfFF4axweCV) (Feb 2022), [The Brown School StatLab](https://gwbweb.wustl.edu/News/Pages/Brown-School-StatLab-offers-statistics-support.aspx) at the University of Washington in St. Louis (Mar 2022), undergraduate students in [UCSB's Environmental Studies Program](https://samanthacsik.github.io/teach-me-how-to-google/slides/WaterData_2022-11-08.html#1) (Nov 2022 & 2023), and UCSB's [Data Analysis and Coding Club (DAnC)](https://samanthacsik.github.io/teach-me-how-to-google/slides/DAnC-2023-05-17.html#1) (May 2023). Most times, the slides remain unchanged (aside from an updated title slide), but there are minor differences here and there depending on audience needs/experiences. Find all additional talk versions [here](https://samanthacsik.github.io/teach-me-how-to-google/)!
+<!-- While it's undergone a series of iterations over the years, the most substantial revamp came in 2025 as the MEDS program Curriculum Cohesion Committee strategized aroudn how to prirotizie foundational data and critical thinking skills early on, and that we also need to offer more support to promote responsible GenAI use as they year progresses. -->
+
 

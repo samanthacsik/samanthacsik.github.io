@@ -9,7 +9,6 @@ author:
     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
     affiliation-url: https://ucsb-meds.github.io/
 date: 2023-03-16
-slug: csik2023ggplot2
 categories: [MEDS, R, ggplot2, data-visualization]
 image: ahorst_ggplot2_small.png
 ---
@@ -18,7 +17,7 @@ image: ahorst_ggplot2_small.png
 #| eval: true 
 #| echo: false
 #| fig-align: "center"
-#| out-width: "75%" 
+#| out-width: "55%" 
 #| fig-alt: "A fuzzy monster in a beret and scarf, critiquing their own column graph on a canvas in front of them while other assistant monsters (also in berets) carry over boxes full of elements that can be used to customize a graph (like themes and geometric shapes). In the background is a wall with framed data visualizations. Stylized text reads \"ggplot2: build a data masterpiece.\""
 knitr::include_graphics("ahorst_ggplot2.png")
 ```

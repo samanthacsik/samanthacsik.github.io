@@ -9,7 +9,6 @@ author:
     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
     affiliation-url: https://ucsb-meds.github.io/
 date: 2022-10-24
-slug: csik2022blog
 categories: [MEDS, Quarto, blogging]
 image: penguins.png
 ---
@@ -18,7 +17,7 @@ image: penguins.png
 #| eval: true 
 #| echo: false
 #| fig-align: "center"
-#| out-width: "85%" 
+#| out-width: "65%" 
 #| fig-alt: "Two excited penguins diving off of an iceberg into the ocean. A Quarto logo 'moon' in the sky is reflected in the water that they're diving into."
 knitr::include_graphics("penguins.png")
 ```

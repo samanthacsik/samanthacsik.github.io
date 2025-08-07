@@ -1,0 +1,19 @@
+{
+  "hash": "85379ae576e55f2a537472519aaa6a10",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Just enough CSS (and Sass) for data scientists\"\ndescription: |\n  a hands-on workshop for data scientists looking to add a little pizzazz to their web pages\nauthor:\n  - name: Samantha Shanny-Csik\n    url: https://samanthacsik.github.io/\n    orcid: 0000-0002-5300-3075\n    affiliation: The National Center for Ecological Analysis and Synthesis\n    affiliation-url: https://www.nceas.ucsb.edu/\ndate: 2023-08-03\ncategories: [NCEAS, Quarto, CSS]\nimage: bob-ross.gif\ndraft: false\n---\n\n\n\n<!-- ```{=html} -->\n<!-- <iframe class=\"slide-deck center-text\" src=\"https://samanthacsik.github.io/just-enough-css-sass/#/title-slide\" height=\"420\" width=\"747\" style=\"border: 1px solid #2e3846;\"></iframe> -->\n<!-- ``` -->\n\n<!-- <style> -->\n<!-- .slide-deck { -->\n<!--     border: 3px solid #dee2e6; -->\n<!--     width: 100%; -->\n<!--     height: 475px; -->\n<!-- } -->\n<!-- </style> -->\n\n<!-- <div> -->\n<!-- ```{=html} -->\n<!-- <iframe class=\"slide-deck\" src=\"https://samanthacsik.github.io/just-enough-css-sass/#/title-slide\"></iframe> -->\n<!-- ``` -->\n<!-- </div> -->\n\n<!-- <center><iframe class=\"slide-deck\" src=\"https://samanthacsik.github.io/just-enough-css-sass/#/title-slide\" title=\"Just Enough CSS (and Sass) for data scientists\" width=\"750px,\" height=\"550px\"></iframe></center> -->\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div class=\"shareagain\" style=\"min-width:300px;margin:1em auto;max-width:60%;\" data-exeternal=\"1\">\n<iframe src=\"https://samanthacsik.github.io/just-enough-css-sass/#/title-slide\" width=\"400\" height=\"300\" style=\"border:2px solid currentColor;\" loading=\"lazy\" allowfullscreen></iframe>\n<script>fitvids('.shareagain', {players: 'iframe'});</script>\n</div>\n```\n\n:::\n:::\n\n\n\n::: {.center-text}\n[{{< fa tv title=\"A television screen\" >}} slides](https://samanthacsik.github.io/just-enough-css-sass/#/title-slide){.btn role=\"button\" target=\"_blank\"} [{{< fa brands github title=\"Octocat, the GitHub logo\" >}} source code](https://github.com/samanthacsik/just-enough-css-sass){.btn role=\"button\" target=\"_blank\"}\n:::\n\n\n# Abstract\n\nWhile many of us in the broader data science community may not consider ourselves web developers, tools like Quarto and GitHub have made it more approachable than ever before to create, publish, and share HTML web pages. The default styling of these web pages is pretty sleek -- but knowing even just a little bit of CSS can help you transform your reports, websites, blog posts, presentation slides, etc. into personalized and stand-out web products.\n\nIn this workshop-style Roundtable, we'll first introduce and interact with some HTML and CSS, the building blocks of all web pages. We'll then learn about how Sass extends CSS features to help simplify our stylesheets. Finally, we'll practice writing Sass and CSS to style a Quarto Markdown (`.qmd`) report.\n\n# Audience\n\nThis workshop was delivered to NCEAS residents and staff during the monthly [Roundtable](https://www.nceas.ucsb.edu/roundtable){target=\"_blank\"} seminar. Roundtable is a series of informal presentations and discussions on a wide variety of topics related to current work happening at NCEAS. Sign up for the [Google Group](https://groups.google.com/a/nceas.ucsb.edu/g/roundtable){target=\"_blank\"} to receive announcements of upcoming Roundtables.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../../site_libs/fitvids-2.1.1/fitvids.min.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

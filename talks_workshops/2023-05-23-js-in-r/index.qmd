@@ -14,7 +14,6 @@ author:
     affiliation: Department of Ecology, Evolution & Marine Biology, UC Santa Barbara
     affiliation-url: https://www.eemb.ucsb.edu/
 date: 2023-05-23
-slug: csikbui2023js
 categories: [SORTEE, R, JavaScript, data-visualization]
 image: js_pkgs.png
 ---
@@ -44,4 +43,4 @@ In this hands-on live-coding workshop, we’ll explore the {DT}, {plotly}, and {
 
 # Audience
 
-This workshop was developed for and taught during the [SORTEE Workshops and Webinar](https://www.sortee.org/other_events/) series.
+This workshop was developed for and taught during the [SORTEE Workshops and Webinar](https://www.sortee.org/other_events/){target="_blank"} series.

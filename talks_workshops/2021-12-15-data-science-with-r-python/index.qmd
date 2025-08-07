@@ -22,7 +22,6 @@ author:
     affiliation: Central Coast Python
     affiliation-url: https://www.meetup.com/central-coast-python/
 date: 2021-12-15
-slug: csiketal2021RPython
 categories: [R-Ladies, R, Python]
 image: r_python.png
 draft: true
@@ -55,7 +54,7 @@ knitr::include_graphics("cover_slide.png")
 
 # Overview
 
-This workshop was the result of a collaborative effort between the [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/events/281807986/) and [Central Coast Python Meetup](https://www.meetup.com/central-coast-python/) groups. A special thanks to Sean Helvey for connecting with us to make this happen!
+This workshop was the result of a collaborative effort between the [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/events/281807986/){target="_blank"} and [Central Coast Python Meetup](https://www.meetup.com/central-coast-python/){target="_blank"} groups. A special thanks to Sean Helvey for connecting with us to make this happen!
 
 # Abstract 
 

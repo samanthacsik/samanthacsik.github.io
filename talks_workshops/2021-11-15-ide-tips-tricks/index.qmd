@@ -10,7 +10,6 @@ author:
     affiliation-url: https://ucsb-meds.github.io/
 date: 2021-11-15
 date-modified: last-modified
-slug: csik2021Rtipstricks
 categories: [MEDS, R]
 image: lightbulb.gif
 ---
@@ -19,7 +18,17 @@ It became clear after two cohorts of students that delivering tons of shortcut a
 
 <br>
 
-<center><iframe class="slide-deck" src="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" title="IDE Tips & Tricks" width=750px, height=550px></iframe></center>
+<!-- <center><iframe class="slide-deck" src="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" title="IDE Tips & Tricks" width=750px, height=550px></iframe></center> -->
+
+```{r}
+#| echo: false
+#| out-width: "20%"
+xaringanExtra::embed_xaringan(
+  url = "https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide",
+  ratio = "4:3",
+  max_width = "60%"
+)
+```
 
 <br>
 
@@ -33,5 +42,5 @@ As environmental data scientists, we spend a lot of time in RStudio. Taking some
 
 # Audience
 
-These materials were originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+These materials were originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/){target="_blank"}, administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target="_blank"} in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/){target="_blank"}.
 

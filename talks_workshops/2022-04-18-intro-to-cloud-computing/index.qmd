@@ -9,7 +9,6 @@ author:
     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
     affiliation-url: https://ucsb-meds.github.io/
 date: 2022-04-18
-slug: csik2022cloudComputing
 categories: [MEDS, AWS]
 image: clouds.gif
 ---
@@ -18,7 +17,8 @@ image: clouds.gif
 #| echo: false
 xaringanExtra::embed_xaringan(
   url = "https://ucsb-meds.github.io/cloud-computing/#1",
-  ratio = "4:3"
+  ratio = "4:3",
+  max_width = "60%"
 )
 ```
 
@@ -34,5 +34,5 @@ xaringanExtra::embed_xaringan(
 
 # Audience
 
-This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target="_blank"} in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/){target="_blank"}.
 

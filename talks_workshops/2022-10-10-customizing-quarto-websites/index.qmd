@@ -9,12 +9,21 @@ author:
     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
     affiliation-url: https://ucsb-meds.github.io/
 date: 10-10-2022
-slug: csik2022SassCSS
 categories: [MEDS, R, Quarto, CSS]
 image: sass_css.png
 ---
 
-<center><iframe class="slide-deck" src="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" title="Customizing Quarto Websites" width=750px, height=550px></iframe></center>
+<!-- <center><iframe class="slide-deck" src="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" title="Customizing Quarto Websites" width=750px, height=550px></iframe></center> -->
+
+```{r}
+#| echo: false
+#| out-width: "20%"
+xaringanExtra::embed_xaringan(
+  url = "https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide",
+  ratio = "4:3",
+  max_width = "60%"
+)
+```
 
 <br>
 
@@ -28,4 +37,4 @@ Quarto provides a user-friendly framework for creating your personal website -- 
 
 # Audience
 
-This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
+This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/){target="_blank"}, administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target="_blank"} in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/){target="_blank"}.

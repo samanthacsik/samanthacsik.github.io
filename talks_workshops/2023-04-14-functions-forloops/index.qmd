@@ -9,7 +9,6 @@ author:
     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
     affiliation-url: https://ucsb-meds.github.io/
 date: 2023-04-14
-slug: csik2023functions
 categories: [MEDS, R, functions, for-loops]
 image: an_bui_planet.png
 ---
@@ -18,7 +17,7 @@ image: an_bui_planet.png
 #| eval: true 
 #| echo: false
 #| fig-align: "center"
-#| out-width: "75%" 
+#| out-width: "55%" 
 #| fig-alt: "A hand-drawn function showcasing the basic expected structure. The function is named 'my.function' and takes an arguement called, 'arguments'. A 'new.object' is created by something that takes 'arguments' and retruns 'new.object' at the end. Hand-drawn stars and a smiling Saturn-shaped planet are in the background."
 knitr::include_graphics("an_bui_function-structure.jpeg")
 ```

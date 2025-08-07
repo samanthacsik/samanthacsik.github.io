@@ -14,8 +14,7 @@ author:
     affiliation: R-Ladies Santa Barbara
     affiliation-url: https://www.meetup.com/rladies-santa-barbara/
 date: 2019-05-15
-slug: csike2019tidyverse
-categories: [R-Ladies]
+categories: [R-Ladies, data-wrangling, data-visualization, tidyverse]
 image: infinity.gif
 ---
 
@@ -23,7 +22,7 @@ image: infinity.gif
 #| eval: true 
 #| echo: false
 #| fig-align: "center"
-#| out-width: "75%" 
+#| out-width: "65%" 
 #| fig-alt: "Two women, Sam and An, stand smiling in front of a projector screen with a GitHub repository on display."
 knitr::include_graphics("sam_an.jpg")
 ```
