@@ -10,7 +10,7 @@
 <atom:link href="https://samanthacsik.github.io/courses.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Thu, 07 Aug 2025 18:59:05 GMT</lastBuildDate>
+<lastBuildDate>Tue, 12 Aug 2025 23:31:50 GMT</lastBuildDate>
 <item>
   <title>EDS 240 - Data Visualization &amp; Communication</title>
   <link>https://samanthacsik.github.io/courses/eds-240-data-viz/</link>
@@ -57,7 +57,7 @@
   <category>MEDS</category>
   <category>active</category>
   <guid>https://samanthacsik.github.io/courses/eds-240-data-viz/</guid>
-  <pubDate>Thu, 07 Aug 2025 18:59:05 GMT</pubDate>
+  <pubDate>Tue, 12 Aug 2025 23:31:50 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-240-data-viz/EDS240-hex-smaller.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -98,7 +98,7 @@
   <category>MEDS</category>
   <category>active</category>
   <guid>https://samanthacsik.github.io/courses/eds-296-shiny/</guid>
-  <pubDate>Thu, 07 Aug 2025 18:59:05 GMT</pubDate>
+  <pubDate>Tue, 12 Aug 2025 23:31:50 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-296-shiny/shiny-hex-small.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -169,7 +169,7 @@
   <category>MEDS</category>
   <category>inactive</category>
   <guid>https://samanthacsik.github.io/courses/eds-296-ds-portfolios/</guid>
-  <pubDate>Thu, 07 Aug 2025 18:59:05 GMT</pubDate>
+  <pubDate>Tue, 12 Aug 2025 23:31:50 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-296-ds-portfolios/quarto-github.png" medium="image" type="image/png" height="80" width="144"/>
 </item>
 <item>
@@ -190,7 +190,7 @@
   <category>MEDS</category>
   <category>active</category>
   <guid>https://samanthacsik.github.io/courses/career-dev/</guid>
-  <pubDate>Thu, 07 Aug 2025 18:59:05 GMT</pubDate>
+  <pubDate>Tue, 12 Aug 2025 23:31:50 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/career-dev/horst-bren-small.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
