@@ -1,0 +1,41 @@
+---
+title: "Hello, world!"
+description: "finding & fostering your data science community & support network"
+author:
+  - name: Samantha Shanny-Csik
+    orcid: 0000-0002-5300-3075 
+    url: https://samanthacsik.github.io/
+    affiliation: The Bren School of Environmental Science & Management
+    affiliation-url: https://bren.ucsb.edu/
+date: 2025-05-03
+# citation: 
+#   url: https://samanthacsik.github.io/talks_workshops/2025-08-06-datastorytelling/
+categories: [PALiISaDS, community-building, learning-communities]
+image: paliisads-logo-small.png
+---
+
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "70%" 
+knitr::include_graphics("lesson2.png")
+```
+
+::: {.center-text .small-text .gray-italic}
+A slide from my keynote talk, featuring one of four tips for finding & fostering your data science learning community
+:::
+
+<br>
+
+::: {.center-text}
+[{{< fa tv title="A television screen" >}} slides](https://docs.google.com/presentation/d/15FiZtLyONtLjxCweccKYM0fDwaNILXbbeNsVIDLUUrM/edit?usp=sharing){.btn role="button" target="_blank"} 
+:::
+
+# Abstract
+
+***How do you build a learning community and support network when it doesn’t obviously exist?*** As a budding data science learner, I struggled to navigate unfamiliar tools, concepts, and spaces alone. Drawing on these early challenges, I'll share some lessons learned and practical strategies for identifying and joining inclusive groups, creating your own learning spaces, and contributing to shared growth. You'll leave with ideas for intentionally building and nurturing communities that create richer, more joyful experiences for everyone.
+
+# Audience
+
+I delivered this keynote talk during the [Pacific Alliance for Low-income Inclusion in Statitics and Data Science](https://www.paliisads.org/home){target="_blank"} (PALiISaDS), [Professional Readiness, Inclusive Scholarship, and Mentorship](https://www.paliisads.org/events/prism){target="_blank"} (PRISM) event in May 2025. PALiISaDS is an NSF-funded alliance of schools that aims to increase degree completion for low-income, high-achieving undergraduates pursuing degrees in Statistics and Data Science. The year-end PRISM event brings the scholars from across California and in Washington to an in-person event for workshops, a career panel, and networking opportunities. 

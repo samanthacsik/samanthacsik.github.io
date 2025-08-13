@@ -56,6 +56,51 @@
   <media:content url="https://samanthacsik.github.io/talks_workshops/2025-08-06-datastorytelling/horst-eco-r4ds.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
+  <title>Hello, world!</title>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2025-05-03-PALiISaDS/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/talks_workshops/2025-05-03-PALiISaDS/lesson2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="center-text small-text gray-italic">
+<p>A slide from my keynote talk, featuring one of four tips for finding &amp; fostering your data science learning community</p>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://docs.google.com/presentation/d/15FiZtLyONtLjxCweccKYM0fDwaNILXbbeNsVIDLUUrM/edit?usp=sharing" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p><strong><em>How do you build a learning community and support network when it doesn’t obviously exist?</em></strong> As a budding data science learner, I struggled to navigate unfamiliar tools, concepts, and spaces alone. Drawing on these early challenges, I’ll share some lessons learned and practical strategies for identifying and joining inclusive groups, creating your own learning spaces, and contributing to shared growth. You’ll leave with ideas for intentionally building and nurturing communities that create richer, more joyful experiences for everyone.</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>I delivered this keynote talk during the <a href="https://www.paliisads.org/home" target="_blank">Pacific Alliance for Low-income Inclusion in Statitics and Data Science</a> (PALiISaDS), <a href="https://www.paliisads.org/events/prism" target="_blank">Professional Readiness, Inclusive Scholarship, and Mentorship</a> (PRISM) event in May 2025. PALiISaDS is an NSF-funded alliance of schools that aims to increase degree completion for low-income, high-achieving undergraduates pursuing degrees in Statistics and Data Science. The year-end PRISM event brings the scholars from across California and in Washington to an in-person event for workshops, a career panel, and networking opportunities.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>PALiISaDS</category>
+  <category>community-building</category>
+  <category>learning-communities</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2025-05-03-PALiISaDS/</guid>
+  <pubDate>Sat, 03 May 2025 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2025-05-03-PALiISaDS/paliisads-logo-small.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
   <title>Quarto for documenting Ocean Health Index (OHI) methods</title>
   <dc:creator>Samantha Shanny-Csik</dc:creator>
   <link>https://samanthacsik.github.io/talks_workshops/2024-05-17-OHI-quarto-websites/</link>

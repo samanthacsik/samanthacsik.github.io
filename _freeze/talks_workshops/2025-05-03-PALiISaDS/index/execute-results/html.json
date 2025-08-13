@@ -1,0 +1,15 @@
+{
+  "hash": "7689d5b8506bbed023a4f6458203d07d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Hello, world!\"\ndescription: \"finding & fostering your data science community & support network\"\nauthor:\n  - name: Samantha Shanny-Csik\n    orcid: 0000-0002-5300-3075 \n    url: https://samanthacsik.github.io/\n    affiliation: The Bren School of Environmental Science & Management\n    affiliation-url: https://bren.ucsb.edu/\ndate: 2025-05-03\n# citation: \n#   url: https://samanthacsik.github.io/talks_workshops/2025-08-06-datastorytelling/\ncategories: [PALiISaDS, community-building, learning-communities]\nimage: paliisads-logo-small.png\n---\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](lesson2.png){fig-align='center' width=70%}\n:::\n:::\n\n\n\n::: {.center-text .small-text .gray-italic}\nA slide from my keynote talk, featuring one of four tips for finding & fostering your data science learning community\n:::\n\n<br>\n\n::: {.center-text}\n[{{< fa tv title=\"A television screen\" >}} slides](https://docs.google.com/presentation/d/15FiZtLyONtLjxCweccKYM0fDwaNILXbbeNsVIDLUUrM/edit?usp=sharing){.btn role=\"button\" target=\"_blank\"} \n:::\n\n# Abstract\n\n***How do you build a learning community and support network when it doesn’t obviously exist?*** As a budding data science learner, I struggled to navigate unfamiliar tools, concepts, and spaces alone. Drawing on these early challenges, I'll share some lessons learned and practical strategies for identifying and joining inclusive groups, creating your own learning spaces, and contributing to shared growth. You'll leave with ideas for intentionally building and nurturing communities that create richer, more joyful experiences for everyone.\n\n# Audience\n\nI delivered this keynote talk during the [Pacific Alliance for Low-income Inclusion in Statitics and Data Science](https://www.paliisads.org/home){target=\"_blank\"} (PALiISaDS), [Professional Readiness, Inclusive Scholarship, and Mentorship](https://www.paliisads.org/events/prism){target=\"_blank\"} (PRISM) event in May 2025. PALiISaDS is an NSF-funded alliance of schools that aims to increase degree completion for low-income, high-achieving undergraduates pursuing degrees in Statistics and Data Science. The year-end PRISM event brings the scholars from across California and in Washington to an in-person event for workshops, a career panel, and networking opportunities. \n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
