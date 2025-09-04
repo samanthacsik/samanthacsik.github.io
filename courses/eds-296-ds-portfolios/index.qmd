@@ -7,7 +7,33 @@ image: quarto-github.png
 draft: false
 ---
 
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: "center"
+#| out-width: "50%"
+knitr::include_graphics("quarto.png")
+```
+:::
+
+::: {.g-col-12 .g-col-md-6}
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: "left"
+#| out-width: "95%"
+knitr::include_graphics("github.png")
+```
+:::
+
+::::
+
+::: {.center-text}
 [{{< fa window-maximize >}} course website (no longer maintained)](https://ucsb-meds.github.io/EDS-296-DS-portfolios/){.btn target=_blank}
+:::
 
 <!-- [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-296-1f){.btn target=_blank} -->
 
@@ -25,33 +51,7 @@ Having a polished online presence is essential for showcasing your skills, proje
 - understand where and how to document your projects and code
 - and more!
 
-<br>
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-```{r}
-#| eval: true
-#| echo: false
-#| fig-align: "center"
-#| out-width: "50%"
-knitr::include_graphics("quarto.png")
-```
-:::
-
-::: {.g-col-12 .g-col-md-6}
-```{r}
-#| eval: true
-#| echo: false
-#| fig-align: "center"
-#| out-width: "95%"
-knitr::include_graphics("github.png")
-```
-:::
-
-::::
-
-<br>
+<!-- <br> -->
 
 # When is this taught?
 

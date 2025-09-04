@@ -7,7 +7,18 @@ image: EDS240-hex-smaller.png
 draft: false
 ---
 
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "50%"
+#| fig-align: "center"
+#| fig-alt: "A fuzzy monster in a beret and scarf, critiquing their own column graph on a canvas in front of them while other assistant monsters (also in berets) carry over boxes full of elements that can be used to customize a graph (like themes and geometric shapes). In the background is a wall with framed data visualizations. Stylized text reads 'ggplot2: build a data masterpiece.'"
+knitr::include_graphics("horst-ggplot-masterpiece.png")
+```
+
+::: {.center-text}
 [{{< fa window-maximize >}} course website](https://eds-240-data-viz.github.io/){.btn target=_blank} 
+:::
 
 <!-- [{{< fa school >}} course catalog](https://bren.ucsb.edu/courses/eds-240){.btn target=_blank} -->
 
@@ -26,18 +37,9 @@ By the end of this course, learners should be able to:
 - Apply a DEI (Diversity, Equity & Inclusion) lens to the process of designing data visualizations
 - Assess, critique, and provide constructive feedback on data visualizations
 
-<br>
-
-```{r}
-#| eval: true
-#| echo: false
-#| out-width: "50%"
-#| fig-align: "center"
-#| fig-alt: "A fuzzy monster in a beret and scarf, critiquing their own column graph on a canvas in front of them while other assistant monsters (also in berets) carry over boxes full of elements that can be used to customize a graph (like themes and geometric shapes). In the background is a wall with framed data visualizations. Stylized text reads 'ggplot2: build a data masterpiece.'"
-knitr::include_graphics("horst-ggplot-masterpiece.png")
-```
+<!-- <br> -->
 
 # When is this taught?
 
-EDS 240 is a [core course](https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds/meds-courses) of the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds) (MEDS) program, taught in Winter quarter each year (since the inaugural cohort, Winter 2022). I had so much fun redesigning and teaching it for the first time in Winter 2024, and I reflect on my experiences in my blog post, [Buiding (and teaching) a graduate-level data science course](https://samanthacsik.github.io/posts/2024-04-02-data-viz-course/)!
+EDS 240 is a [core course](https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds/meds-courses) of the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds) (MEDS) program, taught in Winter quarter each year (since the inaugural cohort, Winter 2022). I had so much fun redesigning and teaching it for the first time in Winter 2024, and I reflect on my experiences in my blog post, [Buiding (and teaching) a graduate-level data science course](https://samanthacsik.github.io/posts/2024-04-02-data-viz-course/).
 

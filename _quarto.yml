@@ -29,7 +29,7 @@ website:
       - posts.qmd
       - text: get in touch!
         menu:
-          # - icon: bluesky
+          # - icon: "{{< iconify simple-icons bluesky >}}"
           #   text: Bluesky
           #   href: https://bsky.app/profile/samcsik.bsky.social
           #   target: _blank
