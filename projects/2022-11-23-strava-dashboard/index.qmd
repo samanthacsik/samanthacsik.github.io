@@ -1,5 +1,5 @@
 ---
-title: "Shiny Strava Dashboard"
+title: "Strava Dashboard"
 description: |
   a personal (and ongoing) side-project to explore my Strava data and learn more about building Shiny apps
 #date: 2022-11-23
@@ -8,7 +8,7 @@ image: strava-logo-white-bg.png
 draft: false
 ---
 
-[{{< fa brands r-project >}} shiny dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn target=_blank} [{{< fa brands github >}} source code](https://github.com/samanthacsik/strava-dashboard){.btn target=_blank}
+[{{< fa brands r-project >}} dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/){.btn target=_blank} [{{< fa brands github >}} source code](https://github.com/samanthacsik/strava-dashboard){.btn target=_blank}
 
 <br>
 

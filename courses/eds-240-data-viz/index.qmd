@@ -2,7 +2,7 @@
 title: "EDS 240 - Data Visualization & Communication"
 description: |
   a 4-unit core course covering the basic principles for effective communication through data viz + lots of `{ggplot2}`!
-categories: [MEDS, active] #[UCSB, data-visualization, R, ggplot]
+categories: [MEDS, active-course] #[UCSB, data-visualization, R, ggplot]
 image: EDS240-hex-smaller.png
 draft: false
 ---

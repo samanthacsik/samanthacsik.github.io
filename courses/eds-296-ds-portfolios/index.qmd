@@ -2,7 +2,7 @@
 title: "EDS 296 - Data science tools for building professional online portfolios"
 description: |
   *[No longer taught as a course, beginning Fall 2025]* a 2-unit course on building, customizing, and maintaining professional online data science portfolios
-categories: [MEDS, inactive] #[UCSB, data-science-portfolio, Quarto, GitHub]
+categories: [MEDS, inactive-course] #[UCSB, data-science-portfolio, Quarto, GitHub]
 image: quarto-github.png
 draft: false
 ---

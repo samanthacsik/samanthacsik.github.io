@@ -2,7 +2,7 @@
 title: "EDS 296 - Intro to Shiny"
 description: |
   a 2-unit course on building and deploying Shiny apps & dashboards
-categories: [MEDS, active] # [UCSB, shiny, R]
+categories: [MEDS, active-course] # [UCSB, shiny, R]
 image: shiny-hex-small.png
 draft: false
 ---
