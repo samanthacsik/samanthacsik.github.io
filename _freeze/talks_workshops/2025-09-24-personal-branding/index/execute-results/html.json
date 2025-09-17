@@ -1,0 +1,15 @@
+{
+  "hash": "2a24c8e813471e6a4fc52c2e880a2f60",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Personal branding for environmental data scientists\"\ndescription: \"Tell your unique story through intentional messaging and visual identity\"\nauthor:\n  - name: Samantha Shanny-Csik\n    orcid: 0000-0002-5300-3075 \n    url: https://samanthacsik.github.io/\n    affiliation: The Bren School of Environmental Science & Management\n    affiliation-url: https://bren.ucsb.edu/\ndate: 2025-09-24\n# citation: \n#   url: https://samanthacsik.github.io/talks_workshops/2025-08-06-datastorytelling/\ncategories: [personal-branding, career-development]\nimage: branding.png\ndraft: true\n---\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](branding.png){fig-align='center' width=70%}\n:::\n:::\n\n\n\n::: {.center-text .small-text .gray-italic}\nImage source: [Devexperts](https://devexperts.com/blog/how-to-build-your-personal-brand-and-boost-your-career/)\n:::\n\n<br>\n\n::: {.center-text}\n[{{< fa tv title=\"A television screen\" >}} slides](https://docs.google.com/presentation/d/1vhRnICrX_i1tarCA3rHrpNgpteckC5VX_nZQxMjyAM8/edit?slide=id.p#slide=id.p){.btn role=\"button\" target=\"_blank\"} \n:::\n\n# Abstract\n\nSuccess in environmental data science—and in your career more broadly—requires more than technical expertise. It also takes self-awareness, a clear understanding of your strengths and values, and a personal brand that reflects the impact you want to make. By intentionally crafting your personal brand, you ensure that others understand not only what you do, but why it matters and the unique value you bring. In this workshop, we’ll begin developing personal branding guides that highlight the core messages we want to communicate about ourselves and establish a visual style to help us connect with our intended audience(s).\n\n# Audience\n\nThis workshop is just one small piece of a larger [Career & Professional Development Workshop Series](https://ucsb-meds.github.io/career-professional-dev/){target=\"_blank\"} for [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target=\"_blank\"} (MEDS) students. This workshop series is a collaborative effort between the Bren Career Services Team (Miya Scheble, Amanda Asquith-Caya, Dave Parker) and myself, designed to support student career readiness. \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
