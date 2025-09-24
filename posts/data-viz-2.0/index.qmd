@@ -25,3 +25,6 @@ draft-mode: unlinked
 - HW4 option to propose your own project (HT: Max Czapanskiy)
 - started wiki
 - googlesheet for learning partners
+- Annie's token tracker
+- Annie's suggestion to use GradeScope
+- Collaborating with Alex on bringing in Affinity workshop

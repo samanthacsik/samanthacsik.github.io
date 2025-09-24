@@ -10,9 +10,8 @@ author:
 date: 2025-09-24
 # citation: 
 #   url: https://samanthacsik.github.io/talks_workshops/2025-08-06-datastorytelling/
-categories: [personal-branding, career-development]
+categories: [MEDS, personal-branding, career-development]
 image: branding.png
-draft: true
 ---
 
 

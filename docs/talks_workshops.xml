@@ -10,7 +10,52 @@
 <atom:link href="https://samanthacsik.github.io/talks_workshops.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Wed, 06 Aug 2025 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 24 Sep 2025 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Personal branding for environmental data scientists</title>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2025-09-24-personal-branding/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/talks_workshops/2025-09-24-personal-branding/branding.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="center-text small-text gray-italic">
+<p>Image source: <a href="https://devexperts.com/blog/how-to-build-your-personal-brand-and-boost-your-career/">Devexperts</a></p>
+</div>
+<p><br></p>
+<div class="center-text">
+<p><a href="https://docs.google.com/presentation/d/1vhRnICrX_i1tarCA3rHrpNgpteckC5VX_nZQxMjyAM8/edit?slide=id.p#slide=id.p" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a></p>
+</div>
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>Success in environmental data science—and in your career more broadly—requires more than technical expertise. It also takes self-awareness, a clear understanding of your strengths and values, and a personal brand that reflects the impact you want to make. By intentionally crafting your personal brand, you ensure that others understand not only what you do, but why it matters and the unique value you bring. In this workshop, we’ll begin developing personal branding guides that highlight the core messages we want to communicate about ourselves and establish a visual style to help us connect with our intended audience(s).</p>
+</section>
+<section id="audience" class="level1">
+<h1>Audience</h1>
+<p>This workshop is just one small piece of a larger <a href="https://ucsb-meds.github.io/career-professional-dev/" target="_blank">Career &amp; Professional Development Workshop Series</a> for <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science" target="_blank">Master of Environmental Data Science</a> (MEDS) students. This workshop series is a collaborative effort between the Bren Career Services Team (Miya Scheble, Amanda Asquith-Caya, Dave Parker) and myself, designed to support student career readiness.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>MEDS</category>
+  <category>personal-branding</category>
+  <category>career-development</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2025-09-24-personal-branding/</guid>
+  <pubDate>Wed, 24 Sep 2025 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2025-09-24-personal-branding/branding.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>A (thoughtful) chart is worth a thousand words</title>
   <dc:creator>Samantha Shanny-Csik</dc:creator>
