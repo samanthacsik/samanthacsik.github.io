@@ -9,7 +9,7 @@ author:
     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis and Synthesis
     affiliation-url: https://ucsb-meds.github.io/
 date: 2022-10-24
-categories: [MEDS, Quarto, blogging]
+categories: [MEDS, Quarto, blogging, career-development, personal-branding]
 image: penguins.png
 ---
 

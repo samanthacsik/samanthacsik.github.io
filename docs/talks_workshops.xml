@@ -426,6 +426,8 @@
   <category>MEDS</category>
   <category>Quarto</category>
   <category>blogging</category>
+  <category>career-development</category>
+  <category>personal-branding</category>
   <guid>https://samanthacsik.github.io/talks_workshops/2022-10-24-quarto-blogs/</guid>
   <pubDate>Mon, 24 Oct 2022 07:00:00 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/talks_workshops/2022-10-24-quarto-blogs/penguins.png" medium="image" type="image/png" height="81" width="144"/>
@@ -469,6 +471,8 @@
   <category>R</category>
   <category>Quarto</category>
   <category>CSS</category>
+  <category>career-development</category>
+  <category>personal-branding</category>
   <guid>https://samanthacsik.github.io/talks_workshops/2022-10-10-customizing-quarto-websites/</guid>
   <pubDate>Mon, 10 Oct 2022 07:00:00 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/talks_workshops/2022-10-10-customizing-quarto-websites/sass_css.png" medium="image" type="image/png" height="91" width="144"/>
@@ -514,6 +518,7 @@
   <category>MEDS</category>
   <category>R</category>
   <category>Quarto</category>
+  <category>career-development</category>
   <guid>https://samanthacsik.github.io/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/</guid>
   <pubDate>Fri, 05 Aug 2022 07:00:00 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/quarto_share.png" medium="image" type="image/png" height="81" width="144"/>
@@ -682,6 +687,7 @@
  ]]></description>
   <category>R-Ladies</category>
   <category>learning-communities</category>
+  <category>community-building</category>
   <category>data-wrangling</category>
   <category>data-visualization</category>
   <category>tidyverse</category>

@@ -14,7 +14,7 @@ author:
     affiliation: R-Ladies Santa Barbara
     affiliation-url: https://www.meetup.com/rladies-santa-barbara/
 date: 2019-05-15
-categories: [R-Ladies, learning-communities, data-wrangling, data-visualization, tidyverse]
+categories: [R-Ladies, learning-communities, community-building, data-wrangling, data-visualization, tidyverse]
 image: infinity.gif
 ---
 
