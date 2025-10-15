@@ -41,5 +41,5 @@ By the end of this course, learners should be able to:
 
 # When is this taught?
 
-EDS 240 is a [core course](https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds/meds-courses) of the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds) (MEDS) program, taught in Winter quarter each year (since the inaugural cohort, Winter 2022). I had so much fun redesigning and teaching it for the first time in Winter 2024, and I reflect on my experiences in my blog post, [Buiding (and teaching) a graduate-level data science course](https://samanthacsik.github.io/posts/2024-04-02-data-viz-course/).
+EDS 240 is a [core course](https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds/meds-courses) of the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science/academics-meds) (MEDS) program, taught in Winter quarter each year (since the inaugural cohort, Winter 2022). I had so much fun redesigning and teaching it for the first time in Winter 2024, and I reflect on my experiences in my blog post, [BuiLding (and teaching) a graduate-level data science course](https://samanthacsik.github.io/posts/2024-04-02-data-viz-course/).
 
