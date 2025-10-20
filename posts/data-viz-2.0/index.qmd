@@ -22,6 +22,7 @@ draft-mode: unlinked
   - lecture materials with templates and keys that pair with slides (organized in table)
   - pre-discussion prep
   - discussion materials (organized in table)
+- template .qmd files
 - HW4 option to propose your own project (HT: Max Czapanskiy)
 - started wiki
 - googlesheet for learning partners
