@@ -10,7 +10,7 @@
 <atom:link href="https://samanthacsik.github.io/courses.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Mon, 20 Oct 2025 22:43:31 GMT</lastBuildDate>
+<lastBuildDate>Thu, 06 Nov 2025 19:33:54 GMT</lastBuildDate>
 <item>
   <title>EDS 240 - Data Visualization &amp; Communication</title>
   <link>https://samanthacsik.github.io/courses/eds-240-data-viz/</link>
@@ -59,7 +59,7 @@
   <category>MEDS</category>
   <category>active-course</category>
   <guid>https://samanthacsik.github.io/courses/eds-240-data-viz/</guid>
-  <pubDate>Mon, 20 Oct 2025 22:43:31 GMT</pubDate>
+  <pubDate>Thu, 06 Nov 2025 19:33:54 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-240-data-viz/EDS240-hex-smaller.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -102,7 +102,7 @@
   <category>MEDS</category>
   <category>active-course</category>
   <guid>https://samanthacsik.github.io/courses/eds-296-shiny/</guid>
-  <pubDate>Mon, 20 Oct 2025 22:43:31 GMT</pubDate>
+  <pubDate>Thu, 06 Nov 2025 19:33:54 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-296-shiny/shiny-hex-small.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -174,7 +174,7 @@
   <category>MEDS</category>
   <category>inactive-course</category>
   <guid>https://samanthacsik.github.io/courses/eds-296-ds-portfolios/</guid>
-  <pubDate>Mon, 20 Oct 2025 22:43:31 GMT</pubDate>
+  <pubDate>Thu, 06 Nov 2025 19:33:54 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/eds-296-ds-portfolios/quarto-github.png" medium="image" type="image/png" height="80" width="144"/>
 </item>
 <item>
@@ -225,7 +225,7 @@
   <category>MEDS</category>
   <category>active-course</category>
   <guid>https://samanthacsik.github.io/courses/career-dev/</guid>
-  <pubDate>Mon, 20 Oct 2025 22:43:31 GMT</pubDate>
+  <pubDate>Thu, 06 Nov 2025 19:33:54 GMT</pubDate>
   <media:content url="https://samanthacsik.github.io/courses/career-dev/horst-bren-small.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
