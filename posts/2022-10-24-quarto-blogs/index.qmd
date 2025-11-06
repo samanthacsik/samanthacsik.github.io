@@ -329,7 +329,7 @@ Now that you have your listing page set up, we can start populating it with blog
 
 -   Your file path should look something like this: `myWebsite/posts/2022-10-24-my-blog-post/index.qmd`. This file is your blog post. Write all your content here!
 
-::: callout-note
+::: {.callout-note collapse="true"}
 ## **Why name your blog post file, `index.qmd`?**
 
 This is mostly important for maintaining short, clean URLs.
@@ -420,6 +420,7 @@ author:
 ---
 title: "blog post title" 
 description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+# I no longer need to include my authorship information here -- it'll automatically be applied from _metadata.yml!
 date: 10-24-2022
 categories: [Quarto, R, MEDS] 
 citation: 

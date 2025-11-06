@@ -256,7 +256,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">July 31, 2025</p>
+        <p class="date-modified">November 6, 2025</p>
       </div>
     </div>
       
@@ -674,18 +674,21 @@ NEW! Choose your own adventure instructions
 <li>Your file path should look something like this: <code>myWebsite/posts/2022-10-24-my-blog-post/index.qmd</code>. This file is your blog post. Write all your content here!</li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 <strong>Why name your blog post file, <code>index.qmd</code>?</strong>
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>This is mostly important for maintaining short, clean URLs.</p>
 <p>Let’s take this very blog post for example. The content that you’re reading right now is written to the file, <code>samanthacsik.github.io/posts/2022-10-24-quarto-blogs/index.qmd</code> (you can check it out on <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd" target="_blank">GitHub</a>), and the resulting URL is <a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/" class="uri">https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/</a>.</p>
 <p>If I named my blog post file something like, <code>my-blog-post.qmd</code> (<em>rather than <code>index.qmd</code></em>), the resulting URL would instead look like, <a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/my-blog-post.html" class="uri">https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/my-blog-post.html</a>. This isn’t necessarily <em>wrong</em> or broken, but it does result in a lengthier URL – and short URLs tend to be easier to remember.</p>
+</div>
 </div>
 </div>
 </section>
@@ -814,15 +817,16 @@ NEW! Choose your own adventure instructions
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"blog post title"</span> </span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>description<span class="sc">:</span> <span class="st">"blog post description (appears underneath the title in smaller text) which is included on the listing page"</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="dv">10-24-2022</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>categories<span class="sc">:</span> [Quarto, R, MEDS] </span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>citation<span class="sc">:</span> </span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  url<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>samanthacsik.github.io<span class="sc">/</span>posts<span class="sc">/</span><span class="dv">2022-10-24</span><span class="sc">-</span>my<span class="sc">-</span>blog<span class="sc">-</span>post<span class="sc">/</span> </span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> preview<span class="sc">-</span>image.png </span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>draft<span class="sc">:</span> false </span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>Here is where I will start writng my actual blog post content...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># I no longer need to include my authorship information here -- it'll automatically be applied from _metadata.yml!</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="dv">10-24-2022</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>categories<span class="sc">:</span> [Quarto, R, MEDS] </span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>citation<span class="sc">:</span> </span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  url<span class="sc">:</span> https<span class="sc">:</span><span class="er">//</span>samanthacsik.github.io<span class="sc">/</span>posts<span class="sc">/</span><span class="dv">2022-10-24</span><span class="sc">-</span>my<span class="sc">-</span>blog<span class="sc">-</span>post<span class="sc">/</span> </span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> preview<span class="sc">-</span>image.png </span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>draft<span class="sc">:</span> false </span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>Here is where I will start writng my actual blog post content...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
