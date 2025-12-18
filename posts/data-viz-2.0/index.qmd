@@ -1,14 +1,10 @@
 ---
-title: "Data Viz 2.0"
+title: "Data Viz 3.0"
 description: |
-  changes to EDS 240 in our second year
-author:
-  - name: Samantha Csik
-    url: https://samanthacsik.github.io/
-    orcid: 0000-0002-5300-3075
-date: 2024-10-16
+  changes to EDS 240 in our third (and final) year
+date: 2025-04-01
 citation: 
-  url: https://samanthacsik.github.io/posts/data-viz-2.0/
+  url: https://samanthacsik.github.io/posts/data-viz-3.0/
 categories: [MEDS, R, data-visualization, pedagogy, curriculum-development]
 # image: media/tbd
 draft: true
@@ -23,9 +19,11 @@ draft-mode: unlinked
   - pre-discussion prep
   - discussion materials (organized in table)
 - template .qmd files
-- HW4 option to propose your own project (HT: Max Czapanskiy)
 - started wiki
 - googlesheet for learning partners
 - Annie's token tracker
 - Annie's suggestion to use GradeScope
 - Collaborating with Alex on bringing in Affinity workshop
+- published all assignments at the start of the quarter 
+- revisions to grade tracker
+- AI integration / allowance
