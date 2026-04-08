@@ -3,23 +3,8 @@ title: "#stayrelevant"
 description: |
   How Santa Barbara R-Ladies keep up with changes in the R ecosystem [orginally published on the R-Ladies Global blog]
 author:
-  - name: Danielle Ferraro<sup>*+</sup>
-  - name: Colleen McCamy<sup>*+</sup>
-  - name: Samantha Shanny-Csik<sup>*+</sup>
-  - name: Camila Vargas Poulsen<sup>*+</sup>
-  - name: Annie Adams<sup>+</sup>
-  - name: Elise Gonzales<sup>+</sup>
-  - name: Olivia Ross<sup>+</sup>
-  - name: An Bui
-  - name: Carly Caswell
-  - name: Kristina Fauss
-  - name: Flora Hamilton
-  - name: Rachel King
-  - name: Kat Le
-  - name: Tracy Lyon
-  - name: Mary Megrant
-  - name: Ryan Munnikhuis
-date: 2026-03-13
+  - name: R-Ladies Santa Barbara (full author list at bottom of post)
+date: 2026-04-08
 slug: stay-relevant
 # citation: 
 #   url: https://www.openscapes.org/blog/2022/06/22/hello-quarto/
@@ -29,14 +14,8 @@ image: media/rladiessb-hex.png
 # draft-mode: unlinked
 ---
 
-::: {.small-text .center-text}
-<sup>*</sup>denotes the R-Ladies Santa Barbara co-organizing team, <sup>+</sup>indicates contributors to the writing and editing of this blog post. All others participated in the R-Ladies Santa Barbara Meetup discussion that inspired the content of this post.
-:::
-
-<br>
-
 ::: {.larger-text .center-text}
-*This blog post is cross-posted from the [R-Ladies Global blog](https://rladies.org/blog/).* ***[UPDATE LINK ONCE AVAILABLE]***
+*This blog post is cross-posted from the [R-Ladies Global blog](https://rladies.org/blog/2026/santabarbara-stayrelevant/){target="_blank"}.*
 :::
 
 <br>
@@ -210,3 +189,26 @@ How you #stayrelevant is less about integrating every new tool or approach, and 
 ## AI Disclosure
 
 This blog post was written and edited by members of R-Ladies Santa Barbara. Generative AI tools (e.g. ChatGPT) were used to assist with organizing and synthesizing discussion notes and occasionally to help refine the clarity of our writing.
+
+## Authors & Contributors
+
+  - [Danielle Ferraro](https://bsky.app/profile/dferraro.bsky.social){target="_blank}<sup>*+</sup>
+  - Colleen McCamy<sup>*+</sup>
+  - [Samantha Shanny-Csik](https://samanthacsik.github.io/){target="_blank}<sup>*+</sup>
+  - Camila Vargas Poulsen<sup>*+</sup>
+  - Annie Adams<sup>+</sup>
+  - Elise Gonzales<sup>+</sup>
+  - [Olivia Ross](https://bsky.app/profile/olross.bsky.social){target="_blank}<sup>+</sup>
+  - An Bui
+  - Carly Caswell
+  - Kristina Fauss
+  - Flora Hamilton
+  - [Rachel King](https://www.linkedin.com/in/kingra00/){target="_blank"}
+  - Kat Le
+  - Tracy Lyon
+  - Mary Megrant
+  - Ryan Munnikhuis
+
+::: {.small-text .center-text}
+<sup>*</sup>denotes the R-Ladies Santa Barbara co-organizing team, <sup>+</sup>indicates contributors to the writing and editing of this blog post. All others participated in the R-Ladies Santa Barbara Meetup discussion that inspired the content of this post.
+:::
