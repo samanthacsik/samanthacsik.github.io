@@ -1,6 +1,6 @@
 ---
 title: "Creating your personal website using Quarto"
-description: "RLadies+ Santa Barbara Meetup"
+description: "A crash course in Quarto website dev for RLadies+ Santa Barbara"
 author:
   - name: Samantha Shanny-Csik
     orcid: 0000-0002-5300-3075 
