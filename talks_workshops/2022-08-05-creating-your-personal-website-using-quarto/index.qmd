@@ -32,10 +32,10 @@ Art by [Allison Horst](https://allisonhorst.com/)
 [{{< fa file-alt title="A file with lines of text" >}} materials](https://ucsb-meds.github.io/creating-quarto-websites/){.btn role="button" target="_blank"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/creating-quarto-websites){.btn role="button" target="_blank"} 
 :::
 
-# Abstract
+## Description
 
 A personal website is not only a great way to showcase your experiences and skills, but also gives people (potential employers included!) a better sense of who you are as a person. There are lots of great tools for building websites using R (e.g. `{distill}`, `{blogdown}`) -- this year, we'll be using [Quarto](https://quarto.org/){target="_blank"}, an exciting, new, and versatile publishing tool that supports R, Python, Julia, and ObservableJS. Want to get started on building your own website using Quarto? Check out this [tutorial](https://ucsb-meds.github.io/creating-quarto-websites/){target="_blank"}.
 
-# Audience
+## Audience
 
 This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target="_blank"}, administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target="_blank"} in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/){target="_blank"}.

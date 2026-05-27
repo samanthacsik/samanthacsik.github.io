@@ -49,13 +49,12 @@ xaringanExtra::embed_xaringan(
 [{{< fa tv title="A television screen" >}} slides](https://samanthacsik.github.io/just-enough-css-sass/#/title-slide){.btn role="button" target="_blank"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/just-enough-css-sass){.btn role="button" target="_blank"}
 :::
 
-
-# Abstract
+## Description
 
 While many of us in the broader data science community may not consider ourselves web developers, tools like Quarto and GitHub have made it more approachable than ever before to create, publish, and share HTML web pages. The default styling of these web pages is pretty sleek -- but knowing even just a little bit of CSS can help you transform your reports, websites, blog posts, presentation slides, etc. into personalized and stand-out web products.
 
 In this workshop-style Roundtable, we'll first introduce and interact with some HTML and CSS, the building blocks of all web pages. We'll then learn about how Sass extends CSS features to help simplify our stylesheets. Finally, we'll practice writing Sass and CSS to style a Quarto Markdown (`.qmd`) report.
 
-# Audience
+## Audience
 
 This workshop was delivered to NCEAS residents and staff during the monthly [Roundtable](https://www.nceas.ucsb.edu/roundtable){target="_blank"} seminar. Roundtable is a series of informal presentations and discussions on a wide variety of topics related to current work happening at NCEAS. Sign up for the [Google Group](https://groups.google.com/a/nceas.ucsb.edu/g/roundtable){target="_blank"} to receive announcements of upcoming Roundtables.

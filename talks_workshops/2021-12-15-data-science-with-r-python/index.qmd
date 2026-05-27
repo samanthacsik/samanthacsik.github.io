@@ -52,10 +52,10 @@ knitr::include_graphics("cover_slide.png")
 <!-- </div> -->
 <!-- </div> -->
 
-# Overview
+## Description
 
 This workshop was the result of a collaborative effort between the [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/events/281807986/){target="_blank"} and [Central Coast Python Meetup](https://www.meetup.com/central-coast-python/){target="_blank"} groups. A special thanks to Sean Helvey for connecting with us to make this happen!
 
-# Abstract 
+## Abstract 
 
 Python can be a powerful alternative/complementary language to R, and while we here at R-Ladies are certainly partial to the latter, adding another language to our data science toolkit is something we are always excited for. In this R to Python (and vice versa) translation workshop, we learn to wrangle and visualize the same dataset using both languages.

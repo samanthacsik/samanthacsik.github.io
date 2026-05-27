@@ -10,7 +10,61 @@
 <atom:link href="https://samanthacsik.github.io/talks_workshops.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Wed, 13 May 2026 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 27 May 2027 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>R who?? Getting started with Python</title>
+  <dc:creator>Samantha Shanny-Csik</dc:creator>
+  <dc:creator>Kat Le</dc:creator>
+  <link>https://samanthacsik.github.io/talks_workshops/2026-05-27-intro-to-python/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://samanthacsik.github.io/talks_workshops/2026-05-27-intro-to-python/Python-logo-large.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:20.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="center-text small-text gray-italic">
+<p>The Python logo</p>
+</div>
+<div class="center-text">
+<p><a href="https://ucsb-meds.github.io/intro-to-python/" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/UCSB-MEDS/intro-to-python" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
+</div>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>Setting up your computer is oftentimes one of the biggest hurdles to starting your Python programming journey. In this intro workshop, we’ll discuss important terminology, concepts and tools, and learn how to set up our machines to begin programming in Python.</p>
+</section>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
+<p>This workshop was developed primarily for Bren MESM and PhD students looking to get statrted wtih Python on their own computers, though we imagine they may be helpful for anyone looking to dip their toes into the Python programming world!</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{shanny-csik2027,
+  author = {Shanny-Csik, Samantha and Le, Kat},
+  title = {R Who?? {Getting} Started with {Python}},
+  date = {2027-05-27},
+  url = {https://samanthacsik.github.io/talks_workshops/2027-05-27-intro-to-python/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-shanny-csik2027" class="csl-entry quarto-appendix-citeas">
+Shanny-Csik, Samantha, and Kat Le. 2027. <span>“R Who?? Getting Started
+with Python.”</span> May 27. <a href="https://samanthacsik.github.io/talks_workshops/2027-05-27-intro-to-python/">https://samanthacsik.github.io/talks_workshops/2027-05-27-intro-to-python/</a>.
+</div></div></section></div> ]]></description>
+  <category>Bren</category>
+  <category>Python</category>
+  <guid>https://samanthacsik.github.io/talks_workshops/2026-05-27-intro-to-python/</guid>
+  <pubDate>Thu, 27 May 2027 07:00:00 GMT</pubDate>
+  <media:content url="https://samanthacsik.github.io/talks_workshops/2026-05-27-intro-to-python/Python-logo.png" medium="image" type="image/png" height="92" width="144"/>
+</item>
 <item>
   <title>Creating your personal website using Quarto</title>
   <dc:creator>Samantha Shanny-Csik</dc:creator>
@@ -36,8 +90,8 @@
 <div class="center-text">
 <p><a href="https://samanthacsik.github.io/RLadiesSB-quarto-websites/" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/samanthacsik/RLadiesSB-quarto-websites" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>A personal website is a great way to showcase your data science skills, highlight projects, and share what you’re passionate about. In this workshop, we’ll learn to build a personal website using Quarto, an accessible and flexible publishing framework, to help you get started. Together, we’ll:</p>
 <ul>
 <li>Build the core components of a Quarto website</li>
@@ -99,12 +153,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://docs.google.com/presentation/d/1vhRnICrX_i1tarCA3rHrpNgpteckC5VX_nZQxMjyAM8/edit?slide=id.p#slide=id.p" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Success in environmental data science—and in your career more broadly—requires more than technical expertise. It also takes self-awareness, a clear understanding of your strengths and values, and a personal brand that reflects the impact you want to make. By intentionally crafting your personal brand, you ensure that others understand not only what you do, but why it matters and the unique value you bring. In this workshop, we’ll begin developing personal branding guides that highlight the core messages we want to communicate about ourselves and establish a visual style to help us connect with our intended audience(s).</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>This workshop is just one small piece of a larger <a href="https://ucsb-meds.github.io/career-professional-dev/" target="_blank">Career &amp; Professional Development Workshop Series</a> for <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science" target="_blank">Master of Environmental Data Science</a> (MEDS) students. This workshop series is a collaborative effort between the Bren Career Services Team (Miya Scheble, Amanda Asquith-Caya, Dave Parker) and myself, designed to support student career readiness.</p>
 
 
@@ -144,12 +198,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://docs.google.com/presentation/d/17X_qZv9OOQ61b6NWXWnd-BEAdNLLWBI_1ay9bQFG-Co/edit?slide=id.p#slide=id.p" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Before ever touching a computer or writing a line of code, it’s helpful (and important!) to begin by thinking intentionally about the story you want to tell, and how best to tell it. In this workshop, we’ll consider a variety of different visualizations and discuss which design elements and decisions most effectively communicate insights and engage audiences. We’ll then review some strategies for designing clear and compelling charts, and begin brainstorming ways to visually communicate key insights from your own BEL research projects.</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>This workshop was originally developed for the the 2025 <a href="https://bren.ucsb.edu/undergrad-mentoring/bren-environmental-leadership-bel-program">Bren Environmental Leadership (BEL) fellows</a>. The BEL program aims to increase the representation of first-generation, low-income, and underrepresented students pursuing careers in the environmental field and natural sciences. As part of the program, undergraduate fellows receive mentorship from graduate students, conduct a summer research project, and participate in professional development workshops and community-building events. <a href="https://docs.google.com/presentation/d/11uF9ZQadJQBSM7_1ab4RUhMpTJsNp2VpFt2oAfMnbJs/edit?usp=sharing" target="_blank">A version</a> of this workshop was given to the undergraduate students in <a href="https://bren.ucsb.edu/people/max-czapanskiy" target="_blank">Max Czapanskiy</a>’s Marine Policy course in Fall 2025.</p>
 
 
@@ -188,12 +242,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://docs.google.com/presentation/d/15FiZtLyONtLjxCweccKYM0fDwaNILXbbeNsVIDLUUrM/edit?usp=sharing" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p><strong><em>How do you build a learning community and support network when it doesn’t obviously exist?</em></strong> As a budding data science learner, I struggled to navigate unfamiliar tools, concepts, and spaces alone. Drawing on these early challenges, I’ll share some lessons learned and practical strategies for identifying and joining inclusive groups, creating your own learning spaces, and contributing to shared growth. You’ll leave with ideas for intentionally building and nurturing communities that create richer, more joyful experiences for everyone.</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>I delivered this keynote talk during the <a href="https://www.paliisads.org/home" target="_blank">Pacific Alliance for Low-income Inclusion in Statitics and Data Science</a> (PALiISaDS), <a href="https://www.paliisads.org/events/prism" target="_blank">Professional Readiness, Inclusive Scholarship, and Mentorship</a> (PRISM) event in May 2025. PALiISaDS is an NSF-funded alliance of schools that aims to increase degree completion for low-income, high-achieving undergraduates pursuing degrees in Statistics and Data Science. The year-end PRISM event brings the scholars from across California and in Washington to an in-person event for workshops, a career panel, and networking opportunities.</p>
 
 
@@ -230,12 +284,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://samanthacsik.github.io/OHI-quarto-websites/" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/samanthacsik/OHI-quarto-websites" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>This workshop is meant to introduce Quarto as a tool and framework for building websites. It has been tailored (from it’s <a href="https://ucsb-meds.github.io/creating-quarto-websites/">previous version</a>) to serve <a href="https://oceanhealthindex.org/">Ocean Health Index</a> (OHI) <a href="https://oceanhealthindex.org/about/ohifellows/">fellows</a> in building websites to organize, house, and better share OHI methodology. We walk through the steps of creating the essential building blocks of any Quarto website, configuring website navigation menus, deploying a website (for free) using GitHub Pages, using Sass to update website fonts and colors, and a few other helpful tips and tricks.</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>This workshop was delivered to the 2024 <a href="https://oceanhealthindex.org/about/ohifellows/">Ocean Health Index fellows</a>, a group of three early-career data scientists who work to calculate the latest OHI scores and improve workflows and methodology (among other exciting and innovative work). They are based at the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a> from May - September.</p>
 
 
@@ -287,13 +341,13 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://samanthacsik.github.io/just-enough-css-sass/#/title-slide" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a> <a href="https://github.com/samanthacsik/just-enough-css-sass" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>While many of us in the broader data science community may not consider ourselves web developers, tools like Quarto and GitHub have made it more approachable than ever before to create, publish, and share HTML web pages. The default styling of these web pages is pretty sleek – but knowing even just a little bit of CSS can help you transform your reports, websites, blog posts, presentation slides, etc. into personalized and stand-out web products.</p>
 <p>In this workshop-style Roundtable, we’ll first introduce and interact with some HTML and CSS, the building blocks of all web pages. We’ll then learn about how Sass extends CSS features to help simplify our stylesheets. Finally, we’ll practice writing Sass and CSS to style a Quarto Markdown (<code>.qmd</code>) report.</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>This workshop was delivered to NCEAS residents and staff during the monthly <a href="https://www.nceas.ucsb.edu/roundtable" target="_blank">Roundtable</a> seminar. Roundtable is a series of informal presentations and discussions on a wide variety of topics related to current work happening at NCEAS. Sign up for the <a href="https://groups.google.com/a/nceas.ucsb.edu/g/roundtable" target="_blank">Google Group</a> to receive announcements of upcoming Roundtables.</p>
 
 
@@ -334,13 +388,13 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://samanthacsik.github.io/SORTEE-May2023/" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/samanthacsik/SORTEE-May2023" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>JavaScript, a programming language used to create dynamic web page content, is becoming an increasingly popular data science tool for building interactive data visualizations. However, learning an entirely new programming language can be time prohibitive and unrealistic for many researchers. Lucky for R users, there’s an app (well, R packages) for that!</p>
 <p>In this hands-on live-coding workshop, we’ll explore the {DT}, {plotly}, and {leaflet} packages, which make JavaScript libraries more accessible for R-users looking to infuse their static visualizations with interactivity. Together, we’ll build an interactive table, plot, and map, and demonstrate how these outputs can be shared using open data science communication tools, like RMarkdown and Quarto.</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>This workshop was developed for and taught during the <a href="https://www.sortee.org/other_events/" target="_blank">SORTEE Workshops and Webinar</a> series.</p>
 
 
@@ -381,12 +435,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://ucsb-meds.github.io/functions-workshop/" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/UCSB-MEDS/functions-workshop" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>As your data processing and analyses get longer and more complex, the chances that you’ll benefit from writing functions and/or for loops will also increase. However, whether you’re a new learner or seasoned programmer, it can sometimes feel overwhelming to know exactly where to start – especially when you have an end goal that builds additional complexity/flexibility into your functions and for loops. Taking an iterative approach to building out your code can help make this process clearer, less daunting, and more fun. In this workshop, we’ll use one case study to practice breaking down the function and for loop writing process into manageable, bite-sized steps.</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>This workshop was originally developed for the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
 
 
@@ -427,12 +481,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://ucsb-meds.github.io/ggplot2-workflow/" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/UCSB-MEDS/ggplot2-workflow/tree/main" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p><code>{ggplot2}</code> has, in many ways, become the de facto tool for data visualization in R. And with the many extension packages available, there’s hardly a limit to what you can create. Building effective and visually-pleasing data visualizations is a skill that gets easier with practice, and following a somewhat structured workflow – at least at the start – can help you get there faster. This workshop covers one approach for doing so, though you’ll find what works best for you with time.</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>This workshop was originally developed for the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
 
 
@@ -473,12 +527,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/" class="btn" target="_blank"><i class="fa-solid fa-blog" title="The blog symbol" aria-label="blog"></i> blogpost</a> <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Blogging about your data science adventures has <strong>a lot</strong> of benefits – it can help you to build your online profile/portfolio, practice your writing and communication skills, stay atop data science trends, solicit feedback from the community, network, learn new skills and/or solidify understanding, combat imposter syndrome, etc. In this workshop, we’ll learn how to add a blog to our Quarto website, customize posts, and (hopefully) get inspired to begin our blogging journeys!</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>This workshop was originally developed for the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis and Synthesis</a>.</p>
 
 
@@ -517,12 +571,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a> <a href="https://github.com/UCSB-MEDS/customizing-quarto-websites" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Quarto provides a user-friendly framework for creating your personal website – but adding your own creative touch can help make yours stand out from the rest. In this workshop, we learn how to (a) add a template to our landing page and update the <code>_quarto.yml</code> file to quickly add fun features/update the overall layout of our website, (b) create a stylesheet and define Sass variables to start modifying the overall theme (colors, fonts, etc) of our site, and (c) define CSS rules to make fine-tuned adjustments to our site’s appearance.</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>This workshop was originally developed for the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science" target="_blank">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science" target="_blank">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/" target="_blank">National Center for Ecological Analysis and Synthesis</a>.</p>
 
 
@@ -565,12 +619,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://ucsb-meds.github.io/creating-quarto-websites/" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/UCSB-MEDS/creating-quarto-websites" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>A personal website is not only a great way to showcase your experiences and skills, but also gives people (potential employers included!) a better sense of who you are as a person. There are lots of great tools for building websites using R (e.g.&nbsp;<code>{distill}</code>, <code>{blogdown}</code>) – this year, we’ll be using <a href="https://quarto.org/" target="_blank">Quarto</a>, an exciting, new, and versatile publishing tool that supports R, Python, Julia, and ObservableJS. Want to get started on building your own website using Quarto? Check out this <a href="https://ucsb-meds.github.io/creating-quarto-websites/" target="_blank">tutorial</a>.</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>This workshop was originally developed for the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science" target="_blank">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science" target="_blank">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/" target="_blank">National Center for Ecological Analysis and Synthesis</a>.</p>
 
 
@@ -607,12 +661,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://ucsb-meds.github.io/cloud-computing/#1" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a> <a href="https://github.com/UCSB-MEDS/cloud-computing" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>“The Cloud” is a buzzword we often hear, but maybe don’t quite understand. In this workshop, we’ll learn a bit about what cloud computing means and what it can look like, how to launch a virtual machine (i.e.&nbsp;an instance) using Amazon Web Services (AWS), and how we can leverage more powerful computers (e.g.&nbsp;the cloud) to run computationally-intensive processes in less time.</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>This workshop was originally developed for the <a href="https://ucsb-meds.github.io/">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science" target="_blank">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/" target="_blank">National Center for Ecological Analysis and Synthesis</a>.</p>
 
 
@@ -650,12 +704,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://ucsb-meds.github.io/IDE-tips-and-tricks/#/title-slide" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a> <a href="https://github.com/UCSB-MEDS/IDE-tips-and-tricks" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>As environmental data scientists, we spend a lot of time in RStudio. Taking some time to learn how you can customize your RStudio IDE (<strong>I</strong>ntegrated <strong>D</strong>evelopment <strong>E</strong>nvironment) and the keyboard shortcuts used to navigate around that IDE can make you a more efficient (and happier) hacker!</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>These materials were originally developed for the <a href="https://ucsb-meds.github.io/" target="_blank">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science" target="_blank">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/" target="_blank">National Center for Ecological Analysis and Synthesis</a>.</p>
 
 
@@ -690,12 +744,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://ucsb-meds.github.io/teach-me-how-to-google/#/title-slide" class="btn" target="_blank"><i class="fa-solid fa-tv" title="A television screen" aria-label="tv"></i> slides</a> <a href="https://github.com/UCSB-MEDS/teach-me-how-to-google" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Googling for code help is something that all data scientists (at all career stages) do. And for new learners in the age of AI, developing strong troubleshooting skills and search strategies is essential for building independence and critical thinking. But learning how to ask the right questions and get useful answers can be tricky, particularly for new programmers. In this presentation, we’ll explore practical techniques for refining your searches, diagnosing erors, and increasing your chances at fining helpful, relevant solutions.</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>This talk was originally developed for the <a href="https://ucsb-meds.github.io/" target="_blank">Master of Environmental Data Science (MEDS) program</a>, administered by the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science" target="_blank">Bren School of Environmental Science &amp; Management</a> in partnership with the <a href="https://www.nceas.ucsb.edu/" target="_blank">National Center for Ecological Analysis and Synthesis</a>. Previous adapatations for various non-MEDS audiences can be found in a <a href="https://samanthacsik.github.io/teach-me-how-to-google/" target="_blank">separate repository</a>.</p>
 <!-- While it's undergone a series of iterations over the years, the most substantial revamp came in 2025 as the MEDS program Curriculum Cohesion Committee strategized aroudn how to prirotizie foundational data and critical thinking skills early on, and that we also need to offer more support to promote responsible GenAI use as they year progresses. -->
 
@@ -735,12 +789,12 @@ Quarto.”</span> May 13. <a href="https://samanthacsik.github.io/talks_workshop
 <div class="center-text">
 <p><a href="https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse" class="btn" target="_blank"><i class="fa-solid fa-file-alt" title="A file with lines of text" aria-label="file-alt"></i> materials</a> <a href="https://github.com/samanthacsik/Intro-to-the-Tidyverse" class="btn" target="_blank"><i class="fa-brands fa-github" title="Octocat, the GitHub logo" aria-label="github"></i> source code</a></p>
 </div>
-<section id="abstract" class="level1">
-<h1>Abstract</h1>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>In this live-coding workshop, we teach useful functions for data tidying, wrangling and visualization using tidyverse packages &amp; functions (e.g.&nbsp;<code>dplyr</code>, <code>tidyr</code>, <code>ggplot2</code>, <code>forcats</code>, etc.). This session is intended for R users at any level, whether it’s your first time exploring the tidyverse or if you’re refreshing your wrangling skills!</p>
 </section>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="audience" class="level2">
+<h2 class="anchored" data-anchor-id="audience">Audience</h2>
 <p>My <em>very first time</em> (co)leading an R-based live-coding workshop(!) and the experience that got me hooked on teaching R / data science 💜, given to <a href="https://www.meetup.com/rladies-santa-barbara/events/260710376/">R-Ladies Santa Barbara</a>. This workshop was special for a lot of reasons, but the one that stands out the most was learning to overcome the nerves (and general feelings of being too inexperienced), with my very best learning partner by my side. Despite being in separate labs and offices throughout grad school, An and I quickly became data science accountability-buddies, course crashers, and collaborators. I will forever credit my successful journey into the environmental data science / teaching space to this friendship.</p>
 
 

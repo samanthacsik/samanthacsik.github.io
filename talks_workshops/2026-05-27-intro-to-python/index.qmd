@@ -1,0 +1,44 @@
+---
+title: "R who?? Getting started with Python"
+description: "A quick intro, primarily focused on getting your computer set up to successfully run Python code"
+author:
+  - name: Samantha Shanny-Csik
+    orcid: 0000-0002-5300-3075 
+    url: https://samanthacsik.github.io/
+    affiliation: Bren School of Environmental Science & Management
+    affiliation-url: https://bren.ucsb.edu/
+  - name: Kat Le
+    url: https://github.com/katleyq
+    affiliation: Bren School of Environmental Science & Management
+    affiliation-url: https://bren.ucsb.edu/
+date: 2027-05-27
+citation: 
+  url: https://samanthacsik.github.io/talks_workshops/2027-05-27-intro-to-python/
+categories: [Bren, Python]
+image: Python-logo.png
+---
+
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "20%" 
+knitr::include_graphics("Python-logo-large.png")
+```
+
+::: {.center-text .small-text .gray-italic}
+The Python logo
+:::
+
+::: {.center-text}
+[{{< fa file-alt title="A file with lines of text" >}} materials](https://ucsb-meds.github.io/intro-to-python/){.btn role="button" target="_blank"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/intro-to-python){.btn role="button" target="_blank"} 
+:::
+
+## Description
+
+Setting up your computer is oftentimes one of the biggest hurdles to starting your Python programming journey. In this intro workshop, we'll discuss important terminology, concepts and tools, and learn how to set up our machines to begin programming in Python.
+
+## Audience
+
+This workshop was developed primarily for Bren MESM and PhD students looking to get statrted wtih Python on their own computers, though we imagine they may be helpful for anyone looking to dip their toes into the Python programming world!
+

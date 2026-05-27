@@ -30,95 +30,99 @@
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2023-03-16-ggplot2/index.html</loc>
-    <lastmod>2025-09-17T04:22:00.139Z</lastmod>
+    <lastmod>2026-05-27T17:16:08.321Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2023-05-23-js-in-r/index.html</loc>
-    <lastmod>2025-08-07T03:27:29.706Z</lastmod>
+    <lastmod>2026-05-27T17:14:36.636Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2019-05-15-intro-to-the-tidyverse/index.html</loc>
-    <lastmod>2026-05-13T20:36:59.248Z</lastmod>
+    <lastmod>2026-05-27T17:20:25.663Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2023-04-14-functions-forloops/index.html</loc>
-    <lastmod>2025-09-17T04:22:12.643Z</lastmod>
+    <lastmod>2026-05-27T17:15:07.006Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2022-10-10-customizing-quarto-websites/index.html</loc>
-    <lastmod>2025-09-25T16:24:37.067Z</lastmod>
+    <lastmod>2026-05-27T17:16:57.677Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2025-09-24-personal-branding/index.html</loc>
-    <lastmod>2025-09-24T23:42:10.351Z</lastmod>
+    <lastmod>2026-05-27T17:12:53.122Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2024-05-17-OHI-quarto-websites/index.html</loc>
-    <lastmod>2025-08-07T03:27:09.854Z</lastmod>
+    <lastmod>2026-05-27T17:14:48.751Z</lastmod>
   </url>
   <url>
-    <loc>https://samanthacsik.github.io/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/index.html</loc>
-    <lastmod>2025-09-25T16:22:21.067Z</lastmod>
+    <loc>https://samanthacsik.github.io/talks_workshops/2022-10-24-quarto-blogs/index.html</loc>
+    <lastmod>2026-05-27T17:16:37.796Z</lastmod>
   </url>
   <url>
-    <loc>https://samanthacsik.github.io/posts/2022-06-22-hello-quarto/index.html</loc>
-    <lastmod>2025-03-31T19:24:24.838Z</lastmod>
+    <loc>https://samanthacsik.github.io/talks_workshops/2023-08-03-just-enough-css/index.html</loc>
+    <lastmod>2026-05-27T17:14:23.724Z</lastmod>
   </url>
   <url>
-    <loc>https://samanthacsik.github.io/posts/2024-04-02-data-viz-course/index.html</loc>
-    <lastmod>2025-03-31T19:29:07.376Z</lastmod>
-  </url>
-  <url>
-    <loc>https://samanthacsik.github.io/posts/r-ladies-stayrelevant/index.html</loc>
-    <lastmod>2026-04-08T20:09:22.118Z</lastmod>
-  </url>
-  <url>
-    <loc>https://samanthacsik.github.io/courses.html</loc>
-    <lastmod>2025-08-07T18:54:39.164Z</lastmod>
-  </url>
-  <url>
-    <loc>https://samanthacsik.github.io/posts/2023-08-01-openscapes-website/index.html</loc>
-    <lastmod>2025-03-31T19:28:36.126Z</lastmod>
-  </url>
-  <url>
-    <loc>https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/index.html</loc>
-    <lastmod>2025-11-06T19:41:49.505Z</lastmod>
+    <loc>https://samanthacsik.github.io/talks_workshops/2025-08-06-datastorytelling/index.html</loc>
+    <lastmod>2026-05-27T17:13:04.923Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/posts/2021-09-21-distill-blogs/index.html</loc>
     <lastmod>2025-03-31T19:27:23.825Z</lastmod>
   </url>
   <url>
-    <loc>https://samanthacsik.github.io/talks_workshops/2025-08-06-datastorytelling/index.html</loc>
-    <lastmod>2025-10-20T22:43:07.252Z</lastmod>
+    <loc>https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/index.html</loc>
+    <lastmod>2025-11-06T19:41:49.505Z</lastmod>
   </url>
   <url>
-    <loc>https://samanthacsik.github.io/talks_workshops/2023-08-03-just-enough-css/index.html</loc>
-    <lastmod>2025-08-07T03:27:20.072Z</lastmod>
+    <loc>https://samanthacsik.github.io/posts/2023-08-01-openscapes-website/index.html</loc>
+    <lastmod>2025-03-31T19:28:36.126Z</lastmod>
   </url>
   <url>
-    <loc>https://samanthacsik.github.io/talks_workshops/2022-10-24-quarto-blogs/index.html</loc>
-    <lastmod>2025-09-25T16:24:13.983Z</lastmod>
+    <loc>https://samanthacsik.github.io/courses.html</loc>
+    <lastmod>2025-08-07T18:54:39.164Z</lastmod>
+  </url>
+  <url>
+    <loc>https://samanthacsik.github.io/posts/r-ladies-stayrelevant/index.html</loc>
+    <lastmod>2026-04-08T20:09:22.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://samanthacsik.github.io/posts/2024-04-02-data-viz-course/index.html</loc>
+    <lastmod>2025-03-31T19:29:07.376Z</lastmod>
+  </url>
+  <url>
+    <loc>https://samanthacsik.github.io/posts/2022-06-22-hello-quarto/index.html</loc>
+    <lastmod>2025-03-31T19:24:24.838Z</lastmod>
+  </url>
+  <url>
+    <loc>https://samanthacsik.github.io/talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/index.html</loc>
+    <lastmod>2026-05-27T17:17:10.371Z</lastmod>
+  </url>
+  <url>
+    <loc>https://samanthacsik.github.io/talks_workshops/2026-05-27-intro-to-python/index.html</loc>
+    <lastmod>2026-05-27T17:12:03.438Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2021-11-15-ide-tips-tricks/index.html</loc>
-    <lastmod>2025-08-07T03:28:49.666Z</lastmod>
+    <lastmod>2026-05-27T17:18:28.790Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2021-10-11-teach-me-how-to-google/index.html</loc>
-    <lastmod>2025-08-07T03:16:32.026Z</lastmod>
+    <lastmod>2026-05-27T17:18:40.078Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2026-05-13-rladies-quarto-sites/index.html</loc>
-    <lastmod>2026-05-13T21:19:53.614Z</lastmod>
+    <lastmod>2026-05-27T17:07:07.325Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2022-04-18-intro-to-cloud-computing/index.html</loc>
-    <lastmod>2025-08-07T03:28:18.987Z</lastmod>
+    <lastmod>2026-05-27T17:17:23.784Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/talks_workshops/2025-05-03-PALiISaDS/index.html</loc>
-    <lastmod>2025-08-13T17:42:18.600Z</lastmod>
+    <lastmod>2026-05-27T17:13:15.537Z</lastmod>
   </url>
   <url>
     <loc>https://samanthacsik.github.io/projects/2023-02-15-bren-student-data-explorer/index.html</loc>

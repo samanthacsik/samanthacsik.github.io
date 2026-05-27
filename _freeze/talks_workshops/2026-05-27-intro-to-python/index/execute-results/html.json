@@ -1,0 +1,15 @@
+{
+  "hash": "b619b8a4076197dcbcaba3a6f8ca3945",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"R who?? Getting started with Python\"\ndescription: \"A quick intro, primarily focused on getting your computer set up to successfully run Python code\"\nauthor:\n  - name: Samantha Shanny-Csik\n    orcid: 0000-0002-5300-3075 \n    url: https://samanthacsik.github.io/\n    affiliation: Bren School of Environmental Science & Management\n    affiliation-url: https://bren.ucsb.edu/\n  - name: Kat Le\n    url: https://github.com/katleyq\n    affiliation: Bren School of Environmental Science & Management\n    affiliation-url: https://bren.ucsb.edu/\ndate: 2027-05-27\ncitation: \n  url: https://samanthacsik.github.io/talks_workshops/2027-05-27-intro-to-python/\ncategories: [Bren, Python]\nimage: Python-logo.png\n---\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](Python-logo-large.png){fig-align='center' width=20%}\n:::\n:::\n\n\n::: {.center-text .small-text .gray-italic}\nThe Python logo\n:::\n\n::: {.center-text}\n[{{< fa file-alt title=\"A file with lines of text\" >}} materials](https://ucsb-meds.github.io/intro-to-python/){.btn role=\"button\" target=\"_blank\"} [{{< fa brands github title=\"Octocat, the GitHub logo\" >}} source code](https://github.com/UCSB-MEDS/intro-to-python){.btn role=\"button\" target=\"_blank\"} \n:::\n\n## Description\n\nSetting up your computer is oftentimes one of the biggest hurdles to starting your Python programming journey. In this intro workshop, we'll discuss important terminology, concepts and tools, and learn how to set up our machines to begin programming in Python.\n\n## Audience\n\nThis workshop was developed primarily for Bren MESM and PhD students looking to get statrted wtih Python on their own computers, though we imagine they may be helpful for anyone looking to dip their toes into the Python programming world!\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

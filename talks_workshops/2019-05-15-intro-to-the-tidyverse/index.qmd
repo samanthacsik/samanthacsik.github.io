@@ -37,11 +37,11 @@ An Bui and I getting ready to teach our very first R workshop to R-Ladies SB, ho
 [{{< fa file-alt title="A file with lines of text" >}} materials](https://rpubs.com/scsik/RladiesSB-intro-to-the-tidyverse){.btn role="button" target=_blank} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/Intro-to-the-Tidyverse){.btn role="button" target=_blank} 
 :::
 
-# Abstract 
+## Description 
 
 In this live-coding workshop, we teach useful functions for data tidying, wrangling and visualization using tidyverse packages & functions (e.g. `dplyr`, `tidyr`, `ggplot2`, `forcats`, etc.). This session is intended for R users at any level, whether it's your first time exploring the tidyverse or if you're refreshing your wrangling skills!
 
-# Audience
+## Audience
 
 My *very first time* (co)leading an R-based live-coding workshop(!) and the experience that got me hooked on teaching R / data science 💜, given to [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/events/260710376/). This workshop was special for a lot of reasons, but the one that stands out the most was learning to overcome the nerves (and general feelings of being too inexperienced), with my very best learning partner by my side. Despite being in separate labs and offices throughout grad school, An and I quickly became data science accountability-buddies, course crashers, and collaborators. I will forever credit my successful journey into the environmental data science / teaching space to this friendship. 
 

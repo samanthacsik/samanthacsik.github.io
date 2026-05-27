@@ -31,7 +31,7 @@ An example Quarto website that we'll practice building together.
 [{{< fa file-alt title="A file with lines of text" >}} materials](https://samanthacsik.github.io/RLadiesSB-quarto-websites/){.btn role="button" target="_blank"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/RLadiesSB-quarto-websites){.btn role="button" target="_blank"} 
 :::
 
-## Abstract
+## Description
 
 A personal website is a great way to showcase your data science skills, highlight projects, and share what you’re passionate about. In this workshop, we’ll learn to build a personal website using Quarto, an accessible and flexible publishing framework, to help you get started. Together, we’ll:
 

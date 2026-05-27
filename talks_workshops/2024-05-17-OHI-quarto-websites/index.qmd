@@ -28,10 +28,10 @@ knitr::include_graphics("ohi-quarto-green.png")
 [{{< fa file-alt title="A file with lines of text" >}} materials](https://samanthacsik.github.io/OHI-quarto-websites/){.btn role="button" target="_blank"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/samanthacsik/OHI-quarto-websites){.btn role="button" target="_blank"} 
 :::
 
-# Abstract
+## Description
 
 This workshop is meant to introduce Quarto as a tool and framework for building websites. It has been tailored (from it’s [previous version](https://ucsb-meds.github.io/creating-quarto-websites/)) to serve [Ocean Health Index](https://oceanhealthindex.org/) (OHI) [fellows](https://oceanhealthindex.org/about/ohifellows/) in building websites to organize, house, and better share OHI methodology. We walk through the steps of creating the essential building blocks of any Quarto website, configuring website navigation menus, deploying a website (for free) using GitHub Pages, using Sass to update website fonts and colors, and a few other helpful tips and tricks. 
 
-# Audience
+## Audience
 
 This workshop was delivered to the 2024 [Ocean Health Index fellows](https://oceanhealthindex.org/about/ohifellows/), a group of three early-career data scientists who work to calculate the latest OHI scores and improve workflows and methodology (among other exciting and innovative work). They are based at the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/) from May - September.

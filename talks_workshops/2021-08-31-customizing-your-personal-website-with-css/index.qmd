@@ -31,11 +31,11 @@ xaringanExtra::embed_xaringan(
 </div>
 </div>
 
-# Overview
+## Description
 
 This talk was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/).
 
-# Abstract
+## Abstract
 
 Our MEDS students started off the inaugural year by learning how to create their own personal websites using the `{distill}` R package. This workshop offers an intro to CSS and how to use it to further customize `distill` sites. We cover how to change the default element styling (fonts, colors, sizes), how to create custom CSS rules, and how to find inspiration from other distill websites (and their source code) on the [distillery](https://distillery.rbind.io/).
 

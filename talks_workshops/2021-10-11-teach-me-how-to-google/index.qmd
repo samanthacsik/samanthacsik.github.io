@@ -30,11 +30,11 @@ xaringanExtra::embed_xaringan(
 [{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/teach-me-how-to-google/#/title-slide){.btn role="button" target=_blank} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/teach-me-how-to-google){.btn role="button" target=_blank}
 :::
 
-# Abstract
+## Description
 
 Googling for code help is something that all data scientists (at all career stages) do. And for new learners in the age of AI, developing strong troubleshooting skills and search strategies is essential for building independence and critical thinking. But learning how to ask the right questions and get useful answers can be tricky, particularly for new programmers. In this presentation, we'll explore practical techniques for refining your searches, diagnosing erors, and increasing your chances at fining helpful, relevant solutions.
 
-# Audience
+## Audience
 
 This talk was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/){target="_blank"}, administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target="_blank"} in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/){target="_blank"}. Previous adapatations for various non-MEDS audiences can be found in a [separate repository](https://samanthacsik.github.io/teach-me-how-to-google/){target="_blank"}.
 

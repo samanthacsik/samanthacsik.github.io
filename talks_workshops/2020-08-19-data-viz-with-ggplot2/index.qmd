@@ -40,10 +40,10 @@ knitr::include_graphics("plots.png")
 </div>
 </div>
 
-# Overview
+## Description
 
 This live-coding workshop was given to [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/events/272478115/) via Zoom.
 
-# Abstract 
+## Abstract 
 
 In this code-along workshop, we review `ggplot2` basics and exploring different ways to make customizing plots fun and easy.

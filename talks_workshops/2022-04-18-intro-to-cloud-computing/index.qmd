@@ -28,11 +28,11 @@ xaringanExtra::embed_xaringan(
 [{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/cloud-computing/#1){.btn role="button" target="_blank"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/cloud-computing){.btn role="button" target="_blank"}
 :::
 
-# Abstract
+## Description
 
 “The Cloud” is a buzzword we often hear, but maybe don’t quite understand. In this workshop, we’ll learn a bit about what cloud computing means and what it can look like, how to launch a virtual machine (i.e. an instance) using Amazon Web Services (AWS), and how we can leverage more powerful computers (e.g. the cloud) to run computationally-intensive processes in less time.
 
-# Audience
+## Audience
 
 This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science){target="_blank"} in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/){target="_blank"}.
 

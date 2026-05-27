@@ -28,10 +28,10 @@ knitr::include_graphics("semantics.png")
 </div>
 </div>
 
-# Overview
+## Description
 
 This three-minute lightning talk was given at [Santa Barbara Women in STEM](https://www.sbwomeninstem.org/)'s Lightning Talks (with a focus on software) event. 
 
-# Abstract
+## Abstract
 
 Synthesis science, or the science of merging data from many different sources to gain new insights, is critical for making predictions about changes in the climate and environment and for helping us answer questions about sustainably managing natural resources. However, in order for synthesis science to be possible, data need to be documented and stored in a way that makes them both discoverable and interpretable by researchers. My team at NCEAS is taking a semantic approach to curating environmental datasets -- we develop controlled vocabularies, or ontologies, that we use to annotate data records. This helps to both (a) increase our understanding of the terms researchers have used to describe their data by providing greater meaning and context, and (b) increases the precision of our online data searches so that we more confidently recover all available and relevant datasets.

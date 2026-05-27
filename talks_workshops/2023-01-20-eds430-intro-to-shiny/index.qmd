@@ -23,7 +23,7 @@ draft: true
 [{{< fa tv title="A television screen" >}} slides](https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide/){.btn role="button" target="_blank"} [{{< fa brands github title="Octocat, the GitHub logo" >}} source code](https://github.com/UCSB-MEDS/EDS430-Shiny){.btn role="button" target="_blank"}
 :::
 
-# Abstract
+## Description
 
 These materials accompany the 1-unit, 2-day, hands-on coding workshop, [EDS 430 - Intro to Shiny](https://bren.ucsb.edu/courses/eds-430), offered in winter 2023 through the Bren School of Environmental Science & Management, in partnership with the National Center for Ecological Analysis & Synthesis.
 
@@ -31,6 +31,6 @@ In this workshop, students will learn how to build and deploy Shiny applications
 
 Presentation slides are available [here](https://ucsb-meds.github.io/EDS430-Shiny/#/title-slide) and are meant to be a stand-alone resource for those who were unable to attend the workshop, but would like to follow along/self-learn. The workshop walks through building a number of shiny apps and dashboards -- find complete versions of each in [this GitHub repository](https://github.com/samanthacsik/EDS430-shiny-app).
 
-# Audience
+## Audience
 
 This workshop was originally developed for the [Master of Environmental Data Science (MEDS) program](https://ucsb-meds.github.io/), administered by the [Bren School of Environmental Science & Management](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) in partnership with the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/). Participants included both Bren MEDS and MESM (Master of Environmental Science & Management) students.
