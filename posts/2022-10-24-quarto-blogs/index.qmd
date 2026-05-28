@@ -113,21 +113,7 @@ I've spent a lot of July 2025 playing around with Posit's newest IDE, [Positron]
 
 -   Open up your Quarto website project and make sure you're in your root directory. Here, we'll create a new subdirectory, called `posts` (though you can call this whatever you want), where all of our blog posts will eventually live.
 
-::: panel-tabset
-## {{< fa brands r-project title="R programming language icon" >}} RStudio
-
-i.  Click on the **Create a new folder** button in the Files pane:
-
-```{r}
-#| eval: true
-#| echo: false
-#| out-width: "80%"
-#| fig-align: "center"
-knitr::include_graphics("media/new-folder-rstudio.png")
-```
-
-ii. Type `posts`, the click **OK**
-
+::: {.panel-tabset}
 ## {{< fa plus title="plus symbol" >}} Positron
 
 i.  Click on the **New Folder...** button, which appears when you hover over your repository name in the Explorer menu:
@@ -142,6 +128,20 @@ knitr::include_graphics("media/new-folder-positron.png")
 
 ii. Type `posts`, then click **Enter / Return**
 
+## {{< fa brands r-project title="R programming language icon" >}} RStudio
+
+i.  Click on the **Create a new folder** button in the Files pane:
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "80%"
+#| fig-align: "center"
+knitr::include_graphics("media/new-folder-rstudio.png")
+```
+
+ii. Type `posts`, the click **OK**
+
 ## {{< fa terminal title="terminal symbol, |>" >}} Terminal
 
 i.  Make sure you're in your root directory by typing, `pwd` (you should see it return something like, `file/path/to/your-repo`)
@@ -153,16 +153,16 @@ iii. Run `mkdir posts` to create your `posts/` folder
 
 -   While not required, a `_metadata.yml` file can make your life easier if you want certain configurations to apply to *all* blog posts that you create.
 
-::: panel-tabset
-## {{< fa brands r-project title="R programming language icon" >}} RStudio
-
-i.  Click into the `posts/` folder in the Files pane, then click **Blank File** \> **Text File** \> type `_metadata.yml`
-ii. Click **OK**
-
+::: {.panel-tabset}
 ## {{< fa plus title="plus symbol" >}} Positron
 
 i.  Right click on your `posts/` folder in the Explorer menu, then choose **New File...**
 ii. Type `_metadata.yml`, then click **Enter / Return**
+
+## {{< fa brands r-project title="R programming language icon" >}} RStudio
+
+i.  Click into the `posts/` folder in the Files pane, then click **Blank File** \> **Text File** \> type `_metadata.yml`
+ii. Click **OK**
 
 ## {{< fa terminal title="terminal symbol, |>" >}} Terminal
 
@@ -210,7 +210,14 @@ knitr::include_graphics("media/quarto-listing-page.png")
 
 -   Your listing page takes the form of a `.qmd` file that lives in your repository's *root* directory (I'll be calling mine `posts.qmd` and giving it the title "My Blog" for demonstration purposes, though you can choose whatever file name and title you'd like). ***Note:** There are lots of different ways to create a new `.qmd` file. I outline just one approach for each environment, below:*
 
-:::: panel-tabset
+:::: {.panel-tabset}
+## {{< fa plus title="plus symbol" >}} Positron
+
+i.  Open the Command Palette using the keyboard shortcut, `Cmd/Ctrl` + `Shift` + `P`
+ii. Search **Quarto: New Document**, then click **Enter / Return** (this will open your file in the Editor)
+iii. Update the `title` YAML option with your preferred title (e.g. "My Blog")
+iv. Save (keyboard shortcut: `Cmd`/`Ctrl` + `S`) your new file to your repository's root directory as `posts.qmd` (choose your root directory from the **Where:** dropdown menu if it's not already selected by default)
+
 ## {{< fa brands r-project title="R programming language icon" >}} RStudio
 
 ***Tip:** Click on the R Project icon, <img src="media/rproj.png" style="display: inline-block; margin: 0; position: relative; top: 2px; width:20px;height:20px;"/>, in the Files pane to jump back to your project's root directory*
@@ -219,13 +226,6 @@ i.  From the menu bar, click **File** \> **New File** \> **Quarto Document...**
 ii. When the dialog box opens, give it a **Title** (e.g. "My Blog") -- this is the name that will appear as the title of your listing page (you'll be able to change this later by editing the YAML)
 iii. Click **Create** (this will open the file in the Editor)
 iv. Save (keyboard shortcut: `Cmd`/`Ctrl` + `S`) your new file as `posts.qmd`
-
-## {{< fa plus title="plus symbol" >}} Positron
-
-i.  Open the Command Palette using the keyboard shortcut, `Cmd/Ctrl` + `Shift` + `P`
-ii. Search **Quarto: New Document**, then click **Enter / Return** (this will open your file in the Editor)
-iii. Update the `title` YAML option with your preferred title (e.g. "My Blog")
-iv. Save (keyboard shortcut: `Cmd`/`Ctrl` + `S`) your new file to your repository's root directory as `posts.qmd` (choose your root directory from the **Where:** dropdown menu if it's not already selected by default)
 
 ## {{< fa terminal title="terminal symbol, |>" >}} Terminal
 
@@ -306,7 +306,7 @@ website:
 
 ### 6. Preview your website
 
--   Make sure your listing page shows up by previewing your website. Run `quarto preview` in your Terminal (this can be your RStudio or Positron Terminal, or in a separate Terminal window) to open up a live preview in a browser window. You should see something that looks like this (we haven't created any posts yet, so it'll be empty for now):
+-   Make sure your listing page shows up by previewing your website. Run `quarto preview` in your Terminal (this can be your Positron or RStudio Terminal, or in a separate Terminal window) to open up a live preview in a browser window. You should see something that looks like this (we haven't created any posts yet, so it'll be empty for now):
 
 ```{r}
 #| eval: true
@@ -389,7 +389,7 @@ knitr::include_graphics("media/my-first-post.png")
 
 -   For example, do you want your own author / affiliation information applied to each blog post you write, by default? Add it instead to `_metadata.yml` and save yourself re-typing it each time you create a new post! Here, I modify my `_metadata.yml` and `posts/2022-10-24-my-blog-post/index.qmd` files:
 
-::: panel-tabset
+::: {.panel-tabset}
 ## \_metadata.yml
 
 ```{markdown filename="_metadata.yml"}
@@ -478,17 +478,17 @@ Quarto supports the use of bibliography files for citing works throughout your b
 
 1.  **First, create a `.bib` file in the folder containing your blog post.** I called mine `references.bib`, but the name is up to you.
 
-::: panel-tabset
+::: {.panel-tabset}
+## {{< fa plus title="plus symbol" >}} Positron
+
+1.  From the Explorer menu, click on your blog post directory (e.g. `myWebsite/posts/YYYY-MM-DD-my-blog-post/`) to highlight it
+2.  Click the **New File...** button (which appears when you hover your mouse over your repository name), type the name, `references.bib`, then click **Enter / Return**
+
 ## {{< fa brands r-project title="R programming language icon" >}} RStudio
 
 1.  Ensure that you're in your blog post directory (e.g. `myWebsite/posts/YYYY-MM-DD-my-blog-post/`) in the Files pane
 2.  Click on the new **File** button, then select the **Text File** option (this allows you to define any file type)
 3.  Type `references.bib` in the name field, then press **OK**
-
-## {{< fa plus title="plus symbol" >}} Positron
-
-1.  From the Explorer menu, click on your blog post directory (e.g. `myWebsite/posts/YYYY-MM-DD-my-blog-post/`) to highlight it
-2.  Click the **New File...** button (which appears when you hover your mouse over your repository name), type the name, `references.bib`, then click **Enter / Return**
 
 ## {{< fa terminal title="terminal symbol, |>" >}} Terminal
 
