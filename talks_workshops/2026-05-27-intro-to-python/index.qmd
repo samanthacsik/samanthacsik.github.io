@@ -11,7 +11,7 @@ author:
     url: https://github.com/katleyq
     affiliation: Bren School of Environmental Science & Management
     affiliation-url: https://bren.ucsb.edu/
-date: 2027-05-27
+date: 2026-05-27
 citation: 
   url: https://samanthacsik.github.io/talks_workshops/2027-05-27-intro-to-python/
 categories: [Bren, Python]
